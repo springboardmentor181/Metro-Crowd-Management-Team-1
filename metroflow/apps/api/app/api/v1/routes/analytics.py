@@ -34,6 +34,8 @@ REPORTS = {
     "payment_methods": "payment_method_distribution",
     "congested_lines": "most_congested_lines",
     "crowd_distribution": "crowd_density_distribution",
+    "passengers_by_hour": "passengers_by_hour",
+    "service_status": "service_status_distribution",
 }
 
 
