@@ -3,7 +3,7 @@ import { AlertTriangle, Clock, Siren } from "lucide-react";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { KpiCard } from "@/components/dashboard/KpiCard";
 import { Panel } from "@/components/dashboard/Card";
-import { AlertRail } from "@/components/dashboard/AlertRail";
+import { AlertsPanel } from "@/components/dashboard/AlertsPanel";
 import { ALERTS } from "@/lib/mock-data";
 import { getSession } from "@/lib/current-user";
 
@@ -58,7 +58,7 @@ export default async function AlertsPage() {
             </div>
           }
         >
-          <AlertRail alerts={ALERTS} />
+          <AlertsPanel />
         </Panel>
       </div>
     </>
