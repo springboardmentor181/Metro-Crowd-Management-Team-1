@@ -9,7 +9,7 @@ import Link from "next/link";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { signOutAction } from "@/lib/auth-actions";
 import type { Session } from "@/lib/session";
-import { ALERTS } from "@/lib/mock-data";
+import { getAlerts, type ApiAlert } from "@/lib/api";
 import { CROWD, type CrowdLevel } from "@/lib/utils";
 
 const NETWORKS = ["Delhi Metro", "Mumbai Metro", "Bengaluru Metro", "All networks"];
@@ -17,9 +17,15 @@ const TYPE_ICON = { overcrowding: AlertTriangle, delay: Clock, emergency: Siren 
 
 export function Topbar({ session, onMenu }: { session: Session; onMenu?: () => void }) {
   const [menu, setMenu] = useState<null | "profile" | "notif">(null);
+  const [openAlerts, setOpenAlerts] = useState<ApiAlert[]>([]);
   const ref = useRef<HTMLDivElement>(null);
   const initials = session.name.split(" ").map((s) => s[0]).slice(0, 2).join("").toUpperCase();
-  const openAlerts = ALERTS.filter((a) => a.status === "open");
+
+  useEffect(() => {
+    getAlerts().then((r) => {
+      if (r) setOpenAlerts(r.alerts.filter((a) => a.status === "open"));
+    });
+  }, []);
 
   useEffect(() => {
     const onDoc = (e: MouseEvent) => {
