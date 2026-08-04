@@ -1,0 +1,42 @@
+# MetroFlow — local/prod orchestration (Planning Doc 16).
+# Supabase is a managed cloud project; set its keys in the env files.
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build:
+      context: ./apps/api
+    env_file:
+      - ./apps/api/.env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATASET_DIR=/data/dataset
+      - ARTIFACTS_DIR=/data/artifacts
+      - CORS_ORIGINS=http://localhost:3000
+    volumes:
+      - ../MetroFlow_Dataset:/data/dataset:ro
+      - ./services/ai/artifacts:/data/artifacts:ro
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  web:
+    build:
+      context: ./apps/web
+    env_file:
+      - ./apps/web/.env.local
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8000/api/v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
