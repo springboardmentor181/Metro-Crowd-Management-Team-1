@@ -85,8 +85,9 @@ export default function HomePage() {
         >
           <source src="/assets/video/hero-loop.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-brand-900)]/95 via-[color:var(--color-brand-900)]/80 to-[color:var(--color-brand-900)]/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--color-brand-900)]/60 to-transparent" />
+        {/* left-anchored neutral scrim for text legibility — keeps the video in true color */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent" />
         <div className="container-mf relative flex min-h-[92vh] flex-col justify-center pt-24 pb-16">
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white/90 backdrop-blur">
