@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import { Activity, Users, TrendingUp, TriangleAlert } from "lucide-react";
+import Link from "next/link";
+import { Activity, Users, TrendingUp, TriangleAlert, ArrowRight } from "lucide-react";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { KpiCard } from "@/components/dashboard/KpiCard";
 import { Panel, TimeToggle } from "@/components/dashboard/Card";
 import { AreaTrend } from "@/components/dashboard/charts";
 import { Heatmap } from "@/components/dashboard/Heatmap";
 import { StatusChip } from "@/components/dashboard/StatusChip";
-import { HEATMAP, HEATMAP_STATIONS, HEATMAP_HOURS, PASSENGERS_BY_HOUR, TOP_FOOTFALL } from "@/lib/mock-data";
+import { Insight } from "@/components/dashboard/Insight";
+import { HEATMAP, HEATMAP_STATIONS, HEATMAP_HOURS, PASSENGERS_BY_HOUR } from "@/lib/mock-data";
 import { group, type CrowdLevel } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Crowd Monitoring" };
@@ -47,13 +49,29 @@ export default function CrowdPage() {
               { key: "outflow", label: "Outflow", color: "var(--color-series-2)" },
             ]}
           />
+          <Insight>
+            Inflow leads outflow in the morning (people entering the network) and reverses in the
+            evening. The widening gap around 09:00 signals platforms filling faster than they clear.
+          </Insight>
         </Panel>
 
         <Panel title="Congestion heatmap" subtitle="Station × hour — congestion probability">
           <Heatmap rows={HEATMAP_STATIONS} cols={HEATMAP_HOURS} values={HEATMAP} />
+          <Insight tone="warn">
+            Read across a row to see a station&apos;s worst hours; read down a column to compare stations at
+            the same time. Darkest cells cluster at 18:00 — prioritize those for extra trains.
+          </Insight>
         </Panel>
 
-        <Panel title="Station status" subtitle="Live crowd level by station">
+        <Panel
+          title="Station status"
+          subtitle="Live crowd level by station"
+          actions={
+            <Link href="/dashboard/stations" className="inline-flex items-center gap-1 text-xs font-medium text-[color:var(--color-brand)] hover:underline">
+              All 48 stations <ArrowRight size={13} />
+            </Link>
+          }
+        >
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
