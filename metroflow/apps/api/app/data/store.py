@@ -8,11 +8,14 @@ from functools import lru_cache
 
 import pandas as pd
 
-from app.core.config import DATASET_DIR
+from app.core.config import DATASET_DIR, settings
+from app.data import db
 
 
 @lru_cache
 def stations() -> pd.DataFrame:
+    if settings.db_enabled:
+        return pd.DataFrame(db.query("select * from metro_stations"))
     return pd.read_csv(DATASET_DIR / "metro_stations.csv")
 
 
@@ -25,6 +28,8 @@ def passenger_flow() -> pd.DataFrame:
 
 @lru_cache
 def train_schedule() -> pd.DataFrame:
+    if settings.db_enabled:
+        return pd.DataFrame(db.query("select * from train_schedule"))
     return pd.read_csv(DATASET_DIR / "train_schedule.csv")
 
 
