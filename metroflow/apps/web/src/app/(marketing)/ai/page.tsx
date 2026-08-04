@@ -1,9 +1,16 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ShieldCheck, GitBranch, Gauge, TrendingUp } from "lucide-react";
 import { Reveal } from "@/components/marketing/Reveal";
+import metrics from "@/lib/model-metrics.json";
 
 export const metadata: Metadata = { title: "AI & Technology" };
+
+const STATS = [
+  { value: `${(metrics.crowd_classifier.xgboost.accuracy * 100).toFixed(1)}%`, label: "Crowd accuracy" },
+  { value: `${metrics.crowd_classifier.xgboost.macro_f1}`, label: "Macro-F1" },
+  { value: `${metrics.demand_regressor.r2}`, label: "Demand R²" },
+  { value: `${metrics.rows_total.toLocaleString()}`, label: "Training rows" },
+];
 
 const MODELS = [
   {
@@ -48,14 +55,25 @@ export default function AiPage() {
       <section className="container-mf py-20">
         <Reveal>
           <div className="card overflow-hidden">
-            <Image
-              src="/assets/img/ai-pipeline.png"
-              alt="AI pipeline: metro dataset, feature engineering, ML prediction model, prediction output"
-              width={1200}
-              height={900}
-              className="h-auto w-full"
-            />
+            <video className="h-auto w-full" autoPlay muted loop playsInline poster="/assets/img/ai-viz.png">
+              <source src="/assets/video/ai-dataviz-anim.mp4" type="video/mp4" />
+            </video>
           </div>
+        </Reveal>
+
+        {/* real trained metrics */}
+        <Reveal delay={0.1}>
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {STATS.map((s) => (
+              <div key={s.label} className="card p-5 text-center">
+                <div className="font-display text-3xl font-bold text-[color:var(--color-ai)]">{s.value}</div>
+                <div className="mt-1 text-xs text-[color:var(--color-ink-2)]">{s.label}</div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-3 text-center text-xs text-[color:var(--color-muted)]">
+            Live metrics from the XGBoost crowd model, trained on the MetroFlow dataset with a time-based split.
+          </p>
         </Reveal>
       </section>
 
