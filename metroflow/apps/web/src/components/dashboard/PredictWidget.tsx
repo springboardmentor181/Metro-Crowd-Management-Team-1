@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { Sparkles, Wand2 } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { Sparkles, Wifi, WifiOff } from "lucide-react";
 import { STATIONS } from "@/lib/stations";
 import { StatusChip } from "@/components/dashboard/StatusChip";
+import { predictCrowd, predictDemand } from "@/lib/api";
 import { group, type CrowdLevel } from "@/lib/utils";
 
 // Hour demand shape (0-1) mirroring the dataset's bimodal peaks (09:00 & 19:00).
@@ -13,7 +14,9 @@ const HOUR_SHAPE: Record<number, number> = {
   20: 0.81, 21: 0.54, 22: 0.35, 23: 0.23,
 };
 
-function estimate(footfall: number, hour: number, weekend: boolean) {
+type Estimate = { passengers: number; level: CrowdLevel; congestion: number; confidence: number };
+
+function estimate(footfall: number, hour: number, weekend: boolean): Estimate {
   const shape = HOUR_SHAPE[hour] ?? 0.3;
   const wk = weekend ? 0.75 : 1;
   const hourlyBase = footfall / 18; // spread daily footfall across service hours
@@ -32,10 +35,42 @@ export function PredictWidget() {
   const [weekend, setWeekend] = useState(false);
 
   const station = STATIONS.find((s) => s.id === stationId)!;
-  const out = useMemo(
+  const local = useMemo(
     () => estimate(station.footfall, hour, weekend),
     [station, hour, weekend]
   );
+
+  // Try the real model API; fall back to the local estimate when offline.
+  const [live, setLive] = useState<Estimate | null>(null);
+  const [source, setSource] = useState<"live" | "offline">("offline");
+
+  useEffect(() => {
+    let active = true;
+    const ctx = { day_of_week: weekend ? "Saturday" : "Monday", occupancy: station.occupancy };
+    Promise.all([
+      predictCrowd({ station_id: station.id, hour, context: ctx }),
+      predictDemand({ station_id: station.id, hour, context: ctx }),
+    ]).then(([crowd, demand]) => {
+      if (!active) return;
+      if (crowd) {
+        setLive({
+          level: crowd.crowd_level,
+          congestion: crowd.congestion_probability,
+          confidence: Math.round(crowd.confidence * 100),
+          passengers: demand?.passenger_count ?? local.passengers,
+        });
+        setSource("live");
+      } else {
+        setLive(null);
+        setSource("offline");
+      }
+    });
+    return () => {
+      active = false;
+    };
+  }, [station.id, station.occupancy, hour, weekend, local.passengers]);
+
+  const out = live ?? local;
 
   const control =
     "w-full rounded-[var(--radius-card)] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] px-3 py-2 text-sm outline-none focus:border-[color:var(--color-brand)]";
@@ -73,7 +108,15 @@ export function PredictWidget() {
           <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-[color:var(--color-ai)]">
             <Sparkles size={13} /> AI · estimated · v1.0.0
           </span>
-          <Wand2 size={15} className="text-[color:var(--color-muted)]" />
+          {source === "live" ? (
+            <span className="inline-flex items-center gap-1 text-[11px] font-medium text-[color:var(--color-crowd-low)]">
+              <Wifi size={13} /> live model
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1 text-[11px] font-medium text-[color:var(--color-muted)]">
+              <WifiOff size={13} /> offline estimate
+            </span>
+          )}
         </div>
         <div className="mt-3 grid gap-3 sm:grid-cols-4">
           <div>
