@@ -16,9 +16,9 @@ import { getSession } from "@/lib/current-user";
 import { compact, CROWD } from "@/lib/utils";
 import { STATION_COUNT_TOTAL, NETWORK_COUNT } from "@/lib/stations";
 import {
-  KPIS, PASSENGERS_BY_HOUR, PEAK_HOURS, HEATMAP, HEATMAP_STATIONS, HEATMAP_HOURS,
-  ALERTS, CROWD_DISTRIBUTION, TOP_FOOTFALL,
-} from "@/lib/mock-data";
+  getKpis, getPassengersByHour, getPeakHours, getHeatmap,
+  getCrowdDistribution, getTopFootfall, getAlerts,
+} from "@/lib/live-data";
 
 const QUICK = [
   { icon: Megaphone, label: "Broadcast" },
@@ -27,8 +27,12 @@ const QUICK = [
 ];
 
 export default async function OverviewPage() {
-  const session = await getSession();
-  const openAlerts = ALERTS.filter((a) => a.status === "open");
+  const [session, KPIS, PASSENGERS_BY_HOUR, PEAK_HOURS, heatmap, CROWD_DISTRIBUTION, TOP_FOOTFALL, alerts] =
+    await Promise.all([
+      getSession(), getKpis(), getPassengersByHour(), getPeakHours(),
+      getHeatmap(), getCrowdDistribution(), getTopFootfall(), getAlerts(),
+    ]);
+  const openAlerts = alerts.filter((a) => a.status === "open");
 
   return (
     <>
@@ -125,7 +129,7 @@ export default async function OverviewPage() {
         {/* heatmap + alerts summary */}
         <div className="grid gap-6 lg:grid-cols-12">
           <Panel className="lg:col-span-7" title="Congestion heatmap" subtitle="Station × hour — congestion probability">
-            <Heatmap rows={HEATMAP_STATIONS} cols={HEATMAP_HOURS} values={HEATMAP} />
+            <Heatmap rows={heatmap.rows} cols={heatmap.cols} values={heatmap.values} />
             <Insight>
               Darker cells = higher congestion probability. The <strong>18:00 column</strong> is hottest
               network-wide; Rajiv Chowk and New Delhi are the stations to watch.
