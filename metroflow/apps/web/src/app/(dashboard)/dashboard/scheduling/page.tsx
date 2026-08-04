@@ -4,13 +4,15 @@ import { PageHeader } from "@/components/dashboard/PageHeader";
 import { KpiCard } from "@/components/dashboard/KpiCard";
 import { Panel } from "@/components/dashboard/Card";
 import { HBars } from "@/components/dashboard/charts";
-import { SCHEDULE_RECOS, SERVICE_STATUS } from "@/lib/mock-data";
+import { getScheduleRecos, getServiceStatus } from "@/lib/live-data";
 import { getSession } from "@/lib/current-user";
 
 export const metadata: Metadata = { title: "Scheduling" };
 
 export default async function SchedulingPage() {
-  const session = await getSession();
+  const [session, SCHEDULE_RECOS, SERVICE_STATUS] = await Promise.all([
+    getSession(), getScheduleRecos(), getServiceStatus(),
+  ]);
   const isAdmin = session?.role === "admin";
 
   return (
