@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard, Activity, CalendarClock, BrainCircuit,
-  AlertTriangle, BarChart3, Users, Settings, Train,
+  AlertTriangle, BarChart3, Users, Settings, Train, MapPinned,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { LogoWordmark } from "@/components/brand/Logo";
@@ -23,6 +23,7 @@ const GROUPS: Group[] = [
     title: "Monitoring",
     items: [
       { label: "Crowd Monitoring", href: "/dashboard/crowd", icon: Activity },
+      { label: "Stations", href: "/dashboard/stations", icon: MapPinned },
       { label: "Scheduling", href: "/dashboard/scheduling", icon: CalendarClock },
     ],
   },
