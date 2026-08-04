@@ -6,16 +6,10 @@ import { KpiCard } from "@/components/dashboard/KpiCard";
 import { LineTrend, HBars } from "@/components/dashboard/charts";
 import { Insight } from "@/components/dashboard/Insight";
 import { PredictWidget } from "@/components/dashboard/PredictWidget";
-import { PASSENGERS_BY_HOUR } from "@/lib/mock-data";
+import { getPassengersByHour } from "@/lib/live-data";
 import metrics from "@/lib/model-metrics.json";
 
 export const metadata: Metadata = { title: "AI Prediction" };
-
-const FORECAST = PASSENGERS_BY_HOUR.slice(8).map((r, i) => ({
-  hour: r.hour,
-  actual: i < 5 ? r.passengers : null,
-  forecast: Math.round(r.passengers * (0.98 + (i % 3) * 0.02)),
-}));
 
 const crowd = metrics.crowd_classifier;
 const demand = metrics.demand_regressor;
@@ -27,7 +21,13 @@ const topFeatures = metrics.feature_importance.slice(0, 6).map((f) => ({
   color: "var(--color-ai)",
 }));
 
-export default function PredictionPage() {
+export default async function PredictionPage() {
+  const pbh = await getPassengersByHour();
+  const FORECAST = pbh.slice(8).map((r, i) => ({
+    hour: r.hour,
+    actual: i < 5 ? r.passengers : null,
+    forecast: Math.round(r.passengers * (0.98 + (i % 3) * 0.02)),
+  }));
   const acc = Math.round(crowd.xgboost.accuracy * 1000) / 10;
   const f1 = Math.round(crowd.xgboost.macro_f1 * 1000) / 10;
   const critRecall = Math.round(crowd.xgboost.recall_per_class.Critical * 1000) / 10;
