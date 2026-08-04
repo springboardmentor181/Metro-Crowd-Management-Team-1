@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { UserPlus, Info } from "lucide-react";
-import { signInAction } from "@/lib/auth-actions";
+import { UserPlus, Info, AlertCircle } from "lucide-react";
+import { signUpAction } from "@/lib/auth-actions";
 import { Button } from "@/components/ui/Button";
 import { supabaseConfigured } from "@/lib/session";
 
@@ -10,7 +10,12 @@ export const metadata: Metadata = { title: "Create account" };
 const field =
   "w-full rounded-[var(--radius-card)] border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] px-3 py-2.5 text-sm outline-none focus:border-[color:var(--color-brand)] focus:ring-2 focus:ring-[color:var(--color-brand-100)]";
 
-export default function SignupPage() {
+export default async function SignupPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
+  const sp = await searchParams;
   const demo = !supabaseConfigured();
   return (
     <div>
@@ -19,7 +24,14 @@ export default function SignupPage() {
         Operators are approved by an administrator after signup.
       </p>
 
-      <form action={signInAction} className="mt-6 space-y-4">
+      {sp.error && (
+        <div className="mt-4 flex items-start gap-2 rounded-[var(--radius-card)] border border-[color:var(--color-crowd-critical)]/40 bg-[color:var(--color-crowd-critical)]/10 p-3 text-xs text-[color:var(--color-crowd-critical)]">
+          <AlertCircle size={15} className="mt-0.5 shrink-0" />
+          {sp.error}
+        </div>
+      )}
+
+      <form action={signUpAction} className="mt-6 space-y-4">
         <label className="block text-sm">
           <span className="mb-1 block font-medium">Full name</span>
           <input name="name" required placeholder="Jane Operator" className={field} />
