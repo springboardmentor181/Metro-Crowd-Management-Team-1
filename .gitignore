@@ -40,3 +40,6 @@ Thumbs.db
 *.pem
 coverage/
 .vercel
+
+# ── ML model binaries (regenerate via services/ai/train.py) ──
+metroflow/services/ai/artifacts/*.joblib
