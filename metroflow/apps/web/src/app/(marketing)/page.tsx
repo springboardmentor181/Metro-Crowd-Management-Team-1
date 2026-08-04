@@ -75,14 +75,18 @@ export default function HomePage() {
     <>
       {/* ================= HERO ================= */}
       <section className="relative min-h-[92vh] overflow-hidden">
-        <Image
-          src="/assets/img/hero-station.png"
-          alt="Futuristic smart metro station with AI analytics overlays"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-brand-900)]/95 via-[color:var(--color-brand-900)]/75 to-[color:var(--color-brand-900)]/30" />
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/assets/img/hero-station.png"
+        >
+          <source src="/assets/video/hero-loop.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-brand-900)]/95 via-[color:var(--color-brand-900)]/80 to-[color:var(--color-brand-900)]/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--color-brand-900)]/60 to-transparent" />
         <div className="container-mf relative flex min-h-[92vh] flex-col justify-center pt-24 pb-16">
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium text-white/90 backdrop-blur">
@@ -237,13 +241,16 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={0.15}>
             <div className="card overflow-hidden">
-              <Image
-                src="/assets/img/ai-pipeline.png"
-                alt="MetroFlow AI prediction pipeline: dataset to feature engineering to model to prediction"
-                width={900}
-                height={680}
+              <video
                 className="h-auto w-full"
-              />
+                autoPlay
+                muted
+                loop
+                playsInline
+                poster="/assets/img/ai-viz.png"
+              >
+                <source src="/assets/video/ai-dataviz-anim.mp4" type="video/mp4" />
+              </video>
             </div>
           </Reveal>
         </div>
