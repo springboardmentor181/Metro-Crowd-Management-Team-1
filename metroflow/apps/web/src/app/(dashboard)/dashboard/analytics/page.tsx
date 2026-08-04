@@ -4,19 +4,18 @@ import { PageHeader } from "@/components/dashboard/PageHeader";
 import { Panel } from "@/components/dashboard/Card";
 import { VBars, HBars } from "@/components/dashboard/charts";
 import { Insight } from "@/components/dashboard/Insight";
-import { CITY_FLOW, CONGESTED_LINES, TOP_FOOTFALL, CROWD_DISTRIBUTION } from "@/lib/mock-data";
+import {
+  getCityFlow, getCongestedLines, getTopFootfall, getCrowdDistribution, getTicketTypes,
+} from "@/lib/live-data";
 import { CROWD } from "@/lib/utils";
 
 export const metadata: Metadata = { title: "Analytics" };
 
-const TICKETS = [
-  { label: "Smart Card", value: 28765 },
-  { label: "QR Ticket", value: 18080 },
-  { label: "Token", value: 11672 },
-  { label: "Monthly Pass", value: 6483 },
-];
-
-export default function AnalyticsPage() {
+export default async function AnalyticsPage() {
+  const [CITY_FLOW, CONGESTED_LINES, TOP_FOOTFALL, CROWD_DISTRIBUTION, TICKETS] =
+    await Promise.all([
+      getCityFlow(), getCongestedLines(), getTopFootfall(), getCrowdDistribution(), getTicketTypes(),
+    ]);
   return (
     <>
       <PageHeader
