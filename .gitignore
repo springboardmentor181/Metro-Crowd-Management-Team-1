@@ -41,5 +41,5 @@ Thumbs.db
 coverage/
 .vercel
 
-# ── ML model binaries (regenerate via services/ai/train.py) ──
-metroflow/services/ai/artifacts/*.joblib
+# ── ML model artifacts (regenerate via services/ai/train.py; metrics live in apps/web) ──
+metroflow/services/ai/artifacts/
