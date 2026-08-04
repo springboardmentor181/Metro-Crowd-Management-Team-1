@@ -76,6 +76,27 @@ export async function predictDemand(body: {
   return r?.data ?? null;
 }
 
+export type ApiAlert = {
+  id: string;
+  type: "overcrowding" | "delay" | "emergency";
+  severity: "Low" | "Medium" | "High" | "Critical";
+  status: "open" | "acknowledged" | "resolved";
+  message: string;
+  line: string;
+  station: string;
+  ago: string;
+};
+
+export async function getAlerts(): Promise<{ alerts: ApiAlert[]; source: string } | null> {
+  const r = await req<{ data: ApiAlert[]; meta: { source: string } }>("/alerts");
+  return r ? { alerts: r.data, source: r.meta?.source ?? "api" } : null;
+}
+
+export async function ackAlert(id: string): Promise<boolean> {
+  const r = await req<{ data: unknown }>(`/alerts/${id}/ack`, { method: "POST" });
+  return r !== null;
+}
+
 export async function apiHealth(): Promise<boolean> {
   const r = await req<{ status: string }>("/health");
   return r?.status === "ok";
