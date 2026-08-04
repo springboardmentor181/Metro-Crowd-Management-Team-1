@@ -1,0 +1,392 @@
+<title>AI MetroFlow — Metro Analytics Dashboard</title>
+<style>
+  .mf {
+    color-scheme: light;
+    --plane:#f4f6f7; --surface:#ffffff; --surface-2:#fbfcfc;
+    --ink:#0d1b24; --ink-2:#4a5b64; --muted:#7d8b92;
+    --grid:#e6ebed; --axis:#c7d0d4; --ring:rgba(13,27,36,.10);
+    --accent:#1c5cab; --accent-soft:#e7eff8;
+    --seq-1:#cde2fb; --seq-2:#86b6ef; --seq-3:#3987e5; --seq-4:#256abf; --seq-5:#184f95;
+    --cat-1:#2a78d6; --cat-2:#eb6834; --cat-3:#1baf7a; --cat-4:#eda100; --cat-5:#e87ba4;
+    --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+    --shadow:0 1px 2px rgba(13,27,36,.05),0 8px 24px -12px rgba(13,27,36,.14);
+    --r:14px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:where(:not([data-theme="light"])) .mf{
+      color-scheme:dark;
+      --plane:#0b0f12; --surface:#151b20; --surface-2:#11161a;
+      --ink:#f1f5f6; --ink-2:#b3c0c6; --muted:#8a969c;
+      --grid:#232b31; --axis:#333d44; --ring:rgba(255,255,255,.10);
+      --accent:#4f9bf0; --accent-soft:#16283e;
+      --seq-1:#173456; --seq-2:#1c5cab; --seq-3:#2a78d6; --seq-4:#5598e7; --seq-5:#86b6ef;
+      --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -16px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"] .mf{
+    color-scheme:dark;
+    --plane:#0b0f12; --surface:#151b20; --surface-2:#11161a;
+    --ink:#f1f5f6; --ink-2:#b3c0c6; --muted:#8a969c;
+    --grid:#232b31; --axis:#333d44; --ring:rgba(255,255,255,.10);
+    --accent:#4f9bf0; --accent-soft:#16283e;
+    --seq-1:#173456; --seq-2:#1c5cab; --seq-3:#2a78d6; --seq-4:#5598e7; --seq-5:#86b6ef;
+    --cat-1:#3987e5; --cat-2:#d95926; --cat-3:#199e70; --cat-4:#c98500; --cat-5:#d55181;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px -16px rgba(0,0,0,.6);
+  }
+
+  .mf{
+    background:var(--plane); color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+    min-height:100vh; padding:clamp(16px,3vw,40px);
+  }
+  .mf *{box-sizing:border-box;}
+  .mf .wrap{max-width:1240px;margin:0 auto;}
+  .mf .num{font-variant-numeric:tabular-nums;}
+
+  /* header */
+  .mf header{margin-bottom:22px;}
+  .mf .brandrow{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;}
+  .mf h1{font-size:clamp(26px,3.6vw,40px);font-weight:760;letter-spacing:-.02em;margin:0;text-wrap:balance;}
+  .mf h1 .ai{color:var(--accent);}
+  .mf .tagline{color:var(--ink-2);font-size:15px;margin:6px 0 0;max-width:64ch;}
+  .mf .lines{display:flex;height:5px;border-radius:3px;overflow:hidden;margin:16px 0 14px;box-shadow:var(--ring) 0 0 0 1px;}
+  .mf .lines span{flex:1;}
+  .mf .chips{display:flex;gap:8px;flex-wrap:wrap;}
+  .mf .chip{font-size:12.5px;color:var(--ink-2);background:var(--surface);border:1px solid var(--ring);
+    padding:5px 11px;border-radius:999px;display:inline-flex;gap:6px;align-items:center;}
+  .mf .chip b{color:var(--ink);font-weight:650;}
+  .mf .chip.ok{color:var(--good);border-color:color-mix(in srgb,var(--good) 35%,transparent);}
+  .mf .chip.ok b{color:var(--good);}
+
+  /* section */
+  .mf .sec-h{display:flex;align-items:center;gap:10px;margin:30px 0 12px;}
+  .mf .sec-h h2{font-size:13px;font-weight:680;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0;}
+  .mf .sec-h .rule{flex:1;height:1px;background:var(--grid);}
+
+  /* KPI */
+  .mf .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:12px;}
+  .mf .kpi{background:var(--surface);border:1px solid var(--ring);border-radius:var(--r);padding:15px 16px;box-shadow:var(--shadow);position:relative;overflow:hidden;}
+  .mf .kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);opacity:.9;}
+  .mf .kpi .k-lab{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:600;}
+  .mf .kpi .k-val{font-size:26px;font-weight:740;letter-spacing:-.02em;margin-top:6px;}
+  .mf .kpi .k-sub{font-size:12px;color:var(--ink-2);margin-top:3px;}
+  .mf .kpi.crit::before{background:var(--critical);} .mf .kpi.good::before{background:var(--good);}
+  .mf .kpi.warn::before{background:var(--warning);}
+
+  /* grid */
+  .mf .grid{display:grid;gap:16px;grid-template-columns:repeat(12,1fr);}
+  .mf .card{background:var(--surface);border:1px solid var(--ring);border-radius:var(--r);padding:18px 18px 14px;box-shadow:var(--shadow);min-width:0;}
+  .mf .col-12{grid-column:span 12;} .mf .col-8{grid-column:span 8;} .mf .col-7{grid-column:span 7;}
+  .mf .col-6{grid-column:span 6;} .mf .col-5{grid-column:span 5;} .mf .col-4{grid-column:span 4;}
+  @media(max-width:880px){.mf [class*="col-"]{grid-column:span 12;}}
+  .mf .card h3{font-size:15px;font-weight:680;margin:0 0 2px;letter-spacing:-.01em;}
+  .mf .card .cap{font-size:12.5px;color:var(--muted);margin:0 0 14px;}
+
+  .mf svg{display:block;width:100%;height:auto;overflow:visible;}
+  .mf .bar-row{cursor:default;}
+  .mf .bar-row:hover .bar-fill{filter:brightness(1.08);}
+  .mf text{font-family:inherit;}
+
+  /* legend */
+  .mf .legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;font-size:12.5px;color:var(--ink-2);}
+  .mf .legend .lg{display:inline-flex;align-items:center;gap:6px;}
+  .mf .legend .sw{width:11px;height:11px;border-radius:3px;box-shadow:var(--ring) 0 0 0 1px;}
+
+  /* table */
+  .mf table{width:100%;border-collapse:collapse;font-size:13px;}
+  .mf thead th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;padding:7px 8px;border-bottom:1px solid var(--grid);}
+  .mf tbody td{padding:8px;border-bottom:1px solid var(--grid);}
+  .mf tbody tr:last-child td{border-bottom:none;}
+  .mf td.r,.mf th.r{text-align:right;}
+  .mf .rank{color:var(--muted);width:22px;}
+  .mf .pill{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;display:inline-block;}
+
+  /* tooltip */
+  .mf-tip{position:fixed;z-index:50;pointer-events:none;background:var(--surface);color:var(--ink);
+    border:1px solid var(--ring);border-radius:9px;padding:8px 11px;font:500 12.5px/1.45 system-ui,sans-serif;
+    box-shadow:0 6px 24px -8px rgba(0,0,0,.35);opacity:0;transform:translateY(3px);transition:opacity .1s;max-width:240px;}
+  .mf-tip.on{opacity:1;transform:none;}
+  .mf-tip .t-t{font-weight:680;margin-bottom:2px;}
+  .mf-tip .t-v{font-variant-numeric:tabular-nums;}
+  .mf-tip .t-m{color:var(--ink-2);font-size:11.5px;}
+
+  .mf footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--grid);color:var(--muted);font-size:12px;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between;}
+  .mf .files{display:flex;flex-wrap:wrap;gap:6px;}
+  .mf .files code{font:600 11.5px ui-monospace,monospace;background:var(--surface-2);border:1px solid var(--ring);border-radius:6px;padding:2px 7px;color:var(--ink-2);}
+  @media (prefers-reduced-motion:reduce){.mf *{transition:none!important;}}
+</style>
+
+<div class="mf">
+<div class="wrap">
+  <header>
+    <div class="brandrow">
+      <h1><span class="ai">AI</span> MetroFlow</h1>
+      <span style="color:var(--ink-2);font-size:14px;">Metro Crowd Management &amp; Scheduling — Dataset Analytics</span>
+    </div>
+    <p class="tagline">A ticketing- and operations-driven analytics dataset for Indian metro networks — no CCTV, computer vision or facial recognition. Built to train crowd-prediction, demand-forecasting and schedule-optimisation models.</p>
+    <div class="lines" aria-hidden="true">
+      <span style="background:#2a78d6"></span><span style="background:#eb6834"></span>
+      <span style="background:#1baf7a"></span><span style="background:#eda100"></span>
+      <span style="background:#e87ba4"></span><span style="background:#4a3aa7"></span>
+      <span style="background:#008300"></span><span style="background:#e34948"></span>
+    </div>
+    <div class="chips">
+      <span class="chip"><b class="num">571,540</b> total records</span>
+      <span class="chip"><b class="num">725</b> stations</span>
+      <span class="chip"><b class="num">17</b> metro networks</span>
+      <span class="chip"><b class="num">11</b> states</span>
+      <span class="chip">Window <b>Oct–Dec 2024</b> · 90 days</span>
+      <span class="chip">8 relational CSVs · reproducible (seed 42)</span>
+      <span class="chip ok">✓ <b>15/15</b> quality checks passed</span>
+    </div>
+  </header>
+
+  <div class="sec-h"><h2>Operational KPIs</h2><span class="rule"></span></div>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="sec-h"><h2>Demand &amp; Time Analysis</h2><span class="rule"></span></div>
+  <div class="grid">
+    <div class="card col-7">
+      <h3>Network passenger flow by hour</h3>
+      <p class="cap">Sum of passengers across all monitored stations, 90 days — clear bimodal commute peaks at 08–09 and 18–19.</p>
+      <div id="hourChart"></div>
+    </div>
+    <div class="card col-5">
+      <h3>Crowd-density mix</h3>
+      <p class="cap">Share of 224,010 station-hour records by modelled congestion level.</p>
+      <div id="densChart"></div>
+      <div class="legend" id="densLegend"></div>
+    </div>
+    <div class="card col-7">
+      <h3>City comparison — average daily throughput</h3>
+      <p class="cap">Delhi and Mumbai lead by design; smaller networks scale down realistically.</p>
+      <div id="cityChart"></div>
+    </div>
+    <div class="card col-5">
+      <h3>Most congestion-prone lines</h3>
+      <p class="cap">% of station-hour records at High or Critical density (lines with ≥500 records).</p>
+      <div id="lineChart"></div>
+    </div>
+  </div>
+
+  <div class="sec-h"><h2>Ticketing &amp; Network Coverage</h2><span class="rule"></span></div>
+  <div class="grid">
+    <div class="card col-6">
+      <h3>Ticket type &amp; payment mix</h3>
+      <p class="cap">65,000 smart-card / QR / token / pass journeys and how they were paid.</p>
+      <div id="ticketChart"></div>
+      <div style="height:14px"></div>
+      <div id="payChart"></div>
+    </div>
+    <div class="card col-6">
+      <h3>Stations by category</h3>
+      <p class="cap">725 stations classified by land-use — the driver of each station's hourly demand shape.</p>
+      <div id="catChart"></div>
+    </div>
+    <div class="card col-6">
+      <h3>Busiest stations (modelled daily footfall)</h3>
+      <p class="cap">Top 8 by daily throughput — dominated by Delhi interchanges.</p>
+      <table id="topTable"><thead><tr><th class="rank">#</th><th>Station</th><th>City</th><th class="r">Footfall/day</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card col-6">
+      <h3>Quietest stations</h3>
+      <p class="cap">Newest small-city lines (Agra, Indore, Bhopal) — realistically low volume.</p>
+      <table id="botTable"><thead><tr><th class="rank">#</th><th>Station</th><th>City</th><th class="r">Footfall/day</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <footer>
+    <div class="files">
+      <code>metro_stations.csv</code><code>passenger_flow.csv</code><code>ticket_transactions.csv</code>
+      <code>train_operations.csv</code><code>train_occupancy.csv</code><code>external_factors.csv</code>
+      <code>train_schedule.csv</code><code>metro_ai_training_data.csv</code><code>documentation.pdf</code>
+    </div>
+    <div>AI MetroFlow · synthetic dataset · figures are modelled, not official AFC counts</div>
+  </footer>
+</div>
+</div>
+
+<div class="mf-tip" id="tip"><div class="t-t"></div><div class="t-v"></div><div class="t-m"></div></div>
+
+<script>
+(function(){
+  "use strict";
+  const NS="http://www.w3.org/2000/svg";
+  const tip=document.getElementById("tip");
+  const tt=tip.querySelector(".t-t"), tv=tip.querySelector(".t-v"), tm=tip.querySelector(".t-m");
+  function showTip(e,title,val,meta){
+    tt.textContent=title; tv.textContent=val; tm.textContent=meta||""; tm.style.display=meta?"block":"none";
+    tip.classList.add("on"); moveTip(e);
+  }
+  function moveTip(e){
+    const pad=14, w=tip.offsetWidth, h=tip.offsetHeight;
+    let x=e.clientX+pad, y=e.clientY+pad;
+    if(x+w>innerWidth) x=e.clientX-w-pad;
+    if(y+h>innerHeight) y=e.clientY-h-pad;
+    tip.style.left=x+"px"; tip.style.top=y+"px";
+  }
+  function hideTip(){tip.classList.remove("on");}
+  const fmt=n=>n.toLocaleString("en-IN");
+  const fmtC=n=> n>=1e7? (n/1e7).toFixed(2)+" Cr" : n>=1e5? (n/1e5).toFixed(1)+" L" : fmt(n);
+  const css=v=>getComputedStyle(document.querySelector(".mf")).getPropertyValue(v).trim();
+  function el(tag,attrs){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e;}
+
+  /* ---------- DATA ---------- */
+  const D={
+    kpis:[
+      {lab:"Passenger-trips modelled",val:"832.0 M",sub:"summed station-hour flow, 90 days"},
+      {lab:"Busiest hour",val:"19:00",sub:"evening peak · 76.3 M trips",cls:""},
+      {lab:"Top city / day",val:"Delhi",sub:"~1.70 M avg daily throughput"},
+      {lab:"High+Critical share",val:"16.6%",sub:"of station-hours congested",cls:"warn"},
+      {lab:"Critical station-hours",val:"1.2%",sub:"2,765 records at crush load",cls:"crit"},
+      {lab:"On-time trains",val:"87.9%",sub:"of 44,333 train movements",cls:"good"},
+      {lab:"Avg fare",val:"₹30.4",sub:"avg journey 26.5 min"},
+    ],
+    hour:{5:10945016,6:21562883,7:39814530,8:64842317,9:74511900,10:58789553,11:39412284,12:32203747,13:32367023,14:32589864,15:33955456,16:41872837,17:55665246,18:70036967,19:76252244,20:61889620,21:41229549,22:26424839,23:17601394},
+    dens:[["Low",120658,"good"],["Medium",66091,"warning"],["High",34496,"serious"],["Critical",2765,"critical"]],
+    city:[["Delhi",1697926],["Mumbai",907555],["Bengaluru",748620],["Hyderabad",733628],["Chennai",701295],["Kolkata",643676],["Gurugram",416465],["Kochi",355684],["Ahmedabad",347387],["Jaipur",325045],["Lucknow",306782],["Noida",305367]],
+    lines:[["Blue / Magenta (DEL)",22.7],["Blue / Red (DEL)",19.4],["Blue / Airport Exp (DEL)",19.2],["Purple Line (BLR)",19.0],["Line 1 / 2A (MUM)",18.6],["Red / Blue (HYD)",18.6],["Yellow / Pink (DEL)",18.3],["Violet Line (DEL)",18.3]],
+    ticket:[["Smart Card",28765],["QR Ticket",18080],["Token",11672],["Monthly Pass",6483]],
+    pay:[["UPI",22564],["Cash",15329],["NCMC Card",13022],["Metro App",8189],["Card",5896]],
+    cat:[["Residential",264],["Commercial",203],["IT Hub",88],["Educational Zone",79],["Industrial Area",54],["Railway Connection",26],["Airport",11]],
+    top:[["Central Secretariat","Delhi",306017],["New Delhi","Delhi",303868],["Mayur Vihar Phase-1","Delhi",274696],["Dwarka Sector 21","Delhi",273044],["Azadpur","Delhi",272277],["Anand Vihar ISBT","Delhi",269077],["Sarai Kale Khan Nizamuddin","Delhi",266662],["Hauz Khas","Delhi",265682]],
+    bot:[["Taj Mahal","Agra",6646],["Raja Ki Mandi","Agra",7258],["Krishi Upaj Mandi","Bhopal",8429],["Agra Fort","Agra",8527],["Agra College","Agra",8534],["Robot Square","Indore",9736],["Mumtaj Bagh","Indore",10164],["MR-10","Indore",10310]],
+  };
+  const CAT_COLORS=["--cat-1","--cat-2","--cat-3","--cat-4","--cat-5"];
+
+  /* ---------- KPI ---------- */
+  const kw=document.getElementById("kpis");
+  D.kpis.forEach(k=>{
+    const d=document.createElement("div"); d.className="kpi"+(k.cls?" "+k.cls:"");
+    d.innerHTML=`<div class="k-lab">${k.lab}</div><div class="k-val num">${k.val}</div><div class="k-sub">${k.sub}</div>`;
+    kw.appendChild(d);
+  });
+
+  /* ---------- Hourly area+line chart ---------- */
+  function hourChart(){
+    const W=620,H=250,ml=46,mr=14,mt=12,mb=28, iw=W-ml-mr, ih=H-mt-mb;
+    const hrs=Object.keys(D.hour).map(Number), vals=hrs.map(h=>D.hour[h]);
+    const max=Math.max(...vals)*1.08;
+    const x=i=>ml+iw*i/(hrs.length-1), y=v=>mt+ih-ih*v/max;
+    const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":"Passenger flow by hour"});
+    // gridlines
+    for(let g=0;g<=4;g++){const gv=max*g/4, gy=y(gv);
+      svg.appendChild(el("line",{x1:ml,x2:W-mr,y1:gy,y2:gy,stroke:css("--grid"),"stroke-width":1}));
+      const t=el("text",{x:ml-8,y:gy+4,"text-anchor":"end","font-size":10,fill:css("--muted")});
+      t.textContent=(gv/1e6).toFixed(0)+"M"; svg.appendChild(t);
+    }
+    // area path
+    let dArea=`M ${x(0)} ${y(vals[0])}`, dLine=`M ${x(0)} ${y(vals[0])}`;
+    for(let i=1;i<vals.length;i++){dArea+=` L ${x(i)} ${y(vals[i])}`;dLine+=` L ${x(i)} ${y(vals[i])}`;}
+    dArea+=` L ${x(vals.length-1)} ${mt+ih} L ${x(0)} ${mt+ih} Z`;
+    const grad=el("linearGradient",{id:"hg",x1:0,y1:0,x2:0,y2:1});
+    grad.appendChild(el("stop",{offset:"0%","stop-color":css("--accent"),"stop-opacity":.28}));
+    grad.appendChild(el("stop",{offset:"100%","stop-color":css("--accent"),"stop-opacity":.02}));
+    const defs=el("defs",{}); defs.appendChild(grad); svg.appendChild(defs);
+    svg.appendChild(el("path",{d:dArea,fill:"url(#hg)"}));
+    svg.appendChild(el("path",{d:dLine,fill:"none",stroke:css("--accent"),"stroke-width":2.4,"stroke-linejoin":"round"}));
+    // x labels + peak markers + hover targets
+    hrs.forEach((h,i)=>{
+      if(h%3===0||h===23){const t=el("text",{x:x(i),y:H-8,"text-anchor":"middle","font-size":10,fill:css("--muted")});t.textContent=h+"h";svg.appendChild(t);}
+      const peak=(h===9||h===19);
+      if(peak){svg.appendChild(el("circle",{cx:x(i),cy:y(vals[i]),r:4.5,fill:css("--surface"),stroke:css("--accent"),"stroke-width":2.4}));}
+      const hit=el("rect",{x:x(i)-iw/(hrs.length-1)/2,y:mt,width:iw/(hrs.length-1),height:ih,fill:"transparent"});
+      hit.addEventListener("mousemove",e=>showTip(e,h+":00",fmt(vals[i])+" trips",peak?"Peak hour":""));
+      hit.addEventListener("mouseleave",hideTip); svg.appendChild(hit);
+    });
+    document.getElementById("hourChart").appendChild(svg);
+  }
+
+  /* ---------- horizontal bar chart ---------- */
+  function hbar(mount,rows,opt){
+    opt=opt||{}; const n=rows.length, rh=opt.rh||26, W=560, labw=opt.labw||150, valw=58;
+    const totalH=n*rh, bw=W-labw-valw;
+    const max=Math.max(...rows.map(r=>r.v));
+    const svg=el("svg",{viewBox:`0 0 ${W} ${totalH}`,role:"img","aria-label":opt.aria||"bar chart"});
+    rows.forEach((r,i)=>{
+      const y=i*rh, bh=rh-9, len=Math.max(2,bw*r.v/max);
+      const g=el("g",{class:"bar-row"});
+      const lab=el("text",{x:0,y:y+bh/2+4,"font-size":12,fill:css("--ink"),"font-weight":r.bold?650:500});
+      lab.textContent=r.l; g.appendChild(lab);
+      const track=el("rect",{x:labw,y:y+3,width:bw,height:bh,rx:4,fill:css("--grid"),opacity:.5});
+      g.appendChild(track);
+      const fill=el("rect",{class:"bar-fill",x:labw,y:y+3,width:len,height:bh,rx:4,fill:r.color||css("--seq-3")});
+      g.appendChild(fill);
+      const val=el("text",{x:W,y:y+bh/2+4,"text-anchor":"end","font-size":12,fill:css("--ink-2"),class:"num","font-weight":600});
+      val.textContent=r.vl; g.appendChild(val);
+      const hit=el("rect",{x:0,y:y,width:W,height:rh,fill:"transparent"});
+      hit.addEventListener("mousemove",e=>showTip(e,r.l,r.vl,r.meta||""));
+      hit.addEventListener("mouseleave",hideTip); g.appendChild(hit);
+      svg.appendChild(g);
+    });
+    mount.appendChild(svg);
+  }
+
+  /* city */
+  hbar(document.getElementById("cityChart"),
+    D.city.map(([l,v])=>({l,v,vl:fmt(v),color:css("--seq-3"),meta:"avg passengers / day"})),
+    {labw:96,aria:"City comparison"});
+
+  /* congested lines */
+  hbar(document.getElementById("lineChart"),
+    D.lines.map(([l,v])=>({l,v,vl:v.toFixed(1)+"%",color:css("--serious"),meta:"share High+Critical"})),
+    {labw:180,rh:28,aria:"Congested lines"});
+
+  /* categories */
+  hbar(document.getElementById("catChart"),
+    D.cat.map(([l,v])=>({l,v,vl:v+"",color:css("--seq-4"),meta:"stations"})),
+    {labw:140,aria:"Stations by category"});
+
+  /* ---------- density: stacked bar + legend ---------- */
+  function stacked(mount,rows,total,useStatus){
+    const W=560,H=52,r=8; const svg=el("svg",{viewBox:`0 0 ${W} ${H}`});
+    let x=0; const sum=rows.reduce((a,b)=>a+b[1],0);
+    rows.forEach((row,i)=>{
+      const w=(W)*row[1]/sum, gap=i<rows.length-1?2:0;
+      const color=useStatus?css("--"+row[2]):css(CAT_COLORS[i%CAT_COLORS.length]);
+      const rect=el("rect",{x,y:6,width:Math.max(0,w-gap),height:26,rx:4,fill:color});
+      rect.addEventListener("mousemove",e=>showTip(e,row[0],fmt(row[1])+" ("+(100*row[1]/sum).toFixed(1)+"%)",row[3]||""));
+      rect.addEventListener("mouseleave",hideTip); svg.appendChild(rect);
+      if(w>44){const t=el("text",{x:x+ (w-gap)/2,y:23,"text-anchor":"middle","font-size":11,fill:"#fff","font-weight":650});
+        t.textContent=(100*row[1]/sum).toFixed(0)+"%"; svg.appendChild(t);}
+      x+=w;
+    });
+    mount.appendChild(svg);
+  }
+  stacked(document.getElementById("densChart"),D.dens,224010,true);
+  const dl=document.getElementById("densLegend");
+  D.dens.forEach(row=>{const s=document.createElement("span");s.className="lg";
+    s.innerHTML=`<span class="sw" style="background:${css("--"+row[2])}"></span>${row[0]} <b class="num" style="color:var(--ink)">&nbsp;${fmt(row[1])}</b>`;
+    dl.appendChild(s);});
+
+  /* ticket + payment stacked */
+  function labeledStacked(mount,title,rows){
+    const wrap=document.createElement("div");
+    wrap.innerHTML=`<div style="font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:600;margin-bottom:7px">${title}</div>`;
+    mount.appendChild(wrap);
+    stacked(wrap,rows.map((r,i)=>[r[0],r[1],null]),null,false);
+    const lg=document.createElement("div");lg.className="legend";
+    rows.forEach((r,i)=>{const s=document.createElement("span");s.className="lg";
+      s.innerHTML=`<span class="sw" style="background:${css(CAT_COLORS[i%CAT_COLORS.length])}"></span>${r[0]} <b style="color:var(--ink)" class="num">&nbsp;${fmt(r[1])}</b>`;
+      lg.appendChild(s);});
+    wrap.appendChild(lg);
+  }
+  labeledStacked(document.getElementById("ticketChart"),"Ticket type",D.ticket);
+  labeledStacked(document.getElementById("payChart"),"Payment method",D.pay);
+
+  /* tables */
+  function fillTable(id,rows,statusColor){
+    const tb=document.querySelector("#"+id+" tbody");
+    rows.forEach((r,i)=>{const tr=document.createElement("tr");
+      tr.innerHTML=`<td class="rank num">${i+1}</td><td>${r[0]}</td><td style="color:var(--ink-2)">${r[1]}</td><td class="r num" style="font-weight:650">${fmt(r[2])}</td>`;
+      tb.appendChild(tr);});
+  }
+  fillTable("topTable",D.top);
+  fillTable("botTable",D.bot);
+
+  hourChart();
+  addEventListener("scroll",hideTip,{passive:true});
+})();
+</script>
