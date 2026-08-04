@@ -4,6 +4,7 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import { Sidebar } from "./Sidebar";
 import { Topbar } from "./Topbar";
+import { Chatbot } from "./Chatbot";
 import type { Session } from "@/lib/session";
 
 export function Shell({
@@ -45,6 +46,9 @@ export function Shell({
         <Topbar session={session} onMenu={() => setDrawer(true)} />
         <main className="flex-1 overflow-y-auto">{children}</main>
       </div>
+
+      {/* AI assistant */}
+      <Chatbot />
     </div>
   );
 }
