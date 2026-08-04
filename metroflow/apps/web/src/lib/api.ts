@@ -5,11 +5,28 @@
  */
 const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
 
+/** Attach the Supabase access token so the backend can verify the caller. */
+async function authHeader(): Promise<Record<string, string>> {
+  if (typeof window === "undefined") return {};
+  try {
+    const { createClient } = await import("@/lib/supabase/client");
+    const { data } = await createClient().auth.getSession();
+    const token = data.session?.access_token;
+    return token ? { Authorization: `Bearer ${token}` } : {};
+  } catch {
+    return {};
+  }
+}
+
 async function req<T>(path: string, init?: RequestInit): Promise<T | null> {
   try {
     const res = await fetch(`${BASE}${path}`, {
       ...init,
-      headers: { "Content-Type": "application/json", ...(init?.headers || {}) },
+      headers: {
+        "Content-Type": "application/json",
+        ...(await authHeader()),
+        ...(init?.headers || {}),
+      },
     });
     if (!res.ok) return null;
     return (await res.json()) as T;
