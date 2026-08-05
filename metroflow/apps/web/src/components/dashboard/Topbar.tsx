@@ -12,6 +12,7 @@ import { signOutAction } from "@/lib/auth-actions";
 import type { Session } from "@/lib/session";
 import { getAlerts, type ApiAlert } from "@/lib/api";
 import { NETWORKS } from "@/lib/stations";
+import { LiveTicker } from "@/components/dashboard/LiveTicker";
 import { CROWD, type CrowdLevel } from "@/lib/utils";
 
 const NETWORK_OPTIONS = ["All networks", ...NETWORKS];
@@ -62,6 +63,7 @@ export function Topbar({ session, onMenu }: { session: Session; onMenu?: () => v
       </form>
 
       <div className="ml-auto flex items-center gap-1.5" ref={ref}>
+        <LiveTicker />
         <select
           defaultValue="All networks"
           onChange={(e) => {
