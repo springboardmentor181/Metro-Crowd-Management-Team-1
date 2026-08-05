@@ -32,9 +32,9 @@ export function AlertRail({ alerts }: { alerts: Alert[] }) {
             <div className="flex shrink-0 flex-col items-end gap-1">
               <span className="text-[11px] text-[color:var(--color-muted)]">{a.ago}</span>
               {a.status === "open" ? (
-                <button className="rounded-full border border-[color:var(--color-hairline)] px-2 py-0.5 text-[11px] font-medium text-[color:var(--color-ink-2)] hover:bg-[color:var(--color-surface-2)]">
-                  Ack
-                </button>
+                <span className="rounded-full bg-[color:var(--color-crowd-critical)]/12 px-2 py-0.5 text-[11px] font-medium text-[color:var(--color-crowd-critical)]">
+                  Open
+                </span>
               ) : (
                 <span className="text-[11px] text-[color:var(--color-crowd-low)]">✓ Ack’d</span>
               )}
