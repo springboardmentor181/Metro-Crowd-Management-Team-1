@@ -1,9 +1,21 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel
 
-from app.core.security import Principal, get_principal
-from app.data import store
+from app.core.config import settings
+from app.core.security import Principal, get_principal, require_admin
+from app.data import db, store
 
 router = APIRouter()
+
+
+class RecoDecision(BaseModel):
+    schedule_id: str | None = None
+    line: str
+    slot: str
+    current: int
+    recommended: int
+    score: float
+    decision: str  # 'applied' | 'dismissed'
 
 
 @router.get("/schedules")
@@ -38,3 +50,25 @@ def recommendations(_: Principal = Depends(get_principal), limit: int = 12) -> d
         for r in recs.to_dict("records")
     ]
     return {"data": data, "meta": {"total": len(data)}}
+
+
+@router.post("/schedules/recommendations/decide")
+def decide(body: RecoDecision, p: Principal = Depends(require_admin)) -> dict:
+    if not settings.db_enabled:
+        raise HTTPException(400, "Applying recommendations requires the database")
+    if body.decision not in ("applied", "dismissed"):
+        raise HTTPException(400, "decision must be 'applied' or 'dismissed'")
+    rows = db.query(
+        """insert into schedule_recommendations
+             (schedule_id, line_name, time_slot, current_frequency, recommended_frequency,
+              optimization_score, status, decided_at)
+           values (%s,%s,%s,%s,%s,%s,%s, now()) returning id::text""",
+        (body.schedule_id, body.line, body.slot, body.current, body.recommended,
+         body.score, body.decision),
+    )
+    rid = rows[0]["id"]
+    db.execute(
+        "insert into audit_log(action, entity, entity_id, payload) values (%s,%s,%s,%s)",
+        (f"schedule.{body.decision}", "schedule_recommendations", rid, f'{{"by":"{p.email}","line":"{body.line}"}}'),
+    )
+    return {"data": {"id": rid, "status": body.decision}}
