@@ -27,16 +27,25 @@ class Principal:
 DEV_PRINCIPAL = Principal(user_id="dev", email="dev@metroflow.local", role="admin")
 
 
+# Tolerate small clock differences between this host and Supabase's token issuer
+# (otherwise a freshly-minted token can look "not yet valid" via its iat claim).
+_LEEWAY = 120
+
+
 def _decode(token: str) -> dict:
     if settings.supabase_jwks_url:
         jwk_client = jwt.PyJWKClient(settings.supabase_jwks_url)
         key = jwk_client.get_signing_key_from_jwt(token).key
-        return jwt.decode(token, key, algorithms=["RS256", "ES256"], audience="authenticated")
+        return jwt.decode(
+            token, key, algorithms=["RS256", "ES256"],
+            audience="authenticated", leeway=_LEEWAY,
+        )
     return jwt.decode(
         token,
         settings.supabase_jwt_secret,
         algorithms=["HS256"],
         audience="authenticated",
+        leeway=_LEEWAY,
     )
 
 
