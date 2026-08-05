@@ -56,15 +56,33 @@ export async function signUpAction(formData: FormData) {
   if (!email) return;
 
   if (supabaseConfigured()) {
+    // Create a confirmed account via the backend (bypasses email confirmation),
+    // then sign the new operator straight in.
+    const base = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
+    let ok = false;
+    let errMsg = "Registration failed. Please try again.";
+    try {
+      const res = await fetch(`${base}/auth/register`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password, full_name: name }),
+        cache: "no-store",
+      });
+      if (res.ok) {
+        ok = true;
+      } else {
+        const d = await res.json().catch(() => ({}));
+        errMsg = d?.detail || d?.error?.message || errMsg;
+      }
+    } catch {
+      errMsg = "Could not reach the server. Make sure the API is running.";
+    }
+    if (!ok) redirect(`/signup?error=${encodeURIComponent(errMsg)}`);
+
     const supabase = await createClient();
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: { data: { full_name: name, role: "operator" } },
-    });
-    if (error) redirect(`/signup?error=${encodeURIComponent(error.message)}`);
-    if (data.session) redirect("/dashboard"); // auto-confirmed
-    redirect("/login?notice=check-email"); // confirmation required
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) redirect(`/login?error=${encodeURIComponent(error.message)}`);
+    redirect("/dashboard");
   }
 
   // demo fallback: sign straight in as operator
