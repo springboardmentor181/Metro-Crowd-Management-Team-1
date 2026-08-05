@@ -97,6 +97,34 @@ export async function ackAlert(id: string): Promise<boolean> {
   return r !== null;
 }
 
+export async function createAlert(body: {
+  message: string;
+  type?: string;
+  severity?: string;
+  line_name?: string;
+}): Promise<boolean> {
+  const r = await req<{ data: unknown }>("/alerts", {
+    method: "POST",
+    body: JSON.stringify({ type: "emergency", severity: "emergency", ...body }),
+  });
+  return r !== null;
+}
+
+export async function decideReco(body: {
+  line: string;
+  slot: string;
+  current: number;
+  recommended: number;
+  score: number;
+  decision: "applied" | "dismissed";
+}): Promise<boolean> {
+  const r = await req<{ data: unknown }>("/schedules/recommendations/decide", {
+    method: "POST",
+    body: JSON.stringify(body),
+  });
+  return r !== null;
+}
+
 export async function apiHealth(): Promise<boolean> {
   const r = await req<{ status: string }>("/health");
   return r?.status === "ok";
