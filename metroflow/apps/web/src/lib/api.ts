@@ -126,6 +126,33 @@ export async function getStations(): Promise<ApiStation[] | null> {
   return r?.data ?? null;
 }
 
+export type ApiUser = {
+  id: string; full_name: string; role: string; network: string;
+  is_active: boolean; email: string; created_at: string | null;
+};
+
+export async function getUsers(): Promise<ApiUser[] | null> {
+  const r = await req<{ data: ApiUser[] }>("/users");
+  return r?.data ?? null;
+}
+
+export async function inviteUser(body: {
+  email: string; password: string; full_name?: string; role?: string;
+}): Promise<{ ok: boolean; error?: string }> {
+  try {
+    const res = await fetch("/api/proxy/users/invite", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+    if (res.ok) return { ok: true };
+    const d = await res.json().catch(() => ({}));
+    return { ok: false, error: d?.detail || d?.error?.message || "Invite failed" };
+  } catch {
+    return { ok: false, error: "Could not reach the server" };
+  }
+}
+
 export type TimePoint = { label: string; passengers: number };
 
 export async function getTimeseries(range: string): Promise<TimePoint[] | null> {
