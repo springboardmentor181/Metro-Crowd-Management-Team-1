@@ -1,0 +1,42 @@
+# Render Blueprint — deploys the MetroFlow FastAPI backend (web + WebSocket).
+# The Next.js frontend deploys separately on Vercel (see DEPLOYMENT.md).
+#
+# Import: Render Dashboard → New → Blueprint → connect this repo.
+# Then set the secret env vars (marked sync:false) in the dashboard.
+services:
+  - type: web
+    name: metroflow-api
+    runtime: python
+    rootDir: metroflow/apps/api
+    plan: free
+    healthCheckPath: /api/v1/health
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: APP_ENV
+        value: production
+      - key: API_V1_PREFIX
+        value: /api/v1
+      # Point at the repo-root dataset + committed model artifacts.
+      - key: DATASET_DIR
+        value: /opt/render/project/src/MetroFlow_Dataset
+      - key: ARTIFACTS_DIR
+        value: /opt/render/project/src/metroflow/services/ai/artifacts
+      # ---- secrets: set these in the Render dashboard ----
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_JWKS_URL
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      # Set to your Vercel URL, comma-separated (e.g. https://metroflow.vercel.app)
+      - key: CORS_ORIGINS
+        sync: false
