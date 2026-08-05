@@ -11,9 +11,10 @@ import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { signOutAction } from "@/lib/auth-actions";
 import type { Session } from "@/lib/session";
 import { getAlerts, type ApiAlert } from "@/lib/api";
+import { NETWORKS } from "@/lib/stations";
 import { CROWD, type CrowdLevel } from "@/lib/utils";
 
-const NETWORKS = ["Delhi Metro", "Mumbai Metro", "Bengaluru Metro", "All networks"];
+const NETWORK_OPTIONS = ["All networks", ...NETWORKS];
 const TYPE_ICON = { overcrowding: AlertTriangle, delay: Clock, emergency: Siren };
 
 export function Topbar({ session, onMenu }: { session: Session; onMenu?: () => void }) {
@@ -62,10 +63,20 @@ export function Topbar({ session, onMenu }: { session: Session; onMenu?: () => v
 
       <div className="ml-auto flex items-center gap-1.5" ref={ref}>
         <select
-          defaultValue={session.role === "admin" ? "All networks" : "Delhi Metro"}
-          className="hidden rounded-full border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] px-3 py-1.5 text-xs font-medium outline-none sm:block"
+          defaultValue="All networks"
+          onChange={(e) => {
+            const v = e.target.value;
+            router.push(
+              v === "All networks"
+                ? "/dashboard/stations"
+                : `/dashboard/stations?network=${encodeURIComponent(v)}`
+            );
+          }}
+          className="hidden max-w-[150px] rounded-full border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] px-3 py-1.5 text-xs font-medium outline-none sm:block"
         >
-          {NETWORKS.map((n) => <option key={n}>{n}</option>)}
+          {NETWORK_OPTIONS.map((n) => (
+            <option key={n} value={n}>{n}</option>
+          ))}
         </select>
 
         {/* notifications */}
