@@ -41,5 +41,5 @@ Thumbs.db
 coverage/
 .vercel
 
-# ── ML model artifacts (regenerate via services/ai/train.py; metrics live in apps/web) ──
-metroflow/services/ai/artifacts/
+# ── ML model artifacts: committed so the deployed API can serve predictions
+#    without retraining. Regenerate locally via services/ai/train.py.
