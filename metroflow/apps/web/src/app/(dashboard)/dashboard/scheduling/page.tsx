@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { CalendarClock, Clock, TrendingDown, ArrowRight, Sparkles } from "lucide-react";
+import { CalendarClock, Clock, TrendingDown, Sparkles } from "lucide-react";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { KpiCard } from "@/components/dashboard/KpiCard";
 import { Panel } from "@/components/dashboard/Card";
 import { HBars } from "@/components/dashboard/charts";
+import { SchedulingRecos } from "@/components/dashboard/SchedulingRecos";
 import { getScheduleRecos, getServiceStatus } from "@/lib/live-data";
 import { getSession } from "@/lib/current-user";
 
@@ -30,43 +31,7 @@ export default async function SchedulingPage() {
           title="AI frequency recommendations"
           subtitle={isAdmin ? "Apply to update the operating schedule" : "Operators can propose; admins apply"}
         >
-          <div className="grid gap-4 md:grid-cols-2">
-            {SCHEDULE_RECOS.map((r) => {
-              const change = r.current !== r.recommended;
-              return (
-                <div key={r.line + r.slot} className="rounded-[var(--radius-card)] border border-[color:var(--color-ai)]/25 bg-[color:var(--color-ai)]/[0.04] p-4">
-                  <div className="flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-[color:var(--color-ai)]">
-                      <Sparkles size={13} /> AI · estimated
-                    </span>
-                    <span className="text-xs text-[color:var(--color-muted)]">score {r.score}</span>
-                  </div>
-                  <h3 className="mt-2 font-semibold">{r.line}</h3>
-                  <p className="text-xs text-[color:var(--color-ink-2)]">{r.slot}</p>
-                  <div className="mt-3 flex items-center gap-2 text-sm">
-                    <span className="tabular rounded-md bg-[color:var(--color-surface-2)] px-2 py-1">{r.current} min</span>
-                    <ArrowRight size={15} className="text-[color:var(--color-muted)]" />
-                    <span className="tabular rounded-md bg-[color:var(--color-accent)]/12 px-2 py-1 font-semibold text-[color:var(--color-accent)]">
-                      {r.recommended} min
-                    </span>
-                    {change ? (
-                      <span className="text-xs text-[color:var(--color-crowd-low)]">↑ frequency</span>
-                    ) : (
-                      <span className="text-xs text-[color:var(--color-muted)]">no change</span>
-                    )}
-                  </div>
-                  <div className="mt-4 flex gap-2">
-                    <button className="flex-1 rounded-[var(--radius-card)] bg-[color:var(--color-brand)] px-3 py-2 text-xs font-medium text-white hover:bg-[color:var(--color-brand-900)] disabled:opacity-40" disabled={!isAdmin}>
-                      {isAdmin ? "Apply" : "Admin only"}
-                    </button>
-                    <button className="rounded-[var(--radius-card)] border border-[color:var(--color-hairline)] px-3 py-2 text-xs font-medium text-[color:var(--color-ink-2)] hover:bg-[color:var(--color-surface-2)]">
-                      {isAdmin ? "Dismiss" : "Propose"}
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          <SchedulingRecos recos={SCHEDULE_RECOS} isAdmin={isAdmin} />
         </Panel>
 
         <Panel title="Service status" subtitle="Train operations (90-day)">
