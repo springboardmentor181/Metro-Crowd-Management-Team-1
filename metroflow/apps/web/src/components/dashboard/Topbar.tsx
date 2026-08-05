@@ -6,6 +6,7 @@ import {
   AlertTriangle, Clock, Siren, SlidersHorizontal,
 } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { signOutAction } from "@/lib/auth-actions";
 import type { Session } from "@/lib/session";
@@ -18,6 +19,8 @@ const TYPE_ICON = { overcrowding: AlertTriangle, delay: Clock, emergency: Siren 
 export function Topbar({ session, onMenu }: { session: Session; onMenu?: () => void }) {
   const [menu, setMenu] = useState<null | "profile" | "notif">(null);
   const [openAlerts, setOpenAlerts] = useState<ApiAlert[]>([]);
+  const [query, setQuery] = useState("");
+  const router = useRouter();
   const ref = useRef<HTMLDivElement>(null);
   const initials = session.name.split(" ").map((s) => s[0]).slice(0, 2).join("").toUpperCase();
 
@@ -41,10 +44,21 @@ export function Topbar({ session, onMenu }: { session: Session; onMenu?: () => v
         <Menu size={20} />
       </button>
 
-      <div className="hidden items-center gap-2 rounded-full border border-[color:var(--color-hairline)] bg-[color:var(--color-surface-2)] px-3 py-1.5 text-sm text-[color:var(--color-muted)] sm:flex">
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          router.push(`/dashboard/stations${query.trim() ? `?q=${encodeURIComponent(query.trim())}` : ""}`);
+        }}
+        className="hidden items-center gap-2 rounded-full border border-[color:var(--color-hairline)] bg-[color:var(--color-surface-2)] px-3 py-1.5 text-sm text-[color:var(--color-muted)] sm:flex"
+      >
         <Search size={15} />
-        <input placeholder="Search stations, lines…" className="w-40 bg-transparent outline-none placeholder:text-[color:var(--color-muted)]" />
-      </div>
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search stations, lines…"
+          className="w-40 bg-transparent text-[color:var(--color-ink)] outline-none placeholder:text-[color:var(--color-muted)]"
+        />
+      </form>
 
       <div className="ml-auto flex items-center gap-1.5" ref={ref}>
         <select

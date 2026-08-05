@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { Search, Train, ArrowUpDown } from "lucide-react";
 import { STATIONS, type Station } from "@/lib/stations";
 import { StatusChip } from "@/components/dashboard/StatusChip";
@@ -10,7 +11,8 @@ const METROS = ["All networks", ...Array.from(new Set(STATIONS.map((s) => s.metr
 const LEVELS = ["All", "Low", "Medium", "High", "Critical"] as const;
 
 export function StationsExplorer() {
-  const [q, setQ] = useState("");
+  const searchParams = useSearchParams();
+  const [q, setQ] = useState(searchParams.get("q") ?? "");
   const [metro, setMetro] = useState("All networks");
   const [level, setLevel] = useState<(typeof LEVELS)[number]>("All");
   const [sortDesc, setSortDesc] = useState(true);
