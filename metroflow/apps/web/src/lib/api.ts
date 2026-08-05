@@ -160,6 +160,17 @@ export async function getTimeseries(range: string): Promise<TimePoint[] | null> 
   return r?.data ?? null;
 }
 
+export async function chat(
+  message: string,
+  history: { role: "user" | "assistant"; content: string }[]
+): Promise<string | null> {
+  const r = await req<{ data: { answer: string } }>("/ai/chat", {
+    method: "POST",
+    body: JSON.stringify({ message, history }),
+  });
+  return r?.data?.answer ?? null;
+}
+
 export async function apiHealth(): Promise<boolean> {
   const r = await req<{ status: string }>("/health");
   return r?.status === "ok";

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Bot, Send, X, Sparkles } from "lucide-react";
 import { STATIONS, STATION_COUNT_TOTAL, NETWORK_COUNT } from "@/lib/stations";
 import { ALERTS, KPIS, PEAK_HOURS, TOP_FOOTFALL, CONGESTED_LINES } from "@/lib/mock-data";
+import { chat } from "@/lib/api";
 import { compact } from "@/lib/utils";
 
 type Msg = { role: "bot" | "user"; text: string };
@@ -73,18 +74,27 @@ function answer(q: string): string {
 export function Chatbot() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
+  const [typing, setTyping] = useState(false);
   const [msgs, setMsgs] = useState<Msg[]>([{ role: "bot", text: GREETING }]);
   const bodyRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     bodyRef.current?.scrollTo({ top: bodyRef.current.scrollHeight, behavior: "smooth" });
-  }, [msgs, open]);
+  }, [msgs, open, typing]);
 
-  function send(text: string) {
+  async function send(text: string) {
     const q = text.trim();
-    if (!q) return;
-    setMsgs((m) => [...m, { role: "user", text: q }, { role: "bot", text: answer(q) }]);
+    if (!q || typing) return;
+    const history = msgs
+      .slice(-6)
+      .map((m) => ({ role: (m.role === "user" ? "user" : "assistant") as "user" | "assistant", content: m.text }));
+    setMsgs((m) => [...m, { role: "user", text: q }]);
     setInput("");
+    setTyping(true);
+    // Groq-powered answer, grounded in live data; falls back to the local rules.
+    const reply = await chat(q, history);
+    setTyping(false);
+    setMsgs((m) => [...m, { role: "bot", text: reply ?? answer(q) }]);
   }
 
   return (
@@ -110,7 +120,7 @@ export function Chatbot() {
             </span>
             <div className="leading-tight">
               <div className="text-sm font-semibold">MetroBot</div>
-              <div className="text-[11px] text-white/80">AI assistant · online</div>
+              <div className="text-[11px] text-white/80">AI assistant · powered by Groq</div>
             </div>
             <Sparkles size={15} className="ml-auto text-white/80" />
           </div>
@@ -129,7 +139,16 @@ export function Chatbot() {
                 </div>
               </div>
             ))}
-            {msgs.length <= 1 && (
+            {typing && (
+              <div className="flex justify-start">
+                <div className="flex items-center gap-1 rounded-2xl rounded-bl-sm border border-[color:var(--color-hairline)] bg-[color:var(--color-surface)] px-3 py-2.5">
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-[color:var(--color-muted)] [animation-delay:-0.2s]" />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-[color:var(--color-muted)] [animation-delay:-0.1s]" />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-[color:var(--color-muted)]" />
+                </div>
+              </div>
+            )}
+            {msgs.length <= 1 && !typing && (
               <div className="flex flex-wrap gap-1.5 pt-1">
                 {SUGGESTIONS.map((sug) => (
                   <button
@@ -154,12 +173,14 @@ export function Chatbot() {
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Ask MetroBot…"
-              className="flex-1 rounded-full border border-[color:var(--color-hairline)] bg-[color:var(--color-surface-2)] px-3 py-2 text-xs outline-none focus:border-[color:var(--color-brand)]"
+              disabled={typing}
+              placeholder={typing ? "MetroBot is thinking…" : "Ask MetroBot anything…"}
+              className="flex-1 rounded-full border border-[color:var(--color-hairline)] bg-[color:var(--color-surface-2)] px-3 py-2 text-xs outline-none focus:border-[color:var(--color-brand)] disabled:opacity-60"
             />
             <button
               type="submit"
-              className="flex h-9 w-9 items-center justify-center rounded-full bg-[color:var(--color-brand)] text-white hover:bg-[color:var(--color-brand-900)]"
+              disabled={typing || !input.trim()}
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-[color:var(--color-brand)] text-white hover:bg-[color:var(--color-brand-900)] disabled:opacity-50"
               aria-label="Send"
             >
               <Send size={16} />
