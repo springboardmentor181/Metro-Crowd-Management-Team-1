@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Download } from "lucide-react";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { Panel } from "@/components/dashboard/Card";
 import { VBars, HBars } from "@/components/dashboard/charts";
 import { Insight } from "@/components/dashboard/Insight";
+import { ExportButton } from "@/components/dashboard/ExportButton";
 import {
   getCityFlow, getCongestedLines, getTopFootfall, getCrowdDistribution, getTicketTypes,
 } from "@/lib/live-data";
@@ -22,9 +22,7 @@ export default async function AnalyticsPage() {
         title="Analytics"
         subtitle="Passenger traffic, station performance and operational insights"
         actions={
-          <button className="inline-flex items-center gap-1.5 rounded-[var(--radius-card)] border border-[color:var(--color-hairline)] px-3 py-1.5 text-sm font-medium hover:bg-[color:var(--color-surface-2)]">
-            <Download size={15} /> Export
-          </button>
+          <ExportButton filename="metroflow-city-flow.csv" rows={CITY_FLOW} label="Export CSV" />
         }
       />
       <div className="space-y-6 p-5 lg:p-8">
