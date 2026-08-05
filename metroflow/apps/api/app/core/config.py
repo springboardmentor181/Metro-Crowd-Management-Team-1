@@ -36,6 +36,10 @@ class Settings(BaseSettings):
     replay_default_speed: int = 3600
     replay_start_at: str = "2024-10-01T05:00:00Z"
 
+    # Groq (LLM chatbot)
+    groq_api_key: str = ""
+    groq_model: str = "llama-3.3-70b-versatile"
+
     @property
     def cors_list(self) -> list[str]:
         return [o.strip() for o in self.cors_origins.split(",") if o.strip()]
