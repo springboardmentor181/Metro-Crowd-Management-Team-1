@@ -1,10 +1,19 @@
 from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel
 
 from app.core.config import settings
-from app.core.security import Principal, get_principal
+from app.core.security import Principal, get_principal, require_admin
 from app.data import db, store
 
 router = APIRouter()
+
+
+class CreateAlert(BaseModel):
+    message: str
+    type: str = "emergency"
+    severity: str = "emergency"
+    station_id: str | None = None
+    line_name: str | None = None
 
 HIGH = {"High", "Critical"}
 
@@ -78,3 +87,20 @@ def ack_alert(alert_id: str, p: Principal = Depends(get_principal)) -> dict:
         ("alert.ack", "alerts", alert_id, f'{{"by":"{p.email}"}}'),
     )
     return {"data": {"id": alert_id, "status": "acknowledged"}}
+
+
+@router.post("/alerts")
+def create_alert(body: CreateAlert, p: Principal = Depends(require_admin)) -> dict:
+    if not settings.db_enabled:
+        raise HTTPException(400, "Creating alerts requires the database")
+    rows = db.query(
+        """insert into alerts(type, severity, station_id, line_name, message, status)
+           values (%s,%s,%s,%s,%s,'open') returning id::text""",
+        (body.type, body.severity, body.station_id, body.line_name, body.message),
+    )
+    aid = rows[0]["id"]
+    db.execute(
+        "insert into audit_log(action, entity, entity_id, payload) values (%s,%s,%s,%s)",
+        ("alert.broadcast", "alerts", aid, f'{{"by":"{p.email}"}}'),
+    )
+    return {"data": {"id": aid, "status": "open"}}
