@@ -69,7 +69,20 @@ export function NotificationSettings() {
     inapp: true,
     quiet: false,
   });
-  const set = (k: keyof typeof state) => () => setState((s) => ({ ...s, [k]: !s[k] }));
+  const [saved, setSaved] = useState(false);
+  const set = (k: keyof typeof state) => () => {
+    setState((s) => ({ ...s, [k]: !s[k] }));
+    setSaved(false);
+  };
+  function save() {
+    try {
+      localStorage.setItem("mf_notif_prefs", JSON.stringify(state));
+    } catch {
+      /* ignore */
+    }
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2500);
+  }
 
   return (
     <div className="divide-y divide-[color:var(--color-hairline)]">
@@ -98,10 +111,16 @@ export function NotificationSettings() {
         <Row icon={Moon} title="Quiet hours (22:00–05:00)" desc="Mute non-emergency alerts overnight" on={state.quiet} toggle={set("quiet")} />
       </div>
 
-      <div className="pt-4">
-        <button className="rounded-[var(--radius-card)] bg-[color:var(--color-brand)] px-4 py-2 text-sm font-medium text-white hover:bg-[color:var(--color-brand-900)]">
+      <div className="flex items-center gap-3 pt-4">
+        <button
+          onClick={save}
+          className="rounded-[var(--radius-card)] bg-[color:var(--color-brand)] px-4 py-2 text-sm font-medium text-white hover:bg-[color:var(--color-brand-900)]"
+        >
           Save preferences
         </button>
+        {saved && (
+          <span className="text-sm font-medium text-[color:var(--color-crowd-low)]">✓ Preferences saved</span>
+        )}
       </div>
     </div>
   );
