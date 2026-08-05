@@ -141,6 +141,13 @@ export async function getStations(): Promise<ApiStation[] | null> {
   return r?.data ?? null;
 }
 
+export type TimePoint = { label: string; passengers: number };
+
+export async function getTimeseries(range: string): Promise<TimePoint[] | null> {
+  const r = await req<{ data: TimePoint[] }>(`/analytics/timeseries?range=${range}`);
+  return r?.data ?? null;
+}
+
 export async function apiHealth(): Promise<boolean> {
   const r = await req<{ status: string }>("/health");
   return r?.status === "ok";
