@@ -108,12 +108,17 @@ create index if not exists ix_alerts_open on public.alerts(status) where status 
 create index if not exists ix_pred_station on public.prediction_history(station_id, target_hour);
 
 -- ===== new-user trigger: create a profile row =====
-create or replace function public.handle_new_user() returns trigger language plpgsql security definer as $$
+-- search_path=public so the user_role type resolves; exception-safe so a profile
+-- insert issue can never block auth signup.
+create or replace function public.handle_new_user()
+returns trigger language plpgsql security definer set search_path = public as $$
 begin
   insert into public.profiles(id, full_name, role)
   values (new.id, coalesce(new.raw_user_meta_data->>'full_name', split_part(new.email,'@',1)),
-          coalesce((new.raw_user_meta_data->>'role')::user_role, 'operator'))
+          coalesce((new.raw_user_meta_data->>'role')::public.user_role, 'operator'::public.user_role))
   on conflict (id) do nothing;
+  return new;
+exception when others then
   return new;
 end $$;
 
