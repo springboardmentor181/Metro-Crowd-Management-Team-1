@@ -14,11 +14,19 @@ const FALLBACK: ApiAlert[] = MOCK.map((a) => ({
   station: a.station, ago: a.ago,
 }));
 
-export function AlertsPanel() {
+const FILTERS: { label: string; value: string }[] = [
+  { label: "All", value: "all" },
+  { label: "Overcrowding", value: "overcrowding" },
+  { label: "Delay", value: "delay" },
+  { label: "Emergency", value: "emergency" },
+];
+
+export function AlertsPanel({ showFilters = false }: { showFilters?: boolean }) {
   const [alerts, setAlerts] = useState<ApiAlert[]>([]);
   const [source, setSource] = useState<string>("");
   const [loading, setLoading] = useState(true);
   const [acking, setAcking] = useState<string | null>(null);
+  const [filter, setFilter] = useState("all");
 
   async function load() {
     const res = await getAlerts();
@@ -55,21 +63,45 @@ export function AlertsPanel() {
     );
   }
 
+  const shown = filter === "all" ? alerts : alerts.filter((a) => a.type === filter);
+
   return (
     <div>
-      <div className="mb-3 flex items-center gap-1.5 text-xs text-[color:var(--color-muted)]">
-        {source === "supabase" ? (
-          <>
-            <Database size={13} className="text-[color:var(--color-crowd-low)]" /> Live from Supabase
-          </>
-        ) : source === "offline" ? (
-          "Offline — showing sample alerts"
-        ) : (
-          "Live"
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-1.5 text-xs text-[color:var(--color-muted)]">
+          {source === "supabase" ? (
+            <>
+              <Database size={13} className="text-[color:var(--color-crowd-low)]" /> Live from Supabase
+            </>
+          ) : source === "offline" ? (
+            "Offline — showing sample alerts"
+          ) : (
+            "Live"
+          )}
+        </div>
+        {showFilters && (
+          <div className="flex gap-1">
+            {FILTERS.map((f) => (
+              <button
+                key={f.value}
+                onClick={() => setFilter(f.value)}
+                className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
+                  filter === f.value
+                    ? "bg-[color:var(--color-brand)] text-white"
+                    : "text-[color:var(--color-ink-2)] hover:bg-[color:var(--color-surface-2)]"
+                }`}
+              >
+                {f.label}
+              </button>
+            ))}
+          </div>
         )}
       </div>
+      {shown.length === 0 && (
+        <p className="py-6 text-center text-sm text-[color:var(--color-muted)]">No alerts in this category.</p>
+      )}
       <ul className="divide-y divide-[color:var(--color-hairline)]">
-        {alerts.map((a) => {
+        {shown.map((a) => {
           const Icon = TYPE_ICON[a.type] ?? AlertTriangle;
           const c = CROWD[a.severity as CrowdLevel];
           return (
