@@ -21,9 +21,9 @@ import {
 } from "@/lib/live-data";
 
 const QUICK = [
-  { icon: Megaphone, label: "Broadcast" },
-  { icon: SlidersHorizontal, label: "Adjust freq" },
-  { icon: Download, label: "Export" },
+  { icon: Megaphone, label: "Broadcast", href: "/dashboard/alerts" },
+  { icon: SlidersHorizontal, label: "Adjust freq", href: "/dashboard/scheduling" },
+  { icon: Download, label: "Reports", href: "/dashboard/analytics" },
 ];
 
 export default async function OverviewPage() {
@@ -107,10 +107,10 @@ export default async function OverviewPage() {
               <DonutGauge value={63} label="avg occupancy" color="var(--color-brand)" />
               <div className="mt-2 grid w-full grid-cols-3 gap-2">
                 {QUICK.map((q) => (
-                  <button key={q.label} className="flex flex-col items-center gap-1.5 rounded-[var(--radius-card)] border border-[color:var(--color-hairline)] py-3 text-[11px] font-medium text-[color:var(--color-ink-2)] hover:border-[color:var(--color-brand)] hover:text-[color:var(--color-brand)]">
+                  <Link key={q.label} href={q.href} className="flex flex-col items-center gap-1.5 rounded-[var(--radius-card)] border border-[color:var(--color-hairline)] py-3 text-[11px] font-medium text-[color:var(--color-ink-2)] hover:border-[color:var(--color-brand)] hover:text-[color:var(--color-brand)]">
                     <q.icon size={18} />
                     {q.label}
-                  </button>
+                  </Link>
                 ))}
               </div>
             </div>

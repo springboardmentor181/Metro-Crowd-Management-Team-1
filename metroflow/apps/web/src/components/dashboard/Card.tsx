@@ -1,5 +1,7 @@
+"use client";
+
 import { cn } from "@/lib/utils";
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 
 export function Panel({
   title,
@@ -41,15 +43,17 @@ export function Panel({
 }
 
 export function TimeToggle({ active = "1D" }: { active?: string }) {
+  const [sel, setSel] = useState(active);
   const opts = ["1H", "1D", "1W", "1M"];
   return (
     <div className="inline-flex rounded-full border border-[color:var(--color-hairline)] p-0.5 text-xs">
       {opts.map((o) => (
         <button
           key={o}
+          onClick={() => setSel(o)}
           className={cn(
             "rounded-full px-2.5 py-1 font-medium transition-colors",
-            o === active
+            o === sel
               ? "bg-[color:var(--color-brand)] text-white"
               : "text-[color:var(--color-ink-2)] hover:bg-[color:var(--color-surface-2)]"
           )}
