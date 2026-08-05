@@ -125,6 +125,22 @@ export async function decideReco(body: {
   return r !== null;
 }
 
+export type ApiStation = {
+  station_id: string;
+  station_name: string;
+  metro_name: string;
+  city: string;
+  line_name: string;
+  station_category: string;
+  interchange_station: string;
+  daily_average_footfall: number;
+};
+
+export async function getStations(): Promise<ApiStation[] | null> {
+  const r = await req<{ data: ApiStation[] }>("/stations?page_size=1000");
+  return r?.data ?? null;
+}
+
 export async function apiHealth(): Promise<boolean> {
   const r = await req<{ status: string }>("/health");
   return r?.status === "ok";

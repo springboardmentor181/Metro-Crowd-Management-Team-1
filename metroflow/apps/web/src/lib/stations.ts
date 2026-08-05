@@ -637,3 +637,11 @@ export const STATIONS: Station[] = [
 export const STATION_COUNT_TOTAL = 725;
 export const NETWORK_COUNT = 17;
 export const CITY_COUNT = 23;
+
+// All 17 metro networks in the dataset (metro_stations.metro_name).
+export const NETWORKS = [
+  "Delhi Metro", "Mumbai Metro", "Bengaluru Metro", "Hyderabad Metro",
+  "Chennai Metro", "Kolkata Metro", "Nagpur Metro", "Ahmedabad Metro",
+  "Pune Metro", "Kochi Metro", "Lucknow Metro", "Kanpur Metro",
+  "Noida Metro", "Jaipur Metro", "Agra Metro", "Bhopal Metro", "Indore Metro",
+];
