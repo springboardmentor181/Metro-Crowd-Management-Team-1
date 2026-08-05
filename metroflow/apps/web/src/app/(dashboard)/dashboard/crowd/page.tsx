@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Activity, Users, TrendingUp, TriangleAlert, ArrowRight } from "lucide-react";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { KpiCard } from "@/components/dashboard/KpiCard";
-import { Panel, TimeToggle } from "@/components/dashboard/Card";
+import { Panel } from "@/components/dashboard/Card";
 import { AreaTrend } from "@/components/dashboard/charts";
 import { Heatmap } from "@/components/dashboard/Heatmap";
 import { StatusChip } from "@/components/dashboard/StatusChip";
@@ -27,7 +27,7 @@ export default async function CrowdPage() {
 
   return (
     <>
-      <PageHeader title="Crowd Monitoring" subtitle="Passenger density, congestion and inflow/outflow" live actions={<TimeToggle active="1D" />} />
+      <PageHeader title="Crowd Monitoring" subtitle="Passenger density, congestion and inflow/outflow" live />
       <div className="space-y-6 p-5 lg:p-8">
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <KpiCard label="Avg density" value={`${avgOcc}`} suffix="%" icon={Activity} trend={-2.1} invertTrend />

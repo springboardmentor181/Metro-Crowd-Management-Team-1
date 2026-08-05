@@ -5,12 +5,13 @@ import {
 } from "lucide-react";
 import { PageHeader } from "@/components/dashboard/PageHeader";
 import { KpiCard } from "@/components/dashboard/KpiCard";
-import { Panel, TimeToggle } from "@/components/dashboard/Card";
-import { AreaTrend, HBars, VBars, Sparkline } from "@/components/dashboard/charts";
+import { Panel } from "@/components/dashboard/Card";
+import { HBars, VBars, Sparkline } from "@/components/dashboard/charts";
 import { Heatmap } from "@/components/dashboard/Heatmap";
 import { PeakHoursGrid } from "@/components/dashboard/PeakHoursGrid";
 import { DonutGauge } from "@/components/dashboard/DonutGauge";
 import { AlertRail } from "@/components/dashboard/AlertRail";
+import { PassengerTrend } from "@/components/dashboard/PassengerTrend";
 import { Insight } from "@/components/dashboard/Insight";
 import { getSession } from "@/lib/current-user";
 import { compact, CROWD } from "@/lib/utils";
@@ -40,7 +41,6 @@ export default async function OverviewPage() {
         title="Network Overview"
         subtitle={`Welcome back, ${session?.name ?? "Operator"} — here's the live network state.`}
         live
-        actions={<TimeToggle active="1D" />}
       />
 
       <div className="space-y-6 p-5 lg:p-8">
@@ -87,19 +87,10 @@ export default async function OverviewPage() {
 
         {/* passengers + gauge/actions */}
         <div className="grid gap-6 lg:grid-cols-3">
-          <Panel className="lg:col-span-2" title="Passengers over time" subtitle="Today vs typical weekday (thousands)" actions={<TimeToggle active="1D" />}>
-            <AreaTrend
-              data={PASSENGERS_BY_HOUR}
-              xKey="hour"
-              series={[
-                { key: "passengers", label: "Today", color: "var(--color-series-1)" },
-                { key: "typical", label: "Typical", color: "var(--color-series-2)" },
-              ]}
+          <Panel className="lg:col-span-2" title="Passengers over time" subtitle="Volume by range — from ticketing data">
+            <PassengerTrend
+              initial={PASSENGERS_BY_HOUR.map((r) => ({ label: r.hour, passengers: r.passengers }))}
             />
-            <Insight>
-              Two clear peaks — <strong>morning ~09:00</strong> and <strong>evening ~19:00</strong>. Today is
-              tracking ~4% above a typical weekday, so keep peak-hour frequency raised.
-            </Insight>
           </Panel>
 
           <Panel title="Network occupancy">
