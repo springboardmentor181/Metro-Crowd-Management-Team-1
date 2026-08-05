@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 
+from app.core.config import settings
 from app.core.security import Principal, get_principal
-from app.data import store
+from app.data import db, store
 
 router = APIRouter()
 
@@ -45,3 +46,45 @@ def report(report: str, _: Principal = Depends(get_principal)) -> dict:
     if not key:
         raise HTTPException(404, f"Unknown report. Options: {', '.join(REPORTS)}")
     return {"data": store.analytics_report()["analytics"][key]}
+
+
+@router.get("/analytics/timeseries")
+def timeseries(range: str = "1D", _: Principal = Depends(get_principal)) -> dict:
+    """Passenger volume aggregated by the requested range (thousands).
+    1H = recent hours, 1D = 24h profile, 1W = 7 days, 1M = 30 days."""
+    rng = range.upper()
+    if settings.db_enabled:
+        if rng in ("1H", "1D"):
+            rows = db.query(
+                "select cast(left(\"time\",2) as int) as h, "
+                "round(sum(total_passengers)/1000.0)::int as p "
+                "from passenger_flow group by 1 order by 1"
+            )
+            data = [{"label": f"{r['h']:02d}:00", "passengers": r["p"]} for r in rows]
+            if rng == "1H":
+                data = data[-6:]
+        else:
+            days = 7 if rng == "1W" else 30
+            rows = db.query(
+                "select date, round(sum(total_passengers)/1000.0)::int as p "
+                "from passenger_flow group by date order by date desc limit %s",
+                (days,),
+            )
+            data = [
+                {"label": r["date"].strftime("%d %b"), "passengers": r["p"]}
+                for r in reversed(rows)
+            ]
+        return {"data": data, "meta": {"range": rng, "unit": "thousands"}}
+
+    # CSV dev fallback
+    df = store.passenger_flow()
+    if rng in ("1H", "1D"):
+        g = df.groupby("hour")["total_passengers"].sum().div(1000).round().astype(int)
+        data = [{"label": f"{int(h):02d}:00", "passengers": int(v)} for h, v in g.items()]
+        if rng == "1H":
+            data = data[-6:]
+    else:
+        days = 7 if rng == "1W" else 30
+        g = df.groupby("date")["total_passengers"].sum().div(1000).round().astype(int).tail(days)
+        data = [{"label": str(d)[5:], "passengers": int(v)} for d, v in g.items()]
+    return {"data": data, "meta": {"range": rng, "unit": "thousands"}}
