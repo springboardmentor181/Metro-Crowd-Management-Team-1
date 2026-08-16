@@ -1,0 +1,211 @@
+{
+  "generated_from": "metro_ai_training_data.csv",
+  "model_version": "RF-Critical-production-v2",
+  "crowd_classifier": {
+    "active_model": "random_forest_critical",
+    "algorithm": "RandomForestClassifier",
+    "parameters": {
+      "n_estimators": 800,
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": {
+        "0": 2.5,
+        "1": 1.0,
+        "2": 1.5,
+        "3": 1.0
+      },
+      "n_jobs": -1,
+      "random_state": 42
+    },
+    "validation": {
+      "accuracy": 0.8701,
+      "macro_f1": 0.7733,
+      "macro_recall": 0.756,
+      "recall_per_class": {
+        "Low": 0.4929,
+        "Medium": 0.789,
+        "High": 0.9237,
+        "Critical": 0.8186
+      }
+    },
+    "final_test": {
+      "accuracy": 0.871,
+      "macro_f1": 0.7788,
+      "macro_recall": 0.752,
+      "recall_per_class": {
+        "Low": 0.4848,
+        "Medium": 0.7743,
+        "High": 0.9282,
+        "Critical": 0.8208
+      }
+    },
+    "previous_best_reference": {
+      "accuracy": 0.8664,
+      "macro_f1": 0.7827,
+      "critical_recall": 0.8342
+    },
+    "confusion_matrix": [
+      [
+        159,
+        167,
+        0,
+        2
+      ],
+      [
+        43,
+        4131,
+        5,
+        1156
+      ],
+      [
+        0,
+        2,
+        19306,
+        1492
+      ],
+      [
+        0,
+        942,
+        1006,
+        8924
+      ]
+    ]
+  },
+  "demand_regressor": {
+    "algorithm": "XGBoost",
+    "mae": 363.34,
+    "mape_pct": 11.64,
+    "r2": 0.9725
+  },
+  "feature_importance": [
+    {
+      "feature": "occupancy",
+      "importance": 0.088
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.08057
+    },
+    {
+      "feature": "passenger_average_ratio",
+      "importance": 0.07733
+    },
+    {
+      "feature": "occupancy_x_peak",
+      "importance": 0.07726
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.06429
+    },
+    {
+      "feature": "hour",
+      "importance": 0.05884
+    },
+    {
+      "feature": "day_of_week_e",
+      "importance": 0.05351
+    },
+    {
+      "feature": "occupancy_train_ratio",
+      "importance": 0.05312
+    },
+    {
+      "feature": "passenger_volume_log",
+      "importance": 0.05252
+    },
+    {
+      "feature": "previous_hour_passengers",
+      "importance": 0.05243
+    },
+    {
+      "feature": "previous_day_average",
+      "importance": 0.04854
+    },
+    {
+      "feature": "station_volume_std",
+      "importance": 0.0485
+    },
+    {
+      "feature": "event_x_peak",
+      "importance": 0.04645
+    },
+    {
+      "feature": "peak_hour",
+      "importance": 0.04417
+    },
+    {
+      "feature": "station_mean_volume",
+      "importance": 0.0431
+    },
+    {
+      "feature": "occupancy_x_frequency",
+      "importance": 0.04145
+    },
+    {
+      "feature": "event_e",
+      "importance": 0.01751
+    },
+    {
+      "feature": "weather_e",
+      "importance": 0.01517
+    },
+    {
+      "feature": "train_frequency",
+      "importance": 0.01256
+    },
+    {
+      "feature": "morning_peak",
+      "importance": 0.00972
+    },
+    {
+      "feature": "evening_peak",
+      "importance": 0.00927
+    },
+    {
+      "feature": "holiday",
+      "importance": 0.00352
+    },
+    {
+      "feature": "holiday_x_peak",
+      "importance": 0.00218
+    },
+    {
+      "feature": "station_observation_count",
+      "importance": 0.0
+    }
+  ],
+  "features": [
+    "hour",
+    "previous_hour_passengers",
+    "previous_day_average",
+    "holiday",
+    "train_frequency",
+    "occupancy",
+    "hour_sin",
+    "hour_cos",
+    "morning_peak",
+    "evening_peak",
+    "peak_hour",
+    "passenger_average_ratio",
+    "passenger_volume_log",
+    "occupancy_train_ratio",
+    "occupancy_x_frequency",
+    "occupancy_x_peak",
+    "station_mean_volume",
+    "station_volume_std",
+    "station_observation_count",
+    "day_of_week_e",
+    "weather_e",
+    "event_e",
+    "event_x_peak",
+    "holiday_x_peak"
+  ],
+  "rows": {
+    "total": 224010,
+    "training": 186675,
+    "testing": 37335
+  },
+  "split_date": "2024-12-15"
+}
