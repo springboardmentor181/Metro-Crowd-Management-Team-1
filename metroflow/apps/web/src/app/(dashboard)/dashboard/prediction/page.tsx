@@ -221,6 +221,7 @@ export default async function PredictionPage() {
 
                 <thead>
                   <tr className="border-b border-[color:var(--color-hairline)] text-left text-xs text-[color:var(--color-muted)]">
+
                     <th className="py-2 font-medium">
                       Model
                     </th>
@@ -236,18 +237,20 @@ export default async function PredictionPage() {
                     <th className="py-2 font-medium">
                       Critical recall
                     </th>
+
                   </tr>
                 </thead>
 
                 <tbody className="tabular">
 
-                  {/* PRODUCTION MODEL */}
+                  {/* CURRENT PRODUCTION MODEL */}
 
                   <tr className="border-b border-[color:var(--color-hairline)]">
 
                     <td className="py-2.5 font-medium">
 
                       Random Forest
+
                       <span className="ml-2 rounded-full bg-[color:var(--color-crowd-low)]/12 px-2 py-0.5 text-[10px] font-semibold text-[color:var(--color-crowd-low)]">
                         ACTIVE
                       </span>
@@ -272,38 +275,6 @@ export default async function PredictionPage() {
 
                   </tr>
 
-                  {/* PREVIOUS BEST REFERENCE */}
-
-                  <tr>
-
-                    <td className="py-2.5 text-[color:var(--color-ink-2)]">
-                      Previous RF Critical
-                    </td>
-
-                    <td className="py-2.5">
-                      {(
-                        crowd.previous_best_reference.accuracy *
-                        100
-                      ).toFixed(1)}
-                      %
-                    </td>
-
-                    <td className="py-2.5">
-                      {crowd.previous_best_reference.macro_f1.toFixed(
-                        4
-                      )}
-                    </td>
-
-                    <td className="py-2.5">
-                      {(
-                        crowd.previous_best_reference.critical_recall *
-                        100
-                      ).toFixed(1)}
-                      %
-                    </td>
-
-                  </tr>
-
                 </tbody>
 
               </table>
@@ -315,10 +286,20 @@ export default async function PredictionPage() {
                 Random Forest Critical
               </strong>{" "}
               is the active production crowd model. It achieves{" "}
-              <strong>87.10% accuracy</strong>,{" "}
-              <strong>0.7788 Macro-F1</strong> and{" "}
-              <strong>82.08% Critical recall</strong> on the
-              untouched final test set.
+              <strong>
+                {(crowd.final_test.accuracy * 100).toFixed(2)}% accuracy
+              </strong>
+              ,{" "}
+              <strong>
+                {crowd.final_test.macro_f1.toFixed(4)} Macro-F1
+              </strong>{" "}
+              and{" "}
+              <strong>
+                {(
+                  crowd.final_test.recall_per_class.Critical * 100
+                ).toFixed(2)}% Critical recall
+              </strong>{" "}
+              on the untouched final test set.
             </Insight>
 
           </Panel>
