@@ -4,11 +4,6 @@ MetroFlow — Production Model Training
 PRODUCTION CROWD MODEL:
     Random Forest — RF Critical
 
-Previous best reference:
-    Accuracy        : 86.64%
-    Macro-F1        : 0.7827
-    Critical Recall : 83.42%
-
 The RF Critical model is ALWAYS used for production crowd prediction.
 
 DEMAND MODEL:
@@ -54,6 +49,9 @@ from xgboost import XGBRegressor
 # ============================================================
 
 HERE = Path(__file__).resolve().parent
+
+# HERE = metroflow/services/ai
+# ROOT = metroflow
 ROOT = HERE.parents[1]
 
 DATA = (
@@ -308,9 +306,8 @@ def create_features(df):
     # ========================================================
     # STATION FEATURES
     #
-    # These are placeholders initially.
-    # Actual leakage-safe values are calculated later
-    # using ONLY internal training data.
+    # Placeholder values are replaced later using
+    # leakage-safe statistics calculated from training data.
     # ========================================================
 
     df["station_mean_volume"] = 0.0
@@ -330,7 +327,6 @@ def create_features(df):
     ]:
 
         if col not in df.columns:
-
             df[col] = "Unknown"
 
         df[col] = (
@@ -340,23 +336,16 @@ def create_features(df):
         )
 
     # ========================================================
-    # TEMPORARY EVENT / HOLIDAY ENCODING
+    # TEMPORARY EVENT ENCODING
     #
-    # These are created before the interaction features.
-    # Final LabelEncoder mappings are created later.
+    # Used only to create event_x_peak.
+    # Final event_e encoding is created later using
+    # a LabelEncoder fitted ONLY on internal training data.
     # ========================================================
 
-    # We intentionally use categorical codes here only
-    # for the interaction features.
-    #
-    # The final event_e/day_of_week_e/weather_e columns
-    # are replaced later by leakage-safe LabelEncoders.
-
-    event_temp = (
-        pd.Categorical(
-            df["event"]
-        ).codes
-    )
+    event_temp = pd.Categorical(
+        df["event"]
+    ).codes
 
     df["event_x_peak"] = (
         event_temp
@@ -419,6 +408,47 @@ def add_station_statistics(
 
 
 # ============================================================
+# FILE SIZE HELPER
+# ============================================================
+
+def print_file_size(path):
+
+    if not path.exists():
+        print(
+            f"{path.name:<25}: FILE NOT FOUND"
+        )
+        return
+
+    size_bytes = path.stat().st_size
+
+    size_mb = (
+        size_bytes
+        /
+        (1024 * 1024)
+    )
+
+    size_gb = (
+        size_mb
+        /
+        1024
+    )
+
+    if size_gb >= 1:
+
+        print(
+            f"{path.name:<25}: "
+            f"{size_gb:.2f} GB"
+        )
+
+    else:
+
+        print(
+            f"{path.name:<25}: "
+            f"{size_mb:.2f} MB"
+        )
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -434,6 +464,12 @@ def main():
 
     print("\nLoading dataset:")
     print(DATA)
+
+    if not DATA.exists():
+
+        raise FileNotFoundError(
+            f"\nDataset not found:\n{DATA}"
+        )
 
     df = pd.read_csv(DATA)
 
@@ -477,8 +513,10 @@ def main():
         )
 
     print("\nTarget distribution:")
+
     print(
-        df[target].value_counts()
+        df[target]
+        .value_counts()
     )
 
     # ========================================================
@@ -502,6 +540,16 @@ def main():
     test = df[
         df["date"] >= SPLIT_DATE
     ].copy()
+
+    if len(train_all) == 0:
+        raise ValueError(
+            "Training set is empty."
+        )
+
+    if len(test) == 0:
+        raise ValueError(
+            "Final test set is empty."
+        )
 
     # 80/20 temporal validation
     validation_date = train_all[
@@ -600,20 +648,31 @@ def main():
 
     encoders = {}
 
-    for col in [
+    categorical_columns = [
         "day_of_week",
         "weather",
         "event",
-    ]:
+    ]
+
+    for col in categorical_columns:
 
         le = LabelEncoder()
 
-        # Fit only on internal training data
+        # IMPORTANT:
+        # Fit ONLY on internal training data.
         le.fit(
             train[col].astype(str)
         )
 
         encoders[col] = le
+
+        mapping = {
+            value: index
+            for index, value
+            in enumerate(
+                le.classes_
+            )
+        }
 
         for part in [
             train,
@@ -621,14 +680,6 @@ def main():
             train_all,
             test,
         ]:
-
-            mapping = {
-                value: index
-                for index, value
-                in enumerate(
-                    le.classes_
-                )
-            }
 
             part[col + "_e"] = (
                 part[col]
@@ -638,10 +689,20 @@ def main():
                 .astype(int)
             )
 
+        print(
+            f"\n{col} encoding:"
+        )
+
+        for value, index in mapping.items():
+
+            print(
+                f"  {value} -> {index}"
+            )
+
     # ========================================================
-    # 7. RE-CREATE EVENT X PEAK
+    # 7. RE-CREATE INTERACTION FEATURES
     #
-    # Use the final training-fitted event encoding.
+    # Use final training-fitted event encoding.
     # ========================================================
 
     for part in [
@@ -758,14 +819,14 @@ def main():
     print("TRAINING RF CRITICAL")
     print("-" * 78)
 
-    # LabelEncoder gives:
+    # LabelEncoder alphabetical ordering:
     #
     # 0 = Critical
     # 1 = High
     # 2 = Low
     # 3 = Medium
     #
-    # Critical receives the strongest weight.
+    # Critical receives the strongest class weight.
 
     rf_params = {
 
@@ -806,6 +867,10 @@ def main():
 
     rf_valid = RandomForestClassifier(
         **rf_params
+    )
+
+    print(
+        "\nFitting validation model..."
     )
 
     rf_valid.fit(
@@ -968,13 +1033,6 @@ def main():
     print("TRAINING DEMAND MODEL — XGBOOST")
     print("=" * 78)
 
-    y_train_d = (
-        train[
-            "future_passenger_count"
-        ]
-        .values
-    )
-
     y_full_d = (
         train_all[
             "future_passenger_count"
@@ -1018,25 +1076,40 @@ def main():
         random_state=RANDOM_STATE,
     )
 
+    demand_params = {
+
+        "n_estimators": 500,
+
+        "max_depth": 7,
+
+        "learning_rate": 0.05,
+
+        "subsample": 0.90,
+
+        "colsample_bytree": 0.90,
+
+        "min_child_weight": 2,
+
+        "gamma": 0.05,
+
+        "reg_alpha": 0.05,
+
+        "reg_lambda": 1.0,
+    }
+
     print(
         "\nDemand parameters:"
     )
 
     print(
         json.dumps(
-            {
-                "n_estimators": 500,
-                "max_depth": 7,
-                "learning_rate": 0.05,
-                "subsample": 0.90,
-                "colsample_bytree": 0.90,
-                "min_child_weight": 2,
-                "gamma": 0.05,
-                "reg_alpha": 0.05,
-                "reg_lambda": 1.0,
-            },
+            demand_params,
             indent=2,
         )
+    )
+
+    print(
+        "\nFitting demand model..."
     )
 
     demand_model.fit(
@@ -1102,50 +1175,118 @@ def main():
     )
 
     # ========================================================
-    # 19. SAVE PRODUCTION MODELS
+    # 19. SAVE PRODUCTION MODELS — COMPRESSED
     # ========================================================
 
     print("\n" + "=" * 78)
-    print("SAVING PRODUCTION MODELS")
+    print("SAVING COMPRESSED PRODUCTION MODELS")
     print("=" * 78)
 
+    # --------------------------------------------------------
     # Crowd model
+    # --------------------------------------------------------
+
+    crowd_path = (
+        ART / "crowd_model.joblib"
+    )
+
+    print(
+        "\nCompressing crowd model..."
+    )
+
+    print(
+        "Please wait — Random Forest is the largest file."
+    )
+
     joblib.dump(
         rf_final,
-        ART / "crowd_model.joblib",
+        crowd_path,
+        compress=9,
     )
 
+    # --------------------------------------------------------
     # Demand model
+    # --------------------------------------------------------
+
+    demand_path = (
+        ART / "demand_model.joblib"
+    )
+
+    print(
+        "\nCompressing demand model..."
+    )
+
     joblib.dump(
         demand_model,
-        ART / "demand_model.joblib",
+        demand_path,
+        compress=9,
     )
 
+    # --------------------------------------------------------
     # Encoders + exact feature order
+    # --------------------------------------------------------
+
+    encoders_path = (
+        ART / "encoders.joblib"
+    )
+
+    print(
+        "\nCompressing encoders..."
+    )
+
     joblib.dump(
         {
             "encoders": encoders,
             "label": y_encoder,
             "features": FEATURES,
         },
-        ART / "encoders.joblib",
+        encoders_path,
+        compress=9,
+    )
+
+    # --------------------------------------------------------
+    # Print saved files
+    # --------------------------------------------------------
+
+    print(
+        "\nSaved compressed models:"
     )
 
     print(
-        "\nSaved:"
+        crowd_path
     )
 
     print(
-        ART / "crowd_model.joblib"
+        demand_path
     )
 
     print(
-        ART / "demand_model.joblib"
+        encoders_path
     )
 
+    # --------------------------------------------------------
+    # Print actual file sizes
+    # --------------------------------------------------------
+
     print(
-        ART / "encoders.joblib"
+        "\nCompressed file sizes:"
     )
+
+    print("-" * 50)
+
+    print_file_size(
+        crowd_path
+    )
+
+    print_file_size(
+        demand_path
+    )
+
+    print_file_size(
+        encoders_path
+    )
+
+    print("-" * 50)
 
     # ========================================================
     # 20. METRICS JSON
@@ -1175,18 +1316,6 @@ def main():
 
             "final_test":
                 final_metrics,
-
-            "previous_best_reference": {
-
-                "accuracy":
-                    0.8664,
-
-                "macro_f1":
-                    0.7827,
-
-                "critical_recall":
-                    0.8342,
-            },
 
             "confusion_matrix":
                 cm.tolist(),
@@ -1238,6 +1367,10 @@ def main():
             SPLIT_DATE,
     }
 
+    # ========================================================
+    # 21. SAVE METRICS
+    # ========================================================
+
     metrics_file = (
         ART / "model_metrics.json"
     )
@@ -1246,11 +1379,20 @@ def main():
         json.dumps(
             metrics,
             indent=2,
-        )
+        ),
+        encoding="utf-8",
+    )
+
+    print(
+        "\nMetrics saved to:"
+    )
+
+    print(
+        metrics_file
     )
 
     # ========================================================
-    # 21. FRONTEND METRICS
+    # 22. FRONTEND METRICS
     # ========================================================
 
     WEB_OUT.parent.mkdir(
@@ -1262,11 +1404,20 @@ def main():
         json.dumps(
             metrics,
             indent=2,
-        )
+        ),
+        encoding="utf-8",
+    )
+
+    print(
+        "\nFrontend metrics saved to:"
+    )
+
+    print(
+        WEB_OUT
     )
 
     # ========================================================
-    # 22. FINAL SUMMARY
+    # 23. FINAL SUMMARY
     # ========================================================
 
     print("\n" + "=" * 78)
@@ -1319,7 +1470,7 @@ def main():
     )
 
     print(
-        ART / "crowd_model.joblib"
+        crowd_path
     )
 
     print(
@@ -1327,7 +1478,7 @@ def main():
     )
 
     print(
-        ART / "demand_model.joblib"
+        demand_path
     )
 
     print(
@@ -1335,7 +1486,7 @@ def main():
     )
 
     print(
-        ART / "encoders.joblib"
+        encoders_path
     )
 
     print(
@@ -1343,7 +1494,7 @@ def main():
     )
 
     print(
-        ART / "model_metrics.json"
+        metrics_file
     )
 
     print(
