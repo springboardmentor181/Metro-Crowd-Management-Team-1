@@ -40,11 +40,6 @@
         "Critical": 0.8208
       }
     },
-    "previous_best_reference": {
-      "accuracy": 0.8664,
-      "macro_f1": 0.7827,
-      "critical_recall": 0.8342
-    },
     "confusion_matrix": [
       [
         159,
