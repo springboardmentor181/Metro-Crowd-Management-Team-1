@@ -1,0 +1,2071 @@
+date,city,weather,temperature,rainfall,public_holiday,festival,major_event,impact_percentage
+2024-10-01,Agra,Cloudy,32.3,0.0,No,None,None,0.0
+2024-10-01,Ahmedabad,Clear,29.3,0.0,No,None,None,0.0
+2024-10-01,Bahadurgarh,Clear,22.3,0.0,No,None,None,0.0
+2024-10-01,Bengaluru,Clear,25.8,0.0,No,None,None,0.0
+2024-10-01,Bhopal,Clear,33.7,0.0,No,None,None,0.0
+2024-10-01,Chennai,Clear,29.6,0.0,No,None,None,0.0
+2024-10-01,Delhi,Cloudy,25.0,0.0,No,None,None,0.0
+2024-10-01,Faridabad,Clear,33.1,0.0,No,None,None,0.0
+2024-10-01,Ghaziabad,Clear,30.0,0.0,No,None,None,0.0
+2024-10-01,Greater Noida,Cloudy,32.8,0.0,No,None,None,0.0
+2024-10-01,Gurugram,Clear,30.7,0.0,No,None,None,0.0
+2024-10-01,Howrah,Clear,32.1,0.0,No,None,None,0.0
+2024-10-01,Hyderabad,Clear,29.9,0.0,No,None,None,0.0
+2024-10-01,Indore,Clear,30.7,0.0,No,None,None,0.0
+2024-10-01,Jaipur,Cloudy,35.7,0.0,No,None,Political Rally,10.8
+2024-10-01,Kanpur,Haze,26.0,0.0,No,None,None,0.0
+2024-10-01,Kochi,Clear,32.1,0.0,No,None,None,0.0
+2024-10-01,Kolkata,Cloudy,33.9,0.0,No,None,None,0.0
+2024-10-01,Lucknow,Cloudy,33.0,0.0,No,None,None,0.0
+2024-10-01,Mumbai,Rain,29.9,18.6,No,None,None,-2.3
+2024-10-01,Nagpur,Haze,35.4,0.0,No,None,None,0.0
+2024-10-01,Noida,Cloudy,28.1,0.0,No,None,None,0.0
+2024-10-01,Pune,Cloudy,27.7,0.0,No,None,Concert,10.1
+2024-10-02,Agra,Rain,28.8,21.6,Yes,None,None,-18.5
+2024-10-02,Ahmedabad,Clear,29.9,0.0,Yes,None,None,-20.0
+2024-10-02,Bahadurgarh,Clear,34.8,0.0,Yes,None,None,-17.0
+2024-10-02,Bengaluru,Clear,32.2,0.0,Yes,None,Tech Conference,-5.3
+2024-10-02,Bhopal,Cloudy,29.7,0.0,Yes,None,None,-16.8
+2024-10-02,Chennai,Clear,31.1,0.0,Yes,None,None,-18.7
+2024-10-02,Delhi,Clear,30.9,0.0,Yes,None,None,-14.6
+2024-10-02,Faridabad,Clear,31.0,0.0,Yes,None,None,-15.7
+2024-10-02,Ghaziabad,Clear,29.3,0.0,Yes,None,None,-16.6
+2024-10-02,Greater Noida,Cloudy,33.1,0.0,Yes,None,None,-15.1
+2024-10-02,Gurugram,Clear,30.0,0.0,Yes,None,Marathon,-10.9
+2024-10-02,Howrah,Cloudy,25.5,0.0,Yes,None,None,-18.0
+2024-10-02,Hyderabad,Haze,29.4,0.0,Yes,None,Political Rally,-6.7
+2024-10-02,Indore,Cloudy,25.1,0.0,Yes,None,None,-13.5
+2024-10-02,Jaipur,Haze,29.9,0.0,Yes,None,None,-12.5
+2024-10-02,Kanpur,Clear,30.2,0.0,Yes,None,None,-21.9
+2024-10-02,Kochi,Clear,33.1,0.0,Yes,None,None,-19.5
+2024-10-02,Kolkata,Clear,33.1,0.0,Yes,None,None,-17.9
+2024-10-02,Lucknow,Clear,29.5,0.0,Yes,None,None,-15.6
+2024-10-02,Mumbai,Rain,30.5,15.7,Yes,None,None,-24.9
+2024-10-02,Nagpur,Cloudy,27.3,0.0,Yes,None,Marathon,-6.5
+2024-10-02,Noida,Rain,31.6,20.2,Yes,None,None,-25.1
+2024-10-02,Pune,Cloudy,26.0,0.0,Yes,None,None,-14.5
+2024-10-03,Agra,Rain,30.4,8.8,No,Navratri Begins,None,6.2
+2024-10-03,Ahmedabad,Clear,32.9,0.0,No,Navratri Begins,Political Rally,29.8
+2024-10-03,Bahadurgarh,Clear,31.2,0.0,No,Navratri Begins,None,13.8
+2024-10-03,Bengaluru,Haze,32.7,0.0,No,Navratri Begins,None,10.8
+2024-10-03,Bhopal,Cloudy,28.0,0.0,No,Navratri Begins,None,8.8
+2024-10-03,Chennai,Cloudy,33.0,0.0,No,Navratri Begins,Exam Season,13.5
+2024-10-03,Delhi,Clear,29.7,0.0,No,Navratri Begins,None,9.2
+2024-10-03,Faridabad,Clear,29.1,0.0,No,Navratri Begins,None,16.7
+2024-10-03,Ghaziabad,Clear,31.3,0.0,No,Navratri Begins,None,16.3
+2024-10-03,Greater Noida,Cloudy,30.1,0.0,No,Navratri Begins,None,17.1
+2024-10-03,Gurugram,Cloudy,29.3,0.0,No,Navratri Begins,Concert,29.6
+2024-10-03,Howrah,Clear,29.7,0.0,No,Navratri Begins,None,16.4
+2024-10-03,Hyderabad,Rain,27.5,15.5,No,Navratri Begins,None,12.2
+2024-10-03,Indore,Clear,28.9,0.0,No,Navratri Begins,None,20.0
+2024-10-03,Jaipur,Cloudy,31.8,0.0,No,Navratri Begins,None,10.4
+2024-10-03,Kanpur,Clear,30.8,0.0,No,Navratri Begins,None,13.8
+2024-10-03,Kochi,Cloudy,28.1,0.0,No,Navratri Begins,None,8.6
+2024-10-03,Kolkata,Cloudy,30.5,0.0,No,Navratri Begins,None,15.0
+2024-10-03,Lucknow,Clear,31.5,0.0,No,Navratri Begins,None,15.9
+2024-10-03,Mumbai,Heavy Rain,33.5,66.7,No,Navratri Begins,None,4.5
+2024-10-03,Nagpur,Cloudy,30.4,0.0,No,Navratri Begins,None,15.3
+2024-10-03,Noida,Rain,25.9,8.3,No,Navratri Begins,None,8.8
+2024-10-03,Pune,Clear,27.7,0.0,No,Navratri Begins,None,9.1
+2024-10-04,Agra,Cloudy,33.9,0.0,No,None,None,0.0
+2024-10-04,Ahmedabad,Clear,24.7,0.0,No,None,None,0.0
+2024-10-04,Bahadurgarh,Haze,26.4,0.0,No,None,None,0.0
+2024-10-04,Bengaluru,Clear,31.8,0.0,No,None,None,0.0
+2024-10-04,Bhopal,Clear,32.4,0.0,No,None,None,0.0
+2024-10-04,Chennai,Cloudy,29.1,0.0,No,None,None,0.0
+2024-10-04,Delhi,Haze,28.4,0.0,No,None,None,0.0
+2024-10-04,Faridabad,Clear,31.5,0.0,No,None,None,0.0
+2024-10-04,Ghaziabad,Clear,24.2,0.0,No,None,None,0.0
+2024-10-04,Greater Noida,Clear,25.3,0.0,No,None,None,0.0
+2024-10-04,Gurugram,Haze,29.3,0.0,No,None,None,0.0
+2024-10-04,Howrah,Rain,34.9,3.2,No,None,None,-2.6
+2024-10-04,Hyderabad,Rain,31.8,10.6,No,None,None,-5.8
+2024-10-04,Indore,Haze,29.0,0.0,No,None,None,0.0
+2024-10-04,Jaipur,Clear,34.6,0.0,No,None,None,0.0
+2024-10-04,Kanpur,Rain,26.2,9.8,No,None,None,-5.3
+2024-10-04,Kochi,Clear,31.3,0.0,No,None,None,0.0
+2024-10-04,Kolkata,Clear,30.4,0.0,No,None,None,0.0
+2024-10-04,Lucknow,Clear,27.6,0.0,No,None,None,0.0
+2024-10-04,Mumbai,Clear,28.5,0.0,No,None,None,0.0
+2024-10-04,Nagpur,Cloudy,29.7,0.0,No,None,None,0.0
+2024-10-04,Noida,Clear,32.5,0.0,No,None,None,0.0
+2024-10-04,Pune,Clear,28.7,0.0,No,None,None,0.0
+2024-10-05,Agra,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-05,Ahmedabad,Clear,30.4,0.0,No,None,None,0.0
+2024-10-05,Bahadurgarh,Haze,27.6,0.0,No,None,None,0.0
+2024-10-05,Bengaluru,Clear,30.8,0.0,No,None,Exam Season,7.1
+2024-10-05,Bhopal,Haze,35.5,0.0,No,None,None,0.0
+2024-10-05,Chennai,Cloudy,30.1,0.0,No,None,None,0.0
+2024-10-05,Delhi,Clear,28.9,0.0,No,None,None,0.0
+2024-10-05,Faridabad,Clear,31.9,0.0,No,None,None,0.0
+2024-10-05,Ghaziabad,Clear,32.0,0.0,No,None,None,0.0
+2024-10-05,Greater Noida,Rain,28.7,3.2,No,None,None,-5.8
+2024-10-05,Gurugram,Cloudy,27.9,0.0,No,None,None,0.0
+2024-10-05,Howrah,Rain,30.0,16.8,No,None,None,-3.9
+2024-10-05,Hyderabad,Haze,27.5,0.0,No,None,None,0.0
+2024-10-05,Indore,Clear,24.4,0.0,No,None,None,0.0
+2024-10-05,Jaipur,Cloudy,25.2,0.0,No,None,None,0.0
+2024-10-05,Kanpur,Clear,26.9,0.0,No,None,None,0.0
+2024-10-05,Kochi,Cloudy,27.7,0.0,No,None,None,0.0
+2024-10-05,Kolkata,Heavy Rain,30.6,39.7,No,None,None,-12.4
+2024-10-05,Lucknow,Clear,28.1,0.0,No,None,None,0.0
+2024-10-05,Mumbai,Cloudy,29.9,0.0,No,None,None,0.0
+2024-10-05,Nagpur,Clear,32.3,0.0,No,None,None,0.0
+2024-10-05,Noida,Haze,31.7,0.0,No,None,Cricket Match,15.1
+2024-10-05,Pune,Clear,27.8,0.0,No,None,None,0.0
+2024-10-06,Agra,Clear,28.9,0.0,No,None,None,0.0
+2024-10-06,Ahmedabad,Cloudy,29.8,0.0,No,None,None,0.0
+2024-10-06,Bahadurgarh,Clear,31.5,0.0,No,None,None,0.0
+2024-10-06,Bengaluru,Haze,26.7,0.0,No,None,None,0.0
+2024-10-06,Bhopal,Clear,29.1,0.0,No,None,None,0.0
+2024-10-06,Chennai,Clear,25.9,0.0,No,None,None,0.0
+2024-10-06,Delhi,Clear,30.5,0.0,No,None,None,0.0
+2024-10-06,Faridabad,Clear,31.9,0.0,No,None,None,0.0
+2024-10-06,Ghaziabad,Haze,29.3,0.0,No,None,None,0.0
+2024-10-06,Greater Noida,Clear,34.5,0.0,No,None,None,0.0
+2024-10-06,Gurugram,Clear,27.8,0.0,No,None,None,0.0
+2024-10-06,Howrah,Cloudy,31.5,0.0,No,None,None,0.0
+2024-10-06,Hyderabad,Clear,28.9,0.0,No,None,None,0.0
+2024-10-06,Indore,Clear,28.7,0.0,No,None,None,0.0
+2024-10-06,Jaipur,Clear,29.7,0.0,No,None,None,0.0
+2024-10-06,Kanpur,Cloudy,30.3,0.0,No,None,None,0.0
+2024-10-06,Kochi,Heavy Rain,33.1,47.1,No,None,None,-10.0
+2024-10-06,Kolkata,Heavy Rain,31.6,49.4,No,None,None,-15.8
+2024-10-06,Lucknow,Clear,28.2,0.0,No,None,None,0.0
+2024-10-06,Mumbai,Rain,32.9,8.8,No,None,None,-4.2
+2024-10-06,Nagpur,Clear,34.5,0.0,No,None,None,0.0
+2024-10-06,Noida,Clear,29.7,0.0,No,None,None,0.0
+2024-10-06,Pune,Clear,23.5,0.0,No,None,None,0.0
+2024-10-07,Agra,Cloudy,28.6,0.0,No,None,None,0.0
+2024-10-07,Ahmedabad,Cloudy,32.1,0.0,No,None,None,0.0
+2024-10-07,Bahadurgarh,Cloudy,31.4,0.0,No,None,None,0.0
+2024-10-07,Bengaluru,Cloudy,29.6,0.0,No,None,None,0.0
+2024-10-07,Bhopal,Cloudy,31.5,0.0,No,None,None,0.0
+2024-10-07,Chennai,Cloudy,32.2,0.0,No,None,None,0.0
+2024-10-07,Delhi,Clear,33.0,0.0,No,None,None,0.0
+2024-10-07,Faridabad,Cloudy,32.3,0.0,No,None,None,0.0
+2024-10-07,Ghaziabad,Clear,33.8,0.0,No,None,None,0.0
+2024-10-07,Greater Noida,Clear,30.9,0.0,No,None,None,0.0
+2024-10-07,Gurugram,Clear,32.3,0.0,No,None,None,0.0
+2024-10-07,Howrah,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-07,Hyderabad,Haze,27.5,0.0,No,None,None,0.0
+2024-10-07,Indore,Haze,33.3,0.0,No,None,None,0.0
+2024-10-07,Jaipur,Haze,30.5,0.0,No,None,None,0.0
+2024-10-07,Kanpur,Clear,32.0,0.0,No,None,None,0.0
+2024-10-07,Kochi,Heavy Rain,31.3,61.2,No,None,None,-14.0
+2024-10-07,Kolkata,Heavy Rain,34.6,60.4,No,None,None,-13.0
+2024-10-07,Lucknow,Cloudy,29.5,0.0,No,None,None,0.0
+2024-10-07,Mumbai,Heavy Rain,35.5,32.9,No,None,None,-15.4
+2024-10-07,Nagpur,Clear,28.5,0.0,No,None,None,0.0
+2024-10-07,Noida,Clear,25.5,0.0,No,None,None,0.0
+2024-10-07,Pune,Clear,33.7,0.0,No,None,None,0.0
+2024-10-08,Agra,Cloudy,31.7,0.0,No,None,None,0.0
+2024-10-08,Ahmedabad,Haze,28.8,0.0,No,None,None,0.0
+2024-10-08,Bahadurgarh,Clear,29.1,0.0,No,None,None,0.0
+2024-10-08,Bengaluru,Clear,31.7,0.0,No,None,None,0.0
+2024-10-08,Bhopal,Cloudy,27.6,0.0,No,None,None,0.0
+2024-10-08,Chennai,Clear,33.9,0.0,No,None,Tech Conference,6.0
+2024-10-08,Delhi,Haze,30.6,0.0,No,None,None,0.0
+2024-10-08,Faridabad,Clear,30.4,0.0,No,None,None,0.0
+2024-10-08,Ghaziabad,Rain,29.6,4.9,No,None,None,-3.2
+2024-10-08,Greater Noida,Clear,27.8,0.0,No,None,None,0.0
+2024-10-08,Gurugram,Haze,25.9,0.0,No,None,None,0.0
+2024-10-08,Howrah,Cloudy,32.5,0.0,No,None,None,0.0
+2024-10-08,Hyderabad,Cloudy,30.6,0.0,No,None,None,0.0
+2024-10-08,Indore,Clear,30.2,0.0,No,None,None,0.0
+2024-10-08,Jaipur,Clear,31.0,0.0,No,None,None,0.0
+2024-10-08,Kanpur,Clear,29.2,0.0,No,None,None,0.0
+2024-10-08,Kochi,Cloudy,33.0,0.0,No,None,None,0.0
+2024-10-08,Kolkata,Clear,30.9,0.0,No,None,None,0.0
+2024-10-08,Lucknow,Clear,28.8,0.0,No,None,None,0.0
+2024-10-08,Mumbai,Rain,30.2,16.1,No,None,Exam Season,-0.5
+2024-10-08,Nagpur,Clear,24.8,0.0,No,None,None,0.0
+2024-10-08,Noida,Clear,29.7,0.0,No,None,None,0.0
+2024-10-08,Pune,Clear,27.9,0.0,No,None,None,0.0
+2024-10-09,Agra,Haze,24.8,0.0,No,None,None,0.0
+2024-10-09,Ahmedabad,Cloudy,30.0,0.0,No,None,None,0.0
+2024-10-09,Bahadurgarh,Cloudy,29.0,0.0,No,None,Exam Season,5.5
+2024-10-09,Bengaluru,Clear,31.1,0.0,No,None,Marathon,8.3
+2024-10-09,Bhopal,Clear,32.7,0.0,No,None,None,0.0
+2024-10-09,Chennai,Clear,31.9,0.0,No,None,None,0.0
+2024-10-09,Delhi,Haze,30.1,0.0,No,None,None,0.0
+2024-10-09,Faridabad,Clear,33.3,0.0,No,None,None,0.0
+2024-10-09,Ghaziabad,Clear,34.2,0.0,No,None,None,0.0
+2024-10-09,Greater Noida,Clear,32.8,0.0,No,None,None,0.0
+2024-10-09,Gurugram,Clear,27.6,0.0,No,None,None,0.0
+2024-10-09,Howrah,Rain,31.5,14.9,No,None,Cricket Match,10.6
+2024-10-09,Hyderabad,Clear,34.7,0.0,No,None,None,0.0
+2024-10-09,Indore,Cloudy,30.6,0.0,No,None,Trade Fair,8.5
+2024-10-09,Jaipur,Clear,30.5,0.0,No,None,None,0.0
+2024-10-09,Kanpur,Clear,29.8,0.0,No,None,None,0.0
+2024-10-09,Kochi,Cloudy,32.0,0.0,No,None,None,0.0
+2024-10-09,Kolkata,Cloudy,29.0,0.0,No,None,Marathon,6.3
+2024-10-09,Lucknow,Rain,33.2,20.9,No,None,Trade Fair,2.1
+2024-10-09,Mumbai,Cloudy,30.8,0.0,No,None,None,0.0
+2024-10-09,Nagpur,Clear,29.8,0.0,No,None,None,0.0
+2024-10-09,Noida,Clear,31.2,0.0,No,None,None,0.0
+2024-10-09,Pune,Clear,31.5,0.0,No,None,None,0.0
+2024-10-10,Agra,Clear,30.2,0.0,No,None,None,0.0
+2024-10-10,Ahmedabad,Cloudy,32.5,0.0,No,None,Trade Fair,10.0
+2024-10-10,Bahadurgarh,Cloudy,31.6,0.0,No,None,None,0.0
+2024-10-10,Bengaluru,Cloudy,26.9,0.0,No,None,None,0.0
+2024-10-10,Bhopal,Cloudy,34.4,0.0,No,None,None,0.0
+2024-10-10,Chennai,Cloudy,32.2,0.0,No,None,None,0.0
+2024-10-10,Delhi,Cloudy,31.8,0.0,No,None,Marathon,7.7
+2024-10-10,Faridabad,Clear,27.9,0.0,No,None,None,0.0
+2024-10-10,Ghaziabad,Clear,33.1,0.0,No,None,None,0.0
+2024-10-10,Greater Noida,Clear,30.7,0.0,No,None,None,0.0
+2024-10-10,Gurugram,Clear,25.2,0.0,No,None,None,0.0
+2024-10-10,Howrah,Clear,33.6,0.0,No,None,None,0.0
+2024-10-10,Hyderabad,Cloudy,27.6,0.0,No,None,None,0.0
+2024-10-10,Indore,Clear,32.5,0.0,No,None,None,0.0
+2024-10-10,Jaipur,Clear,29.8,0.0,No,None,None,0.0
+2024-10-10,Kanpur,Clear,30.5,0.0,No,None,None,0.0
+2024-10-10,Kochi,Clear,33.9,0.0,No,None,None,0.0
+2024-10-10,Kolkata,Cloudy,28.8,0.0,No,None,None,0.0
+2024-10-10,Lucknow,Clear,27.5,0.0,No,None,None,0.0
+2024-10-10,Mumbai,Heavy Rain,30.5,29.6,No,None,None,-12.6
+2024-10-10,Nagpur,Haze,24.8,0.0,No,None,Trade Fair,9.1
+2024-10-10,Noida,Cloudy,28.5,0.0,No,None,None,0.0
+2024-10-10,Pune,Cloudy,28.0,0.0,No,None,None,0.0
+2024-10-11,Agra,Cloudy,25.4,0.0,No,Maha Ashtami,None,15.0
+2024-10-11,Ahmedabad,Clear,29.0,0.0,No,Maha Ashtami,None,13.7
+2024-10-11,Bahadurgarh,Clear,28.1,0.0,No,Maha Ashtami,None,16.9
+2024-10-11,Bengaluru,Cloudy,27.3,0.0,No,Maha Ashtami,None,17.6
+2024-10-11,Bhopal,Haze,32.8,0.0,No,Maha Ashtami,None,9.8
+2024-10-11,Chennai,Rain,29.6,8.6,No,Maha Ashtami,None,13.9
+2024-10-11,Delhi,Cloudy,28.0,0.0,No,Maha Ashtami,Trade Fair,19.6
+2024-10-11,Faridabad,Clear,27.5,0.0,No,Maha Ashtami,None,12.6
+2024-10-11,Ghaziabad,Cloudy,30.0,0.0,No,Maha Ashtami,None,19.8
+2024-10-11,Greater Noida,Clear,33.0,0.0,No,Maha Ashtami,None,8.4
+2024-10-11,Gurugram,Clear,29.5,0.0,No,Maha Ashtami,None,18.4
+2024-10-11,Howrah,Clear,29.5,0.0,No,Maha Ashtami,None,14.4
+2024-10-11,Hyderabad,Rain,28.8,20.7,No,Maha Ashtami,Marathon,17.3
+2024-10-11,Indore,Clear,33.1,0.0,No,Maha Ashtami,None,10.0
+2024-10-11,Jaipur,Clear,30.7,0.0,No,Maha Ashtami,None,19.7
+2024-10-11,Kanpur,Clear,27.4,0.0,No,Maha Ashtami,None,11.0
+2024-10-11,Kochi,Cloudy,31.4,0.0,No,Maha Ashtami,None,18.3
+2024-10-11,Kolkata,Clear,28.9,0.0,No,Maha Ashtami,None,14.0
+2024-10-11,Lucknow,Clear,28.5,0.0,No,Maha Ashtami,Tech Conference,14.9
+2024-10-11,Mumbai,Rain,30.6,20.6,No,Maha Ashtami,None,8.6
+2024-10-11,Nagpur,Clear,28.1,0.0,No,Maha Ashtami,None,16.9
+2024-10-11,Noida,Cloudy,28.9,0.0,No,Maha Ashtami,None,9.6
+2024-10-11,Pune,Clear,28.0,0.0,No,Maha Ashtami,None,18.7
+2024-10-12,Agra,Cloudy,30.0,0.0,Yes,Dussehra,None,-0.3
+2024-10-12,Ahmedabad,Cloudy,32.6,0.0,Yes,Dussehra,Film Premiere,4.7
+2024-10-12,Bahadurgarh,Rain,30.9,18.3,Yes,Dussehra,Marathon,-3.1
+2024-10-12,Bengaluru,Clear,28.4,0.0,Yes,Dussehra,None,1.8
+2024-10-12,Bhopal,Clear,25.3,0.0,Yes,Dussehra,None,0.1
+2024-10-12,Chennai,Clear,30.4,0.0,Yes,Dussehra,Film Premiere,11.6
+2024-10-12,Delhi,Clear,27.4,0.0,Yes,Dussehra,None,-3.3
+2024-10-12,Faridabad,Cloudy,33.5,0.0,Yes,Dussehra,None,-2.9
+2024-10-12,Ghaziabad,Haze,30.4,0.0,Yes,Dussehra,None,0.5
+2024-10-12,Greater Noida,Clear,32.1,0.0,Yes,Dussehra,None,-6.3
+2024-10-12,Gurugram,Clear,33.0,0.0,Yes,Dussehra,Concert,13.9
+2024-10-12,Howrah,Rain,23.8,5.7,Yes,Dussehra,None,-3.5
+2024-10-12,Hyderabad,Cloudy,28.8,0.0,Yes,Dussehra,None,0.2
+2024-10-12,Indore,Clear,29.2,0.0,Yes,Dussehra,None,-5.0
+2024-10-12,Jaipur,Clear,32.6,0.0,Yes,Dussehra,None,2.6
+2024-10-12,Kanpur,Haze,33.2,0.0,Yes,Dussehra,None,2.1
+2024-10-12,Kochi,Rain,29.5,14.4,Yes,Dussehra,None,-14.1
+2024-10-12,Kolkata,Clear,27.8,0.0,Yes,Dussehra,None,0.5
+2024-10-12,Lucknow,Clear,34.3,0.0,Yes,Dussehra,None,-2.3
+2024-10-12,Mumbai,Cloudy,30.0,0.0,Yes,Dussehra,None,-1.6
+2024-10-12,Nagpur,Clear,35.1,0.0,Yes,Dussehra,None,-8.2
+2024-10-12,Noida,Clear,31.6,0.0,Yes,Dussehra,None,-2.3
+2024-10-12,Pune,Clear,31.5,0.0,Yes,Dussehra,None,-9.1
+2024-10-13,Agra,Clear,28.8,0.0,No,None,None,0.0
+2024-10-13,Ahmedabad,Clear,28.6,0.0,No,None,None,0.0
+2024-10-13,Bahadurgarh,Haze,31.9,0.0,No,None,None,0.0
+2024-10-13,Bengaluru,Clear,30.0,0.0,No,None,Marathon,4.1
+2024-10-13,Bhopal,Clear,25.0,0.0,No,None,None,0.0
+2024-10-13,Chennai,Rain,31.3,15.7,No,None,Tech Conference,0.5
+2024-10-13,Delhi,Clear,30.8,0.0,No,None,None,0.0
+2024-10-13,Faridabad,Cloudy,31.9,0.0,No,None,None,0.0
+2024-10-13,Ghaziabad,Haze,32.2,0.0,No,None,None,0.0
+2024-10-13,Greater Noida,Rain,28.3,24.6,No,None,None,-5.0
+2024-10-13,Gurugram,Rain,32.2,7.1,No,None,None,-5.3
+2024-10-13,Howrah,Cloudy,26.4,0.0,No,None,None,0.0
+2024-10-13,Hyderabad,Cloudy,33.4,0.0,No,None,None,0.0
+2024-10-13,Indore,Cloudy,31.1,0.0,No,None,None,0.0
+2024-10-13,Jaipur,Clear,31.9,0.0,No,None,None,0.0
+2024-10-13,Kanpur,Clear,32.4,0.0,No,None,None,0.0
+2024-10-13,Kochi,Clear,32.4,0.0,No,None,None,0.0
+2024-10-13,Kolkata,Heavy Rain,30.4,67.2,No,None,Film Premiere,-4.6
+2024-10-13,Lucknow,Clear,31.4,0.0,No,None,None,0.0
+2024-10-13,Mumbai,Rain,29.8,12.0,No,None,None,-3.8
+2024-10-13,Nagpur,Clear,32.8,0.0,No,None,None,0.0
+2024-10-13,Noida,Cloudy,28.3,0.0,No,None,None,0.0
+2024-10-13,Pune,Clear,30.3,0.0,No,None,None,0.0
+2024-10-14,Agra,Clear,32.7,0.0,No,None,None,0.0
+2024-10-14,Ahmedabad,Haze,30.0,0.0,No,None,None,0.0
+2024-10-14,Bahadurgarh,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-14,Bengaluru,Clear,29.0,0.0,No,None,None,0.0
+2024-10-14,Bhopal,Clear,28.9,0.0,No,None,None,0.0
+2024-10-14,Chennai,Cloudy,29.6,0.0,No,None,None,0.0
+2024-10-14,Delhi,Clear,28.9,0.0,No,None,None,0.0
+2024-10-14,Faridabad,Clear,33.7,0.0,No,None,None,0.0
+2024-10-14,Ghaziabad,Cloudy,29.7,0.0,No,None,None,0.0
+2024-10-14,Greater Noida,Cloudy,28.0,0.0,No,None,Concert,13.3
+2024-10-14,Gurugram,Cloudy,32.8,0.0,No,None,None,0.0
+2024-10-14,Howrah,Clear,32.7,0.0,No,None,None,0.0
+2024-10-14,Hyderabad,Rain,30.4,14.1,No,None,None,-3.3
+2024-10-14,Indore,Clear,27.4,0.0,No,None,None,0.0
+2024-10-14,Jaipur,Cloudy,29.4,0.0,No,None,None,0.0
+2024-10-14,Kanpur,Clear,32.4,0.0,No,None,None,0.0
+2024-10-14,Kochi,Rain,33.2,14.8,No,None,None,-5.7
+2024-10-14,Kolkata,Rain,31.3,16.3,No,None,Film Premiere,5.2
+2024-10-14,Lucknow,Cloudy,26.6,0.0,No,None,None,0.0
+2024-10-14,Mumbai,Clear,29.4,0.0,No,None,None,0.0
+2024-10-14,Nagpur,Rain,28.1,11.2,No,None,None,-4.1
+2024-10-14,Noida,Haze,30.0,0.0,No,None,Film Premiere,5.8
+2024-10-14,Pune,Clear,25.3,0.0,No,None,Trade Fair,8.7
+2024-10-15,Agra,Clear,31.9,0.0,No,None,None,0.0
+2024-10-15,Ahmedabad,Rain,31.1,7.1,No,None,None,-2.1
+2024-10-15,Bahadurgarh,Clear,31.7,0.0,No,None,None,0.0
+2024-10-15,Bengaluru,Clear,26.4,0.0,No,None,None,0.0
+2024-10-15,Bhopal,Clear,29.0,0.0,No,None,None,0.0
+2024-10-15,Chennai,Rain,30.7,24.6,No,None,None,-4.5
+2024-10-15,Delhi,Clear,25.8,0.0,No,None,None,0.0
+2024-10-15,Faridabad,Cloudy,36.2,0.0,No,None,None,0.0
+2024-10-15,Ghaziabad,Clear,27.7,0.0,No,None,None,0.0
+2024-10-15,Greater Noida,Haze,32.5,0.0,No,None,None,0.0
+2024-10-15,Gurugram,Haze,32.4,0.0,No,None,None,0.0
+2024-10-15,Howrah,Cloudy,28.5,0.0,No,None,None,0.0
+2024-10-15,Hyderabad,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-15,Indore,Clear,28.7,0.0,No,None,None,0.0
+2024-10-15,Jaipur,Cloudy,31.4,0.0,No,None,None,0.0
+2024-10-15,Kanpur,Clear,30.6,0.0,No,None,None,0.0
+2024-10-15,Kochi,Rain,34.0,10.7,No,None,None,-4.6
+2024-10-15,Kolkata,Rain,33.7,3.3,No,None,None,-5.7
+2024-10-15,Lucknow,Rain,28.3,18.2,No,None,None,-2.6
+2024-10-15,Mumbai,Cloudy,29.4,0.0,No,None,None,0.0
+2024-10-15,Nagpur,Clear,31.0,0.0,No,None,None,0.0
+2024-10-15,Noida,Rain,32.4,5.6,No,None,None,-3.0
+2024-10-15,Pune,Haze,32.4,0.0,No,None,None,0.0
+2024-10-16,Agra,Clear,30.6,0.0,No,None,None,0.0
+2024-10-16,Ahmedabad,Haze,26.9,0.0,No,None,None,0.0
+2024-10-16,Bahadurgarh,Clear,33.9,0.0,No,None,None,0.0
+2024-10-16,Bengaluru,Haze,28.8,0.0,No,None,None,0.0
+2024-10-16,Bhopal,Cloudy,29.3,0.0,No,None,None,0.0
+2024-10-16,Chennai,Heavy Rain,30.2,28.9,No,None,None,-12.7
+2024-10-16,Delhi,Clear,31.6,0.0,No,None,None,0.0
+2024-10-16,Faridabad,Clear,28.0,0.0,No,None,None,0.0
+2024-10-16,Ghaziabad,Clear,37.6,0.0,No,None,Cricket Match,15.5
+2024-10-16,Greater Noida,Clear,26.9,0.0,No,None,None,0.0
+2024-10-16,Gurugram,Clear,31.3,0.0,No,None,Marathon,6.8
+2024-10-16,Howrah,Clear,31.2,0.0,No,None,None,0.0
+2024-10-16,Hyderabad,Haze,30.4,0.0,No,None,None,0.0
+2024-10-16,Indore,Cloudy,24.4,0.0,No,None,None,0.0
+2024-10-16,Jaipur,Clear,28.3,0.0,No,None,None,0.0
+2024-10-16,Kanpur,Cloudy,27.3,0.0,No,None,None,0.0
+2024-10-16,Kochi,Rain,26.3,2.3,No,None,None,-5.9
+2024-10-16,Kolkata,Clear,27.7,0.0,No,None,Trade Fair,10.1
+2024-10-16,Lucknow,Clear,27.9,0.0,No,None,None,0.0
+2024-10-16,Mumbai,Heavy Rain,32.0,52.2,No,None,None,-10.6
+2024-10-16,Nagpur,Clear,30.9,0.0,No,None,None,0.0
+2024-10-16,Noida,Clear,32.9,0.0,No,None,None,0.0
+2024-10-16,Pune,Clear,29.0,0.0,No,None,None,0.0
+2024-10-17,Agra,Cloudy,30.8,0.0,No,None,None,0.0
+2024-10-17,Ahmedabad,Haze,30.3,0.0,No,None,None,0.0
+2024-10-17,Bahadurgarh,Clear,30.4,0.0,No,None,None,0.0
+2024-10-17,Bengaluru,Cloudy,28.0,0.0,No,None,None,0.0
+2024-10-17,Bhopal,Clear,28.2,0.0,No,None,Exam Season,4.7
+2024-10-17,Chennai,Clear,32.1,0.0,No,None,None,0.0
+2024-10-17,Delhi,Cloudy,29.8,0.0,No,None,Exam Season,4.2
+2024-10-17,Faridabad,Clear,28.4,0.0,No,None,None,0.0
+2024-10-17,Ghaziabad,Clear,28.3,0.0,No,None,None,0.0
+2024-10-17,Greater Noida,Cloudy,28.3,0.0,No,None,None,0.0
+2024-10-17,Gurugram,Clear,27.0,0.0,No,None,None,0.0
+2024-10-17,Howrah,Heavy Rain,33.4,41.7,No,None,None,-12.3
+2024-10-17,Hyderabad,Clear,31.0,0.0,No,None,None,0.0
+2024-10-17,Indore,Clear,27.6,0.0,No,None,None,0.0
+2024-10-17,Jaipur,Cloudy,26.5,0.0,No,None,None,0.0
+2024-10-17,Kanpur,Cloudy,32.6,0.0,No,None,None,0.0
+2024-10-17,Kochi,Clear,29.7,0.0,No,None,None,0.0
+2024-10-17,Kolkata,Rain,30.0,4.9,No,None,None,-5.7
+2024-10-17,Lucknow,Cloudy,30.1,0.0,No,None,None,0.0
+2024-10-17,Mumbai,Rain,28.0,17.0,No,None,None,-4.8
+2024-10-17,Nagpur,Haze,33.7,0.0,No,None,Tech Conference,8.4
+2024-10-17,Noida,Clear,24.4,0.0,No,None,None,0.0
+2024-10-17,Pune,Cloudy,29.9,0.0,No,None,None,0.0
+2024-10-18,Agra,Clear,34.9,0.0,No,None,None,0.0
+2024-10-18,Ahmedabad,Clear,32.9,0.0,No,None,None,0.0
+2024-10-18,Bahadurgarh,Clear,34.6,0.0,No,None,Marathon,5.2
+2024-10-18,Bengaluru,Clear,31.3,0.0,No,None,None,0.0
+2024-10-18,Bhopal,Clear,27.2,0.0,No,None,None,0.0
+2024-10-18,Chennai,Clear,31.6,0.0,No,None,None,0.0
+2024-10-18,Delhi,Clear,26.8,0.0,No,None,None,0.0
+2024-10-18,Faridabad,Clear,28.4,0.0,No,None,None,0.0
+2024-10-18,Ghaziabad,Clear,28.3,0.0,No,None,None,0.0
+2024-10-18,Greater Noida,Cloudy,32.2,0.0,No,None,None,0.0
+2024-10-18,Gurugram,Cloudy,32.0,0.0,No,None,None,0.0
+2024-10-18,Howrah,Clear,31.7,0.0,No,None,None,0.0
+2024-10-18,Hyderabad,Clear,25.6,0.0,No,None,None,0.0
+2024-10-18,Indore,Clear,28.2,0.0,No,None,None,0.0
+2024-10-18,Jaipur,Clear,28.1,0.0,No,None,None,0.0
+2024-10-18,Kanpur,Clear,32.2,0.0,No,None,None,0.0
+2024-10-18,Kochi,Rain,33.9,21.1,No,None,None,-4.4
+2024-10-18,Kolkata,Cloudy,24.2,0.0,No,None,None,0.0
+2024-10-18,Lucknow,Cloudy,25.6,0.0,No,None,None,0.0
+2024-10-18,Mumbai,Cloudy,34.6,0.0,No,None,None,0.0
+2024-10-18,Nagpur,Cloudy,28.0,0.0,No,None,None,0.0
+2024-10-18,Noida,Clear,28.1,0.0,No,None,None,0.0
+2024-10-18,Pune,Clear,33.1,0.0,No,None,None,0.0
+2024-10-19,Agra,Cloudy,33.2,0.0,No,None,None,0.0
+2024-10-19,Ahmedabad,Clear,29.1,0.0,No,None,None,0.0
+2024-10-19,Bahadurgarh,Cloudy,29.3,0.0,No,None,None,0.0
+2024-10-19,Bengaluru,Clear,28.7,0.0,No,None,None,0.0
+2024-10-19,Bhopal,Cloudy,29.6,0.0,No,None,None,0.0
+2024-10-19,Chennai,Heavy Rain,35.0,43.1,No,None,Political Rally,-4.0
+2024-10-19,Delhi,Cloudy,27.1,0.0,No,None,None,0.0
+2024-10-19,Faridabad,Clear,31.9,0.0,No,None,None,0.0
+2024-10-19,Ghaziabad,Cloudy,29.3,0.0,No,None,None,0.0
+2024-10-19,Greater Noida,Clear,23.7,0.0,No,None,None,0.0
+2024-10-19,Gurugram,Clear,24.7,0.0,No,None,Political Rally,10.9
+2024-10-19,Howrah,Cloudy,32.3,0.0,No,None,None,0.0
+2024-10-19,Hyderabad,Cloudy,29.3,0.0,No,None,None,0.0
+2024-10-19,Indore,Clear,29.5,0.0,No,None,None,0.0
+2024-10-19,Jaipur,Rain,34.9,15.9,No,None,None,-3.5
+2024-10-19,Kanpur,Haze,30.8,0.0,No,None,None,0.0
+2024-10-19,Kochi,Clear,29.2,0.0,No,None,None,0.0
+2024-10-19,Kolkata,Cloudy,31.1,0.0,No,None,None,0.0
+2024-10-19,Lucknow,Clear,26.0,0.0,No,None,None,0.0
+2024-10-19,Mumbai,Rain,34.5,18.2,No,None,None,-4.5
+2024-10-19,Nagpur,Clear,28.9,0.0,No,None,None,0.0
+2024-10-19,Noida,Clear,32.6,0.0,No,None,None,0.0
+2024-10-19,Pune,Haze,28.9,0.0,No,None,None,0.0
+2024-10-20,Agra,Cloudy,29.9,0.0,No,None,None,0.0
+2024-10-20,Ahmedabad,Cloudy,27.5,0.0,No,None,None,0.0
+2024-10-20,Bahadurgarh,Clear,30.3,0.0,No,None,None,0.0
+2024-10-20,Bengaluru,Clear,29.8,0.0,No,None,Tech Conference,7.7
+2024-10-20,Bhopal,Clear,25.6,0.0,No,None,None,0.0
+2024-10-20,Chennai,Cloudy,29.0,0.0,No,None,None,0.0
+2024-10-20,Delhi,Cloudy,29.7,0.0,No,None,None,0.0
+2024-10-20,Faridabad,Clear,28.5,0.0,No,None,None,0.0
+2024-10-20,Ghaziabad,Rain,35.7,22.4,No,None,None,-2.4
+2024-10-20,Greater Noida,Clear,29.5,0.0,No,None,None,0.0
+2024-10-20,Gurugram,Haze,30.6,0.0,No,None,Exam Season,6.1
+2024-10-20,Howrah,Cloudy,29.9,0.0,No,None,None,0.0
+2024-10-20,Hyderabad,Cloudy,29.5,0.0,No,None,None,0.0
+2024-10-20,Indore,Haze,33.0,0.0,No,None,None,0.0
+2024-10-20,Jaipur,Cloudy,30.6,0.0,No,None,None,0.0
+2024-10-20,Kanpur,Rain,33.5,12.2,No,None,None,-3.0
+2024-10-20,Kochi,Heavy Rain,30.9,49.3,No,None,Concert,1.0
+2024-10-20,Kolkata,Cloudy,28.0,0.0,No,None,None,0.0
+2024-10-20,Lucknow,Clear,35.8,0.0,No,None,None,0.0
+2024-10-20,Mumbai,Clear,33.0,0.0,No,None,None,0.0
+2024-10-20,Nagpur,Clear,28.2,0.0,No,None,None,0.0
+2024-10-20,Noida,Clear,33.1,0.0,No,None,None,0.0
+2024-10-20,Pune,Rain,30.7,18.6,No,None,None,-5.5
+2024-10-21,Agra,Cloudy,29.3,0.0,No,None,None,0.0
+2024-10-21,Ahmedabad,Clear,27.8,0.0,No,None,None,0.0
+2024-10-21,Bahadurgarh,Cloudy,25.1,0.0,No,None,None,0.0
+2024-10-21,Bengaluru,Clear,31.7,0.0,No,None,None,0.0
+2024-10-21,Bhopal,Haze,28.3,0.0,No,None,None,0.0
+2024-10-21,Chennai,Heavy Rain,32.8,32.4,No,None,Cricket Match,1.0
+2024-10-21,Delhi,Clear,30.3,0.0,No,None,None,0.0
+2024-10-21,Faridabad,Cloudy,32.5,0.0,No,None,None,0.0
+2024-10-21,Ghaziabad,Clear,28.6,0.0,No,None,None,0.0
+2024-10-21,Greater Noida,Cloudy,28.4,0.0,No,None,Trade Fair,8.7
+2024-10-21,Gurugram,Cloudy,30.9,0.0,No,None,None,0.0
+2024-10-21,Howrah,Clear,25.9,0.0,No,None,None,0.0
+2024-10-21,Hyderabad,Clear,25.9,0.0,No,None,None,0.0
+2024-10-21,Indore,Cloudy,32.8,0.0,No,None,None,0.0
+2024-10-21,Jaipur,Clear,31.0,0.0,No,None,None,0.0
+2024-10-21,Kanpur,Clear,28.1,0.0,No,None,None,0.0
+2024-10-21,Kochi,Rain,30.6,7.9,No,None,None,-2.7
+2024-10-21,Kolkata,Heavy Rain,32.8,37.7,No,None,None,-15.7
+2024-10-21,Lucknow,Clear,30.7,0.0,No,None,None,0.0
+2024-10-21,Mumbai,Cloudy,30.8,0.0,No,None,Marathon,7.4
+2024-10-21,Nagpur,Clear,25.9,0.0,No,None,None,0.0
+2024-10-21,Noida,Clear,30.9,0.0,No,None,Trade Fair,6.9
+2024-10-21,Pune,Rain,30.2,8.9,No,None,None,-3.0
+2024-10-22,Agra,Clear,27.9,0.0,No,None,None,0.0
+2024-10-22,Ahmedabad,Haze,28.8,0.0,No,None,None,0.0
+2024-10-22,Bahadurgarh,Rain,33.1,16.5,No,None,None,-2.6
+2024-10-22,Bengaluru,Clear,27.8,0.0,No,None,None,0.0
+2024-10-22,Bhopal,Rain,29.5,8.3,No,None,None,-2.6
+2024-10-22,Chennai,Rain,32.3,9.6,No,None,None,-3.8
+2024-10-22,Delhi,Clear,32.5,0.0,No,None,None,0.0
+2024-10-22,Faridabad,Clear,27.7,0.0,No,None,None,0.0
+2024-10-22,Ghaziabad,Cloudy,27.7,0.0,No,None,Trade Fair,6.6
+2024-10-22,Greater Noida,Clear,28.9,0.0,No,None,None,0.0
+2024-10-22,Gurugram,Cloudy,27.2,0.0,No,None,None,0.0
+2024-10-22,Howrah,Cloudy,29.9,0.0,No,None,None,0.0
+2024-10-22,Hyderabad,Clear,27.8,0.0,No,None,None,0.0
+2024-10-22,Indore,Cloudy,27.3,0.0,No,None,None,0.0
+2024-10-22,Jaipur,Clear,29.2,0.0,No,None,None,0.0
+2024-10-22,Kanpur,Cloudy,32.9,0.0,No,None,None,0.0
+2024-10-22,Kochi,Cloudy,31.5,0.0,No,None,Tech Conference,8.2
+2024-10-22,Kolkata,Rain,31.4,19.9,No,None,None,-3.5
+2024-10-22,Lucknow,Rain,30.6,6.0,No,None,None,-6.0
+2024-10-22,Mumbai,Clear,28.9,0.0,No,None,None,0.0
+2024-10-22,Nagpur,Clear,31.1,0.0,No,None,None,0.0
+2024-10-22,Noida,Clear,30.5,0.0,No,None,None,0.0
+2024-10-22,Pune,Cloudy,25.1,0.0,No,None,None,0.0
+2024-10-23,Agra,Clear,31.9,0.0,No,None,None,0.0
+2024-10-23,Ahmedabad,Clear,32.2,0.0,No,None,None,0.0
+2024-10-23,Bahadurgarh,Clear,27.9,0.0,No,None,None,0.0
+2024-10-23,Bengaluru,Clear,29.0,0.0,No,None,None,0.0
+2024-10-23,Bhopal,Clear,24.7,0.0,No,None,None,0.0
+2024-10-23,Chennai,Cloudy,27.9,0.0,No,None,None,0.0
+2024-10-23,Delhi,Rain,32.6,6.3,No,None,None,-3.3
+2024-10-23,Faridabad,Clear,30.6,0.0,No,None,None,0.0
+2024-10-23,Ghaziabad,Haze,28.7,0.0,No,None,None,0.0
+2024-10-23,Greater Noida,Cloudy,28.8,0.0,No,None,None,0.0
+2024-10-23,Gurugram,Haze,31.8,0.0,No,None,None,0.0
+2024-10-23,Howrah,Rain,28.1,24.2,No,None,None,-2.6
+2024-10-23,Hyderabad,Cloudy,31.4,0.0,No,None,None,0.0
+2024-10-23,Indore,Cloudy,32.1,0.0,No,None,None,0.0
+2024-10-23,Jaipur,Clear,28.3,0.0,No,None,None,0.0
+2024-10-23,Kanpur,Rain,32.3,6.3,No,None,None,-2.3
+2024-10-23,Kochi,Rain,28.2,24.7,No,None,None,-4.7
+2024-10-23,Kolkata,Rain,36.0,24.6,No,None,None,-4.7
+2024-10-23,Lucknow,Clear,28.7,0.0,No,None,None,0.0
+2024-10-23,Mumbai,Cloudy,33.0,0.0,No,None,None,0.0
+2024-10-23,Nagpur,Clear,31.6,0.0,No,None,None,0.0
+2024-10-23,Noida,Clear,29.8,0.0,No,None,None,0.0
+2024-10-23,Pune,Clear,29.1,0.0,No,None,Exam Season,7.7
+2024-10-24,Agra,Clear,30.3,0.0,No,None,None,0.0
+2024-10-24,Ahmedabad,Clear,25.8,0.0,No,None,None,0.0
+2024-10-24,Bahadurgarh,Cloudy,28.0,0.0,No,None,None,0.0
+2024-10-24,Bengaluru,Haze,29.6,0.0,No,None,None,0.0
+2024-10-24,Bhopal,Cloudy,32.0,0.0,No,None,None,0.0
+2024-10-24,Chennai,Cloudy,35.0,0.0,No,None,None,0.0
+2024-10-24,Delhi,Clear,31.9,0.0,No,None,None,0.0
+2024-10-24,Faridabad,Rain,30.7,8.6,No,None,None,-2.8
+2024-10-24,Ghaziabad,Clear,29.6,0.0,No,None,None,0.0
+2024-10-24,Greater Noida,Cloudy,27.9,0.0,No,None,None,0.0
+2024-10-24,Gurugram,Cloudy,26.9,0.0,No,None,None,0.0
+2024-10-24,Howrah,Clear,31.8,0.0,No,None,None,0.0
+2024-10-24,Hyderabad,Rain,29.5,14.8,No,None,None,-2.4
+2024-10-24,Indore,Clear,29.6,0.0,No,None,None,0.0
+2024-10-24,Jaipur,Rain,31.4,19.5,No,None,None,-5.7
+2024-10-24,Kanpur,Cloudy,28.2,0.0,No,None,None,0.0
+2024-10-24,Kochi,Cloudy,31.9,0.0,No,None,None,0.0
+2024-10-24,Kolkata,Cloudy,32.7,0.0,No,None,None,0.0
+2024-10-24,Lucknow,Cloudy,28.3,0.0,No,None,None,0.0
+2024-10-24,Mumbai,Cloudy,31.1,0.0,No,None,None,0.0
+2024-10-24,Nagpur,Haze,27.4,0.0,No,None,None,0.0
+2024-10-24,Noida,Clear,28.7,0.0,No,None,None,0.0
+2024-10-24,Pune,Clear,26.2,0.0,No,None,Concert,11.8
+2024-10-25,Agra,Clear,32.7,0.0,No,None,None,0.0
+2024-10-25,Ahmedabad,Clear,30.3,0.0,No,None,None,0.0
+2024-10-25,Bahadurgarh,Clear,34.9,0.0,No,None,None,0.0
+2024-10-25,Bengaluru,Rain,28.5,19.2,No,None,None,-3.4
+2024-10-25,Bhopal,Clear,28.4,0.0,No,None,None,0.0
+2024-10-25,Chennai,Cloudy,31.6,0.0,No,None,None,0.0
+2024-10-25,Delhi,Cloudy,29.0,0.0,No,None,None,0.0
+2024-10-25,Faridabad,Cloudy,30.9,0.0,No,None,Film Premiere,9.1
+2024-10-25,Ghaziabad,Clear,29.7,0.0,No,None,None,0.0
+2024-10-25,Greater Noida,Cloudy,34.4,0.0,No,None,None,0.0
+2024-10-25,Gurugram,Rain,30.6,20.6,No,None,None,-4.7
+2024-10-25,Howrah,Clear,32.0,0.0,No,None,None,0.0
+2024-10-25,Hyderabad,Haze,28.7,0.0,No,None,None,0.0
+2024-10-25,Indore,Cloudy,27.5,0.0,No,None,None,0.0
+2024-10-25,Jaipur,Clear,28.1,0.0,No,None,None,0.0
+2024-10-25,Kanpur,Clear,36.7,0.0,No,None,None,0.0
+2024-10-25,Kochi,Rain,30.3,4.3,No,None,None,-2.7
+2024-10-25,Kolkata,Rain,30.9,23.9,No,None,None,-3.1
+2024-10-25,Lucknow,Clear,31.7,0.0,No,None,None,0.0
+2024-10-25,Mumbai,Cloudy,29.4,0.0,No,None,None,0.0
+2024-10-25,Nagpur,Rain,29.9,14.9,No,None,Film Premiere,6.4
+2024-10-25,Noida,Cloudy,27.0,0.0,No,None,None,0.0
+2024-10-25,Pune,Cloudy,31.7,0.0,No,None,None,0.0
+2024-10-26,Agra,Clear,31.7,0.0,No,None,Trade Fair,10.0
+2024-10-26,Ahmedabad,Cloudy,29.1,0.0,No,None,None,0.0
+2024-10-26,Bahadurgarh,Rain,31.9,24.3,No,None,None,-4.2
+2024-10-26,Bengaluru,Rain,29.4,13.2,No,None,None,-2.1
+2024-10-26,Bhopal,Clear,26.5,0.0,No,None,None,0.0
+2024-10-26,Chennai,Rain,27.3,9.1,No,None,None,-4.3
+2024-10-26,Delhi,Clear,31.7,0.0,No,None,Political Rally,8.4
+2024-10-26,Faridabad,Cloudy,27.5,0.0,No,None,None,0.0
+2024-10-26,Ghaziabad,Cloudy,28.2,0.0,No,None,Exam Season,5.4
+2024-10-26,Greater Noida,Cloudy,26.6,0.0,No,None,None,0.0
+2024-10-26,Gurugram,Cloudy,26.4,0.0,No,None,None,0.0
+2024-10-26,Howrah,Rain,28.9,19.6,No,None,None,-5.8
+2024-10-26,Hyderabad,Haze,28.7,0.0,No,None,None,0.0
+2024-10-26,Indore,Clear,31.6,0.0,No,None,None,0.0
+2024-10-26,Jaipur,Clear,26.7,0.0,No,None,None,0.0
+2024-10-26,Kanpur,Clear,29.5,0.0,No,None,None,0.0
+2024-10-26,Kochi,Clear,33.6,0.0,No,None,None,0.0
+2024-10-26,Kolkata,Rain,30.0,20.9,No,None,None,-3.9
+2024-10-26,Lucknow,Clear,29.2,0.0,No,None,None,0.0
+2024-10-26,Mumbai,Clear,33.8,0.0,No,None,None,0.0
+2024-10-26,Nagpur,Cloudy,30.1,0.0,No,None,Concert,13.3
+2024-10-26,Noida,Clear,31.2,0.0,No,None,None,0.0
+2024-10-26,Pune,Cloudy,29.8,0.0,No,None,None,0.0
+2024-10-27,Agra,Haze,32.6,0.0,No,None,None,0.0
+2024-10-27,Ahmedabad,Cloudy,27.6,0.0,No,None,None,0.0
+2024-10-27,Bahadurgarh,Rain,30.1,16.5,No,None,None,-3.7
+2024-10-27,Bengaluru,Clear,26.4,0.0,No,None,None,0.0
+2024-10-27,Bhopal,Clear,31.5,0.0,No,None,None,0.0
+2024-10-27,Chennai,Heavy Rain,32.2,71.8,No,None,None,-12.6
+2024-10-27,Delhi,Cloudy,35.6,0.0,No,None,None,0.0
+2024-10-27,Faridabad,Cloudy,32.5,0.0,No,None,None,0.0
+2024-10-27,Ghaziabad,Haze,33.6,0.0,No,None,None,0.0
+2024-10-27,Greater Noida,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-27,Gurugram,Cloudy,25.8,0.0,No,None,None,0.0
+2024-10-27,Howrah,Cloudy,26.4,0.0,No,None,None,0.0
+2024-10-27,Hyderabad,Haze,29.6,0.0,No,None,Marathon,8.7
+2024-10-27,Indore,Cloudy,26.7,0.0,No,None,None,0.0
+2024-10-27,Jaipur,Clear,29.8,0.0,No,None,None,0.0
+2024-10-27,Kanpur,Clear,31.5,0.0,No,None,None,0.0
+2024-10-27,Kochi,Cloudy,27.4,0.0,No,None,None,0.0
+2024-10-27,Kolkata,Cloudy,29.9,0.0,No,None,None,0.0
+2024-10-27,Lucknow,Clear,33.8,0.0,No,None,None,0.0
+2024-10-27,Mumbai,Cloudy,28.3,0.0,No,None,Tech Conference,8.7
+2024-10-27,Nagpur,Cloudy,27.8,0.0,No,None,None,0.0
+2024-10-27,Noida,Clear,31.4,0.0,No,None,None,0.0
+2024-10-27,Pune,Clear,31.7,0.0,No,None,None,0.0
+2024-10-28,Agra,Clear,31.9,0.0,No,None,None,0.0
+2024-10-28,Ahmedabad,Cloudy,31.3,0.0,No,None,None,0.0
+2024-10-28,Bahadurgarh,Clear,27.1,0.0,No,None,None,0.0
+2024-10-28,Bengaluru,Rain,31.8,4.0,No,None,None,-3.2
+2024-10-28,Bhopal,Clear,29.6,0.0,No,None,None,0.0
+2024-10-28,Chennai,Clear,32.2,0.0,No,None,None,0.0
+2024-10-28,Delhi,Cloudy,30.8,0.0,No,None,None,0.0
+2024-10-28,Faridabad,Clear,27.9,0.0,No,None,None,0.0
+2024-10-28,Ghaziabad,Clear,26.6,0.0,No,None,None,0.0
+2024-10-28,Greater Noida,Clear,32.2,0.0,No,None,None,0.0
+2024-10-28,Gurugram,Rain,30.5,21.5,No,None,None,-4.0
+2024-10-28,Howrah,Clear,27.5,0.0,No,None,None,0.0
+2024-10-28,Hyderabad,Clear,31.4,0.0,No,None,None,0.0
+2024-10-28,Indore,Clear,28.1,0.0,No,None,None,0.0
+2024-10-28,Jaipur,Rain,30.9,7.6,No,None,None,-3.5
+2024-10-28,Kanpur,Cloudy,27.8,0.0,No,None,None,0.0
+2024-10-28,Kochi,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-28,Kolkata,Cloudy,31.3,0.0,No,None,None,0.0
+2024-10-28,Lucknow,Clear,27.3,0.0,No,None,None,0.0
+2024-10-28,Mumbai,Clear,31.8,0.0,No,None,None,0.0
+2024-10-28,Nagpur,Haze,33.0,0.0,No,None,None,0.0
+2024-10-28,Noida,Clear,28.8,0.0,No,None,None,0.0
+2024-10-28,Pune,Cloudy,30.0,0.0,No,None,None,0.0
+2024-10-29,Agra,Haze,23.1,0.0,No,Dhanteras,None,14.0
+2024-10-29,Ahmedabad,Clear,28.2,0.0,No,Dhanteras,None,17.5
+2024-10-29,Bahadurgarh,Clear,32.7,0.0,No,Dhanteras,None,17.3
+2024-10-29,Bengaluru,Haze,28.6,0.0,No,Dhanteras,None,8.4
+2024-10-29,Bhopal,Clear,24.2,0.0,No,Dhanteras,None,8.5
+2024-10-29,Chennai,Cloudy,33.4,0.0,No,Dhanteras,None,13.9
+2024-10-29,Delhi,Cloudy,28.1,0.0,No,Dhanteras,Trade Fair,23.1
+2024-10-29,Faridabad,Clear,31.9,0.0,No,Dhanteras,None,16.0
+2024-10-29,Ghaziabad,Cloudy,33.3,0.0,No,Dhanteras,None,12.2
+2024-10-29,Greater Noida,Cloudy,32.5,0.0,No,Dhanteras,None,15.2
+2024-10-29,Gurugram,Clear,32.7,0.0,No,Dhanteras,None,12.0
+2024-10-29,Howrah,Heavy Rain,28.4,67.1,No,Dhanteras,None,-1.9
+2024-10-29,Hyderabad,Clear,30.4,0.0,No,Dhanteras,None,8.4
+2024-10-29,Indore,Cloudy,30.6,0.0,No,Dhanteras,None,10.0
+2024-10-29,Jaipur,Cloudy,29.8,0.0,No,Dhanteras,None,13.1
+2024-10-29,Kanpur,Cloudy,30.4,0.0,No,Dhanteras,None,19.0
+2024-10-29,Kochi,Clear,36.2,0.0,No,Dhanteras,None,19.5
+2024-10-29,Kolkata,Cloudy,33.4,0.0,No,Dhanteras,None,18.4
+2024-10-29,Lucknow,Clear,31.3,0.0,No,Dhanteras,None,14.7
+2024-10-29,Mumbai,Cloudy,32.8,0.0,No,Dhanteras,None,16.2
+2024-10-29,Nagpur,Clear,27.9,0.0,No,Dhanteras,None,19.3
+2024-10-29,Noida,Clear,31.6,0.0,No,Dhanteras,None,11.2
+2024-10-29,Pune,Haze,29.3,0.0,No,Dhanteras,None,16.4
+2024-10-30,Agra,Clear,32.2,0.0,No,None,Film Premiere,5.1
+2024-10-30,Ahmedabad,Rain,27.3,23.3,No,None,None,-2.3
+2024-10-30,Bahadurgarh,Clear,26.0,0.0,No,None,None,0.0
+2024-10-30,Bengaluru,Clear,28.2,0.0,No,None,None,0.0
+2024-10-30,Bhopal,Rain,29.4,3.6,No,None,None,-5.3
+2024-10-30,Chennai,Clear,31.7,0.0,No,None,None,0.0
+2024-10-30,Delhi,Clear,31.5,0.0,No,None,None,0.0
+2024-10-30,Faridabad,Cloudy,30.2,0.0,No,None,None,0.0
+2024-10-30,Ghaziabad,Haze,28.3,0.0,No,None,None,0.0
+2024-10-30,Greater Noida,Cloudy,29.3,0.0,No,None,None,0.0
+2024-10-30,Gurugram,Cloudy,30.0,0.0,No,None,None,0.0
+2024-10-30,Howrah,Rain,30.9,4.3,No,None,None,-4.6
+2024-10-30,Hyderabad,Rain,29.1,13.8,No,None,Marathon,1.1
+2024-10-30,Indore,Rain,26.3,16.3,No,None,None,-5.1
+2024-10-30,Jaipur,Rain,31.9,21.6,No,None,None,-5.4
+2024-10-30,Kanpur,Clear,26.3,0.0,No,None,None,0.0
+2024-10-30,Kochi,Clear,30.4,0.0,No,None,None,0.0
+2024-10-30,Kolkata,Cloudy,31.6,0.0,No,None,None,0.0
+2024-10-30,Lucknow,Clear,30.4,0.0,No,None,None,0.0
+2024-10-30,Mumbai,Cloudy,32.3,0.0,No,None,None,0.0
+2024-10-30,Nagpur,Clear,26.7,0.0,No,None,None,0.0
+2024-10-30,Noida,Clear,30.2,0.0,No,None,None,0.0
+2024-10-30,Pune,Clear,30.1,0.0,No,None,None,0.0
+2024-10-31,Agra,Haze,32.1,0.0,Yes,Diwali,None,-2.9
+2024-10-31,Ahmedabad,Clear,22.2,0.0,Yes,Diwali,None,-5.6
+2024-10-31,Bahadurgarh,Clear,28.7,0.0,Yes,Diwali,None,-3.4
+2024-10-31,Bengaluru,Clear,28.9,0.0,Yes,Diwali,None,-6.8
+2024-10-31,Bhopal,Cloudy,26.7,0.0,Yes,Diwali,None,-0.0
+2024-10-31,Chennai,Clear,31.1,0.0,Yes,Diwali,None,0.8
+2024-10-31,Delhi,Clear,30.3,0.0,Yes,Diwali,None,2.6
+2024-10-31,Faridabad,Clear,26.3,0.0,Yes,Diwali,None,-9.6
+2024-10-31,Ghaziabad,Cloudy,28.5,0.0,Yes,Diwali,None,-4.5
+2024-10-31,Greater Noida,Haze,27.6,0.0,Yes,Diwali,None,-12.8
+2024-10-31,Gurugram,Cloudy,30.8,0.0,Yes,Diwali,None,1.0
+2024-10-31,Howrah,Clear,30.8,0.0,Yes,Diwali,None,2.1
+2024-10-31,Hyderabad,Clear,27.7,0.0,Yes,Diwali,None,-6.6
+2024-10-31,Indore,Clear,26.3,0.0,Yes,Diwali,None,-8.4
+2024-10-31,Jaipur,Clear,27.4,0.0,Yes,Diwali,None,-4.6
+2024-10-31,Kanpur,Clear,27.7,0.0,Yes,Diwali,Concert,16.1
+2024-10-31,Kochi,Heavy Rain,32.0,61.7,Yes,Diwali,None,-14.7
+2024-10-31,Kolkata,Rain,27.9,18.1,Yes,Diwali,None,-8.4
+2024-10-31,Lucknow,Haze,31.2,0.0,Yes,Diwali,None,-1.9
+2024-10-31,Mumbai,Rain,30.9,21.7,Yes,Diwali,Tech Conference,-5.3
+2024-10-31,Nagpur,Clear,29.2,0.0,Yes,Diwali,None,2.3
+2024-10-31,Noida,Cloudy,30.3,0.0,Yes,Diwali,None,-9.7
+2024-10-31,Pune,Clear,28.7,0.0,Yes,Diwali,None,-4.4
+2024-11-01,Agra,Clear,31.0,0.0,Yes,Govardhan Puja,None,-3.9
+2024-11-01,Ahmedabad,Clear,27.3,0.0,Yes,Govardhan Puja,None,-5.1
+2024-11-01,Bahadurgarh,Clear,20.0,0.0,Yes,Govardhan Puja,None,-2.7
+2024-11-01,Bengaluru,Clear,26.3,0.0,Yes,Govardhan Puja,None,-8.0
+2024-11-01,Bhopal,Cloudy,24.4,0.0,Yes,Govardhan Puja,None,-5.4
+2024-11-01,Chennai,Haze,34.8,0.0,Yes,Govardhan Puja,Concert,12.0
+2024-11-01,Delhi,Haze,23.1,0.0,Yes,Govardhan Puja,None,-3.2
+2024-11-01,Faridabad,Haze,22.9,0.0,Yes,Govardhan Puja,None,-8.3
+2024-11-01,Ghaziabad,Clear,23.9,0.0,Yes,Govardhan Puja,None,-6.8
+2024-11-01,Greater Noida,Clear,28.9,0.0,Yes,Govardhan Puja,None,-9.2
+2024-11-01,Gurugram,Clear,21.9,0.0,Yes,Govardhan Puja,None,-1.9
+2024-11-01,Howrah,Cloudy,29.4,0.0,Yes,Govardhan Puja,None,1.2
+2024-11-01,Hyderabad,Haze,22.5,0.0,Yes,Govardhan Puja,Cricket Match,12.8
+2024-11-01,Indore,Clear,31.2,0.0,Yes,Govardhan Puja,None,5.1
+2024-11-01,Jaipur,Haze,27.6,0.0,Yes,Govardhan Puja,Cricket Match,9.2
+2024-11-01,Kanpur,Haze,26.7,0.0,Yes,Govardhan Puja,None,-6.0
+2024-11-01,Kochi,Haze,31.5,0.0,Yes,Govardhan Puja,None,-4.1
+2024-11-01,Kolkata,Clear,32.8,0.0,Yes,Govardhan Puja,None,1.8
+2024-11-01,Lucknow,Fog,26.2,0.0,Yes,Govardhan Puja,None,-11.3
+2024-11-01,Mumbai,Haze,32.7,0.0,Yes,Govardhan Puja,None,-8.7
+2024-11-01,Nagpur,Haze,26.2,0.0,Yes,Govardhan Puja,None,-1.7
+2024-11-01,Noida,Haze,21.6,0.0,Yes,Govardhan Puja,None,-2.6
+2024-11-01,Pune,Rain,29.6,7.9,Yes,Govardhan Puja,None,-15.6
+2024-11-02,Agra,Clear,25.5,0.0,No,None,None,0.0
+2024-11-02,Ahmedabad,Cloudy,25.4,0.0,No,None,None,0.0
+2024-11-02,Bahadurgarh,Cloudy,27.3,0.0,No,None,Marathon,8.6
+2024-11-02,Bengaluru,Cloudy,23.0,0.0,No,None,None,0.0
+2024-11-02,Bhopal,Cloudy,26.4,0.0,No,None,None,0.0
+2024-11-02,Chennai,Clear,34.1,0.0,No,None,None,0.0
+2024-11-02,Delhi,Clear,23.5,0.0,No,None,None,0.0
+2024-11-02,Faridabad,Clear,25.1,0.0,No,None,None,0.0
+2024-11-02,Ghaziabad,Clear,25.4,0.0,No,None,None,0.0
+2024-11-02,Greater Noida,Clear,21.4,0.0,No,None,None,0.0
+2024-11-02,Gurugram,Haze,25.3,0.0,No,None,None,0.0
+2024-11-02,Howrah,Rain,26.5,3.0,No,None,Film Premiere,4.5
+2024-11-02,Hyderabad,Clear,25.7,0.0,No,None,Film Premiere,9.8
+2024-11-02,Indore,Rain,25.2,8.6,No,None,None,-2.5
+2024-11-02,Jaipur,Haze,24.0,0.0,No,None,None,0.0
+2024-11-02,Kanpur,Clear,25.6,0.0,No,None,None,0.0
+2024-11-02,Kochi,Cloudy,28.2,0.0,No,None,None,0.0
+2024-11-02,Kolkata,Clear,30.1,0.0,No,None,None,0.0
+2024-11-02,Lucknow,Clear,23.2,0.0,No,None,None,0.0
+2024-11-02,Mumbai,Clear,26.0,0.0,No,None,None,0.0
+2024-11-02,Nagpur,Clear,23.7,0.0,No,None,None,0.0
+2024-11-02,Noida,Clear,27.9,0.0,No,None,None,0.0
+2024-11-02,Pune,Clear,27.0,0.0,No,None,None,0.0
+2024-11-03,Agra,Clear,20.7,0.0,No,Bhai Dooj,None,15.4
+2024-11-03,Ahmedabad,Rain,25.7,15.9,No,Bhai Dooj,None,12.9
+2024-11-03,Bahadurgarh,Cloudy,24.9,0.0,No,Bhai Dooj,None,11.8
+2024-11-03,Bengaluru,Clear,22.7,0.0,No,Bhai Dooj,None,15.5
+2024-11-03,Bhopal,Cloudy,25.2,0.0,No,Bhai Dooj,None,13.4
+2024-11-03,Chennai,Clear,28.0,0.0,No,Bhai Dooj,Concert,28.8
+2024-11-03,Delhi,Haze,23.6,0.0,No,Bhai Dooj,None,16.1
+2024-11-03,Faridabad,Cloudy,23.3,0.0,No,Bhai Dooj,Film Premiere,15.8
+2024-11-03,Ghaziabad,Clear,26.6,0.0,No,Bhai Dooj,Marathon,21.3
+2024-11-03,Greater Noida,Haze,22.1,0.0,No,Bhai Dooj,None,8.7
+2024-11-03,Gurugram,Clear,26.6,0.0,No,Bhai Dooj,None,10.6
+2024-11-03,Howrah,Clear,32.3,0.0,No,Bhai Dooj,None,14.4
+2024-11-03,Hyderabad,Clear,25.5,0.0,No,Bhai Dooj,None,8.4
+2024-11-03,Indore,Clear,27.5,0.0,No,Bhai Dooj,None,10.1
+2024-11-03,Jaipur,Clear,25.8,0.0,No,Bhai Dooj,None,17.1
+2024-11-03,Kanpur,Clear,20.9,0.0,No,Bhai Dooj,None,12.7
+2024-11-03,Kochi,Cloudy,33.5,0.0,No,Bhai Dooj,None,18.3
+2024-11-03,Kolkata,Clear,31.8,0.0,No,Bhai Dooj,None,10.5
+2024-11-03,Lucknow,Fog,25.2,0.0,No,Bhai Dooj,None,5.8
+2024-11-03,Mumbai,Cloudy,32.0,0.0,No,Bhai Dooj,None,9.9
+2024-11-03,Nagpur,Clear,25.8,0.0,No,Bhai Dooj,None,8.7
+2024-11-03,Noida,Cloudy,19.3,0.0,No,Bhai Dooj,None,18.9
+2024-11-03,Pune,Rain,26.5,17.6,No,Bhai Dooj,None,7.2
+2024-11-04,Agra,Clear,29.1,0.0,No,None,None,0.0
+2024-11-04,Ahmedabad,Clear,26.2,0.0,No,None,None,0.0
+2024-11-04,Bahadurgarh,Fog,23.8,0.0,No,None,None,-5.9
+2024-11-04,Bengaluru,Clear,31.1,0.0,No,None,None,0.0
+2024-11-04,Bhopal,Clear,23.4,0.0,No,None,None,0.0
+2024-11-04,Chennai,Clear,30.5,0.0,No,None,None,0.0
+2024-11-04,Delhi,Cloudy,22.0,0.0,No,None,None,0.0
+2024-11-04,Faridabad,Clear,22.6,0.0,No,None,None,0.0
+2024-11-04,Ghaziabad,Haze,23.9,0.0,No,None,None,0.0
+2024-11-04,Greater Noida,Haze,27.4,0.0,No,None,None,0.0
+2024-11-04,Gurugram,Fog,28.5,0.0,No,None,None,-4.4
+2024-11-04,Howrah,Cloudy,29.1,0.0,No,None,None,0.0
+2024-11-04,Hyderabad,Clear,32.2,0.0,No,None,None,0.0
+2024-11-04,Indore,Haze,24.9,0.0,No,None,None,0.0
+2024-11-04,Jaipur,Clear,22.6,0.0,No,None,None,0.0
+2024-11-04,Kanpur,Haze,19.6,0.0,No,None,None,0.0
+2024-11-04,Kochi,Cloudy,33.5,0.0,No,None,None,0.0
+2024-11-04,Kolkata,Cloudy,32.4,0.0,No,None,Tech Conference,5.7
+2024-11-04,Lucknow,Haze,20.5,0.0,No,None,None,0.0
+2024-11-04,Mumbai,Rain,33.6,10.8,No,None,None,-2.2
+2024-11-04,Nagpur,Clear,21.9,0.0,No,None,Exam Season,3.5
+2024-11-04,Noida,Haze,26.0,0.0,No,None,None,0.0
+2024-11-04,Pune,Cloudy,25.9,0.0,No,None,None,0.0
+2024-11-05,Agra,Clear,25.6,0.0,No,None,None,0.0
+2024-11-05,Ahmedabad,Cloudy,24.1,0.0,No,None,None,0.0
+2024-11-05,Bahadurgarh,Haze,22.6,0.0,No,None,None,0.0
+2024-11-05,Bengaluru,Cloudy,24.8,0.0,No,None,None,0.0
+2024-11-05,Bhopal,Rain,21.4,15.2,No,None,None,-4.7
+2024-11-05,Chennai,Cloudy,28.2,0.0,No,None,Concert,10.8
+2024-11-05,Delhi,Clear,23.3,0.0,No,None,None,0.0
+2024-11-05,Faridabad,Haze,24.8,0.0,No,None,None,0.0
+2024-11-05,Ghaziabad,Haze,22.4,0.0,No,None,None,0.0
+2024-11-05,Greater Noida,Clear,21.8,0.0,No,None,None,0.0
+2024-11-05,Gurugram,Haze,26.6,0.0,No,None,None,0.0
+2024-11-05,Howrah,Clear,29.8,0.0,No,None,Concert,15.0
+2024-11-05,Hyderabad,Clear,26.1,0.0,No,None,None,0.0
+2024-11-05,Indore,Clear,23.7,0.0,No,None,None,0.0
+2024-11-05,Jaipur,Haze,27.1,0.0,No,None,None,0.0
+2024-11-05,Kanpur,Clear,25.6,0.0,No,None,None,0.0
+2024-11-05,Kochi,Clear,31.8,0.0,No,None,None,0.0
+2024-11-05,Kolkata,Clear,33.0,0.0,No,None,None,0.0
+2024-11-05,Lucknow,Clear,22.4,0.0,No,None,Cricket Match,15.2
+2024-11-05,Mumbai,Haze,29.6,0.0,No,None,Exam Season,7.3
+2024-11-05,Nagpur,Cloudy,25.3,0.0,No,None,None,0.0
+2024-11-05,Noida,Clear,27.3,0.0,No,None,None,0.0
+2024-11-05,Pune,Clear,26.6,0.0,No,None,None,0.0
+2024-11-06,Agra,Clear,20.6,0.0,No,None,None,0.0
+2024-11-06,Ahmedabad,Rain,22.1,18.3,No,None,None,-5.0
+2024-11-06,Bahadurgarh,Clear,22.4,0.0,No,None,None,0.0
+2024-11-06,Bengaluru,Cloudy,25.3,0.0,No,None,None,0.0
+2024-11-06,Bhopal,Clear,22.3,0.0,No,None,None,0.0
+2024-11-06,Chennai,Clear,33.6,0.0,No,None,None,0.0
+2024-11-06,Delhi,Clear,23.0,0.0,No,None,None,0.0
+2024-11-06,Faridabad,Clear,27.4,0.0,No,None,None,0.0
+2024-11-06,Ghaziabad,Cloudy,24.1,0.0,No,None,Concert,13.6
+2024-11-06,Greater Noida,Cloudy,24.6,0.0,No,None,None,0.0
+2024-11-06,Gurugram,Clear,26.1,0.0,No,None,None,0.0
+2024-11-06,Howrah,Clear,31.8,0.0,No,None,None,0.0
+2024-11-06,Hyderabad,Clear,27.6,0.0,No,None,None,0.0
+2024-11-06,Indore,Clear,26.9,0.0,No,None,None,0.0
+2024-11-06,Jaipur,Clear,23.4,0.0,No,None,None,0.0
+2024-11-06,Kanpur,Clear,28.8,0.0,No,None,None,0.0
+2024-11-06,Kochi,Clear,27.7,0.0,No,None,None,0.0
+2024-11-06,Kolkata,Haze,30.0,0.0,No,None,None,0.0
+2024-11-06,Lucknow,Haze,24.0,0.0,No,None,None,0.0
+2024-11-06,Mumbai,Clear,31.0,0.0,No,None,None,0.0
+2024-11-06,Nagpur,Clear,24.9,0.0,No,None,None,0.0
+2024-11-06,Noida,Clear,24.8,0.0,No,None,None,0.0
+2024-11-06,Pune,Cloudy,25.6,0.0,No,None,None,0.0
+2024-11-07,Agra,Clear,20.0,0.0,No,Chhath Puja,None,17.0
+2024-11-07,Ahmedabad,Clear,23.2,0.0,No,Chhath Puja,None,12.1
+2024-11-07,Bahadurgarh,Fog,24.3,0.0,No,Chhath Puja,None,3.7
+2024-11-07,Bengaluru,Clear,27.4,0.0,No,Chhath Puja,None,19.9
+2024-11-07,Bhopal,Clear,22.6,0.0,No,Chhath Puja,None,9.1
+2024-11-07,Chennai,Cloudy,27.4,0.0,No,Chhath Puja,None,8.7
+2024-11-07,Delhi,Fog,22.3,0.0,No,Chhath Puja,None,9.5
+2024-11-07,Faridabad,Clear,25.4,0.0,No,Chhath Puja,None,15.6
+2024-11-07,Ghaziabad,Haze,22.9,0.0,No,Chhath Puja,None,19.5
+2024-11-07,Greater Noida,Clear,24.7,0.0,No,Chhath Puja,None,17.8
+2024-11-07,Gurugram,Haze,25.1,0.0,No,Chhath Puja,None,13.9
+2024-11-07,Howrah,Clear,33.4,0.0,No,Chhath Puja,None,8.9
+2024-11-07,Hyderabad,Cloudy,25.8,0.0,No,Chhath Puja,None,19.5
+2024-11-07,Indore,Clear,22.7,0.0,No,Chhath Puja,None,18.0
+2024-11-07,Jaipur,Clear,22.0,0.0,No,Chhath Puja,None,10.7
+2024-11-07,Kanpur,Haze,23.6,0.0,No,Chhath Puja,None,19.1
+2024-11-07,Kochi,Clear,26.9,0.0,No,Chhath Puja,None,9.5
+2024-11-07,Kolkata,Cloudy,27.8,0.0,No,Chhath Puja,None,16.4
+2024-11-07,Lucknow,Haze,22.0,0.0,No,Chhath Puja,None,11.9
+2024-11-07,Mumbai,Clear,29.4,0.0,No,Chhath Puja,None,9.8
+2024-11-07,Nagpur,Cloudy,27.5,0.0,No,Chhath Puja,None,15.8
+2024-11-07,Noida,Clear,23.3,0.0,No,Chhath Puja,None,17.3
+2024-11-07,Pune,Cloudy,27.7,0.0,No,Chhath Puja,None,11.3
+2024-11-08,Agra,Clear,24.2,0.0,No,None,None,0.0
+2024-11-08,Ahmedabad,Clear,24.0,0.0,No,None,None,0.0
+2024-11-08,Bahadurgarh,Cloudy,21.8,0.0,No,None,None,0.0
+2024-11-08,Bengaluru,Haze,27.9,0.0,No,None,Marathon,4.1
+2024-11-08,Bhopal,Clear,27.1,0.0,No,None,None,0.0
+2024-11-08,Chennai,Cloudy,30.7,0.0,No,None,None,0.0
+2024-11-08,Delhi,Haze,24.1,0.0,No,None,None,0.0
+2024-11-08,Faridabad,Haze,25.7,0.0,No,None,None,0.0
+2024-11-08,Ghaziabad,Cloudy,26.3,0.0,No,None,None,0.0
+2024-11-08,Greater Noida,Haze,26.3,0.0,No,None,None,0.0
+2024-11-08,Gurugram,Haze,23.7,0.0,No,None,None,0.0
+2024-11-08,Howrah,Rain,33.5,3.4,No,None,None,-3.7
+2024-11-08,Hyderabad,Cloudy,26.7,0.0,No,None,None,0.0
+2024-11-08,Indore,Clear,26.6,0.0,No,None,None,0.0
+2024-11-08,Jaipur,Cloudy,22.2,0.0,No,None,None,0.0
+2024-11-08,Kanpur,Cloudy,25.8,0.0,No,None,None,0.0
+2024-11-08,Kochi,Clear,37.1,0.0,No,None,None,0.0
+2024-11-08,Kolkata,Cloudy,29.1,0.0,No,None,None,0.0
+2024-11-08,Lucknow,Clear,24.2,0.0,No,None,None,0.0
+2024-11-08,Mumbai,Clear,28.9,0.0,No,None,None,0.0
+2024-11-08,Nagpur,Haze,24.8,0.0,No,None,None,0.0
+2024-11-08,Noida,Clear,27.9,0.0,No,None,None,0.0
+2024-11-08,Pune,Cloudy,24.3,0.0,No,None,None,0.0
+2024-11-09,Agra,Clear,22.8,0.0,No,None,None,0.0
+2024-11-09,Ahmedabad,Cloudy,22.0,0.0,No,None,None,0.0
+2024-11-09,Bahadurgarh,Haze,22.1,0.0,No,None,None,0.0
+2024-11-09,Bengaluru,Haze,21.7,0.0,No,None,None,0.0
+2024-11-09,Bhopal,Clear,27.6,0.0,No,None,None,0.0
+2024-11-09,Chennai,Haze,37.0,0.0,No,None,None,0.0
+2024-11-09,Delhi,Clear,23.1,0.0,No,None,None,0.0
+2024-11-09,Faridabad,Haze,19.8,0.0,No,None,None,0.0
+2024-11-09,Ghaziabad,Cloudy,26.2,0.0,No,None,None,0.0
+2024-11-09,Greater Noida,Clear,22.2,0.0,No,None,None,0.0
+2024-11-09,Gurugram,Cloudy,27.2,0.0,No,None,None,0.0
+2024-11-09,Howrah,Clear,29.3,0.0,No,None,None,0.0
+2024-11-09,Hyderabad,Clear,24.4,0.0,No,None,Tech Conference,5.4
+2024-11-09,Indore,Cloudy,27.9,0.0,No,None,None,0.0
+2024-11-09,Jaipur,Cloudy,23.4,0.0,No,None,Tech Conference,7.3
+2024-11-09,Kanpur,Clear,23.5,0.0,No,None,None,0.0
+2024-11-09,Kochi,Clear,26.8,0.0,No,None,None,0.0
+2024-11-09,Kolkata,Rain,31.0,7.4,No,None,None,-3.1
+2024-11-09,Lucknow,Fog,25.9,0.0,No,None,None,-4.4
+2024-11-09,Mumbai,Haze,31.5,0.0,No,None,None,0.0
+2024-11-09,Nagpur,Haze,25.8,0.0,No,None,None,0.0
+2024-11-09,Noida,Clear,26.9,0.0,No,None,None,0.0
+2024-11-09,Pune,Clear,28.3,0.0,No,None,None,0.0
+2024-11-10,Agra,Haze,25.1,0.0,No,None,Trade Fair,8.2
+2024-11-10,Ahmedabad,Cloudy,27.9,0.0,No,None,None,0.0
+2024-11-10,Bahadurgarh,Clear,22.9,0.0,No,None,None,0.0
+2024-11-10,Bengaluru,Clear,22.6,0.0,No,None,None,0.0
+2024-11-10,Bhopal,Clear,27.1,0.0,No,None,None,0.0
+2024-11-10,Chennai,Clear,31.4,0.0,No,None,None,0.0
+2024-11-10,Delhi,Clear,26.7,0.0,No,None,None,0.0
+2024-11-10,Faridabad,Clear,21.7,0.0,No,None,None,0.0
+2024-11-10,Ghaziabad,Haze,21.7,0.0,No,None,None,0.0
+2024-11-10,Greater Noida,Clear,25.1,0.0,No,None,None,0.0
+2024-11-10,Gurugram,Cloudy,23.8,0.0,No,None,Exam Season,6.1
+2024-11-10,Howrah,Haze,30.9,0.0,No,None,None,0.0
+2024-11-10,Hyderabad,Cloudy,21.4,0.0,No,None,None,0.0
+2024-11-10,Indore,Clear,23.6,0.0,No,None,None,0.0
+2024-11-10,Jaipur,Clear,27.4,0.0,No,None,None,0.0
+2024-11-10,Kanpur,Clear,28.6,0.0,No,None,None,0.0
+2024-11-10,Kochi,Clear,27.0,0.0,No,None,None,0.0
+2024-11-10,Kolkata,Cloudy,29.2,0.0,No,None,None,0.0
+2024-11-10,Lucknow,Clear,24.1,0.0,No,None,None,0.0
+2024-11-10,Mumbai,Haze,34.5,0.0,No,None,Concert,10.1
+2024-11-10,Nagpur,Clear,24.8,0.0,No,None,None,0.0
+2024-11-10,Noida,Haze,27.9,0.0,No,None,None,0.0
+2024-11-10,Pune,Clear,25.1,0.0,No,None,None,0.0
+2024-11-11,Agra,Clear,25.8,0.0,No,None,None,0.0
+2024-11-11,Ahmedabad,Clear,22.3,0.0,No,None,None,0.0
+2024-11-11,Bahadurgarh,Haze,23.6,0.0,No,None,None,0.0
+2024-11-11,Bengaluru,Rain,21.9,21.5,No,None,Trade Fair,7.6
+2024-11-11,Bhopal,Clear,25.2,0.0,No,None,None,0.0
+2024-11-11,Chennai,Clear,28.1,0.0,No,None,None,0.0
+2024-11-11,Delhi,Haze,23.4,0.0,No,None,None,0.0
+2024-11-11,Faridabad,Cloudy,24.8,0.0,No,None,None,0.0
+2024-11-11,Ghaziabad,Clear,26.5,0.0,No,None,None,0.0
+2024-11-11,Greater Noida,Haze,17.4,0.0,No,None,Cricket Match,13.6
+2024-11-11,Gurugram,Fog,24.4,0.0,No,None,None,-3.7
+2024-11-11,Howrah,Clear,31.0,0.0,No,None,None,0.0
+2024-11-11,Hyderabad,Cloudy,26.7,0.0,No,None,None,0.0
+2024-11-11,Indore,Cloudy,25.2,0.0,No,None,None,0.0
+2024-11-11,Jaipur,Fog,22.7,0.0,No,None,None,-5.7
+2024-11-11,Kanpur,Clear,26.9,0.0,No,None,Trade Fair,10.1
+2024-11-11,Kochi,Clear,29.8,0.0,No,None,None,0.0
+2024-11-11,Kolkata,Rain,30.5,20.9,No,None,None,-4.0
+2024-11-11,Lucknow,Clear,26.4,0.0,No,None,None,0.0
+2024-11-11,Mumbai,Cloudy,33.1,0.0,No,None,None,0.0
+2024-11-11,Nagpur,Clear,25.8,0.0,No,None,None,0.0
+2024-11-11,Noida,Haze,23.5,0.0,No,None,None,0.0
+2024-11-11,Pune,Clear,25.2,0.0,No,None,Marathon,6.6
+2024-11-12,Agra,Fog,26.1,0.0,No,None,None,-6.3
+2024-11-12,Ahmedabad,Clear,26.6,0.0,No,None,None,0.0
+2024-11-12,Bahadurgarh,Cloudy,21.2,0.0,No,None,None,0.0
+2024-11-12,Bengaluru,Cloudy,23.6,0.0,No,None,None,0.0
+2024-11-12,Bhopal,Clear,31.4,0.0,No,None,None,0.0
+2024-11-12,Chennai,Clear,29.6,0.0,No,None,None,0.0
+2024-11-12,Delhi,Fog,22.1,0.0,No,None,Cricket Match,9.1
+2024-11-12,Faridabad,Clear,25.4,0.0,No,None,None,0.0
+2024-11-12,Ghaziabad,Haze,23.7,0.0,No,None,None,0.0
+2024-11-12,Greater Noida,Haze,23.2,0.0,No,None,None,0.0
+2024-11-12,Gurugram,Clear,23.6,0.0,No,None,None,0.0
+2024-11-12,Howrah,Clear,26.5,0.0,No,None,None,0.0
+2024-11-12,Hyderabad,Cloudy,25.8,0.0,No,None,None,0.0
+2024-11-12,Indore,Clear,26.7,0.0,No,None,None,0.0
+2024-11-12,Jaipur,Clear,28.6,0.0,No,None,None,0.0
+2024-11-12,Kanpur,Cloudy,24.2,0.0,No,None,Film Premiere,6.7
+2024-11-12,Kochi,Clear,29.8,0.0,No,None,Concert,12.5
+2024-11-12,Kolkata,Clear,32.2,0.0,No,None,None,0.0
+2024-11-12,Lucknow,Clear,22.0,0.0,No,None,None,0.0
+2024-11-12,Mumbai,Clear,31.5,0.0,No,None,Concert,11.0
+2024-11-12,Nagpur,Haze,22.6,0.0,No,None,None,0.0
+2024-11-12,Noida,Clear,23.1,0.0,No,None,None,0.0
+2024-11-12,Pune,Clear,26.2,0.0,No,None,None,0.0
+2024-11-13,Agra,Clear,19.3,0.0,No,None,Exam Season,3.5
+2024-11-13,Ahmedabad,Clear,26.0,0.0,No,None,None,0.0
+2024-11-13,Bahadurgarh,Fog,23.0,0.0,No,None,None,-5.1
+2024-11-13,Bengaluru,Cloudy,23.0,0.0,No,None,None,0.0
+2024-11-13,Bhopal,Cloudy,27.8,0.0,No,None,None,0.0
+2024-11-13,Chennai,Clear,27.0,0.0,No,None,None,0.0
+2024-11-13,Delhi,Haze,28.1,0.0,No,None,None,0.0
+2024-11-13,Faridabad,Clear,19.7,0.0,No,None,None,0.0
+2024-11-13,Ghaziabad,Haze,21.3,0.0,No,None,None,0.0
+2024-11-13,Greater Noida,Clear,25.0,0.0,No,None,None,0.0
+2024-11-13,Gurugram,Fog,28.2,0.0,No,None,None,-5.0
+2024-11-13,Howrah,Clear,31.4,0.0,No,None,None,0.0
+2024-11-13,Hyderabad,Clear,26.0,0.0,No,None,None,0.0
+2024-11-13,Indore,Clear,23.4,0.0,No,None,None,0.0
+2024-11-13,Jaipur,Clear,22.8,0.0,No,None,None,0.0
+2024-11-13,Kanpur,Haze,21.0,0.0,No,None,None,0.0
+2024-11-13,Kochi,Cloudy,26.8,0.0,No,None,None,0.0
+2024-11-13,Kolkata,Cloudy,31.0,0.0,No,None,None,0.0
+2024-11-13,Lucknow,Cloudy,21.2,0.0,No,None,None,0.0
+2024-11-13,Mumbai,Haze,30.8,0.0,No,None,None,0.0
+2024-11-13,Nagpur,Clear,22.7,0.0,No,None,Film Premiere,5.7
+2024-11-13,Noida,Clear,22.8,0.0,No,None,None,0.0
+2024-11-13,Pune,Cloudy,29.5,0.0,No,None,None,0.0
+2024-11-14,Agra,Clear,24.8,0.0,No,None,None,0.0
+2024-11-14,Ahmedabad,Cloudy,29.1,0.0,No,None,None,0.0
+2024-11-14,Bahadurgarh,Haze,22.1,0.0,No,None,None,0.0
+2024-11-14,Bengaluru,Clear,26.1,0.0,No,None,None,0.0
+2024-11-14,Bhopal,Clear,23.5,0.0,No,None,None,0.0
+2024-11-14,Chennai,Rain,29.0,4.0,No,None,None,-3.8
+2024-11-14,Delhi,Clear,21.0,0.0,No,None,Marathon,5.2
+2024-11-14,Faridabad,Cloudy,18.2,0.0,No,None,None,0.0
+2024-11-14,Ghaziabad,Haze,21.4,0.0,No,None,None,0.0
+2024-11-14,Greater Noida,Fog,25.6,0.0,No,None,None,-5.3
+2024-11-14,Gurugram,Clear,20.6,0.0,No,None,None,0.0
+2024-11-14,Howrah,Haze,34.5,0.0,No,None,Cricket Match,16.9
+2024-11-14,Hyderabad,Clear,26.8,0.0,No,None,None,0.0
+2024-11-14,Indore,Clear,27.6,0.0,No,None,None,0.0
+2024-11-14,Jaipur,Clear,25.7,0.0,No,None,None,0.0
+2024-11-14,Kanpur,Haze,20.2,0.0,No,None,None,0.0
+2024-11-14,Kochi,Clear,29.4,0.0,No,None,None,0.0
+2024-11-14,Kolkata,Clear,26.0,0.0,No,None,None,0.0
+2024-11-14,Lucknow,Cloudy,30.1,0.0,No,None,None,0.0
+2024-11-14,Mumbai,Clear,26.0,0.0,No,None,Tech Conference,4.9
+2024-11-14,Nagpur,Clear,23.4,0.0,No,None,None,0.0
+2024-11-14,Noida,Clear,20.3,0.0,No,None,None,0.0
+2024-11-14,Pune,Clear,29.4,0.0,No,None,None,0.0
+2024-11-15,Agra,Cloudy,30.1,0.0,Yes,Kartik Purnima,None,-7.2
+2024-11-15,Ahmedabad,Haze,20.4,0.0,Yes,Kartik Purnima,None,-3.6
+2024-11-15,Bahadurgarh,Haze,22.4,0.0,Yes,Kartik Purnima,None,-4.6
+2024-11-15,Bengaluru,Clear,26.8,0.0,Yes,Kartik Purnima,None,2.4
+2024-11-15,Bhopal,Clear,27.7,0.0,Yes,Kartik Purnima,None,-1.1
+2024-11-15,Chennai,Rain,32.0,18.6,Yes,Kartik Purnima,None,-7.2
+2024-11-15,Delhi,Clear,25.9,0.0,Yes,Kartik Purnima,None,-0.6
+2024-11-15,Faridabad,Cloudy,25.0,0.0,Yes,Kartik Purnima,None,-4.9
+2024-11-15,Ghaziabad,Fog,25.2,0.0,Yes,Kartik Purnima,None,-11.0
+2024-11-15,Greater Noida,Haze,23.2,0.0,Yes,Kartik Purnima,None,-0.5
+2024-11-15,Gurugram,Clear,25.8,0.0,Yes,Kartik Purnima,Political Rally,4.2
+2024-11-15,Howrah,Clear,25.1,0.0,Yes,Kartik Purnima,Marathon,-1.3
+2024-11-15,Hyderabad,Clear,32.0,0.0,Yes,Kartik Purnima,None,-3.7
+2024-11-15,Indore,Clear,26.1,0.0,Yes,Kartik Purnima,None,0.2
+2024-11-15,Jaipur,Haze,26.5,0.0,Yes,Kartik Purnima,None,-4.1
+2024-11-15,Kanpur,Clear,27.3,0.0,Yes,Kartik Purnima,None,-9.0
+2024-11-15,Kochi,Clear,28.9,0.0,Yes,Kartik Purnima,Tech Conference,10.5
+2024-11-15,Kolkata,Haze,27.4,0.0,Yes,Kartik Purnima,Exam Season,5.0
+2024-11-15,Lucknow,Clear,24.5,0.0,Yes,Kartik Purnima,None,1.5
+2024-11-15,Mumbai,Clear,28.3,0.0,Yes,Kartik Purnima,None,-1.1
+2024-11-15,Nagpur,Clear,25.4,0.0,Yes,Kartik Purnima,None,-6.1
+2024-11-15,Noida,Clear,24.8,0.0,Yes,Kartik Purnima,None,-0.3
+2024-11-15,Pune,Clear,22.6,0.0,Yes,Kartik Purnima,None,-0.2
+2024-11-16,Agra,Fog,21.2,0.0,No,None,None,-4.4
+2024-11-16,Ahmedabad,Clear,29.0,0.0,No,None,None,0.0
+2024-11-16,Bahadurgarh,Haze,21.7,0.0,No,None,None,0.0
+2024-11-16,Bengaluru,Cloudy,26.7,0.0,No,None,None,0.0
+2024-11-16,Bhopal,Haze,23.4,0.0,No,None,None,0.0
+2024-11-16,Chennai,Clear,29.2,0.0,No,None,None,0.0
+2024-11-16,Delhi,Clear,22.3,0.0,No,None,None,0.0
+2024-11-16,Faridabad,Cloudy,25.5,0.0,No,None,None,0.0
+2024-11-16,Ghaziabad,Fog,22.3,0.0,No,None,None,-3.5
+2024-11-16,Greater Noida,Clear,23.4,0.0,No,None,None,0.0
+2024-11-16,Gurugram,Haze,22.4,0.0,No,None,None,0.0
+2024-11-16,Howrah,Cloudy,26.9,0.0,No,None,None,0.0
+2024-11-16,Hyderabad,Cloudy,26.6,0.0,No,None,None,0.0
+2024-11-16,Indore,Clear,28.2,0.0,No,None,Marathon,7.0
+2024-11-16,Jaipur,Clear,29.6,0.0,No,None,None,0.0
+2024-11-16,Kanpur,Clear,27.6,0.0,No,None,None,0.0
+2024-11-16,Kochi,Clear,29.2,0.0,No,None,None,0.0
+2024-11-16,Kolkata,Cloudy,29.2,0.0,No,None,None,0.0
+2024-11-16,Lucknow,Clear,25.2,0.0,No,None,None,0.0
+2024-11-16,Mumbai,Clear,27.9,0.0,No,None,None,0.0
+2024-11-16,Nagpur,Cloudy,28.9,0.0,No,None,None,0.0
+2024-11-16,Noida,Cloudy,24.9,0.0,No,None,None,0.0
+2024-11-16,Pune,Cloudy,26.6,0.0,No,None,None,0.0
+2024-11-17,Agra,Clear,25.7,0.0,No,None,None,0.0
+2024-11-17,Ahmedabad,Rain,30.3,23.1,No,None,None,-4.1
+2024-11-17,Bahadurgarh,Clear,27.8,0.0,No,None,None,0.0
+2024-11-17,Bengaluru,Cloudy,28.4,0.0,No,None,None,0.0
+2024-11-17,Bhopal,Cloudy,25.2,0.0,No,None,None,0.0
+2024-11-17,Chennai,Clear,30.0,0.0,No,None,None,0.0
+2024-11-17,Delhi,Clear,24.5,0.0,No,None,None,0.0
+2024-11-17,Faridabad,Cloudy,24.9,0.0,No,None,None,0.0
+2024-11-17,Ghaziabad,Fog,20.6,0.0,No,None,None,-7.3
+2024-11-17,Greater Noida,Clear,21.8,0.0,No,None,Cricket Match,14.4
+2024-11-17,Gurugram,Clear,22.4,0.0,No,None,None,0.0
+2024-11-17,Howrah,Clear,31.6,0.0,No,None,Marathon,8.4
+2024-11-17,Hyderabad,Haze,26.5,0.0,No,None,None,0.0
+2024-11-17,Indore,Clear,22.9,0.0,No,None,None,0.0
+2024-11-17,Jaipur,Cloudy,22.8,0.0,No,None,Political Rally,10.6
+2024-11-17,Kanpur,Haze,25.5,0.0,No,None,None,0.0
+2024-11-17,Kochi,Cloudy,28.2,0.0,No,None,None,0.0
+2024-11-17,Kolkata,Haze,30.4,0.0,No,None,None,0.0
+2024-11-17,Lucknow,Clear,29.5,0.0,No,None,None,0.0
+2024-11-17,Mumbai,Clear,30.0,0.0,No,None,Trade Fair,8.1
+2024-11-17,Nagpur,Clear,25.6,0.0,No,None,None,0.0
+2024-11-17,Noida,Haze,24.2,0.0,No,None,None,0.0
+2024-11-17,Pune,Cloudy,25.6,0.0,No,None,None,0.0
+2024-11-18,Agra,Clear,23.9,0.0,No,None,None,0.0
+2024-11-18,Ahmedabad,Cloudy,22.4,0.0,No,None,None,0.0
+2024-11-18,Bahadurgarh,Haze,21.6,0.0,No,None,None,0.0
+2024-11-18,Bengaluru,Cloudy,25.6,0.0,No,None,None,0.0
+2024-11-18,Bhopal,Clear,25.6,0.0,No,None,None,0.0
+2024-11-18,Chennai,Clear,28.6,0.0,No,None,None,0.0
+2024-11-18,Delhi,Clear,23.6,0.0,No,None,None,0.0
+2024-11-18,Faridabad,Haze,24.2,0.0,No,None,None,0.0
+2024-11-18,Ghaziabad,Cloudy,26.2,0.0,No,None,None,0.0
+2024-11-18,Greater Noida,Clear,23.8,0.0,No,None,None,0.0
+2024-11-18,Gurugram,Cloudy,25.0,0.0,No,None,None,0.0
+2024-11-18,Howrah,Cloudy,28.6,0.0,No,None,None,0.0
+2024-11-18,Hyderabad,Clear,27.4,0.0,No,None,None,0.0
+2024-11-18,Indore,Clear,26.9,0.0,No,None,None,0.0
+2024-11-18,Jaipur,Clear,26.2,0.0,No,None,None,0.0
+2024-11-18,Kanpur,Fog,25.8,0.0,No,None,None,-5.9
+2024-11-18,Kochi,Cloudy,29.8,0.0,No,None,None,0.0
+2024-11-18,Kolkata,Clear,30.6,0.0,No,None,Marathon,4.4
+2024-11-18,Lucknow,Clear,22.4,0.0,No,None,Trade Fair,7.0
+2024-11-18,Mumbai,Cloudy,30.5,0.0,No,None,None,0.0
+2024-11-18,Nagpur,Clear,27.0,0.0,No,None,None,0.0
+2024-11-18,Noida,Clear,21.9,0.0,No,None,None,0.0
+2024-11-18,Pune,Clear,25.8,0.0,No,None,None,0.0
+2024-11-19,Agra,Clear,23.8,0.0,No,None,None,0.0
+2024-11-19,Ahmedabad,Haze,20.5,0.0,No,None,None,0.0
+2024-11-19,Bahadurgarh,Haze,23.5,0.0,No,None,None,0.0
+2024-11-19,Bengaluru,Clear,25.6,0.0,No,None,None,0.0
+2024-11-19,Bhopal,Cloudy,25.6,0.0,No,None,Cricket Match,14.3
+2024-11-19,Chennai,Clear,27.0,0.0,No,None,None,0.0
+2024-11-19,Delhi,Clear,21.9,0.0,No,None,Film Premiere,10.0
+2024-11-19,Faridabad,Clear,22.8,0.0,No,None,Concert,13.9
+2024-11-19,Ghaziabad,Clear,22.7,0.0,No,None,None,0.0
+2024-11-19,Greater Noida,Cloudy,26.8,0.0,No,None,None,0.0
+2024-11-19,Gurugram,Clear,26.2,0.0,No,None,None,0.0
+2024-11-19,Howrah,Cloudy,30.2,0.0,No,None,None,0.0
+2024-11-19,Hyderabad,Clear,25.1,0.0,No,None,None,0.0
+2024-11-19,Indore,Rain,28.6,4.9,No,None,None,-4.8
+2024-11-19,Jaipur,Haze,19.7,0.0,No,None,None,0.0
+2024-11-19,Kanpur,Haze,22.9,0.0,No,None,None,0.0
+2024-11-19,Kochi,Clear,31.9,0.0,No,None,None,0.0
+2024-11-19,Kolkata,Clear,35.7,0.0,No,None,None,0.0
+2024-11-19,Lucknow,Clear,24.2,0.0,No,None,Cricket Match,12.3
+2024-11-19,Mumbai,Clear,27.0,0.0,No,None,None,0.0
+2024-11-19,Nagpur,Cloudy,27.4,0.0,No,None,None,0.0
+2024-11-19,Noida,Clear,19.6,0.0,No,None,Political Rally,10.8
+2024-11-19,Pune,Cloudy,28.0,0.0,No,None,None,0.0
+2024-11-20,Agra,Clear,25.1,0.0,No,None,None,0.0
+2024-11-20,Ahmedabad,Cloudy,25.5,0.0,No,None,None,0.0
+2024-11-20,Bahadurgarh,Cloudy,25.4,0.0,No,None,None,0.0
+2024-11-20,Bengaluru,Cloudy,26.4,0.0,No,None,None,0.0
+2024-11-20,Bhopal,Clear,24.1,0.0,No,None,None,0.0
+2024-11-20,Chennai,Clear,34.6,0.0,No,None,Tech Conference,5.0
+2024-11-20,Delhi,Clear,25.9,0.0,No,None,None,0.0
+2024-11-20,Faridabad,Clear,18.0,0.0,No,None,Concert,13.1
+2024-11-20,Ghaziabad,Clear,27.7,0.0,No,None,None,0.0
+2024-11-20,Greater Noida,Haze,24.1,0.0,No,None,None,0.0
+2024-11-20,Gurugram,Haze,25.4,0.0,No,None,None,0.0
+2024-11-20,Howrah,Haze,31.4,0.0,No,None,None,0.0
+2024-11-20,Hyderabad,Clear,24.4,0.0,No,None,None,0.0
+2024-11-20,Indore,Haze,27.4,0.0,No,None,None,0.0
+2024-11-20,Jaipur,Cloudy,22.0,0.0,No,None,None,0.0
+2024-11-20,Kanpur,Clear,22.5,0.0,No,None,None,0.0
+2024-11-20,Kochi,Cloudy,32.8,0.0,No,None,None,0.0
+2024-11-20,Kolkata,Haze,32.4,0.0,No,None,None,0.0
+2024-11-20,Lucknow,Haze,22.2,0.0,No,None,None,0.0
+2024-11-20,Mumbai,Clear,28.2,0.0,No,None,None,0.0
+2024-11-20,Nagpur,Clear,24.4,0.0,No,None,None,0.0
+2024-11-20,Noida,Fog,25.8,0.0,No,None,None,-7.9
+2024-11-20,Pune,Clear,26.9,0.0,No,None,None,0.0
+2024-11-21,Agra,Fog,25.9,0.0,No,None,None,-3.1
+2024-11-21,Ahmedabad,Rain,28.5,5.5,No,None,None,-2.9
+2024-11-21,Bahadurgarh,Cloudy,21.6,0.0,No,None,None,0.0
+2024-11-21,Bengaluru,Haze,28.5,0.0,No,None,None,0.0
+2024-11-21,Bhopal,Clear,24.1,0.0,No,None,None,0.0
+2024-11-21,Chennai,Clear,30.9,0.0,No,None,None,0.0
+2024-11-21,Delhi,Clear,23.8,0.0,No,None,None,0.0
+2024-11-21,Faridabad,Cloudy,21.4,0.0,No,None,None,0.0
+2024-11-21,Ghaziabad,Haze,22.5,0.0,No,None,None,0.0
+2024-11-21,Greater Noida,Clear,27.5,0.0,No,None,None,0.0
+2024-11-21,Gurugram,Clear,24.5,0.0,No,None,None,0.0
+2024-11-21,Howrah,Cloudy,27.5,0.0,No,None,None,0.0
+2024-11-21,Hyderabad,Rain,26.8,10.8,No,None,None,-5.5
+2024-11-21,Indore,Clear,25.5,0.0,No,None,None,0.0
+2024-11-21,Jaipur,Haze,24.7,0.0,No,None,None,0.0
+2024-11-21,Kanpur,Clear,23.0,0.0,No,None,None,0.0
+2024-11-21,Kochi,Clear,33.6,0.0,No,None,None,0.0
+2024-11-21,Kolkata,Clear,25.4,0.0,No,None,None,0.0
+2024-11-21,Lucknow,Clear,24.2,0.0,No,None,None,0.0
+2024-11-21,Mumbai,Cloudy,35.0,0.0,No,None,Exam Season,4.3
+2024-11-21,Nagpur,Cloudy,21.7,0.0,No,None,Tech Conference,4.1
+2024-11-21,Noida,Fog,27.6,0.0,No,None,None,-7.0
+2024-11-21,Pune,Clear,23.9,0.0,No,None,None,0.0
+2024-11-22,Agra,Clear,22.3,0.0,No,None,None,0.0
+2024-11-22,Ahmedabad,Clear,24.6,0.0,No,None,None,0.0
+2024-11-22,Bahadurgarh,Clear,24.9,0.0,No,None,None,0.0
+2024-11-22,Bengaluru,Clear,29.3,0.0,No,None,None,0.0
+2024-11-22,Bhopal,Clear,28.6,0.0,No,None,None,0.0
+2024-11-22,Chennai,Clear,31.1,0.0,No,None,None,0.0
+2024-11-22,Delhi,Haze,20.7,0.0,No,None,None,0.0
+2024-11-22,Faridabad,Clear,20.7,0.0,No,None,None,0.0
+2024-11-22,Ghaziabad,Haze,25.3,0.0,No,None,None,0.0
+2024-11-22,Greater Noida,Cloudy,20.6,0.0,No,None,None,0.0
+2024-11-22,Gurugram,Haze,23.4,0.0,No,None,None,0.0
+2024-11-22,Howrah,Clear,30.8,0.0,No,None,None,0.0
+2024-11-22,Hyderabad,Clear,23.2,0.0,No,None,None,0.0
+2024-11-22,Indore,Haze,23.4,0.0,No,None,Marathon,6.6
+2024-11-22,Jaipur,Cloudy,25.3,0.0,No,None,None,0.0
+2024-11-22,Kanpur,Clear,26.7,0.0,No,None,Cricket Match,16.0
+2024-11-22,Kochi,Haze,30.2,0.0,No,None,None,0.0
+2024-11-22,Kolkata,Clear,28.1,0.0,No,None,None,0.0
+2024-11-22,Lucknow,Haze,21.3,0.0,No,None,None,0.0
+2024-11-22,Mumbai,Clear,28.7,0.0,No,None,Exam Season,3.2
+2024-11-22,Nagpur,Clear,26.8,0.0,No,None,None,0.0
+2024-11-22,Noida,Fog,18.8,0.0,No,None,None,-4.4
+2024-11-22,Pune,Cloudy,29.0,0.0,No,None,None,0.0
+2024-11-23,Agra,Cloudy,24.2,0.0,No,None,None,0.0
+2024-11-23,Ahmedabad,Haze,22.5,0.0,No,None,Cricket Match,15.1
+2024-11-23,Bahadurgarh,Clear,23.9,0.0,No,None,None,0.0
+2024-11-23,Bengaluru,Cloudy,27.0,0.0,No,None,None,0.0
+2024-11-23,Bhopal,Haze,27.0,0.0,No,None,None,0.0
+2024-11-23,Chennai,Cloudy,29.1,0.0,No,None,None,0.0
+2024-11-23,Delhi,Clear,22.2,0.0,No,None,Cricket Match,17.0
+2024-11-23,Faridabad,Clear,26.5,0.0,No,None,None,0.0
+2024-11-23,Ghaziabad,Clear,26.1,0.0,No,None,None,0.0
+2024-11-23,Greater Noida,Clear,25.4,0.0,No,None,None,0.0
+2024-11-23,Gurugram,Fog,21.5,0.0,No,None,None,-5.9
+2024-11-23,Howrah,Cloudy,27.9,0.0,No,None,None,0.0
+2024-11-23,Hyderabad,Haze,26.7,0.0,No,None,None,0.0
+2024-11-23,Indore,Clear,21.9,0.0,No,None,None,0.0
+2024-11-23,Jaipur,Clear,18.9,0.0,No,None,None,0.0
+2024-11-23,Kanpur,Haze,24.8,0.0,No,None,None,0.0
+2024-11-23,Kochi,Clear,28.0,0.0,No,None,None,0.0
+2024-11-23,Kolkata,Rain,25.0,18.4,No,None,None,-6.0
+2024-11-23,Lucknow,Haze,27.5,0.0,No,None,None,0.0
+2024-11-23,Mumbai,Clear,29.4,0.0,No,None,None,0.0
+2024-11-23,Nagpur,Clear,26.0,0.0,No,None,None,0.0
+2024-11-23,Noida,Clear,26.2,0.0,No,None,None,0.0
+2024-11-23,Pune,Clear,28.8,0.0,No,None,None,0.0
+2024-11-24,Agra,Fog,23.1,0.0,No,None,None,-6.1
+2024-11-24,Ahmedabad,Clear,26.8,0.0,No,None,None,0.0
+2024-11-24,Bahadurgarh,Clear,25.4,0.0,No,None,Film Premiere,6.3
+2024-11-24,Bengaluru,Cloudy,25.7,0.0,No,None,None,0.0
+2024-11-24,Bhopal,Cloudy,29.4,0.0,No,None,None,0.0
+2024-11-24,Chennai,Rain,33.0,20.1,No,None,None,-5.4
+2024-11-24,Delhi,Clear,23.0,0.0,No,None,None,0.0
+2024-11-24,Faridabad,Clear,28.1,0.0,No,None,None,0.0
+2024-11-24,Ghaziabad,Haze,25.4,0.0,No,None,None,0.0
+2024-11-24,Greater Noida,Haze,32.2,0.0,No,None,None,0.0
+2024-11-24,Gurugram,Haze,21.0,0.0,No,None,None,0.0
+2024-11-24,Howrah,Haze,28.3,0.0,No,None,None,0.0
+2024-11-24,Hyderabad,Clear,27.0,0.0,No,None,None,0.0
+2024-11-24,Indore,Haze,27.0,0.0,No,None,None,0.0
+2024-11-24,Jaipur,Clear,28.9,0.0,No,None,None,0.0
+2024-11-24,Kanpur,Clear,22.3,0.0,No,None,None,0.0
+2024-11-24,Kochi,Haze,32.3,0.0,No,None,None,0.0
+2024-11-24,Kolkata,Clear,32.9,0.0,No,None,None,0.0
+2024-11-24,Lucknow,Clear,25.8,0.0,No,None,None,0.0
+2024-11-24,Mumbai,Clear,27.6,0.0,No,None,None,0.0
+2024-11-24,Nagpur,Clear,29.5,0.0,No,None,None,0.0
+2024-11-24,Noida,Clear,27.1,0.0,No,None,None,0.0
+2024-11-24,Pune,Clear,27.5,0.0,No,None,None,0.0
+2024-11-25,Agra,Clear,24.5,0.0,No,None,None,0.0
+2024-11-25,Ahmedabad,Cloudy,26.6,0.0,No,None,None,0.0
+2024-11-25,Bahadurgarh,Clear,23.8,0.0,No,None,None,0.0
+2024-11-25,Bengaluru,Clear,27.6,0.0,No,None,None,0.0
+2024-11-25,Bhopal,Clear,26.1,0.0,No,None,None,0.0
+2024-11-25,Chennai,Clear,27.9,0.0,No,None,None,0.0
+2024-11-25,Delhi,Clear,21.4,0.0,No,None,None,0.0
+2024-11-25,Faridabad,Clear,22.1,0.0,No,None,None,0.0
+2024-11-25,Ghaziabad,Fog,24.6,0.0,No,None,None,-7.4
+2024-11-25,Greater Noida,Clear,24.5,0.0,No,None,None,0.0
+2024-11-25,Gurugram,Cloudy,25.3,0.0,No,None,None,0.0
+2024-11-25,Howrah,Cloudy,28.4,0.0,No,None,None,0.0
+2024-11-25,Hyderabad,Cloudy,29.7,0.0,No,None,Trade Fair,9.3
+2024-11-25,Indore,Clear,24.9,0.0,No,None,None,0.0
+2024-11-25,Jaipur,Haze,25.2,0.0,No,None,None,0.0
+2024-11-25,Kanpur,Cloudy,19.4,0.0,No,None,None,0.0
+2024-11-25,Kochi,Clear,28.0,0.0,No,None,None,0.0
+2024-11-25,Kolkata,Clear,32.5,0.0,No,None,None,0.0
+2024-11-25,Lucknow,Clear,19.7,0.0,No,None,Marathon,7.7
+2024-11-25,Mumbai,Cloudy,33.8,0.0,No,None,None,0.0
+2024-11-25,Nagpur,Haze,25.1,0.0,No,None,None,0.0
+2024-11-25,Noida,Haze,24.7,0.0,No,None,Cricket Match,16.9
+2024-11-25,Pune,Cloudy,24.8,0.0,No,None,None,0.0
+2024-11-26,Agra,Haze,26.2,0.0,No,None,None,0.0
+2024-11-26,Ahmedabad,Clear,24.3,0.0,No,None,None,0.0
+2024-11-26,Bahadurgarh,Haze,22.8,0.0,No,None,None,0.0
+2024-11-26,Bengaluru,Haze,24.0,0.0,No,None,None,0.0
+2024-11-26,Bhopal,Clear,26.9,0.0,No,None,None,0.0
+2024-11-26,Chennai,Cloudy,32.9,0.0,No,None,None,0.0
+2024-11-26,Delhi,Cloudy,23.5,0.0,No,None,None,0.0
+2024-11-26,Faridabad,Clear,20.8,0.0,No,None,None,0.0
+2024-11-26,Ghaziabad,Clear,21.3,0.0,No,None,None,0.0
+2024-11-26,Greater Noida,Fog,25.0,0.0,No,None,None,-6.6
+2024-11-26,Gurugram,Clear,25.0,0.0,No,None,None,0.0
+2024-11-26,Howrah,Cloudy,29.0,0.0,No,None,None,0.0
+2024-11-26,Hyderabad,Cloudy,27.9,0.0,No,None,None,0.0
+2024-11-26,Indore,Clear,25.4,0.0,No,None,None,0.0
+2024-11-26,Jaipur,Haze,23.1,0.0,No,None,Trade Fair,7.1
+2024-11-26,Kanpur,Cloudy,27.5,0.0,No,None,None,0.0
+2024-11-26,Kochi,Cloudy,23.7,0.0,No,None,Concert,14.6
+2024-11-26,Kolkata,Cloudy,28.8,0.0,No,None,Concert,10.8
+2024-11-26,Lucknow,Clear,28.2,0.0,No,None,None,0.0
+2024-11-26,Mumbai,Clear,28.2,0.0,No,None,None,0.0
+2024-11-26,Nagpur,Clear,24.3,0.0,No,None,None,0.0
+2024-11-26,Noida,Haze,23.7,0.0,No,None,None,0.0
+2024-11-26,Pune,Cloudy,27.0,0.0,No,None,None,0.0
+2024-11-27,Agra,Clear,22.9,0.0,No,None,None,0.0
+2024-11-27,Ahmedabad,Clear,22.1,0.0,No,None,None,0.0
+2024-11-27,Bahadurgarh,Clear,21.8,0.0,No,None,None,0.0
+2024-11-27,Bengaluru,Clear,29.2,0.0,No,None,Concert,13.8
+2024-11-27,Bhopal,Clear,27.1,0.0,No,None,None,0.0
+2024-11-27,Chennai,Cloudy,29.3,0.0,No,None,None,0.0
+2024-11-27,Delhi,Fog,22.4,0.0,No,None,None,-6.7
+2024-11-27,Faridabad,Clear,23.5,0.0,No,None,None,0.0
+2024-11-27,Ghaziabad,Haze,22.9,0.0,No,None,None,0.0
+2024-11-27,Greater Noida,Haze,26.7,0.0,No,None,None,0.0
+2024-11-27,Gurugram,Clear,22.2,0.0,No,None,Concert,14.6
+2024-11-27,Howrah,Haze,30.0,0.0,No,None,None,0.0
+2024-11-27,Hyderabad,Cloudy,26.0,0.0,No,None,None,0.0
+2024-11-27,Indore,Clear,26.6,0.0,No,None,None,0.0
+2024-11-27,Jaipur,Haze,29.2,0.0,No,None,None,0.0
+2024-11-27,Kanpur,Clear,24.8,0.0,No,None,None,0.0
+2024-11-27,Kochi,Rain,24.1,5.5,No,None,None,-3.0
+2024-11-27,Kolkata,Clear,30.1,0.0,No,None,Political Rally,8.1
+2024-11-27,Lucknow,Cloudy,23.9,0.0,No,None,None,0.0
+2024-11-27,Mumbai,Clear,29.9,0.0,No,None,None,0.0
+2024-11-27,Nagpur,Clear,27.5,0.0,No,None,None,0.0
+2024-11-27,Noida,Cloudy,22.6,0.0,No,None,None,0.0
+2024-11-27,Pune,Clear,23.6,0.0,No,None,None,0.0
+2024-11-28,Agra,Haze,31.6,0.0,No,None,None,0.0
+2024-11-28,Ahmedabad,Haze,24.2,0.0,No,None,None,0.0
+2024-11-28,Bahadurgarh,Clear,24.3,0.0,No,None,None,0.0
+2024-11-28,Bengaluru,Clear,22.3,0.0,No,None,None,0.0
+2024-11-28,Bhopal,Clear,26.3,0.0,No,None,None,0.0
+2024-11-28,Chennai,Clear,27.7,0.0,No,None,None,0.0
+2024-11-28,Delhi,Haze,22.9,0.0,No,None,None,0.0
+2024-11-28,Faridabad,Clear,26.6,0.0,No,None,None,0.0
+2024-11-28,Ghaziabad,Clear,25.2,0.0,No,None,None,0.0
+2024-11-28,Greater Noida,Haze,25.4,0.0,No,None,None,0.0
+2024-11-28,Gurugram,Cloudy,19.6,0.0,No,None,Tech Conference,6.9
+2024-11-28,Howrah,Haze,27.0,0.0,No,None,None,0.0
+2024-11-28,Hyderabad,Clear,29.8,0.0,No,None,None,0.0
+2024-11-28,Indore,Clear,28.6,0.0,No,None,Political Rally,9.5
+2024-11-28,Jaipur,Clear,21.9,0.0,No,None,None,0.0
+2024-11-28,Kanpur,Cloudy,24.4,0.0,No,None,None,0.0
+2024-11-28,Kochi,Clear,28.8,0.0,No,None,None,0.0
+2024-11-28,Kolkata,Clear,30.1,0.0,No,None,None,0.0
+2024-11-28,Lucknow,Haze,23.4,0.0,No,None,None,0.0
+2024-11-28,Mumbai,Cloudy,24.9,0.0,No,None,None,0.0
+2024-11-28,Nagpur,Rain,28.8,10.8,No,None,None,-4.0
+2024-11-28,Noida,Haze,22.6,0.0,No,None,None,0.0
+2024-11-28,Pune,Cloudy,26.9,0.0,No,None,None,0.0
+2024-11-29,Agra,Haze,21.8,0.0,No,None,None,0.0
+2024-11-29,Ahmedabad,Cloudy,20.4,0.0,No,None,None,0.0
+2024-11-29,Bahadurgarh,Clear,25.0,0.0,No,None,None,0.0
+2024-11-29,Bengaluru,Haze,27.3,0.0,No,None,None,0.0
+2024-11-29,Bhopal,Clear,25.5,0.0,No,None,None,0.0
+2024-11-29,Chennai,Clear,27.1,0.0,No,None,None,0.0
+2024-11-29,Delhi,Clear,24.2,0.0,No,None,Tech Conference,6.9
+2024-11-29,Faridabad,Clear,21.4,0.0,No,None,None,0.0
+2024-11-29,Ghaziabad,Clear,22.1,0.0,No,None,None,0.0
+2024-11-29,Greater Noida,Haze,26.1,0.0,No,None,None,0.0
+2024-11-29,Gurugram,Cloudy,23.1,0.0,No,None,Tech Conference,5.6
+2024-11-29,Howrah,Haze,34.9,0.0,No,None,None,0.0
+2024-11-29,Hyderabad,Haze,26.9,0.0,No,None,None,0.0
+2024-11-29,Indore,Clear,26.8,0.0,No,None,None,0.0
+2024-11-29,Jaipur,Haze,23.1,0.0,No,None,None,0.0
+2024-11-29,Kanpur,Clear,22.5,0.0,No,None,None,0.0
+2024-11-29,Kochi,Clear,24.5,0.0,No,None,None,0.0
+2024-11-29,Kolkata,Cloudy,32.4,0.0,No,None,None,0.0
+2024-11-29,Lucknow,Clear,25.1,0.0,No,None,None,0.0
+2024-11-29,Mumbai,Clear,29.6,0.0,No,None,None,0.0
+2024-11-29,Nagpur,Rain,25.7,2.9,No,None,None,-4.0
+2024-11-29,Noida,Clear,22.5,0.0,No,None,None,0.0
+2024-11-29,Pune,Clear,23.2,0.0,No,None,None,0.0
+2024-11-30,Agra,Haze,28.4,0.0,No,None,None,0.0
+2024-11-30,Ahmedabad,Cloudy,28.2,0.0,No,None,None,0.0
+2024-11-30,Bahadurgarh,Clear,18.5,0.0,No,None,None,0.0
+2024-11-30,Bengaluru,Clear,22.2,0.0,No,None,None,0.0
+2024-11-30,Bhopal,Haze,25.7,0.0,No,None,None,0.0
+2024-11-30,Chennai,Clear,28.8,0.0,No,None,None,0.0
+2024-11-30,Delhi,Haze,20.7,0.0,No,None,Political Rally,12.3
+2024-11-30,Faridabad,Clear,24.8,0.0,No,None,None,0.0
+2024-11-30,Ghaziabad,Haze,25.2,0.0,No,None,None,0.0
+2024-11-30,Greater Noida,Clear,22.3,0.0,No,None,None,0.0
+2024-11-30,Gurugram,Clear,25.8,0.0,No,None,None,0.0
+2024-11-30,Howrah,Clear,29.0,0.0,No,None,None,0.0
+2024-11-30,Hyderabad,Clear,25.3,0.0,No,None,None,0.0
+2024-11-30,Indore,Cloudy,27.5,0.0,No,None,Concert,15.0
+2024-11-30,Jaipur,Cloudy,28.0,0.0,No,None,None,0.0
+2024-11-30,Kanpur,Haze,24.5,0.0,No,None,None,0.0
+2024-11-30,Kochi,Clear,33.2,0.0,No,None,None,0.0
+2024-11-30,Kolkata,Clear,27.3,0.0,No,None,Film Premiere,7.5
+2024-11-30,Lucknow,Cloudy,21.1,0.0,No,None,None,0.0
+2024-11-30,Mumbai,Clear,30.6,0.0,No,None,None,0.0
+2024-11-30,Nagpur,Clear,26.2,0.0,No,None,None,0.0
+2024-11-30,Noida,Haze,22.8,0.0,No,None,None,0.0
+2024-11-30,Pune,Clear,23.5,0.0,No,None,None,0.0
+2024-12-01,Agra,Fog,14.8,0.0,No,None,None,-3.7
+2024-12-01,Ahmedabad,Clear,21.8,0.0,No,None,None,0.0
+2024-12-01,Bahadurgarh,Cloudy,16.3,0.0,No,None,None,0.0
+2024-12-01,Bengaluru,Clear,26.9,0.0,No,None,None,0.0
+2024-12-01,Bhopal,Rain,22.8,9.4,No,None,None,-4.4
+2024-12-01,Chennai,Clear,28.6,0.0,No,None,None,0.0
+2024-12-01,Delhi,Fog,17.9,0.0,No,None,None,-3.6
+2024-12-01,Faridabad,Clear,21.6,0.0,No,None,None,0.0
+2024-12-01,Ghaziabad,Fog,17.7,0.0,No,None,None,-5.2
+2024-12-01,Greater Noida,Cloudy,16.1,0.0,No,None,None,0.0
+2024-12-01,Gurugram,Clear,17.6,0.0,No,None,None,0.0
+2024-12-01,Howrah,Clear,25.8,0.0,No,None,None,0.0
+2024-12-01,Hyderabad,Cloudy,26.1,0.0,No,None,None,0.0
+2024-12-01,Indore,Cloudy,23.8,0.0,No,None,None,0.0
+2024-12-01,Jaipur,Haze,18.9,0.0,No,None,None,0.0
+2024-12-01,Kanpur,Clear,21.4,0.0,No,None,None,0.0
+2024-12-01,Kochi,Clear,30.9,0.0,No,None,None,0.0
+2024-12-01,Kolkata,Cloudy,29.9,0.0,No,None,None,0.0
+2024-12-01,Lucknow,Haze,14.4,0.0,No,None,None,0.0
+2024-12-01,Mumbai,Haze,26.3,0.0,No,None,None,0.0
+2024-12-01,Nagpur,Haze,20.5,0.0,No,None,None,0.0
+2024-12-01,Noida,Haze,19.8,0.0,No,None,Political Rally,11.9
+2024-12-01,Pune,Clear,19.5,0.0,No,None,Trade Fair,9.3
+2024-12-02,Agra,Fog,14.3,0.0,No,None,None,-5.5
+2024-12-02,Ahmedabad,Clear,18.9,0.0,No,None,None,0.0
+2024-12-02,Bahadurgarh,Fog,19.3,0.0,No,None,None,-7.3
+2024-12-02,Bengaluru,Clear,23.5,0.0,No,None,None,0.0
+2024-12-02,Bhopal,Clear,27.8,0.0,No,None,None,0.0
+2024-12-02,Chennai,Clear,30.1,0.0,No,None,None,0.0
+2024-12-02,Delhi,Fog,16.9,0.0,No,None,None,-7.9
+2024-12-02,Faridabad,Fog,14.5,0.0,No,None,None,-4.8
+2024-12-02,Ghaziabad,Clear,18.8,0.0,No,None,None,0.0
+2024-12-02,Greater Noida,Fog,12.6,0.0,No,None,None,-4.3
+2024-12-02,Gurugram,Haze,15.4,0.0,No,None,None,0.0
+2024-12-02,Howrah,Clear,28.3,0.0,No,None,None,0.0
+2024-12-02,Hyderabad,Rain,20.3,17.7,No,None,None,-2.0
+2024-12-02,Indore,Cloudy,26.5,0.0,No,None,Trade Fair,7.3
+2024-12-02,Jaipur,Clear,16.1,0.0,No,None,None,0.0
+2024-12-02,Kanpur,Fog,17.4,0.0,No,None,None,-6.6
+2024-12-02,Kochi,Clear,29.0,0.0,No,None,None,0.0
+2024-12-02,Kolkata,Cloudy,29.5,0.0,No,None,None,0.0
+2024-12-02,Lucknow,Haze,24.2,0.0,No,None,None,0.0
+2024-12-02,Mumbai,Clear,26.4,0.0,No,None,None,0.0
+2024-12-02,Nagpur,Clear,22.3,0.0,No,None,None,0.0
+2024-12-02,Noida,Cloudy,16.6,0.0,No,None,Political Rally,8.8
+2024-12-02,Pune,Cloudy,24.0,0.0,No,None,None,0.0
+2024-12-03,Agra,Clear,17.9,0.0,No,None,None,0.0
+2024-12-03,Ahmedabad,Clear,25.7,0.0,No,None,None,0.0
+2024-12-03,Bahadurgarh,Fog,16.5,0.0,No,None,Tech Conference,2.4
+2024-12-03,Bengaluru,Cloudy,23.0,0.0,No,None,None,0.0
+2024-12-03,Bhopal,Clear,22.2,0.0,No,None,None,0.0
+2024-12-03,Chennai,Clear,34.1,0.0,No,None,None,0.0
+2024-12-03,Delhi,Haze,16.0,0.0,No,None,None,0.0
+2024-12-03,Faridabad,Haze,18.7,0.0,No,None,None,0.0
+2024-12-03,Ghaziabad,Clear,16.1,0.0,No,None,None,0.0
+2024-12-03,Greater Noida,Clear,22.5,0.0,No,None,None,0.0
+2024-12-03,Gurugram,Clear,20.2,0.0,No,None,Political Rally,8.4
+2024-12-03,Howrah,Clear,29.3,0.0,No,None,None,0.0
+2024-12-03,Hyderabad,Clear,23.6,0.0,No,None,None,0.0
+2024-12-03,Indore,Clear,21.7,0.0,No,None,None,0.0
+2024-12-03,Jaipur,Clear,19.9,0.0,No,None,None,0.0
+2024-12-03,Kanpur,Fog,19.0,0.0,No,None,None,-6.8
+2024-12-03,Kochi,Rain,27.9,23.0,No,None,None,-4.6
+2024-12-03,Kolkata,Rain,28.1,7.4,No,None,Exam Season,0.6
+2024-12-03,Lucknow,Haze,19.1,0.0,No,None,None,0.0
+2024-12-03,Mumbai,Cloudy,27.2,0.0,No,None,None,0.0
+2024-12-03,Nagpur,Rain,27.4,12.0,No,None,None,-2.7
+2024-12-03,Noida,Clear,15.6,0.0,No,None,None,0.0
+2024-12-03,Pune,Rain,23.8,16.3,No,None,None,-5.7
+2024-12-04,Agra,Haze,12.6,0.0,No,None,None,0.0
+2024-12-04,Ahmedabad,Haze,23.6,0.0,No,None,None,0.0
+2024-12-04,Bahadurgarh,Clear,16.7,0.0,No,None,None,0.0
+2024-12-04,Bengaluru,Clear,19.3,0.0,No,None,Marathon,8.3
+2024-12-04,Bhopal,Clear,19.7,0.0,No,None,None,0.0
+2024-12-04,Chennai,Clear,30.0,0.0,No,None,None,0.0
+2024-12-04,Delhi,Fog,16.2,0.0,No,None,None,-7.3
+2024-12-04,Faridabad,Haze,19.9,0.0,No,None,None,0.0
+2024-12-04,Ghaziabad,Haze,15.5,0.0,No,None,None,0.0
+2024-12-04,Greater Noida,Haze,15.7,0.0,No,None,None,0.0
+2024-12-04,Gurugram,Clear,19.5,0.0,No,None,None,0.0
+2024-12-04,Howrah,Haze,27.3,0.0,No,None,None,0.0
+2024-12-04,Hyderabad,Clear,22.6,0.0,No,None,None,0.0
+2024-12-04,Indore,Clear,26.2,0.0,No,None,None,0.0
+2024-12-04,Jaipur,Clear,16.1,0.0,No,None,None,0.0
+2024-12-04,Kanpur,Clear,18.2,0.0,No,None,None,0.0
+2024-12-04,Kochi,Clear,30.4,0.0,No,None,None,0.0
+2024-12-04,Kolkata,Clear,30.0,0.0,No,None,None,0.0
+2024-12-04,Lucknow,Cloudy,17.6,0.0,No,None,None,0.0
+2024-12-04,Mumbai,Clear,27.3,0.0,No,None,None,0.0
+2024-12-04,Nagpur,Clear,18.7,0.0,No,None,None,0.0
+2024-12-04,Noida,Clear,15.4,0.0,No,None,Concert,11.0
+2024-12-04,Pune,Cloudy,22.7,0.0,No,None,None,0.0
+2024-12-05,Agra,Fog,18.2,0.0,No,None,None,-5.2
+2024-12-05,Ahmedabad,Rain,20.0,8.2,No,None,None,-4.6
+2024-12-05,Bahadurgarh,Fog,16.2,0.0,No,None,None,-4.7
+2024-12-05,Bengaluru,Clear,25.3,0.0,No,None,None,0.0
+2024-12-05,Bhopal,Clear,23.7,0.0,No,None,None,0.0
+2024-12-05,Chennai,Cloudy,32.5,0.0,No,None,None,0.0
+2024-12-05,Delhi,Haze,14.3,0.0,No,None,Film Premiere,5.0
+2024-12-05,Faridabad,Fog,18.9,0.0,No,None,None,-3.2
+2024-12-05,Ghaziabad,Clear,18.8,0.0,No,None,None,0.0
+2024-12-05,Greater Noida,Clear,15.2,0.0,No,None,None,0.0
+2024-12-05,Gurugram,Cloudy,19.7,0.0,No,None,None,0.0
+2024-12-05,Howrah,Cloudy,30.6,0.0,No,None,None,0.0
+2024-12-05,Hyderabad,Clear,23.7,0.0,No,None,None,0.0
+2024-12-05,Indore,Clear,18.4,0.0,No,None,Film Premiere,9.2
+2024-12-05,Jaipur,Haze,19.4,0.0,No,None,None,0.0
+2024-12-05,Kanpur,Clear,18.1,0.0,No,None,None,0.0
+2024-12-05,Kochi,Haze,21.3,0.0,No,None,None,0.0
+2024-12-05,Kolkata,Clear,31.1,0.0,No,None,None,0.0
+2024-12-05,Lucknow,Haze,18.3,0.0,No,None,None,0.0
+2024-12-05,Mumbai,Clear,26.0,0.0,No,None,None,0.0
+2024-12-05,Nagpur,Clear,25.5,0.0,No,None,None,0.0
+2024-12-05,Noida,Fog,16.3,0.0,No,None,None,-6.4
+2024-12-05,Pune,Haze,23.9,0.0,No,None,None,0.0
+2024-12-06,Agra,Cloudy,22.5,0.0,No,None,None,0.0
+2024-12-06,Ahmedabad,Clear,27.1,0.0,No,None,None,0.0
+2024-12-06,Bahadurgarh,Clear,18.9,0.0,No,None,None,0.0
+2024-12-06,Bengaluru,Cloudy,24.2,0.0,No,None,None,0.0
+2024-12-06,Bhopal,Clear,25.0,0.0,No,None,None,0.0
+2024-12-06,Chennai,Cloudy,24.9,0.0,No,None,Concert,14.4
+2024-12-06,Delhi,Cloudy,17.2,0.0,No,None,None,0.0
+2024-12-06,Faridabad,Haze,19.6,0.0,No,None,None,0.0
+2024-12-06,Ghaziabad,Clear,16.2,0.0,No,None,None,0.0
+2024-12-06,Greater Noida,Haze,18.8,0.0,No,None,None,0.0
+2024-12-06,Gurugram,Clear,17.4,0.0,No,None,None,0.0
+2024-12-06,Howrah,Clear,29.3,0.0,No,None,None,0.0
+2024-12-06,Hyderabad,Clear,23.3,0.0,No,None,None,0.0
+2024-12-06,Indore,Clear,15.3,0.0,No,None,None,0.0
+2024-12-06,Jaipur,Clear,18.4,0.0,No,None,None,0.0
+2024-12-06,Kanpur,Fog,19.6,0.0,No,None,None,-7.4
+2024-12-06,Kochi,Clear,25.8,0.0,No,None,None,0.0
+2024-12-06,Kolkata,Cloudy,29.1,0.0,No,None,None,0.0
+2024-12-06,Lucknow,Haze,17.7,0.0,No,None,None,0.0
+2024-12-06,Mumbai,Haze,32.1,0.0,No,None,Marathon,9.0
+2024-12-06,Nagpur,Clear,19.6,0.0,No,None,None,0.0
+2024-12-06,Noida,Clear,18.8,0.0,No,None,Cricket Match,14.3
+2024-12-06,Pune,Haze,25.6,0.0,No,None,None,0.0
+2024-12-07,Agra,Fog,18.9,0.0,No,None,None,-5.4
+2024-12-07,Ahmedabad,Cloudy,16.9,0.0,No,None,None,0.0
+2024-12-07,Bahadurgarh,Clear,16.8,0.0,No,None,None,0.0
+2024-12-07,Bengaluru,Haze,24.9,0.0,No,None,None,0.0
+2024-12-07,Bhopal,Cloudy,22.1,0.0,No,None,None,0.0
+2024-12-07,Chennai,Clear,30.0,0.0,No,None,None,0.0
+2024-12-07,Delhi,Haze,18.4,0.0,No,None,None,0.0
+2024-12-07,Faridabad,Clear,21.2,0.0,No,None,None,0.0
+2024-12-07,Ghaziabad,Clear,17.3,0.0,No,None,None,0.0
+2024-12-07,Greater Noida,Clear,19.2,0.0,No,None,None,0.0
+2024-12-07,Gurugram,Cloudy,19.3,0.0,No,None,None,0.0
+2024-12-07,Howrah,Cloudy,31.8,0.0,No,None,None,0.0
+2024-12-07,Hyderabad,Clear,18.7,0.0,No,None,None,0.0
+2024-12-07,Indore,Cloudy,21.9,0.0,No,None,None,0.0
+2024-12-07,Jaipur,Fog,20.1,0.0,No,None,None,-3.4
+2024-12-07,Kanpur,Fog,18.6,0.0,No,None,None,-3.8
+2024-12-07,Kochi,Clear,29.9,0.0,No,None,None,0.0
+2024-12-07,Kolkata,Clear,30.2,0.0,No,None,None,0.0
+2024-12-07,Lucknow,Clear,17.1,0.0,No,None,None,0.0
+2024-12-07,Mumbai,Clear,28.8,0.0,No,None,None,0.0
+2024-12-07,Nagpur,Clear,26.0,0.0,No,None,None,0.0
+2024-12-07,Noida,Fog,22.7,0.0,No,None,Exam Season,0.4
+2024-12-07,Pune,Clear,22.9,0.0,No,None,None,0.0
+2024-12-08,Agra,Haze,19.4,0.0,No,None,None,0.0
+2024-12-08,Ahmedabad,Cloudy,22.7,0.0,No,None,None,0.0
+2024-12-08,Bahadurgarh,Haze,18.5,0.0,No,None,None,0.0
+2024-12-08,Bengaluru,Clear,20.4,0.0,No,None,None,0.0
+2024-12-08,Bhopal,Haze,26.2,0.0,No,None,None,0.0
+2024-12-08,Chennai,Clear,25.1,0.0,No,None,None,0.0
+2024-12-08,Delhi,Clear,16.9,0.0,No,None,None,0.0
+2024-12-08,Faridabad,Fog,18.2,0.0,No,None,None,-6.0
+2024-12-08,Ghaziabad,Fog,16.9,0.0,No,None,None,-4.6
+2024-12-08,Greater Noida,Clear,16.6,0.0,No,None,None,0.0
+2024-12-08,Gurugram,Haze,22.1,0.0,No,None,None,0.0
+2024-12-08,Howrah,Clear,21.0,0.0,No,None,None,0.0
+2024-12-08,Hyderabad,Clear,20.5,0.0,No,None,None,0.0
+2024-12-08,Indore,Cloudy,29.8,0.0,No,None,None,0.0
+2024-12-08,Jaipur,Haze,19.5,0.0,No,None,None,0.0
+2024-12-08,Kanpur,Clear,15.2,0.0,No,None,None,0.0
+2024-12-08,Kochi,Cloudy,27.9,0.0,No,None,None,0.0
+2024-12-08,Kolkata,Cloudy,28.2,0.0,No,None,None,0.0
+2024-12-08,Lucknow,Haze,20.1,0.0,No,None,None,0.0
+2024-12-08,Mumbai,Clear,32.6,0.0,No,None,None,0.0
+2024-12-08,Nagpur,Clear,24.0,0.0,No,None,None,0.0
+2024-12-08,Noida,Fog,16.7,0.0,No,None,None,-3.4
+2024-12-08,Pune,Clear,21.3,0.0,No,None,None,0.0
+2024-12-09,Agra,Haze,15.4,0.0,No,None,None,0.0
+2024-12-09,Ahmedabad,Rain,18.6,22.0,No,None,None,-2.4
+2024-12-09,Bahadurgarh,Fog,15.1,0.0,No,None,None,-5.6
+2024-12-09,Bengaluru,Haze,20.0,0.0,No,None,None,0.0
+2024-12-09,Bhopal,Clear,15.1,0.0,No,None,None,0.0
+2024-12-09,Chennai,Clear,25.4,0.0,No,None,None,0.0
+2024-12-09,Delhi,Clear,16.8,0.0,No,None,None,0.0
+2024-12-09,Faridabad,Clear,16.5,0.0,No,None,None,0.0
+2024-12-09,Ghaziabad,Fog,21.8,0.0,No,None,None,-3.3
+2024-12-09,Greater Noida,Haze,20.2,0.0,No,None,None,0.0
+2024-12-09,Gurugram,Haze,18.0,0.0,No,None,None,0.0
+2024-12-09,Howrah,Cloudy,27.9,0.0,No,None,Film Premiere,9.6
+2024-12-09,Hyderabad,Clear,22.9,0.0,No,None,Marathon,6.2
+2024-12-09,Indore,Clear,23.4,0.0,No,None,None,0.0
+2024-12-09,Jaipur,Haze,17.4,0.0,No,None,None,0.0
+2024-12-09,Kanpur,Haze,15.6,0.0,No,None,None,0.0
+2024-12-09,Kochi,Haze,30.5,0.0,No,None,None,0.0
+2024-12-09,Kolkata,Haze,29.1,0.0,No,None,None,0.0
+2024-12-09,Lucknow,Fog,16.9,0.0,No,None,None,-5.0
+2024-12-09,Mumbai,Cloudy,27.8,0.0,No,None,None,0.0
+2024-12-09,Nagpur,Clear,20.8,0.0,No,None,Film Premiere,5.0
+2024-12-09,Noida,Haze,16.4,0.0,No,None,None,0.0
+2024-12-09,Pune,Clear,20.6,0.0,No,None,None,0.0
+2024-12-10,Agra,Clear,13.9,0.0,No,None,None,0.0
+2024-12-10,Ahmedabad,Cloudy,22.1,0.0,No,None,None,0.0
+2024-12-10,Bahadurgarh,Haze,19.4,0.0,No,None,None,0.0
+2024-12-10,Bengaluru,Cloudy,21.3,0.0,No,None,None,0.0
+2024-12-10,Bhopal,Clear,29.3,0.0,No,None,None,0.0
+2024-12-10,Chennai,Clear,30.2,0.0,No,None,None,0.0
+2024-12-10,Delhi,Fog,21.3,0.0,No,None,None,-7.8
+2024-12-10,Faridabad,Fog,22.6,0.0,No,None,None,-4.6
+2024-12-10,Ghaziabad,Clear,11.6,0.0,No,None,None,0.0
+2024-12-10,Greater Noida,Fog,16.9,0.0,No,None,None,-5.5
+2024-12-10,Gurugram,Clear,18.4,0.0,No,None,Marathon,5.4
+2024-12-10,Howrah,Cloudy,31.3,0.0,No,None,None,0.0
+2024-12-10,Hyderabad,Clear,24.0,0.0,No,None,None,0.0
+2024-12-10,Indore,Cloudy,25.0,0.0,No,None,None,0.0
+2024-12-10,Jaipur,Fog,15.7,0.0,No,None,None,-5.4
+2024-12-10,Kanpur,Clear,22.0,0.0,No,None,None,0.0
+2024-12-10,Kochi,Cloudy,28.3,0.0,No,None,None,0.0
+2024-12-10,Kolkata,Clear,26.4,0.0,No,None,None,0.0
+2024-12-10,Lucknow,Haze,16.4,0.0,No,None,None,0.0
+2024-12-10,Mumbai,Cloudy,26.4,0.0,No,None,None,0.0
+2024-12-10,Nagpur,Clear,21.2,0.0,No,None,None,0.0
+2024-12-10,Noida,Fog,14.8,0.0,No,None,None,-6.6
+2024-12-10,Pune,Haze,22.5,0.0,No,None,None,0.0
+2024-12-11,Agra,Fog,16.5,0.0,No,None,None,-5.2
+2024-12-11,Ahmedabad,Cloudy,23.7,0.0,No,None,None,0.0
+2024-12-11,Bahadurgarh,Clear,18.7,0.0,No,None,None,0.0
+2024-12-11,Bengaluru,Clear,21.1,0.0,No,None,None,0.0
+2024-12-11,Bhopal,Cloudy,22.7,0.0,No,None,None,0.0
+2024-12-11,Chennai,Clear,28.9,0.0,No,None,None,0.0
+2024-12-11,Delhi,Clear,19.8,0.0,No,None,Political Rally,8.1
+2024-12-11,Faridabad,Haze,20.7,0.0,No,None,None,0.0
+2024-12-11,Ghaziabad,Clear,18.0,0.0,No,None,None,0.0
+2024-12-11,Greater Noida,Clear,20.0,0.0,No,None,None,0.0
+2024-12-11,Gurugram,Fog,16.8,0.0,No,None,None,-6.6
+2024-12-11,Howrah,Clear,28.7,0.0,No,None,None,0.0
+2024-12-11,Hyderabad,Clear,24.8,0.0,No,None,None,0.0
+2024-12-11,Indore,Clear,24.4,0.0,No,None,None,0.0
+2024-12-11,Jaipur,Clear,19.1,0.0,No,None,None,0.0
+2024-12-11,Kanpur,Clear,17.1,0.0,No,None,None,0.0
+2024-12-11,Kochi,Rain,26.0,11.5,No,None,None,-5.1
+2024-12-11,Kolkata,Clear,26.6,0.0,No,None,None,0.0
+2024-12-11,Lucknow,Haze,20.8,0.0,No,None,None,0.0
+2024-12-11,Mumbai,Cloudy,25.8,0.0,No,None,None,0.0
+2024-12-11,Nagpur,Clear,21.5,0.0,No,None,None,0.0
+2024-12-11,Noida,Cloudy,22.1,0.0,No,None,Trade Fair,7.7
+2024-12-11,Pune,Cloudy,22.1,0.0,No,None,None,0.0
+2024-12-12,Agra,Clear,18.7,0.0,No,None,None,0.0
+2024-12-12,Ahmedabad,Clear,23.4,0.0,No,None,None,0.0
+2024-12-12,Bahadurgarh,Clear,11.1,0.0,No,None,None,0.0
+2024-12-12,Bengaluru,Clear,20.7,0.0,No,None,None,0.0
+2024-12-12,Bhopal,Haze,22.9,0.0,No,None,None,0.0
+2024-12-12,Chennai,Rain,27.1,8.3,No,None,None,-3.7
+2024-12-12,Delhi,Haze,17.2,0.0,No,None,None,0.0
+2024-12-12,Faridabad,Cloudy,15.4,0.0,No,None,None,0.0
+2024-12-12,Ghaziabad,Clear,18.8,0.0,No,None,None,0.0
+2024-12-12,Greater Noida,Clear,17.2,0.0,No,None,None,0.0
+2024-12-12,Gurugram,Clear,17.6,0.0,No,None,None,0.0
+2024-12-12,Howrah,Haze,27.3,0.0,No,None,None,0.0
+2024-12-12,Hyderabad,Haze,28.6,0.0,No,None,None,0.0
+2024-12-12,Indore,Cloudy,17.4,0.0,No,None,None,0.0
+2024-12-12,Jaipur,Cloudy,17.0,0.0,No,None,None,0.0
+2024-12-12,Kanpur,Fog,18.0,0.0,No,None,None,-3.4
+2024-12-12,Kochi,Rain,30.2,12.7,No,None,None,-4.5
+2024-12-12,Kolkata,Clear,27.3,0.0,No,None,None,0.0
+2024-12-12,Lucknow,Clear,17.7,0.0,No,None,None,0.0
+2024-12-12,Mumbai,Clear,27.7,0.0,No,None,None,0.0
+2024-12-12,Nagpur,Rain,22.8,8.2,No,None,None,-5.1
+2024-12-12,Noida,Clear,19.9,0.0,No,None,None,0.0
+2024-12-12,Pune,Rain,19.9,8.7,No,None,None,-3.0
+2024-12-13,Agra,Clear,20.2,0.0,No,None,None,0.0
+2024-12-13,Ahmedabad,Clear,23.6,0.0,No,None,Exam Season,5.2
+2024-12-13,Bahadurgarh,Clear,14.4,0.0,No,None,None,0.0
+2024-12-13,Bengaluru,Clear,27.5,0.0,No,None,None,0.0
+2024-12-13,Bhopal,Haze,21.5,0.0,No,None,None,0.0
+2024-12-13,Chennai,Rain,28.4,14.8,No,None,None,-2.9
+2024-12-13,Delhi,Cloudy,16.6,0.0,No,None,None,0.0
+2024-12-13,Faridabad,Clear,18.4,0.0,No,None,None,0.0
+2024-12-13,Ghaziabad,Fog,25.1,0.0,No,None,None,-3.7
+2024-12-13,Greater Noida,Clear,22.0,0.0,No,None,None,0.0
+2024-12-13,Gurugram,Haze,21.0,0.0,No,None,None,0.0
+2024-12-13,Howrah,Clear,28.9,0.0,No,None,None,0.0
+2024-12-13,Hyderabad,Cloudy,20.5,0.0,No,None,None,0.0
+2024-12-13,Indore,Cloudy,25.6,0.0,No,None,None,0.0
+2024-12-13,Jaipur,Haze,14.3,0.0,No,None,Tech Conference,7.5
+2024-12-13,Kanpur,Clear,18.5,0.0,No,None,None,0.0
+2024-12-13,Kochi,Haze,21.4,0.0,No,None,None,0.0
+2024-12-13,Kolkata,Cloudy,27.1,0.0,No,None,None,0.0
+2024-12-13,Lucknow,Clear,19.6,0.0,No,None,None,0.0
+2024-12-13,Mumbai,Clear,27.4,0.0,No,None,None,0.0
+2024-12-13,Nagpur,Cloudy,24.8,0.0,No,None,None,0.0
+2024-12-13,Noida,Haze,15.9,0.0,No,None,None,0.0
+2024-12-13,Pune,Rain,19.7,13.6,No,None,Exam Season,2.3
+2024-12-14,Agra,Clear,21.1,0.0,No,None,None,0.0
+2024-12-14,Ahmedabad,Clear,20.9,0.0,No,None,None,0.0
+2024-12-14,Bahadurgarh,Haze,18.8,0.0,No,None,None,0.0
+2024-12-14,Bengaluru,Cloudy,23.2,0.0,No,None,Marathon,7.6
+2024-12-14,Bhopal,Clear,19.7,0.0,No,None,None,0.0
+2024-12-14,Chennai,Clear,28.0,0.0,No,None,None,0.0
+2024-12-14,Delhi,Clear,23.0,0.0,No,None,None,0.0
+2024-12-14,Faridabad,Clear,19.4,0.0,No,None,None,0.0
+2024-12-14,Ghaziabad,Clear,13.7,0.0,No,None,None,0.0
+2024-12-14,Greater Noida,Haze,10.2,0.0,No,None,None,0.0
+2024-12-14,Gurugram,Fog,19.8,0.0,No,None,None,-4.9
+2024-12-14,Howrah,Clear,30.9,0.0,No,None,None,0.0
+2024-12-14,Hyderabad,Cloudy,20.8,0.0,No,None,None,0.0
+2024-12-14,Indore,Cloudy,23.9,0.0,No,None,None,0.0
+2024-12-14,Jaipur,Fog,20.1,0.0,No,None,None,-7.6
+2024-12-14,Kanpur,Haze,16.9,0.0,No,None,None,0.0
+2024-12-14,Kochi,Clear,28.1,0.0,No,None,None,0.0
+2024-12-14,Kolkata,Cloudy,29.4,0.0,No,None,None,0.0
+2024-12-14,Lucknow,Clear,18.0,0.0,No,None,None,0.0
+2024-12-14,Mumbai,Clear,30.4,0.0,No,None,None,0.0
+2024-12-14,Nagpur,Cloudy,21.8,0.0,No,None,None,0.0
+2024-12-14,Noida,Clear,14.7,0.0,No,None,None,0.0
+2024-12-14,Pune,Clear,27.9,0.0,No,None,None,0.0
+2024-12-15,Agra,Clear,16.5,0.0,No,None,None,0.0
+2024-12-15,Ahmedabad,Clear,21.6,0.0,No,None,None,0.0
+2024-12-15,Bahadurgarh,Clear,17.8,0.0,No,None,None,0.0
+2024-12-15,Bengaluru,Clear,23.2,0.0,No,None,None,0.0
+2024-12-15,Bhopal,Clear,22.0,0.0,No,None,None,0.0
+2024-12-15,Chennai,Cloudy,28.0,0.0,No,None,None,0.0
+2024-12-15,Delhi,Clear,17.9,0.0,No,None,None,0.0
+2024-12-15,Faridabad,Clear,18.4,0.0,No,None,None,0.0
+2024-12-15,Ghaziabad,Haze,12.1,0.0,No,None,None,0.0
+2024-12-15,Greater Noida,Haze,22.7,0.0,No,None,None,0.0
+2024-12-15,Gurugram,Cloudy,17.6,0.0,No,None,None,0.0
+2024-12-15,Howrah,Clear,29.5,0.0,No,None,None,0.0
+2024-12-15,Hyderabad,Cloudy,19.6,0.0,No,None,None,0.0
+2024-12-15,Indore,Clear,21.8,0.0,No,None,None,0.0
+2024-12-15,Jaipur,Haze,16.3,0.0,No,None,None,0.0
+2024-12-15,Kanpur,Fog,21.7,0.0,No,None,None,-5.7
+2024-12-15,Kochi,Rain,29.9,15.7,No,None,None,-5.1
+2024-12-15,Kolkata,Cloudy,27.4,0.0,No,None,None,0.0
+2024-12-15,Lucknow,Cloudy,21.2,0.0,No,None,Exam Season,4.1
+2024-12-15,Mumbai,Clear,24.7,0.0,No,None,None,0.0
+2024-12-15,Nagpur,Clear,18.1,0.0,No,None,None,0.0
+2024-12-15,Noida,Haze,15.3,0.0,No,None,None,0.0
+2024-12-15,Pune,Clear,21.0,0.0,No,None,None,0.0
+2024-12-16,Agra,Clear,14.0,0.0,No,None,None,0.0
+2024-12-16,Ahmedabad,Rain,21.2,7.6,No,None,None,-3.4
+2024-12-16,Bahadurgarh,Clear,21.0,0.0,No,None,Marathon,4.8
+2024-12-16,Bengaluru,Cloudy,23.5,0.0,No,None,None,0.0
+2024-12-16,Bhopal,Cloudy,20.5,0.0,No,None,None,0.0
+2024-12-16,Chennai,Clear,24.2,0.0,No,None,Concert,11.2
+2024-12-16,Delhi,Cloudy,17.9,0.0,No,None,None,0.0
+2024-12-16,Faridabad,Clear,20.2,0.0,No,None,None,0.0
+2024-12-16,Ghaziabad,Haze,20.3,0.0,No,None,None,0.0
+2024-12-16,Greater Noida,Clear,19.6,0.0,No,None,None,0.0
+2024-12-16,Gurugram,Clear,16.2,0.0,No,None,None,0.0
+2024-12-16,Howrah,Clear,28.1,0.0,No,None,None,0.0
+2024-12-16,Hyderabad,Cloudy,22.2,0.0,No,None,None,0.0
+2024-12-16,Indore,Clear,22.5,0.0,No,None,None,0.0
+2024-12-16,Jaipur,Clear,23.1,0.0,No,None,Exam Season,5.9
+2024-12-16,Kanpur,Fog,17.4,0.0,No,None,None,-5.3
+2024-12-16,Kochi,Clear,24.3,0.0,No,None,None,0.0
+2024-12-16,Kolkata,Clear,26.4,0.0,No,None,None,0.0
+2024-12-16,Lucknow,Haze,16.7,0.0,No,None,None,0.0
+2024-12-16,Mumbai,Cloudy,27.4,0.0,No,None,Tech Conference,5.1
+2024-12-16,Nagpur,Cloudy,24.5,0.0,No,None,None,0.0
+2024-12-16,Noida,Haze,19.7,0.0,No,None,None,0.0
+2024-12-16,Pune,Cloudy,24.3,0.0,No,None,None,0.0
+2024-12-17,Agra,Clear,15.8,0.0,No,None,None,0.0
+2024-12-17,Ahmedabad,Haze,23.2,0.0,No,None,None,0.0
+2024-12-17,Bahadurgarh,Clear,15.8,0.0,No,None,None,0.0
+2024-12-17,Bengaluru,Clear,22.2,0.0,No,None,Political Rally,8.5
+2024-12-17,Bhopal,Clear,23.2,0.0,No,None,None,0.0
+2024-12-17,Chennai,Clear,25.0,0.0,No,None,None,0.0
+2024-12-17,Delhi,Cloudy,18.5,0.0,No,None,None,0.0
+2024-12-17,Faridabad,Clear,14.6,0.0,No,None,None,0.0
+2024-12-17,Ghaziabad,Clear,15.0,0.0,No,None,None,0.0
+2024-12-17,Greater Noida,Clear,15.4,0.0,No,None,None,0.0
+2024-12-17,Gurugram,Haze,16.9,0.0,No,None,None,0.0
+2024-12-17,Howrah,Clear,30.3,0.0,No,None,None,0.0
+2024-12-17,Hyderabad,Cloudy,24.4,0.0,No,None,None,0.0
+2024-12-17,Indore,Clear,24.3,0.0,No,None,None,0.0
+2024-12-17,Jaipur,Haze,15.3,0.0,No,None,None,0.0
+2024-12-17,Kanpur,Fog,16.6,0.0,No,None,None,-6.8
+2024-12-17,Kochi,Haze,26.4,0.0,No,None,None,0.0
+2024-12-17,Kolkata,Clear,27.3,0.0,No,None,None,0.0
+2024-12-17,Lucknow,Fog,19.1,0.0,No,None,None,-6.9
+2024-12-17,Mumbai,Haze,28.6,0.0,No,None,None,0.0
+2024-12-17,Nagpur,Clear,27.0,0.0,No,None,None,0.0
+2024-12-17,Noida,Haze,17.6,0.0,No,None,None,0.0
+2024-12-17,Pune,Cloudy,25.9,0.0,No,None,None,0.0
+2024-12-18,Agra,Clear,19.4,0.0,No,None,Cricket Match,13.0
+2024-12-18,Ahmedabad,Clear,20.2,0.0,No,None,None,0.0
+2024-12-18,Bahadurgarh,Clear,15.9,0.0,No,None,None,0.0
+2024-12-18,Bengaluru,Cloudy,20.9,0.0,No,None,None,0.0
+2024-12-18,Bhopal,Clear,22.8,0.0,No,None,None,0.0
+2024-12-18,Chennai,Clear,29.5,0.0,No,None,None,0.0
+2024-12-18,Delhi,Fog,21.1,0.0,No,None,None,-5.2
+2024-12-18,Faridabad,Haze,16.9,0.0,No,None,None,0.0
+2024-12-18,Ghaziabad,Clear,12.8,0.0,No,None,None,0.0
+2024-12-18,Greater Noida,Cloudy,18.2,0.0,No,None,Film Premiere,8.1
+2024-12-18,Gurugram,Clear,18.5,0.0,No,None,None,0.0
+2024-12-18,Howrah,Clear,33.3,0.0,No,None,None,0.0
+2024-12-18,Hyderabad,Haze,26.1,0.0,No,None,None,0.0
+2024-12-18,Indore,Clear,25.0,0.0,No,None,None,0.0
+2024-12-18,Jaipur,Clear,15.6,0.0,No,None,None,0.0
+2024-12-18,Kanpur,Haze,16.7,0.0,No,None,None,0.0
+2024-12-18,Kochi,Clear,27.8,0.0,No,None,None,0.0
+2024-12-18,Kolkata,Cloudy,26.1,0.0,No,None,None,0.0
+2024-12-18,Lucknow,Cloudy,19.3,0.0,No,None,None,0.0
+2024-12-18,Mumbai,Cloudy,28.9,0.0,No,None,None,0.0
+2024-12-18,Nagpur,Clear,20.3,0.0,No,None,None,0.0
+2024-12-18,Noida,Clear,21.0,0.0,No,None,None,0.0
+2024-12-18,Pune,Clear,23.3,0.0,No,None,None,0.0
+2024-12-19,Agra,Haze,13.7,0.0,No,None,None,0.0
+2024-12-19,Ahmedabad,Haze,22.9,0.0,No,None,None,0.0
+2024-12-19,Bahadurgarh,Clear,18.7,0.0,No,None,None,0.0
+2024-12-19,Bengaluru,Cloudy,25.4,0.0,No,None,None,0.0
+2024-12-19,Bhopal,Clear,22.2,0.0,No,None,None,0.0
+2024-12-19,Chennai,Clear,30.1,0.0,No,None,None,0.0
+2024-12-19,Delhi,Clear,18.5,0.0,No,None,Tech Conference,5.2
+2024-12-19,Faridabad,Haze,14.5,0.0,No,None,None,0.0
+2024-12-19,Ghaziabad,Fog,20.8,0.0,No,None,None,-7.2
+2024-12-19,Greater Noida,Haze,18.8,0.0,No,None,None,0.0
+2024-12-19,Gurugram,Clear,21.7,0.0,No,None,None,0.0
+2024-12-19,Howrah,Cloudy,30.6,0.0,No,None,Exam Season,5.1
+2024-12-19,Hyderabad,Cloudy,20.7,0.0,No,None,None,0.0
+2024-12-19,Indore,Cloudy,27.3,0.0,No,None,None,0.0
+2024-12-19,Jaipur,Clear,19.3,0.0,No,None,None,0.0
+2024-12-19,Kanpur,Fog,17.0,0.0,No,None,None,-5.7
+2024-12-19,Kochi,Haze,28.6,0.0,No,None,None,0.0
+2024-12-19,Kolkata,Clear,23.8,0.0,No,None,None,0.0
+2024-12-19,Lucknow,Clear,19.7,0.0,No,None,None,0.0
+2024-12-19,Mumbai,Haze,25.6,0.0,No,None,None,0.0
+2024-12-19,Nagpur,Clear,23.9,0.0,No,None,None,0.0
+2024-12-19,Noida,Haze,16.7,0.0,No,None,None,0.0
+2024-12-19,Pune,Clear,22.3,0.0,No,None,None,0.0
+2024-12-20,Agra,Fog,16.1,0.0,No,None,None,-5.6
+2024-12-20,Ahmedabad,Haze,27.7,0.0,No,None,None,0.0
+2024-12-20,Bahadurgarh,Haze,21.5,0.0,No,None,None,0.0
+2024-12-20,Bengaluru,Clear,23.9,0.0,No,None,None,0.0
+2024-12-20,Bhopal,Clear,22.9,0.0,No,None,None,0.0
+2024-12-20,Chennai,Clear,30.1,0.0,No,None,None,0.0
+2024-12-20,Delhi,Clear,20.8,0.0,No,None,None,0.0
+2024-12-20,Faridabad,Clear,15.9,0.0,No,None,None,0.0
+2024-12-20,Ghaziabad,Fog,17.8,0.0,No,None,None,-7.9
+2024-12-20,Greater Noida,Fog,20.8,0.0,No,None,None,-5.4
+2024-12-20,Gurugram,Haze,18.2,0.0,No,None,None,0.0
+2024-12-20,Howrah,Clear,22.7,0.0,No,None,None,0.0
+2024-12-20,Hyderabad,Cloudy,24.5,0.0,No,None,None,0.0
+2024-12-20,Indore,Clear,20.7,0.0,No,None,None,0.0
+2024-12-20,Jaipur,Clear,16.3,0.0,No,None,None,0.0
+2024-12-20,Kanpur,Clear,19.6,0.0,No,None,None,0.0
+2024-12-20,Kochi,Clear,28.6,0.0,No,None,None,0.0
+2024-12-20,Kolkata,Clear,26.8,0.0,No,None,None,0.0
+2024-12-20,Lucknow,Clear,16.4,0.0,No,None,None,0.0
+2024-12-20,Mumbai,Haze,28.3,0.0,No,None,None,0.0
+2024-12-20,Nagpur,Clear,22.0,0.0,No,None,None,0.0
+2024-12-20,Noida,Clear,15.2,0.0,No,None,None,0.0
+2024-12-20,Pune,Cloudy,22.2,0.0,No,None,Marathon,6.1
+2024-12-21,Agra,Haze,17.6,0.0,No,None,None,0.0
+2024-12-21,Ahmedabad,Haze,19.5,0.0,No,None,None,0.0
+2024-12-21,Bahadurgarh,Haze,20.5,0.0,No,None,None,0.0
+2024-12-21,Bengaluru,Cloudy,16.2,0.0,No,None,None,0.0
+2024-12-21,Bhopal,Haze,21.9,0.0,No,None,None,0.0
+2024-12-21,Chennai,Clear,26.4,0.0,No,None,None,0.0
+2024-12-21,Delhi,Haze,18.4,0.0,No,None,None,0.0
+2024-12-21,Faridabad,Fog,19.4,0.0,No,None,Marathon,2.5
+2024-12-21,Ghaziabad,Cloudy,19.5,0.0,No,None,None,0.0
+2024-12-21,Greater Noida,Fog,18.5,0.0,No,None,None,-6.1
+2024-12-21,Gurugram,Clear,22.8,0.0,No,None,None,0.0
+2024-12-21,Howrah,Clear,24.4,0.0,No,None,None,0.0
+2024-12-21,Hyderabad,Clear,24.0,0.0,No,None,None,0.0
+2024-12-21,Indore,Clear,24.0,0.0,No,None,None,0.0
+2024-12-21,Jaipur,Haze,18.7,0.0,No,None,None,0.0
+2024-12-21,Kanpur,Haze,16.8,0.0,No,None,None,0.0
+2024-12-21,Kochi,Haze,30.1,0.0,No,None,None,0.0
+2024-12-21,Kolkata,Clear,24.1,0.0,No,None,None,0.0
+2024-12-21,Lucknow,Clear,17.8,0.0,No,None,None,0.0
+2024-12-21,Mumbai,Rain,26.6,4.7,No,None,None,-5.7
+2024-12-21,Nagpur,Clear,25.7,0.0,No,None,None,0.0
+2024-12-21,Noida,Cloudy,17.1,0.0,No,None,None,0.0
+2024-12-21,Pune,Clear,25.0,0.0,No,None,None,0.0
+2024-12-22,Agra,Haze,18.1,0.0,No,None,None,0.0
+2024-12-22,Ahmedabad,Cloudy,20.8,0.0,No,None,None,0.0
+2024-12-22,Bahadurgarh,Clear,17.4,0.0,No,None,None,0.0
+2024-12-22,Bengaluru,Rain,22.3,14.7,No,None,None,-4.2
+2024-12-22,Bhopal,Rain,23.6,12.1,No,None,None,-2.9
+2024-12-22,Chennai,Clear,29.1,0.0,No,None,None,0.0
+2024-12-22,Delhi,Cloudy,16.0,0.0,No,None,None,0.0
+2024-12-22,Faridabad,Haze,18.8,0.0,No,None,None,0.0
+2024-12-22,Ghaziabad,Clear,20.0,0.0,No,None,None,0.0
+2024-12-22,Greater Noida,Clear,14.8,0.0,No,None,None,0.0
+2024-12-22,Gurugram,Clear,14.5,0.0,No,None,None,0.0
+2024-12-22,Howrah,Cloudy,32.2,0.0,No,None,None,0.0
+2024-12-22,Hyderabad,Cloudy,23.9,0.0,No,None,None,0.0
+2024-12-22,Indore,Rain,22.0,7.2,No,None,None,-5.4
+2024-12-22,Jaipur,Clear,15.0,0.0,No,None,None,0.0
+2024-12-22,Kanpur,Clear,20.2,0.0,No,None,None,0.0
+2024-12-22,Kochi,Cloudy,26.1,0.0,No,None,None,0.0
+2024-12-22,Kolkata,Haze,30.7,0.0,No,None,Film Premiere,6.7
+2024-12-22,Lucknow,Haze,15.4,0.0,No,None,None,0.0
+2024-12-22,Mumbai,Clear,26.9,0.0,No,None,None,0.0
+2024-12-22,Nagpur,Clear,16.4,0.0,No,None,None,0.0
+2024-12-22,Noida,Fog,17.7,0.0,No,None,None,-4.4
+2024-12-22,Pune,Haze,25.1,0.0,No,None,Trade Fair,6.4
+2024-12-23,Agra,Clear,20.9,0.0,No,None,None,0.0
+2024-12-23,Ahmedabad,Clear,25.1,0.0,No,None,None,0.0
+2024-12-23,Bahadurgarh,Cloudy,21.1,0.0,No,None,None,0.0
+2024-12-23,Bengaluru,Haze,22.9,0.0,No,None,None,0.0
+2024-12-23,Bhopal,Rain,25.5,15.6,No,None,None,-3.8
+2024-12-23,Chennai,Cloudy,26.1,0.0,No,None,None,0.0
+2024-12-23,Delhi,Fog,13.9,0.0,No,None,None,-7.7
+2024-12-23,Faridabad,Haze,18.0,0.0,No,None,None,0.0
+2024-12-23,Ghaziabad,Clear,15.9,0.0,No,None,None,0.0
+2024-12-23,Greater Noida,Clear,18.9,0.0,No,None,None,0.0
+2024-12-23,Gurugram,Clear,13.5,0.0,No,None,None,0.0
+2024-12-23,Howrah,Clear,22.7,0.0,No,None,None,0.0
+2024-12-23,Hyderabad,Rain,26.4,4.9,No,None,None,-3.3
+2024-12-23,Indore,Cloudy,20.4,0.0,No,None,None,0.0
+2024-12-23,Jaipur,Clear,18.0,0.0,No,None,None,0.0
+2024-12-23,Kanpur,Fog,20.5,0.0,No,None,None,-3.2
+2024-12-23,Kochi,Clear,28.4,0.0,No,None,None,0.0
+2024-12-23,Kolkata,Cloudy,30.7,0.0,No,None,None,0.0
+2024-12-23,Lucknow,Clear,16.2,0.0,No,None,None,0.0
+2024-12-23,Mumbai,Clear,28.1,0.0,No,None,None,0.0
+2024-12-23,Nagpur,Cloudy,23.0,0.0,No,None,None,0.0
+2024-12-23,Noida,Clear,17.3,0.0,No,None,None,0.0
+2024-12-23,Pune,Cloudy,22.0,0.0,No,None,None,0.0
+2024-12-24,Agra,Cloudy,18.2,0.0,No,None,None,0.0
+2024-12-24,Ahmedabad,Clear,23.1,0.0,No,None,None,0.0
+2024-12-24,Bahadurgarh,Haze,15.4,0.0,No,None,None,0.0
+2024-12-24,Bengaluru,Cloudy,25.0,0.0,No,None,Film Premiere,9.3
+2024-12-24,Bhopal,Clear,22.5,0.0,No,None,None,0.0
+2024-12-24,Chennai,Clear,27.3,0.0,No,None,None,0.0
+2024-12-24,Delhi,Clear,18.9,0.0,No,None,None,0.0
+2024-12-24,Faridabad,Cloudy,12.7,0.0,No,None,None,0.0
+2024-12-24,Ghaziabad,Cloudy,20.2,0.0,No,None,None,0.0
+2024-12-24,Greater Noida,Clear,16.3,0.0,No,None,Marathon,4.6
+2024-12-24,Gurugram,Clear,16.8,0.0,No,None,None,0.0
+2024-12-24,Howrah,Cloudy,27.9,0.0,No,None,None,0.0
+2024-12-24,Hyderabad,Clear,27.8,0.0,No,None,Political Rally,10.2
+2024-12-24,Indore,Haze,26.1,0.0,No,None,None,0.0
+2024-12-24,Jaipur,Clear,18.1,0.0,No,None,None,0.0
+2024-12-24,Kanpur,Clear,19.0,0.0,No,None,None,0.0
+2024-12-24,Kochi,Clear,28.2,0.0,No,None,None,0.0
+2024-12-24,Kolkata,Clear,30.1,0.0,No,None,None,0.0
+2024-12-24,Lucknow,Haze,16.3,0.0,No,None,None,0.0
+2024-12-24,Mumbai,Clear,25.5,0.0,No,None,None,0.0
+2024-12-24,Nagpur,Clear,21.4,0.0,No,None,None,0.0
+2024-12-24,Noida,Clear,18.2,0.0,No,None,None,0.0
+2024-12-24,Pune,Cloudy,22.4,0.0,No,None,Political Rally,12.6
+2024-12-25,Agra,Clear,21.3,0.0,Yes,Christmas,None,0.7
+2024-12-25,Ahmedabad,Cloudy,19.4,0.0,Yes,Christmas,None,-2.7
+2024-12-25,Bahadurgarh,Haze,19.2,0.0,Yes,Christmas,None,-4.0
+2024-12-25,Bengaluru,Clear,24.3,0.0,Yes,Christmas,None,-5.5
+2024-12-25,Bhopal,Cloudy,28.8,0.0,Yes,Christmas,None,-8.4
+2024-12-25,Chennai,Clear,25.8,0.0,Yes,Christmas,Trade Fair,3.2
+2024-12-25,Delhi,Fog,18.1,0.0,Yes,Christmas,None,-10.1
+2024-12-25,Faridabad,Clear,17.3,0.0,Yes,Christmas,None,-3.2
+2024-12-25,Ghaziabad,Cloudy,17.4,0.0,Yes,Christmas,None,-8.1
+2024-12-25,Greater Noida,Clear,22.1,0.0,Yes,Christmas,None,-1.6
+2024-12-25,Gurugram,Haze,17.5,0.0,Yes,Christmas,None,-3.3
+2024-12-25,Howrah,Clear,28.4,0.0,Yes,Christmas,None,-0.8
+2024-12-25,Hyderabad,Rain,22.8,6.6,Yes,Christmas,Marathon,9.0
+2024-12-25,Indore,Rain,23.2,20.5,Yes,Christmas,None,-5.4
+2024-12-25,Jaipur,Haze,16.7,0.0,Yes,Christmas,None,-5.9
+2024-12-25,Kanpur,Clear,19.2,0.0,Yes,Christmas,None,-8.0
+2024-12-25,Kochi,Clear,27.5,0.0,Yes,Christmas,None,-7.1
+2024-12-25,Kolkata,Rain,30.7,22.0,Yes,Christmas,None,-13.1
+2024-12-25,Lucknow,Clear,18.0,0.0,Yes,Christmas,Trade Fair,6.0
+2024-12-25,Mumbai,Haze,28.1,0.0,Yes,Christmas,None,-1.1
+2024-12-25,Nagpur,Haze,20.8,0.0,Yes,Christmas,Trade Fair,7.7
+2024-12-25,Noida,Clear,12.7,0.0,Yes,Christmas,None,-5.4
+2024-12-25,Pune,Clear,27.0,0.0,Yes,Christmas,None,-5.2
+2024-12-26,Agra,Fog,16.3,0.0,No,None,None,-6.0
+2024-12-26,Ahmedabad,Cloudy,20.3,0.0,No,None,None,0.0
+2024-12-26,Bahadurgarh,Haze,20.5,0.0,No,None,None,0.0
+2024-12-26,Bengaluru,Cloudy,28.6,0.0,No,None,None,0.0
+2024-12-26,Bhopal,Clear,24.8,0.0,No,None,None,0.0
+2024-12-26,Chennai,Clear,27.8,0.0,No,None,None,0.0
+2024-12-26,Delhi,Haze,16.9,0.0,No,None,None,0.0
+2024-12-26,Faridabad,Haze,15.6,0.0,No,None,None,0.0
+2024-12-26,Ghaziabad,Clear,23.1,0.0,No,None,None,0.0
+2024-12-26,Greater Noida,Fog,17.5,0.0,No,None,None,-3.5
+2024-12-26,Gurugram,Haze,21.5,0.0,No,None,None,0.0
+2024-12-26,Howrah,Cloudy,23.6,0.0,No,None,None,0.0
+2024-12-26,Hyderabad,Cloudy,21.3,0.0,No,None,None,0.0
+2024-12-26,Indore,Clear,21.3,0.0,No,None,None,0.0
+2024-12-26,Jaipur,Fog,17.8,0.0,No,None,None,-6.2
+2024-12-26,Kanpur,Fog,25.5,0.0,No,None,None,-3.9
+2024-12-26,Kochi,Clear,28.6,0.0,No,None,None,0.0
+2024-12-26,Kolkata,Rain,29.5,7.8,No,None,None,-3.4
+2024-12-26,Lucknow,Clear,18.3,0.0,No,None,None,0.0
+2024-12-26,Mumbai,Haze,25.4,0.0,No,None,None,0.0
+2024-12-26,Nagpur,Cloudy,23.3,0.0,No,None,None,0.0
+2024-12-26,Noida,Clear,19.3,0.0,No,None,None,0.0
+2024-12-26,Pune,Clear,23.8,0.0,No,None,None,0.0
+2024-12-27,Agra,Haze,19.4,0.0,No,None,None,0.0
+2024-12-27,Ahmedabad,Cloudy,26.5,0.0,No,None,None,0.0
+2024-12-27,Bahadurgarh,Clear,20.3,0.0,No,None,Concert,13.2
+2024-12-27,Bengaluru,Cloudy,20.1,0.0,No,None,None,0.0
+2024-12-27,Bhopal,Clear,21.5,0.0,No,None,None,0.0
+2024-12-27,Chennai,Cloudy,27.5,0.0,No,None,None,0.0
+2024-12-27,Delhi,Fog,18.6,0.0,No,None,None,-6.0
+2024-12-27,Faridabad,Clear,15.7,0.0,No,None,None,0.0
+2024-12-27,Ghaziabad,Clear,15.0,0.0,No,None,None,0.0
+2024-12-27,Greater Noida,Clear,13.9,0.0,No,None,None,0.0
+2024-12-27,Gurugram,Haze,17.4,0.0,No,None,None,0.0
+2024-12-27,Howrah,Rain,24.3,7.7,No,None,None,-2.6
+2024-12-27,Hyderabad,Clear,19.7,0.0,No,None,None,0.0
+2024-12-27,Indore,Rain,23.9,18.0,No,None,None,-4.7
+2024-12-27,Jaipur,Haze,16.9,0.0,No,None,None,0.0
+2024-12-27,Kanpur,Haze,19.3,0.0,No,None,None,0.0
+2024-12-27,Kochi,Clear,26.2,0.0,No,None,Film Premiere,5.2
+2024-12-27,Kolkata,Cloudy,31.0,0.0,No,None,None,0.0
+2024-12-27,Lucknow,Cloudy,20.2,0.0,No,None,None,0.0
+2024-12-27,Mumbai,Clear,29.5,0.0,No,None,None,0.0
+2024-12-27,Nagpur,Cloudy,25.3,0.0,No,None,Concert,13.6
+2024-12-27,Noida,Haze,21.4,0.0,No,None,None,0.0
+2024-12-27,Pune,Clear,24.0,0.0,No,None,None,0.0
+2024-12-28,Agra,Haze,20.5,0.0,No,None,None,0.0
+2024-12-28,Ahmedabad,Cloudy,24.0,0.0,No,None,None,0.0
+2024-12-28,Bahadurgarh,Haze,18.1,0.0,No,None,None,0.0
+2024-12-28,Bengaluru,Clear,22.3,0.0,No,None,None,0.0
+2024-12-28,Bhopal,Clear,23.9,0.0,No,None,None,0.0
+2024-12-28,Chennai,Haze,27.2,0.0,No,None,None,0.0
+2024-12-28,Delhi,Haze,20.2,0.0,No,None,None,0.0
+2024-12-28,Faridabad,Clear,14.0,0.0,No,None,None,0.0
+2024-12-28,Ghaziabad,Clear,16.6,0.0,No,None,None,0.0
+2024-12-28,Greater Noida,Haze,23.1,0.0,No,None,None,0.0
+2024-12-28,Gurugram,Clear,16.4,0.0,No,None,None,0.0
+2024-12-28,Howrah,Rain,27.4,3.8,No,None,None,-2.6
+2024-12-28,Hyderabad,Clear,21.2,0.0,No,None,None,0.0
+2024-12-28,Indore,Clear,22.5,0.0,No,None,None,0.0
+2024-12-28,Jaipur,Haze,20.1,0.0,No,None,None,0.0
+2024-12-28,Kanpur,Clear,16.3,0.0,No,None,None,0.0
+2024-12-28,Kochi,Clear,30.0,0.0,No,None,None,0.0
+2024-12-28,Kolkata,Haze,30.1,0.0,No,None,None,0.0
+2024-12-28,Lucknow,Fog,20.6,0.0,No,None,None,-3.7
+2024-12-28,Mumbai,Clear,36.1,0.0,No,None,None,0.0
+2024-12-28,Nagpur,Clear,25.6,0.0,No,None,None,0.0
+2024-12-28,Noida,Clear,18.8,0.0,No,None,None,0.0
+2024-12-28,Pune,Clear,20.8,0.0,No,None,None,0.0
+2024-12-29,Agra,Clear,17.8,0.0,No,None,None,0.0
+2024-12-29,Ahmedabad,Cloudy,26.6,0.0,No,None,None,0.0
+2024-12-29,Bahadurgarh,Haze,22.3,0.0,No,None,None,0.0
+2024-12-29,Bengaluru,Clear,26.7,0.0,No,None,None,0.0
+2024-12-29,Bhopal,Clear,25.0,0.0,No,None,None,0.0
+2024-12-29,Chennai,Clear,24.9,0.0,No,None,None,0.0
+2024-12-29,Delhi,Fog,19.2,0.0,No,None,None,-3.9
+2024-12-29,Faridabad,Haze,14.3,0.0,No,None,None,0.0
+2024-12-29,Ghaziabad,Clear,18.6,0.0,No,None,None,0.0
+2024-12-29,Greater Noida,Haze,19.3,0.0,No,None,None,0.0
+2024-12-29,Gurugram,Haze,20.3,0.0,No,None,None,0.0
+2024-12-29,Howrah,Clear,29.2,0.0,No,None,Tech Conference,8.7
+2024-12-29,Hyderabad,Clear,20.5,0.0,No,None,None,0.0
+2024-12-29,Indore,Clear,22.7,0.0,No,None,None,0.0
+2024-12-29,Jaipur,Clear,14.2,0.0,No,None,None,0.0
+2024-12-29,Kanpur,Clear,13.0,0.0,No,None,None,0.0
+2024-12-29,Kochi,Cloudy,29.9,0.0,No,None,None,0.0
+2024-12-29,Kolkata,Haze,26.1,0.0,No,None,Political Rally,9.6
+2024-12-29,Lucknow,Clear,20.8,0.0,No,None,None,0.0
+2024-12-29,Mumbai,Clear,26.5,0.0,No,None,Trade Fair,6.2
+2024-12-29,Nagpur,Clear,21.3,0.0,No,None,None,0.0
+2024-12-29,Noida,Clear,13.4,0.0,No,None,None,0.0
+2024-12-29,Pune,Clear,23.3,0.0,No,None,None,0.0

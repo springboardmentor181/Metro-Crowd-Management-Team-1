@@ -1,0 +1,726 @@
+station_id,metro_name,state,city,station_name,station_code,line_name,latitude,longitude,opening_year,interchange_station,platform_count,daily_average_footfall,nearby_landmarks,station_category
+DEL001,Delhi Metro,Delhi NCR,Delhi,Samaypur Badli,DEL-SAM,Yellow Line,28.747667,77.13426,2004,No,2,120355,"Shopping district, offices & markets near Samaypur Badli",Commercial
+DEL002,Delhi Metro,Delhi NCR,Delhi,Rohini Sector 18-19,DEL-ROH,Yellow Line,28.741252,77.139373,2004,No,2,104792,Residential colonies & local markets near Rohini Sector 18-19,Residential
+DEL003,Delhi Metro,Delhi NCR,Delhi,Haiderpur Badli Mor,DEL-HAI,Yellow Line,28.723821,77.129703,2004,No,2,113324,Residential colonies & local markets near Haiderpur Badli Mor,Residential
+DEL004,Delhi Metro,Delhi NCR,Delhi,Jahangirpuri,DEL-JAH,Yellow Line,28.723122,77.131335,2004,No,2,88355,Residential colonies & local markets near Jahangirpuri,Residential
+DEL005,Delhi Metro,Delhi NCR,Delhi,Adarsh Nagar,DEL-ADA,Yellow Line,28.714641,77.127637,2004,No,2,135773,IT parks & tech offices around Adarsh Nagar,IT Hub
+DEL006,Delhi Metro,Delhi NCR,Delhi,Azadpur,DEL-AZA,Yellow Line / Pink Line,28.715929,77.149835,2004,Yes,4,272277,"Shopping district, offices & markets near Azadpur",Commercial
+DEL007,Delhi Metro,Delhi NCR,Delhi,Model Town,DEL-MOD,Yellow Line,28.698981,77.130929,2004,No,2,69749,"Colleges, coaching centres & hostels near Model Town",Educational Zone
+DEL008,Delhi Metro,Delhi NCR,Delhi,GTB Nagar,DEL-GTB,Yellow Line,28.692411,77.122156,2004,No,2,47874,"Colleges, coaching centres & hostels near GTB Nagar",Educational Zone
+DEL009,Delhi Metro,Delhi NCR,Delhi,Vishwavidyalaya,DEL-VIS,Yellow Line,28.684091,77.119988,2004,No,2,44110,"Colleges, coaching centres & hostels near Vishwavidyalaya",Educational Zone
+DEL010,Delhi Metro,Delhi NCR,Delhi,Vidhan Sabha,DEL-VID,Yellow Line,28.6779,77.12135,2004,No,2,79522,Residential colonies & local markets near Vidhan Sabha,Residential
+DEL011,Delhi Metro,Delhi NCR,Delhi,Civil Lines,DEL-CIV,Yellow Line,28.666203,77.117322,2004,No,2,107508,"Shopping district, offices & markets near Civil Lines",Commercial
+DEL012,Delhi Metro,Delhi NCR,Delhi,Kashmere Gate,DEL-KAS,Yellow Line / Red Line / Violet Line,28.67854,77.207394,2002,Yes,6,221658,"Railway station, bus terminal & transit hub at Kashmere Gate",Railway Connection
+DEL013,Delhi Metro,Delhi NCR,Delhi,Chandni Chowk,DEL-CHA,Yellow Line,28.649401,77.114834,2004,No,2,85417,Residential colonies & local markets near Chandni Chowk,Residential
+DEL014,Delhi Metro,Delhi NCR,Delhi,Chawri Bazar,DEL-CH2,Yellow Line,28.644788,77.115526,2004,No,2,84380,Residential colonies & local markets near Chawri Bazar,Residential
+DEL015,Delhi Metro,Delhi NCR,Delhi,New Delhi,DEL-NEW,Yellow Line / Airport Express,28.641383,77.165534,2004,Yes,6,303868,"Railway station, bus terminal & transit hub at New Delhi",Railway Connection
+DEL016,Delhi Metro,Delhi NCR,Delhi,Rajiv Chowk,DEL-RAJ,Yellow Line / Blue Line,28.61281,77.168591,2004,Yes,2,160085,"Shopping district, offices & markets near Rajiv Chowk",Commercial
+DEL017,Delhi Metro,Delhi NCR,Delhi,Patel Chowk,DEL-PAT,Yellow Line,28.617207,77.105941,2004,No,2,133315,"Shopping district, offices & markets near Patel Chowk",Commercial
+DEL018,Delhi Metro,Delhi NCR,Delhi,Central Secretariat,DEL-CEN,Yellow Line / Violet Line,28.603039,77.182642,2004,Yes,6,306017,"Railway station, bus terminal & transit hub at Central Secretariat",Railway Connection
+DEL019,Delhi Metro,Delhi NCR,Delhi,Udyog Bhawan,DEL-UDY,Yellow Line,28.602651,77.102209,2004,No,2,105164,Residential colonies & local markets near Udyog Bhawan,Residential
+DEL020,Delhi Metro,Delhi NCR,Delhi,Lok Kalyan Marg,DEL-LOK,Yellow Line,28.592189,77.105608,2004,No,2,106265,Residential colonies & local markets near Lok Kalyan Marg,Residential
+DEL021,Delhi Metro,Delhi NCR,Delhi,Jor Bagh,DEL-JOR,Yellow Line,28.589701,77.103412,2004,No,2,91959,"Shopping district, offices & markets near Jor Bagh",Commercial
+DEL022,Delhi Metro,Delhi NCR,Delhi,INA,DEL-INA,Yellow Line / Pink Line,28.643992,77.165274,2004,Yes,6,189056,"Shopping district, offices & markets near INA",Commercial
+DEL023,Delhi Metro,Delhi NCR,Delhi,AIIMS,DEL-AII,Yellow Line,28.571558,77.098638,2004,No,2,65971,Residential colonies & local markets near AIIMS,Residential
+DEL024,Delhi Metro,Delhi NCR,Delhi,Green Park,DEL-GRE,Yellow Line,28.566225,77.096835,2004,No,2,117184,"Shopping district, offices & markets near Green Park",Commercial
+DEL025,Delhi Metro,Delhi NCR,Delhi,Hauz Khas,DEL-HAU,Yellow Line / Magenta Line,28.580507,77.146297,2004,Yes,4,265682,IT parks & tech offices around Hauz Khas,IT Hub
+DEL026,Delhi Metro,Delhi NCR,Delhi,Malviya Nagar,DEL-MAL,Yellow Line,28.548237,77.094623,2004,No,2,84693,Residential colonies & local markets near Malviya Nagar,Residential
+DEL027,Delhi Metro,Delhi NCR,Delhi,Saket,DEL-SAK,Yellow Line,28.53415,77.089476,2004,No,2,86633,IT parks & tech offices around Saket,IT Hub
+DEL028,Delhi Metro,Delhi NCR,Delhi,Qutab Minar,DEL-QUT,Yellow Line,28.529629,77.086539,2004,No,2,79470,"Shopping district, offices & markets near Qutab Minar",Commercial
+DEL029,Delhi Metro,Delhi NCR,Delhi,Chhatarpur,DEL-CHH,Yellow Line,28.522337,77.092188,2004,No,2,61248,Residential colonies & local markets near Chhatarpur,Residential
+DEL030,Delhi Metro,Delhi NCR,Delhi,Sultanpur,DEL-SUL,Yellow Line,28.512295,77.088525,2004,No,2,52354,Residential colonies & local markets near Sultanpur,Residential
+DEL031,Delhi Metro,Delhi NCR,Delhi,Ghitorni,DEL-GHI,Yellow Line,28.50146,77.082145,2004,No,2,75856,Industrial estate & warehouses near Ghitorni,Industrial Area
+DEL032,Delhi Metro,Delhi NCR,Gurugram,Arjan Garh,DEL-ARJ,Yellow Line,28.499945,77.083549,2004,No,2,44823,Residential colonies & local markets near Arjan Garh,Residential
+DEL033,Delhi Metro,Delhi NCR,Gurugram,Guru Dronacharya,DEL-GUR,Yellow Line,28.493889,77.082454,2004,No,2,61590,Residential colonies & local markets near Guru Dronacharya,Residential
+DEL034,Delhi Metro,Delhi NCR,Gurugram,Sikanderpur,DEL-SIK,Yellow Line,28.482204,77.07624,2004,Yes,4,105735,Residential colonies & local markets near Sikanderpur,Residential
+DEL035,Delhi Metro,Delhi NCR,Gurugram,MG Road,DEL-MGR,Yellow Line,28.478453,77.075369,2004,Yes,4,92775,"Shopping district, offices & markets near MG Road",Commercial
+DEL036,Delhi Metro,Delhi NCR,Gurugram,IFFCO Chowk,DEL-IFF,Yellow Line,28.46301,77.070253,2004,No,2,77599,IT parks & tech offices around IFFCO Chowk,IT Hub
+DEL037,Delhi Metro,Delhi NCR,Gurugram,Huda City Centre,DEL-HUD,Yellow Line,28.456282,77.07414,2004,No,2,52602,"Shopping district, offices & markets near Huda City Centre",Commercial
+DEL038,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 21,DEL-DWA,Blue Line / Airport Express,28.560835,77.083121,2005,Yes,2,273044,"Shopping district, offices & markets near Dwarka Sector 21",Commercial
+DEL039,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 8,DEL-DW2,Blue Line,28.590909,77.05313,2005,No,2,73696,IT parks & tech offices around Dwarka Sector 8,IT Hub
+DEL040,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 9,DEL-DW3,Blue Line,28.594598,77.058168,2005,No,2,118214,IT parks & tech offices around Dwarka Sector 9,IT Hub
+DEL041,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 10,DEL-DW4,Blue Line,28.594011,77.06361,2005,No,2,135170,"Shopping district, offices & markets near Dwarka Sector 10",Commercial
+DEL042,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 11,DEL-DW5,Blue Line,28.591146,77.071266,2005,No,2,43981,Industrial estate & warehouses near Dwarka Sector 11,Industrial Area
+DEL043,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 12,DEL-DW6,Blue Line,28.588235,77.080982,2005,No,2,66498,Residential colonies & local markets near Dwarka Sector 12,Residential
+DEL044,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 13,DEL-DW7,Blue Line,28.590782,77.085997,2005,No,2,148134,"Shopping district, offices & markets near Dwarka Sector 13",Commercial
+DEL045,Delhi Metro,Delhi NCR,Delhi,Dwarka Sector 14,DEL-DW8,Blue Line,28.594111,77.094191,2005,No,2,84008,IT parks & tech offices around Dwarka Sector 14,IT Hub
+DEL046,Delhi Metro,Delhi NCR,Delhi,Dwarka,DEL-DW9,Blue Line,28.594762,77.098959,2005,No,2,101948,"Shopping district, offices & markets near Dwarka",Commercial
+DEL047,Delhi Metro,Delhi NCR,Delhi,Dwarka Mor,DEL-DW10,Blue Line,28.590955,77.105701,2005,No,2,68112,"Colleges, coaching centres & hostels near Dwarka Mor",Educational Zone
+DEL048,Delhi Metro,Delhi NCR,Delhi,Nawada,DEL-NAW,Blue Line,28.586535,77.10759,2005,No,2,86662,"Shopping district, offices & markets near Nawada",Commercial
+DEL049,Delhi Metro,Delhi NCR,Delhi,Uttam Nagar West,DEL-UTT,Blue Line,28.587815,77.11584,2005,No,2,131828,"Shopping district, offices & markets near Uttam Nagar West",Commercial
+DEL050,Delhi Metro,Delhi NCR,Delhi,Uttam Nagar East,DEL-UT2,Blue Line,28.593848,77.122837,2005,No,2,98615,Residential colonies & local markets near Uttam Nagar East,Residential
+DEL051,Delhi Metro,Delhi NCR,Delhi,Janakpuri West,DEL-JAN,Blue Line / Magenta Line,28.613038,77.10508,2005,Yes,4,138918,Residential colonies & local markets near Janakpuri West,Residential
+DEL052,Delhi Metro,Delhi NCR,Delhi,Janakpuri East,DEL-JA2,Blue Line,28.59121,77.141938,2005,No,2,62407,Residential colonies & local markets near Janakpuri East,Residential
+DEL053,Delhi Metro,Delhi NCR,Delhi,Tilak Nagar,DEL-TIL,Blue Line,28.589194,77.145314,2005,No,2,48879,Residential colonies & local markets near Tilak Nagar,Residential
+DEL054,Delhi Metro,Delhi NCR,Delhi,Subhash Nagar,DEL-SUB,Blue Line,28.58914,77.151522,2005,No,2,85611,Residential colonies & local markets near Subhash Nagar,Residential
+DEL055,Delhi Metro,Delhi NCR,Delhi,Tagore Garden,DEL-TAG,Blue Line,28.59541,77.153338,2005,No,2,113016,Residential colonies & local markets near Tagore Garden,Residential
+DEL056,Delhi Metro,Delhi NCR,Delhi,Rajouri Garden,DEL-RA2,Blue Line / Pink Line,28.655967,77.181579,2005,Yes,6,97097,Residential colonies & local markets near Rajouri Garden,Residential
+DEL057,Delhi Metro,Delhi NCR,Delhi,Ramesh Nagar,DEL-RAM,Blue Line,28.590398,77.167673,2005,No,2,82771,"Shopping district, offices & markets near Ramesh Nagar",Commercial
+DEL058,Delhi Metro,Delhi NCR,Delhi,Moti Nagar,DEL-MOT,Blue Line,28.592734,77.177557,2005,No,2,82225,Residential colonies & local markets near Moti Nagar,Residential
+DEL059,Delhi Metro,Delhi NCR,Delhi,Kirti Nagar,DEL-KIR,Blue Line,28.5933,77.186162,2005,Yes,6,192059,Residential colonies & local markets near Kirti Nagar,Residential
+DEL060,Delhi Metro,Delhi NCR,Delhi,Shadipur,DEL-SHA,Blue Line,28.598096,77.191923,2005,No,2,74211,Residential colonies & local markets near Shadipur,Residential
+DEL061,Delhi Metro,Delhi NCR,Delhi,Patel Nagar,DEL-PA2,Blue Line,28.588912,77.200064,2005,No,2,97010,Residential colonies & local markets near Patel Nagar,Residential
+DEL062,Delhi Metro,Delhi NCR,Delhi,Rajendra Place,DEL-RA3,Blue Line,28.593268,77.210869,2005,No,2,50065,Industrial estate & warehouses near Rajendra Place,Industrial Area
+DEL063,Delhi Metro,Delhi NCR,Delhi,Karol Bagh,DEL-KAR,Blue Line,28.595425,77.214037,2005,Yes,2,154119,"Shopping district, offices & markets near Karol Bagh",Commercial
+DEL064,Delhi Metro,Delhi NCR,Delhi,Jhandewalan,DEL-JHA,Blue Line,28.597628,77.215303,2005,No,2,81690,"Shopping district, offices & markets near Jhandewalan",Commercial
+DEL065,Delhi Metro,Delhi NCR,Delhi,RK Ashram Marg,DEL-RKA,Blue Line,28.590271,77.222896,2005,No,2,75171,Residential colonies & local markets near RK Ashram Marg,Residential
+DEL066,Delhi Metro,Delhi NCR,Delhi,Barakhamba Road,DEL-BAR,Blue Line,28.594741,77.238712,2005,No,2,101795,IT parks & tech offices around Barakhamba Road,IT Hub
+DEL067,Delhi Metro,Delhi NCR,Delhi,Mandi House,DEL-MAN,Blue Line / Violet Line,28.599089,77.239871,2005,Yes,4,136707,Industrial estate & warehouses near Mandi House,Industrial Area
+DEL068,Delhi Metro,Delhi NCR,Delhi,Supreme Court,DEL-SUP,Blue Line,28.593624,77.255774,2005,No,2,93338,Residential colonies & local markets near Supreme Court,Residential
+DEL069,Delhi Metro,Delhi NCR,Delhi,Indraprastha,DEL-IND,Blue Line,28.599519,77.269715,2005,No,2,112297,Residential colonies & local markets near Indraprastha,Residential
+DEL070,Delhi Metro,Delhi NCR,Delhi,Yamuna Bank,DEL-YAM,Blue Line,28.593985,77.262728,2005,Yes,4,98542,Industrial estate & warehouses near Yamuna Bank,Industrial Area
+DEL071,Delhi Metro,Delhi NCR,Delhi,Akshardham,DEL-AKS,Blue Line,28.585077,77.273804,2005,No,2,99649,"Shopping district, offices & markets near Akshardham",Commercial
+DEL072,Delhi Metro,Delhi NCR,Delhi,Mayur Vihar Phase-1,DEL-MAY,Blue Line / Pink Line,28.646591,77.26547,2005,Yes,2,274696,"Shopping district, offices & markets near Mayur Vihar Phase-1",Commercial
+DEL073,Delhi Metro,Delhi NCR,Delhi,Mayur Vihar Extension,DEL-MA2,Blue Line,28.590405,77.285726,2005,No,2,127856,"Shopping district, offices & markets near Mayur Vihar Extension",Commercial
+DEL074,Delhi Metro,Delhi NCR,Delhi,New Ashok Nagar,DEL-NE2,Blue Line,28.596282,77.293444,2005,No,2,124578,IT parks & tech offices around New Ashok Nagar,IT Hub
+DEL075,Delhi Metro,Delhi NCR,Noida,Noida Sector 15,DEL-NOI,Blue Line,28.592,77.295945,2005,No,2,38608,IT parks & tech offices around Noida Sector 15,IT Hub
+DEL076,Delhi Metro,Delhi NCR,Noida,Noida Sector 16,DEL-NO2,Blue Line,28.586698,77.304543,2005,No,2,43417,Residential colonies & local markets near Noida Sector 16,Residential
+DEL077,Delhi Metro,Delhi NCR,Noida,Noida Sector 18,DEL-NO3,Blue Line,28.592375,77.319108,2005,No,2,33878,Residential colonies & local markets near Noida Sector 18,Residential
+DEL078,Delhi Metro,Delhi NCR,Noida,Botanical Garden,DEL-BOT,Blue Line / Magenta Line,28.575944,77.331101,2005,Yes,2,63339,Residential colonies & local markets near Botanical Garden,Residential
+DEL079,Delhi Metro,Delhi NCR,Noida,Golf Course,DEL-GOL,Blue Line,28.590824,77.322124,2005,No,2,43260,Residential colonies & local markets near Golf Course,Residential
+DEL080,Delhi Metro,Delhi NCR,Noida,Noida City Centre,DEL-NO4,Blue Line,28.589198,77.330409,2005,No,2,37045,Residential colonies & local markets near Noida City Centre,Residential
+DEL081,Delhi Metro,Delhi NCR,Noida,Noida Sector 34,DEL-NO5,Blue Line,28.600029,77.336748,2005,No,2,37958,Industrial estate & warehouses near Noida Sector 34,Industrial Area
+DEL082,Delhi Metro,Delhi NCR,Noida,Noida Sector 52,DEL-NO6,Blue Line,28.595518,77.343138,2005,No,2,52512,"Colleges, coaching centres & hostels near Noida Sector 52",Educational Zone
+DEL083,Delhi Metro,Delhi NCR,Noida,Noida Sector 61,DEL-NO7,Blue Line,28.595848,77.354321,2005,No,2,55338,Residential colonies & local markets near Noida Sector 61,Residential
+DEL084,Delhi Metro,Delhi NCR,Noida,Noida Sector 59,DEL-NO8,Blue Line,28.592044,77.359506,2005,No,2,48281,"Shopping district, offices & markets near Noida Sector 59",Commercial
+DEL085,Delhi Metro,Delhi NCR,Noida,Noida Sector 62,DEL-NO9,Blue Line,28.590304,77.367886,2005,No,2,36500,Residential colonies & local markets near Noida Sector 62,Residential
+DEL086,Delhi Metro,Delhi NCR,Noida,Noida Electronic City,DEL-NO10,Blue Line,28.591008,77.36871,2005,No,2,45755,IT parks & tech offices around Noida Electronic City,IT Hub
+DEL087,Delhi Metro,Delhi NCR,Delhi,Rithala,DEL-RIT,Red Line,28.716127,77.107504,2002,No,2,50978,"Colleges, coaching centres & hostels near Rithala",Educational Zone
+DEL088,Delhi Metro,Delhi NCR,Delhi,Rohini West,DEL-RO2,Red Line,28.724748,77.119821,2002,No,2,146344,"Shopping district, offices & markets near Rohini West",Commercial
+DEL089,Delhi Metro,Delhi NCR,Delhi,Rohini East,DEL-RO3,Red Line,28.717428,77.132622,2002,No,2,74652,Residential colonies & local markets near Rohini East,Residential
+DEL090,Delhi Metro,Delhi NCR,Delhi,Pitampura,DEL-PIT,Red Line,28.721035,77.14475,2002,No,2,63159,Residential colonies & local markets near Pitampura,Residential
+DEL091,Delhi Metro,Delhi NCR,Delhi,Kohat Enclave,DEL-KOH,Red Line,28.713647,77.160215,2002,No,2,137952,"Shopping district, offices & markets near Kohat Enclave",Commercial
+DEL092,Delhi Metro,Delhi NCR,Delhi,Netaji Subhash Place,DEL-NET,Red Line / Pink Line,28.719095,77.174458,2002,Yes,4,141488,Residential colonies & local markets near Netaji Subhash Place,Residential
+DEL093,Delhi Metro,Delhi NCR,Delhi,Keshav Puram,DEL-KES,Red Line,28.71297,77.176779,2002,No,2,78791,"Shopping district, offices & markets near Keshav Puram",Commercial
+DEL094,Delhi Metro,Delhi NCR,Delhi,Kanhaiya Nagar,DEL-KAN,Red Line,28.706161,77.199203,2002,No,2,80020,"Colleges, coaching centres & hostels near Kanhaiya Nagar",Educational Zone
+DEL095,Delhi Metro,Delhi NCR,Delhi,Inderlok,DEL-IN2,Red Line / Green Line,28.695458,77.18159,2002,Yes,2,188731,Residential colonies & local markets near Inderlok,Residential
+DEL096,Delhi Metro,Delhi NCR,Delhi,Shastri Nagar,DEL-SH2,Red Line,28.706852,77.223261,2002,No,2,62268,Residential colonies & local markets near Shastri Nagar,Residential
+DEL097,Delhi Metro,Delhi NCR,Delhi,Pratap Nagar,DEL-PRA,Red Line,28.70294,77.227376,2002,No,2,74432,Industrial estate & warehouses near Pratap Nagar,Industrial Area
+DEL098,Delhi Metro,Delhi NCR,Delhi,Pulbangash,DEL-PUL,Red Line,28.707687,77.241487,2002,No,2,138326,"Shopping district, offices & markets near Pulbangash",Commercial
+DEL099,Delhi Metro,Delhi NCR,Delhi,Tis Hazari,DEL-TIS,Red Line,28.704039,77.254657,2002,No,2,103575,Residential colonies & local markets near Tis Hazari,Residential
+DEL100,Delhi Metro,Delhi NCR,Delhi,Shastri Park,DEL-SH3,Red Line,28.701617,77.282204,2002,No,2,63352,Residential colonies & local markets near Shastri Park,Residential
+DEL101,Delhi Metro,Delhi NCR,Delhi,Seelampur,DEL-SEE,Red Line,28.692746,77.29214,2002,No,2,51874,Residential colonies & local markets near Seelampur,Residential
+DEL102,Delhi Metro,Delhi NCR,Delhi,Welcome,DEL-WEL,Red Line / Pink Line,28.694662,77.299806,2002,Yes,4,265516,"Shopping district, offices & markets near Welcome",Commercial
+DEL103,Delhi Metro,Delhi NCR,Delhi,Shahdara,DEL-SH4,Red Line,28.694091,77.315863,2002,No,2,113346,IT parks & tech offices around Shahdara,IT Hub
+DEL104,Delhi Metro,Delhi NCR,Delhi,Mansarovar Park,DEL-MA3,Red Line,28.698991,77.32475,2002,No,2,130461,"Shopping district, offices & markets near Mansarovar Park",Commercial
+DEL105,Delhi Metro,Delhi NCR,Delhi,Jhilmil,DEL-JHI,Red Line,28.694514,77.340059,2002,No,2,56913,Residential colonies & local markets near Jhilmil,Residential
+DEL106,Delhi Metro,Delhi NCR,Delhi,Dilshad Garden,DEL-DIL,Red Line,28.691882,77.357624,2002,No,2,99198,Residential colonies & local markets near Dilshad Garden,Residential
+DEL107,Delhi Metro,Delhi NCR,Ghaziabad,Shaheed Nagar,DEL-SH5,Red Line,28.693533,77.371156,2002,No,2,31657,Industrial estate & warehouses near Shaheed Nagar,Industrial Area
+DEL108,Delhi Metro,Delhi NCR,Ghaziabad,Raj Bagh,DEL-RA4,Red Line,28.689731,77.3764,2002,No,2,53647,"Shopping district, offices & markets near Raj Bagh",Commercial
+DEL109,Delhi Metro,Delhi NCR,Ghaziabad,Major Mohit Sharma,DEL-MAJ,Red Line,28.688109,77.392045,2002,No,2,22333,Industrial estate & warehouses near Major Mohit Sharma,Industrial Area
+DEL110,Delhi Metro,Delhi NCR,Ghaziabad,Shyam Park,DEL-SHY,Red Line,28.688132,77.399762,2002,No,2,39352,"Colleges, coaching centres & hostels near Shyam Park",Educational Zone
+DEL111,Delhi Metro,Delhi NCR,Ghaziabad,Mohan Nagar,DEL-MOH,Red Line,28.686452,77.416717,2002,No,2,34767,Residential colonies & local markets near Mohan Nagar,Residential
+DEL112,Delhi Metro,Delhi NCR,Ghaziabad,Arthala,DEL-ART,Red Line,28.693568,77.434848,2002,No,2,51982,IT parks & tech offices around Arthala,IT Hub
+DEL113,Delhi Metro,Delhi NCR,Ghaziabad,Hindon River,DEL-HIN,Red Line,28.680392,77.439633,2002,No,2,56990,"Shopping district, offices & markets near Hindon River",Commercial
+DEL114,Delhi Metro,Delhi NCR,Ghaziabad,Shaheed Sthal,DEL-SH6,Red Line,28.676878,77.450933,2002,No,2,54408,"Shopping district, offices & markets near Shaheed Sthal",Commercial
+DEL115,Delhi Metro,Delhi NCR,Delhi,Lal Qila,DEL-LAL,Violet Line,28.654839,77.228644,2010,No,2,67252,Residential colonies & local markets near Lal Qila,Residential
+DEL116,Delhi Metro,Delhi NCR,Delhi,Jama Masjid,DEL-JAM,Violet Line,28.639766,77.233197,2010,No,2,74981,"Shopping district, offices & markets near Jama Masjid",Commercial
+DEL117,Delhi Metro,Delhi NCR,Delhi,Delhi Gate,DEL-DEL,Violet Line,28.633454,77.234747,2010,No,2,64044,Residential colonies & local markets near Delhi Gate,Residential
+DEL118,Delhi Metro,Delhi NCR,Delhi,ITO,DEL-ITO,Violet Line,28.623995,77.239103,2010,No,2,108248,"Shopping district, offices & markets near ITO",Commercial
+DEL119,Delhi Metro,Delhi NCR,Delhi,Janpath,DEL-JA3,Violet Line,28.614298,77.240594,2010,No,2,108455,"Shopping district, offices & markets near Janpath",Commercial
+DEL120,Delhi Metro,Delhi NCR,Delhi,Khan Market,DEL-KHA,Violet Line,28.596795,77.246666,2010,No,2,115140,"Shopping district, offices & markets near Khan Market",Commercial
+DEL121,Delhi Metro,Delhi NCR,Delhi,Jawaharlal Nehru Stadium,DEL-JAW,Violet Line,28.575229,77.254795,2010,No,2,65957,"Colleges, coaching centres & hostels near Jawaharlal Nehru Stadium",Educational Zone
+DEL122,Delhi Metro,Delhi NCR,Delhi,Jangpura,DEL-JA4,Violet Line,28.57246,77.252979,2010,No,2,68606,Industrial estate & warehouses near Jangpura,Industrial Area
+DEL123,Delhi Metro,Delhi NCR,Delhi,Lajpat Nagar,DEL-LAJ,Violet Line / Pink Line,28.629378,77.246631,2010,Yes,4,182015,"Colleges, coaching centres & hostels near Lajpat Nagar",Educational Zone
+DEL124,Delhi Metro,Delhi NCR,Delhi,Moolchand,DEL-MOO,Violet Line,28.547713,77.260783,2010,No,2,64587,Residential colonies & local markets near Moolchand,Residential
+DEL125,Delhi Metro,Delhi NCR,Delhi,Kailash Colony,DEL-KAI,Violet Line,28.535613,77.260121,2010,No,2,128435,"Shopping district, offices & markets near Kailash Colony",Commercial
+DEL126,Delhi Metro,Delhi NCR,Delhi,Nehru Place,DEL-NEH,Violet Line,28.525139,77.266834,2010,No,2,92532,Residential colonies & local markets near Nehru Place,Residential
+DEL127,Delhi Metro,Delhi NCR,Delhi,Kalkaji Mandir,DEL-KAL,Violet Line / Magenta Line,28.550065,77.256938,2010,Yes,6,107978,Industrial estate & warehouses near Kalkaji Mandir,Industrial Area
+DEL128,Delhi Metro,Delhi NCR,Delhi,Govind Puri,DEL-GOV,Violet Line,28.507405,77.276978,2010,No,2,89005,"Colleges, coaching centres & hostels near Govind Puri",Educational Zone
+DEL129,Delhi Metro,Delhi NCR,Delhi,Harkesh Nagar Okhla,DEL-HAR,Violet Line,28.496189,77.277498,2010,No,2,98532,"Colleges, coaching centres & hostels near Harkesh Nagar Okhla",Educational Zone
+DEL130,Delhi Metro,Delhi NCR,Delhi,Jasola Apollo,DEL-JAS,Violet Line,28.485722,77.2791,2010,No,2,95374,Residential colonies & local markets near Jasola Apollo,Residential
+DEL131,Delhi Metro,Delhi NCR,Delhi,Sarita Vihar,DEL-SAR,Violet Line,28.472902,77.283041,2010,No,2,144103,"Shopping district, offices & markets near Sarita Vihar",Commercial
+DEL132,Delhi Metro,Delhi NCR,Delhi,Mohan Estate,DEL-MO2,Violet Line,28.464978,77.292093,2010,No,2,149833,"Shopping district, offices & markets near Mohan Estate",Commercial
+DEL133,Delhi Metro,Delhi NCR,Delhi,Tughlakabad,DEL-TUG,Violet Line,28.460716,77.28895,2010,No,2,71412,Residential colonies & local markets near Tughlakabad,Residential
+DEL134,Delhi Metro,Delhi NCR,Delhi,Badarpur Border,DEL-BAD,Violet Line,28.442429,77.28654,2010,No,2,114944,IT parks & tech offices around Badarpur Border,IT Hub
+DEL135,Delhi Metro,Delhi NCR,Faridabad,Sarai,DEL-SA2,Violet Line,28.43916,77.294186,2010,No,2,42299,"Shopping district, offices & markets near Sarai",Commercial
+DEL136,Delhi Metro,Delhi NCR,Faridabad,NHPC Chowk,DEL-NHP,Violet Line,28.426562,77.289994,2010,No,2,57517,IT parks & tech offices around NHPC Chowk,IT Hub
+DEL137,Delhi Metro,Delhi NCR,Faridabad,Mewala Maharajpur,DEL-MEW,Violet Line,28.418019,77.300524,2010,No,2,29161,"Shopping district, offices & markets near Mewala Maharajpur",Commercial
+DEL138,Delhi Metro,Delhi NCR,Faridabad,Sector 28 Faridabad,DEL-SEC,Violet Line,28.400777,77.300116,2010,No,2,30128,Residential colonies & local markets near Sector 28 Faridabad,Residential
+DEL139,Delhi Metro,Delhi NCR,Faridabad,Badkal Mor,DEL-BA2,Violet Line,28.395478,77.304784,2010,No,2,42133,Residential colonies & local markets near Badkal Mor,Residential
+DEL140,Delhi Metro,Delhi NCR,Faridabad,Old Faridabad,DEL-OLD,Violet Line,28.383423,77.307071,2010,No,2,26802,Residential colonies & local markets near Old Faridabad,Residential
+DEL141,Delhi Metro,Delhi NCR,Faridabad,Neelam Chowk Ajronda,DEL-NEE,Violet Line,28.373454,77.310801,2010,No,2,35430,"Colleges, coaching centres & hostels near Neelam Chowk Ajronda",Educational Zone
+DEL142,Delhi Metro,Delhi NCR,Faridabad,Bata Chowk,DEL-BAT,Violet Line,28.369377,77.304117,2010,No,2,26099,"Colleges, coaching centres & hostels near Bata Chowk",Educational Zone
+DEL143,Delhi Metro,Delhi NCR,Faridabad,Escorts Mujesar,DEL-ESC,Violet Line,28.353289,77.316551,2010,No,2,57296,IT parks & tech offices around Escorts Mujesar,IT Hub
+DEL144,Delhi Metro,Delhi NCR,Faridabad,Sant Surdas Sihi,DEL-SAN,Violet Line,28.345045,77.317465,2010,No,2,42341,Residential colonies & local markets near Sant Surdas Sihi,Residential
+DEL145,Delhi Metro,Delhi NCR,Faridabad,Raja Nahar Singh Ballabgarh,DEL-RA5,Violet Line,28.327751,77.322748,2010,No,2,27250,Residential colonies & local markets near Raja Nahar Singh Ballabgarh,Residential
+DEL146,Delhi Metro,Delhi NCR,Delhi,Dabri Mor Janakpuri South,DEL-DAB,Magenta Line,28.629236,77.087804,2017,No,2,87563,"Colleges, coaching centres & hostels near Dabri Mor Janakpuri South",Educational Zone
+DEL147,Delhi Metro,Delhi NCR,Delhi,Dashrath Puri,DEL-DAS,Magenta Line,28.62331,77.095923,2017,No,2,48517,Industrial estate & warehouses near Dashrath Puri,Industrial Area
+DEL148,Delhi Metro,Delhi NCR,Delhi,Palam,DEL-PAL,Magenta Line,28.619667,77.114813,2017,No,2,87892,Residential colonies & local markets near Palam,Residential
+DEL149,Delhi Metro,Delhi NCR,Delhi,Sadar Bazar Cantonment,DEL-SAD,Magenta Line,28.620189,77.12698,2017,No,2,121692,"Shopping district, offices & markets near Sadar Bazar Cantonment",Commercial
+DEL150,Delhi Metro,Delhi NCR,Delhi,Terminal 1 IGI Airport,DEL-TER,Magenta Line,28.619583,77.133108,2017,No,2,108044,Airport terminal & cargo complex at Terminal 1 IGI Airport,Airport
+DEL151,Delhi Metro,Delhi NCR,Delhi,Shankar Vihar,DEL-SH7,Magenta Line,28.618879,77.143761,2017,No,2,50184,Residential colonies & local markets near Shankar Vihar,Residential
+DEL152,Delhi Metro,Delhi NCR,Delhi,Vasant Vihar,DEL-VAS,Magenta Line,28.612985,77.151841,2017,No,2,80329,IT parks & tech offices around Vasant Vihar,IT Hub
+DEL153,Delhi Metro,Delhi NCR,Delhi,Munirka,DEL-MUN,Magenta Line,28.607633,77.161092,2017,No,2,121046,IT parks & tech offices around Munirka,IT Hub
+DEL154,Delhi Metro,Delhi NCR,Delhi,RK Puram,DEL-RKP,Magenta Line,28.608176,77.170063,2017,No,2,85116,Residential colonies & local markets near RK Puram,Residential
+DEL155,Delhi Metro,Delhi NCR,Delhi,IIT Delhi,DEL-IIT,Magenta Line,28.604763,77.184174,2017,No,2,71746,"Colleges, coaching centres & hostels near IIT Delhi",Educational Zone
+DEL156,Delhi Metro,Delhi NCR,Delhi,Panchsheel Park,DEL-PAN,Magenta Line,28.603022,77.208708,2017,No,2,69570,"Shopping district, offices & markets near Panchsheel Park",Commercial
+DEL157,Delhi Metro,Delhi NCR,Delhi,Chirag Delhi,DEL-CHI,Magenta Line,28.58846,77.21657,2017,No,2,94891,"Shopping district, offices & markets near Chirag Delhi",Commercial
+DEL158,Delhi Metro,Delhi NCR,Delhi,Greater Kailash,DEL-GR2,Magenta Line,28.587173,77.225644,2017,No,2,104658,Residential colonies & local markets near Greater Kailash,Residential
+DEL159,Delhi Metro,Delhi NCR,Delhi,Nehru Enclave,DEL-NE3,Magenta Line,28.593877,77.240344,2017,No,2,44979,"Colleges, coaching centres & hostels near Nehru Enclave",Educational Zone
+DEL160,Delhi Metro,Delhi NCR,Delhi,Okhla NSIC,DEL-OKH,Magenta Line,28.583327,77.255163,2017,No,2,99052,"Shopping district, offices & markets near Okhla NSIC",Commercial
+DEL161,Delhi Metro,Delhi NCR,Delhi,Sukhdev Vihar,DEL-SUK,Magenta Line,28.578176,77.271167,2017,No,2,109845,Residential colonies & local markets near Sukhdev Vihar,Residential
+DEL162,Delhi Metro,Delhi NCR,Delhi,Jamia Millia Islamia,DEL-JA5,Magenta Line,28.581881,77.28286,2017,No,2,69196,"Shopping district, offices & markets near Jamia Millia Islamia",Commercial
+DEL163,Delhi Metro,Delhi NCR,Delhi,Okhla Vihar,DEL-OK2,Magenta Line,28.56713,77.292449,2017,No,2,124175,IT parks & tech offices around Okhla Vihar,IT Hub
+DEL164,Delhi Metro,Delhi NCR,Delhi,Jasola Vihar Shaheen Bagh,DEL-JA6,Magenta Line,28.572715,77.303486,2017,No,2,65293,Residential colonies & local markets near Jasola Vihar Shaheen Bagh,Residential
+DEL165,Delhi Metro,Delhi NCR,Delhi,Kalindi Kunj,DEL-KA2,Magenta Line,28.575432,77.30547,2017,No,2,104756,Residential colonies & local markets near Kalindi Kunj,Residential
+DEL166,Delhi Metro,Delhi NCR,Delhi,Okhla Bird Sanctuary,DEL-OK3,Magenta Line,28.565019,77.325414,2017,No,2,66784,Industrial estate & warehouses near Okhla Bird Sanctuary,Industrial Area
+DEL167,Delhi Metro,Delhi NCR,Delhi,Majlis Park,DEL-MA4,Pink Line,28.726289,77.163963,2018,No,2,120126,"Shopping district, offices & markets near Majlis Park",Commercial
+DEL168,Delhi Metro,Delhi NCR,Delhi,Shalimar Bagh,DEL-SH8,Pink Line,28.726848,77.17041,2018,No,2,70937,"Shopping district, offices & markets near Shalimar Bagh",Commercial
+DEL169,Delhi Metro,Delhi NCR,Delhi,Shakurpur,DEL-SH9,Pink Line,28.718195,77.177673,2018,No,2,94098,"Shopping district, offices & markets near Shakurpur",Commercial
+DEL170,Delhi Metro,Delhi NCR,Delhi,Punjabi Bagh West,DEL-PUN,Pink Line,28.719736,77.183828,2018,No,2,84232,Residential colonies & local markets near Punjabi Bagh West,Residential
+DEL171,Delhi Metro,Delhi NCR,Delhi,ESI Basaidarapur,DEL-ESI,Pink Line,28.722824,77.183079,2018,No,2,54843,Residential colonies & local markets near ESI Basaidarapur,Residential
+DEL172,Delhi Metro,Delhi NCR,Delhi,Mayapuri,DEL-MA5,Pink Line,28.71483,77.192501,2018,No,2,54019,Residential colonies & local markets near Mayapuri,Residential
+DEL173,Delhi Metro,Delhi NCR,Delhi,Naraina Vihar,DEL-NAR,Pink Line,28.717195,77.202631,2018,No,2,57076,"Shopping district, offices & markets near Naraina Vihar",Commercial
+DEL174,Delhi Metro,Delhi NCR,Delhi,Delhi Cantt,DEL-DE2,Pink Line,28.715581,77.208624,2018,No,2,94105,Residential colonies & local markets near Delhi Cantt,Residential
+DEL175,Delhi Metro,Delhi NCR,Delhi,Durgabai Deshmukh South Campus,DEL-DUR,Pink Line,28.717593,77.211217,2018,Yes,2,152793,Residential colonies & local markets near Durgabai Deshmukh South Campus,Residential
+DEL176,Delhi Metro,Delhi NCR,Delhi,Sir Vishweshwaraiah Moti Bagh,DEL-SIR,Pink Line,28.715588,77.220714,2018,No,2,82289,Residential colonies & local markets near Sir Vishweshwaraiah Moti Bagh,Residential
+DEL177,Delhi Metro,Delhi NCR,Delhi,Bhikaji Cama Place,DEL-BHI,Pink Line,28.711985,77.209853,2018,No,2,94121,"Shopping district, offices & markets near Bhikaji Cama Place",Commercial
+DEL178,Delhi Metro,Delhi NCR,Delhi,Sarojini Nagar,DEL-SA3,Pink Line,28.717372,77.21956,2018,No,2,67535,Residential colonies & local markets near Sarojini Nagar,Residential
+DEL179,Delhi Metro,Delhi NCR,Delhi,South Extension,DEL-SOU,Pink Line,28.704257,77.225376,2018,No,2,58729,"Colleges, coaching centres & hostels near South Extension",Educational Zone
+DEL180,Delhi Metro,Delhi NCR,Delhi,Vinobapuri,DEL-VIN,Pink Line,28.709512,77.240186,2018,No,2,68075,"Colleges, coaching centres & hostels near Vinobapuri",Educational Zone
+DEL181,Delhi Metro,Delhi NCR,Delhi,Ashram,DEL-ASH,Pink Line,28.707994,77.237704,2018,No,2,52410,Residential colonies & local markets near Ashram,Residential
+DEL182,Delhi Metro,Delhi NCR,Delhi,Sarai Kale Khan Nizamuddin,DEL-SA4,Pink Line,28.697996,77.247136,2018,Yes,4,266662,"Railway station, bus terminal & transit hub at Sarai Kale Khan Nizamuddin",Railway Connection
+DEL183,Delhi Metro,Delhi NCR,Delhi,Mayur Vihar Pocket-1,DEL-MA6,Pink Line,28.706646,77.256024,2018,No,2,86021,Residential colonies & local markets near Mayur Vihar Pocket-1,Residential
+DEL184,Delhi Metro,Delhi NCR,Delhi,Trilokpuri Sanjay Lake,DEL-TRI,Pink Line,28.705904,77.26064,2018,No,2,80751,"Shopping district, offices & markets near Trilokpuri Sanjay Lake",Commercial
+DEL185,Delhi Metro,Delhi NCR,Delhi,East Vinod Nagar,DEL-EAS,Pink Line,28.704153,77.261669,2018,No,2,73179,Residential colonies & local markets near East Vinod Nagar,Residential
+DEL186,Delhi Metro,Delhi NCR,Delhi,Mandawali West Vinod Nagar,DEL-MA7,Pink Line,28.700723,77.269121,2018,No,2,49077,Residential colonies & local markets near Mandawali West Vinod Nagar,Residential
+DEL187,Delhi Metro,Delhi NCR,Delhi,IP Extension,DEL-IPE,Pink Line,28.703277,77.271352,2018,No,2,65352,Industrial estate & warehouses near IP Extension,Industrial Area
+DEL188,Delhi Metro,Delhi NCR,Delhi,Anand Vihar ISBT,DEL-ANA,Pink Line,28.701284,77.276097,2018,Yes,4,269077,"Railway station, bus terminal & transit hub at Anand Vihar ISBT",Railway Connection
+DEL189,Delhi Metro,Delhi NCR,Delhi,Karkarduma,DEL-KA3,Pink Line,28.698102,77.284228,2018,No,2,79474,"Shopping district, offices & markets near Karkarduma",Commercial
+DEL190,Delhi Metro,Delhi NCR,Delhi,Karkarduma Court,DEL-KA4,Pink Line,28.690592,77.281084,2018,No,2,67501,"Shopping district, offices & markets near Karkarduma Court",Commercial
+DEL191,Delhi Metro,Delhi NCR,Delhi,Krishna Nagar,DEL-KRI,Pink Line,28.691434,77.281751,2018,No,2,67689,IT parks & tech offices around Krishna Nagar,IT Hub
+DEL192,Delhi Metro,Delhi NCR,Delhi,East Azad Nagar,DEL-EA2,Pink Line,28.693302,77.296839,2018,No,2,59119,IT parks & tech offices around East Azad Nagar,IT Hub
+DEL193,Delhi Metro,Delhi NCR,Delhi,Jaffrabad,DEL-JAF,Pink Line,28.697596,77.307458,2018,No,2,47925,Residential colonies & local markets near Jaffrabad,Residential
+DEL194,Delhi Metro,Delhi NCR,Delhi,Maujpur Babarpur,DEL-MAU,Pink Line,28.692596,77.311846,2018,No,2,45237,Residential colonies & local markets near Maujpur Babarpur,Residential
+DEL195,Delhi Metro,Delhi NCR,Delhi,Gokulpuri,DEL-GOK,Pink Line,28.692214,77.308475,2018,No,2,127772,"Shopping district, offices & markets near Gokulpuri",Commercial
+DEL196,Delhi Metro,Delhi NCR,Delhi,Johri Enclave,DEL-JOH,Pink Line,28.688866,77.310521,2018,No,2,60518,"Shopping district, offices & markets near Johri Enclave",Commercial
+DEL197,Delhi Metro,Delhi NCR,Delhi,Shiv Vihar,DEL-SHI,Pink Line,28.686892,77.318747,2018,No,2,64813,"Shopping district, offices & markets near Shiv Vihar",Commercial
+DEL198,Delhi Metro,Delhi NCR,Delhi,Ashok Park Main,DEL-AS2,Green Line,28.665112,77.144575,2010,Yes,6,248133,IT parks & tech offices around Ashok Park Main,IT Hub
+DEL199,Delhi Metro,Delhi NCR,Delhi,Punjabi Bagh,DEL-PU2,Green Line,28.663758,77.136061,2010,No,2,114932,"Shopping district, offices & markets near Punjabi Bagh",Commercial
+DEL200,Delhi Metro,Delhi NCR,Delhi,Shivaji Park,DEL-SH10,Green Line,28.664391,77.119192,2010,No,2,68049,Industrial estate & warehouses near Shivaji Park,Industrial Area
+DEL201,Delhi Metro,Delhi NCR,Delhi,Madipur,DEL-MAD,Green Line,28.665549,77.114682,2010,No,2,89483,Residential colonies & local markets near Madipur,Residential
+DEL202,Delhi Metro,Delhi NCR,Delhi,Paschim Vihar East,DEL-PAS,Green Line,28.657881,77.104256,2010,No,2,105764,Residential colonies & local markets near Paschim Vihar East,Residential
+DEL203,Delhi Metro,Delhi NCR,Delhi,Paschim Vihar West,DEL-PA3,Green Line,28.65491,77.100698,2010,No,2,89972,Residential colonies & local markets near Paschim Vihar West,Residential
+DEL204,Delhi Metro,Delhi NCR,Delhi,Peeragarhi,DEL-PEE,Green Line,28.653988,77.09155,2010,No,2,73274,"Colleges, coaching centres & hostels near Peeragarhi",Educational Zone
+DEL205,Delhi Metro,Delhi NCR,Delhi,Udyog Nagar,DEL-UD2,Green Line,28.653367,77.086222,2010,No,2,94786,Residential colonies & local markets near Udyog Nagar,Residential
+DEL206,Delhi Metro,Delhi NCR,Delhi,Maharaja Surajmal Stadium,DEL-MAH,Green Line,28.64835,77.067631,2010,No,2,68969,"Colleges, coaching centres & hostels near Maharaja Surajmal Stadium",Educational Zone
+DEL207,Delhi Metro,Delhi NCR,Delhi,Nangloi,DEL-NAN,Green Line,28.650735,77.06284,2010,No,2,71024,Residential colonies & local markets near Nangloi,Residential
+DEL208,Delhi Metro,Delhi NCR,Delhi,Nangloi Railway Station,DEL-NA2,Green Line,28.648351,77.056542,2010,No,2,122739,"Railway station, bus terminal & transit hub at Nangloi Railway Station",Railway Connection
+DEL209,Delhi Metro,Delhi NCR,Delhi,Rajdhani Park,DEL-RA6,Green Line,28.641441,77.047621,2010,No,2,133623,"Shopping district, offices & markets near Rajdhani Park",Commercial
+DEL210,Delhi Metro,Delhi NCR,Delhi,Mundka,DEL-MU2,Green Line,28.646179,77.044869,2010,No,2,87324,"Shopping district, offices & markets near Mundka",Commercial
+DEL211,Delhi Metro,Delhi NCR,Delhi,Mundka Industrial Area,DEL-MU3,Green Line,28.637043,77.029361,2010,No,2,40333,Industrial estate & warehouses near Mundka Industrial Area,Industrial Area
+DEL212,Delhi Metro,Delhi NCR,Delhi,Ghevra,DEL-GHE,Green Line,28.638017,77.01704,2010,No,2,64563,Residential colonies & local markets near Ghevra,Residential
+DEL213,Delhi Metro,Delhi NCR,Delhi,Tikri Kalan,DEL-TIK,Green Line,28.632866,77.011109,2010,No,2,103166,Residential colonies & local markets near Tikri Kalan,Residential
+DEL214,Delhi Metro,Delhi NCR,Delhi,Tikri Border,DEL-TI2,Green Line,28.630249,76.999483,2010,No,2,62219,"Colleges, coaching centres & hostels near Tikri Border",Educational Zone
+DEL215,Delhi Metro,Delhi NCR,Bahadurgarh,Pandit Shree Ram Sharma,DEL-PA4,Green Line,28.621037,76.986345,2010,No,2,31018,"Shopping district, offices & markets near Pandit Shree Ram Sharma",Commercial
+DEL216,Delhi Metro,Delhi NCR,Bahadurgarh,Bahadurgarh City,DEL-BAH,Green Line,28.620139,76.983195,2010,No,2,23132,"Colleges, coaching centres & hostels near Bahadurgarh City",Educational Zone
+DEL217,Delhi Metro,Delhi NCR,Bahadurgarh,Brigadier Hoshiar Singh,DEL-BRI,Green Line,28.620474,76.98278,2010,No,2,17879,"Shopping district, offices & markets near Brigadier Hoshiar Singh",Commercial
+DEL218,Delhi Metro,Delhi NCR,Delhi,Shivaji Stadium,DEL-SH11,Airport Express,28.620967,77.196742,2011,No,2,87265,"Colleges, coaching centres & hostels near Shivaji Stadium",Educational Zone
+DEL219,Delhi Metro,Delhi NCR,Delhi,Dhaula Kuan,DEL-DHA,Airport Express,28.596005,77.176482,2011,Yes,2,130219,Residential colonies & local markets near Dhaula Kuan,Residential
+DEL220,Delhi Metro,Delhi NCR,Delhi,Delhi Aerocity,DEL-DE3,Airport Express,28.576417,77.152313,2011,No,2,43150,Industrial estate & warehouses near Delhi Aerocity,Industrial Area
+DEL221,Delhi Metro,Delhi NCR,Delhi,IGI Airport,DEL-IGI,Airport Express,28.555223,77.12717,2011,No,2,98420,Airport terminal & cargo complex at IGI Airport,Airport
+DEL222,Delhi Metro,Delhi NCR,Delhi,Yashobhoomi Dwarka Sector 25,DEL-YAS,Airport Express,28.506781,77.091516,2011,No,2,86527,IT parks & tech offices around Yashobhoomi Dwarka Sector 25,IT Hub
+NDA001,Noida Metro,Uttar Pradesh,Noida,Noida Sector 51,NDA-NOI,Aqua Line,28.57632,77.341033,2019,No,2,27523,Industrial estate & warehouses near Noida Sector 51,Industrial Area
+NDA002,Noida Metro,Uttar Pradesh,Noida,Noida Sector 50,NDA-NO2,Aqua Line,28.569328,77.347088,2019,No,2,28000,"Colleges, coaching centres & hostels near Noida Sector 50",Educational Zone
+NDA003,Noida Metro,Uttar Pradesh,Noida,Noida Sector 76,NDA-NO3,Aqua Line,28.560324,77.357874,2019,No,2,50487,IT parks & tech offices around Noida Sector 76,IT Hub
+NDA004,Noida Metro,Uttar Pradesh,Noida,Noida Sector 101,NDA-NO4,Aqua Line,28.553599,77.367382,2019,No,2,41559,Residential colonies & local markets near Noida Sector 101,Residential
+NDA005,Noida Metro,Uttar Pradesh,Noida,Noida Sector 81,NDA-NO5,Aqua Line,28.553904,77.37502,2019,No,2,54946,"Shopping district, offices & markets near Noida Sector 81",Commercial
+NDA006,Noida Metro,Uttar Pradesh,Noida,NSEZ Noida Sector 83,NDA-NSE,Aqua Line,28.54263,77.38401,2019,No,2,41610,Residential colonies & local markets near NSEZ Noida Sector 83,Residential
+NDA007,Noida Metro,Uttar Pradesh,Noida,Noida Sector 137,NDA-NO6,Aqua Line,28.536078,77.39438,2019,No,2,26812,Residential colonies & local markets near Noida Sector 137,Residential
+NDA008,Noida Metro,Uttar Pradesh,Noida,Noida Sector 142,NDA-NO7,Aqua Line,28.524274,77.398615,2019,No,2,43730,Residential colonies & local markets near Noida Sector 142,Residential
+NDA009,Noida Metro,Uttar Pradesh,Noida,Noida Sector 143,NDA-NO8,Aqua Line,28.517243,77.403241,2019,No,2,43161,Residential colonies & local markets near Noida Sector 143,Residential
+NDA010,Noida Metro,Uttar Pradesh,Noida,Noida Sector 144,NDA-NO9,Aqua Line,28.52251,77.420291,2019,No,2,29896,Industrial estate & warehouses near Noida Sector 144,Industrial Area
+NDA011,Noida Metro,Uttar Pradesh,Noida,Noida Sector 145,NDA-NO10,Aqua Line,28.508745,77.420583,2019,No,2,24964,Residential colonies & local markets near Noida Sector 145,Residential
+NDA012,Noida Metro,Uttar Pradesh,Noida,Noida Sector 146,NDA-NO11,Aqua Line,28.494414,77.432624,2019,No,2,46328,IT parks & tech offices around Noida Sector 146,IT Hub
+NDA013,Noida Metro,Uttar Pradesh,Noida,Noida Sector 147,NDA-NO12,Aqua Line,28.506787,77.444733,2019,No,2,46815,"Shopping district, offices & markets near Noida Sector 147",Commercial
+NDA014,Noida Metro,Uttar Pradesh,Noida,Noida Sector 148,NDA-NO13,Aqua Line,28.489884,77.453523,2019,No,2,33796,"Shopping district, offices & markets near Noida Sector 148",Commercial
+NDA015,Noida Metro,Uttar Pradesh,Greater Noida,Knowledge Park II,NDA-KNO,Aqua Line,28.479905,77.459538,2019,No,2,11806,Industrial estate & warehouses near Knowledge Park II,Industrial Area
+NDA016,Noida Metro,Uttar Pradesh,Greater Noida,Pari Chowk,NDA-PAR,Aqua Line,28.479243,77.468962,2019,No,2,14460,Industrial estate & warehouses near Pari Chowk,Industrial Area
+NDA017,Noida Metro,Uttar Pradesh,Greater Noida,Alpha 1,NDA-ALP,Aqua Line,28.475189,77.479154,2019,No,2,35084,"Shopping district, offices & markets near Alpha 1",Commercial
+NDA018,Noida Metro,Uttar Pradesh,Greater Noida,Delta 1,NDA-DEL,Aqua Line,28.468287,77.484222,2019,No,2,23196,"Shopping district, offices & markets near Delta 1",Commercial
+NDA019,Noida Metro,Uttar Pradesh,Greater Noida,GNIDA Office,NDA-GNI,Aqua Line,28.462616,77.501017,2019,No,2,27844,Residential colonies & local markets near GNIDA Office,Residential
+NDA020,Noida Metro,Uttar Pradesh,Greater Noida,Depot Station,NDA-DEP,Aqua Line,28.449604,77.500893,2019,No,2,22839,Residential colonies & local markets near Depot Station,Residential
+MUM001,Mumbai Metro,Maharashtra,Mumbai,Versova,MUM-VER,Line 1 (Blue),19.105175,72.82583,2014,No,2,67425,Industrial estate & warehouses near Versova,Industrial Area
+MUM002,Mumbai Metro,Maharashtra,Mumbai,D.N. Nagar,MUM-DNN,Line 1 (Blue) / Line 2A (Yellow),19.113788,72.841134,2014,Yes,6,200694,"Shopping district, offices & markets near D.N. Nagar",Commercial
+MUM003,Mumbai Metro,Maharashtra,Mumbai,Azad Nagar,MUM-AZA,Line 1 (Blue),19.101684,72.847051,2014,No,2,107930,"Shopping district, offices & markets near Azad Nagar",Commercial
+MUM004,Mumbai Metro,Maharashtra,Mumbai,Andheri,MUM-AND,Line 1 (Blue),19.09554,72.862113,2014,Yes,4,215484,IT parks & tech offices around Andheri,IT Hub
+MUM005,Mumbai Metro,Maharashtra,Mumbai,Western Express Highway,MUM-WES,Line 1 (Blue),19.091416,72.863388,2014,No,2,80469,Residential colonies & local markets near Western Express Highway,Residential
+MUM006,Mumbai Metro,Maharashtra,Mumbai,Chakala (J.B. Nagar),MUM-CHA,Line 1 (Blue),19.089157,72.87831,2014,No,2,110476,"Shopping district, offices & markets near Chakala (J.B. Nagar)",Commercial
+MUM007,Mumbai Metro,Maharashtra,Mumbai,Airport Road,MUM-AIR,Line 1 (Blue),19.083293,72.889004,2014,No,4,92476,Airport terminal & cargo complex at Airport Road,Airport
+MUM008,Mumbai Metro,Maharashtra,Mumbai,Marol Naka,MUM-MAR,Line 1 (Blue) / Line 3 (Aqua),19.102129,72.865765,2014,Yes,2,234015,IT parks & tech offices around Marol Naka,IT Hub
+MUM009,Mumbai Metro,Maharashtra,Mumbai,Saki Naka,MUM-SAK,Line 1 (Blue),19.076484,72.904111,2014,No,2,109355,"Shopping district, offices & markets near Saki Naka",Commercial
+MUM010,Mumbai Metro,Maharashtra,Mumbai,Asalpha,MUM-ASA,Line 1 (Blue),19.077006,72.914017,2014,No,2,70939,"Colleges, coaching centres & hostels near Asalpha",Educational Zone
+MUM011,Mumbai Metro,Maharashtra,Mumbai,Jagruti Nagar,MUM-JAG,Line 1 (Blue),19.081821,72.926327,2014,No,2,108325,Residential colonies & local markets near Jagruti Nagar,Residential
+MUM012,Mumbai Metro,Maharashtra,Mumbai,Ghatkopar,MUM-GHA,Line 1 (Blue),19.078113,72.936443,2014,Yes,2,105469,Industrial estate & warehouses near Ghatkopar,Industrial Area
+MUM013,Mumbai Metro,Maharashtra,Mumbai,Dahisar East,MUM-DAH,Line 2A (Yellow) / Line 7 (Red),19.249639,72.860211,2022,Yes,6,89999,Residential colonies & local markets near Dahisar East,Residential
+MUM014,Mumbai Metro,Maharashtra,Mumbai,Anand Nagar,MUM-ANA,Line 2A (Yellow),19.247474,72.860507,2022,No,2,46678,Residential colonies & local markets near Anand Nagar,Residential
+MUM015,Mumbai Metro,Maharashtra,Mumbai,Kandarpada,MUM-KAN,Line 2A (Yellow),19.238348,72.859323,2022,No,2,48257,"Shopping district, offices & markets near Kandarpada",Commercial
+MUM016,Mumbai Metro,Maharashtra,Mumbai,Mandapeshwar,MUM-MAN,Line 2A (Yellow),19.230037,72.863685,2022,No,2,50124,"Shopping district, offices & markets near Mandapeshwar",Commercial
+MUM017,Mumbai Metro,Maharashtra,Mumbai,Eksar,MUM-EKS,Line 2A (Yellow),19.220695,72.854675,2022,No,2,32860,Residential colonies & local markets near Eksar,Residential
+MUM018,Mumbai Metro,Maharashtra,Mumbai,Borivali West,MUM-BOR,Line 2A (Yellow),19.210363,72.851325,2022,No,2,29182,Residential colonies & local markets near Borivali West,Residential
+MUM019,Mumbai Metro,Maharashtra,Mumbai,Shimpoli,MUM-SHI,Line 2A (Yellow),19.200644,72.851014,2022,No,2,40848,"Colleges, coaching centres & hostels near Shimpoli",Educational Zone
+MUM020,Mumbai Metro,Maharashtra,Mumbai,Kandivali West,MUM-KA2,Line 2A (Yellow),19.196753,72.854483,2022,No,2,59068,Residential colonies & local markets near Kandivali West,Residential
+MUM021,Mumbai Metro,Maharashtra,Mumbai,Dahanukarwadi,MUM-DA2,Line 2A (Yellow),19.189179,72.849821,2022,No,2,76902,"Shopping district, offices & markets near Dahanukarwadi",Commercial
+MUM022,Mumbai Metro,Maharashtra,Mumbai,Valnai,MUM-VAL,Line 2A (Yellow),19.184151,72.854275,2022,No,2,40546,"Shopping district, offices & markets near Valnai",Commercial
+MUM023,Mumbai Metro,Maharashtra,Mumbai,Malad West,MUM-MAL,Line 2A (Yellow),19.172441,72.84859,2022,No,2,51320,Residential colonies & local markets near Malad West,Residential
+MUM024,Mumbai Metro,Maharashtra,Mumbai,Lower Malad,MUM-LOW,Line 2A (Yellow),19.166919,72.85072,2022,No,2,46878,"Shopping district, offices & markets near Lower Malad",Commercial
+MUM025,Mumbai Metro,Maharashtra,Mumbai,Bangur Nagar,MUM-BAN,Line 2A (Yellow),19.151932,72.849012,2022,No,2,87665,"Shopping district, offices & markets near Bangur Nagar",Commercial
+MUM026,Mumbai Metro,Maharashtra,Mumbai,Goregaon West,MUM-GOR,Line 2A (Yellow),19.149917,72.845289,2022,No,2,24570,Industrial estate & warehouses near Goregaon West,Industrial Area
+MUM027,Mumbai Metro,Maharashtra,Mumbai,Oshiwara,MUM-OSH,Line 2A (Yellow),19.141664,72.842533,2022,No,2,53523,Residential colonies & local markets near Oshiwara,Residential
+MUM028,Mumbai Metro,Maharashtra,Mumbai,Lower Oshiwara,MUM-LO2,Line 2A (Yellow),19.137677,72.85118,2022,No,2,55792,"Shopping district, offices & markets near Lower Oshiwara",Commercial
+MUM029,Mumbai Metro,Maharashtra,Mumbai,Ovaripada,MUM-OVA,Line 7 (Red),19.24251,72.864786,2022,No,2,54103,Residential colonies & local markets near Ovaripada,Residential
+MUM030,Mumbai Metro,Maharashtra,Mumbai,Rashtriya Udyan,MUM-RAS,Line 7 (Red),19.235577,72.875067,2022,No,2,45188,Residential colonies & local markets near Rashtriya Udyan,Residential
+MUM031,Mumbai Metro,Maharashtra,Mumbai,Devipada,MUM-DEV,Line 7 (Red),19.218497,72.864684,2022,No,2,78259,"Shopping district, offices & markets near Devipada",Commercial
+MUM032,Mumbai Metro,Maharashtra,Mumbai,Magathane,MUM-MAG,Line 7 (Red),19.212978,72.872793,2022,No,2,38128,Residential colonies & local markets near Magathane,Residential
+MUM033,Mumbai Metro,Maharashtra,Mumbai,Poisar,MUM-POI,Line 7 (Red),19.197414,72.867564,2022,No,2,64377,Residential colonies & local markets near Poisar,Residential
+MUM034,Mumbai Metro,Maharashtra,Mumbai,Akurli,MUM-AKU,Line 7 (Red),19.197605,72.86045,2022,No,2,62110,IT parks & tech offices around Akurli,IT Hub
+MUM035,Mumbai Metro,Maharashtra,Mumbai,Kurar,MUM-KUR,Line 7 (Red),19.176285,72.864287,2022,No,2,58556,Residential colonies & local markets near Kurar,Residential
+MUM036,Mumbai Metro,Maharashtra,Mumbai,Dindoshi,MUM-DIN,Line 7 (Red),19.168486,72.868152,2022,No,2,82930,"Shopping district, offices & markets near Dindoshi",Commercial
+MUM037,Mumbai Metro,Maharashtra,Mumbai,Aarey,MUM-AAR,Line 7 (Red),19.160692,72.858634,2022,No,2,46840,Industrial estate & warehouses near Aarey,Industrial Area
+MUM038,Mumbai Metro,Maharashtra,Mumbai,Goregaon East,MUM-GO2,Line 7 (Red),19.151189,72.862363,2022,No,2,26086,Industrial estate & warehouses near Goregaon East,Industrial Area
+MUM039,Mumbai Metro,Maharashtra,Mumbai,Jogeshwari East,MUM-JOG,Line 7 (Red),19.143384,72.861727,2022,No,2,40314,Residential colonies & local markets near Jogeshwari East,Residential
+MUM040,Mumbai Metro,Maharashtra,Mumbai,Mogra,MUM-MOG,Line 7 (Red),19.126233,72.865355,2022,No,2,38896,Residential colonies & local markets near Mogra,Residential
+MUM041,Mumbai Metro,Maharashtra,Mumbai,Gundavali,MUM-GUN,Line 7 (Red),19.12067,72.864568,2022,Yes,6,74822,Residential colonies & local markets near Gundavali,Residential
+MUM042,Mumbai Metro,Maharashtra,Mumbai,Cuffe Parade,MUM-CUF,Line 3 (Aqua),18.9371,72.835883,2024,No,2,35688,Industrial estate & warehouses near Cuffe Parade,Industrial Area
+MUM043,Mumbai Metro,Maharashtra,Mumbai,Vidhan Bhavan,MUM-VID,Line 3 (Aqua),18.946957,72.834631,2024,No,2,60256,"Colleges, coaching centres & hostels near Vidhan Bhavan",Educational Zone
+MUM044,Mumbai Metro,Maharashtra,Mumbai,Churchgate,MUM-CHU,Line 3 (Aqua),18.953171,72.835178,2024,No,2,60144,"Colleges, coaching centres & hostels near Churchgate",Educational Zone
+MUM045,Mumbai Metro,Maharashtra,Mumbai,Hutatma Chowk,MUM-HUT,Line 3 (Aqua),18.962908,72.828934,2024,No,2,49640,Residential colonies & local markets near Hutatma Chowk,Residential
+MUM046,Mumbai Metro,Maharashtra,Mumbai,CSMT Metro,MUM-CSM,Line 3 (Aqua),18.975806,72.834077,2024,No,2,54005,Residential colonies & local markets near CSMT Metro,Residential
+MUM047,Mumbai Metro,Maharashtra,Mumbai,Kalbadevi,MUM-KAL,Line 3 (Aqua),18.978736,72.838118,2024,No,2,79983,IT parks & tech offices around Kalbadevi,IT Hub
+MUM048,Mumbai Metro,Maharashtra,Mumbai,Girgaon,MUM-GIR,Line 3 (Aqua),18.986919,72.832959,2024,No,2,87243,"Shopping district, offices & markets near Girgaon",Commercial
+MUM049,Mumbai Metro,Maharashtra,Mumbai,Grant Road,MUM-GRA,Line 3 (Aqua),18.99698,72.830485,2024,No,2,49448,"Shopping district, offices & markets near Grant Road",Commercial
+MUM050,Mumbai Metro,Maharashtra,Mumbai,Mumbai Central Metro,MUM-MUM,Line 3 (Aqua),19.005264,72.830594,2024,No,4,77326,"Railway station, bus terminal & transit hub at Mumbai Central Metro",Railway Connection
+MUM051,Mumbai Metro,Maharashtra,Mumbai,Mahalaxmi,MUM-MAH,Line 3 (Aqua),19.009752,72.837038,2024,No,2,28208,Industrial estate & warehouses near Mahalaxmi,Industrial Area
+MUM052,Mumbai Metro,Maharashtra,Mumbai,Science Museum,MUM-SCI,Line 3 (Aqua),19.015127,72.823632,2024,No,2,61679,"Shopping district, offices & markets near Science Museum",Commercial
+MUM053,Mumbai Metro,Maharashtra,Mumbai,Acharya Atre Chowk,MUM-ACH,Line 3 (Aqua),19.031984,72.840807,2024,No,2,67480,Residential colonies & local markets near Acharya Atre Chowk,Residential
+MUM054,Mumbai Metro,Maharashtra,Mumbai,Worli,MUM-WOR,Line 3 (Aqua),19.032505,72.824913,2024,No,2,86197,IT parks & tech offices around Worli,IT Hub
+MUM055,Mumbai Metro,Maharashtra,Mumbai,Siddhivinayak,MUM-SID,Line 3 (Aqua),19.040413,72.830498,2024,No,2,64389,Residential colonies & local markets near Siddhivinayak,Residential
+MUM056,Mumbai Metro,Maharashtra,Mumbai,Dadar,MUM-DAD,Line 3 (Aqua),19.048412,72.827411,2024,No,2,80271,"Shopping district, offices & markets near Dadar",Commercial
+MUM057,Mumbai Metro,Maharashtra,Mumbai,Shitladevi,MUM-SH2,Line 3 (Aqua),19.058682,72.832951,2024,No,2,27296,Industrial estate & warehouses near Shitladevi,Industrial Area
+MUM058,Mumbai Metro,Maharashtra,Mumbai,Dharavi,MUM-DHA,Line 3 (Aqua),19.059,72.83337,2024,No,2,41634,Residential colonies & local markets near Dharavi,Residential
+MUM059,Mumbai Metro,Maharashtra,Mumbai,BKC,MUM-BKC,Line 3 (Aqua),19.078992,72.831333,2024,No,2,50438,Residential colonies & local markets near BKC,Residential
+MUM060,Mumbai Metro,Maharashtra,Mumbai,Vidyanagari,MUM-VI2,Line 3 (Aqua),19.078204,72.830041,2024,No,2,50963,Residential colonies & local markets near Vidyanagari,Residential
+MUM061,Mumbai Metro,Maharashtra,Mumbai,Santacruz Metro,MUM-SAN,Line 3 (Aqua),19.089115,72.824289,2024,No,2,65085,"Shopping district, offices & markets near Santacruz Metro",Commercial
+MUM062,Mumbai Metro,Maharashtra,Mumbai,CSIA Domestic Airport,MUM-CSI,Line 3 (Aqua),19.095114,72.828787,2024,No,4,56908,Airport terminal & cargo complex at CSIA Domestic Airport,Airport
+MUM063,Mumbai Metro,Maharashtra,Mumbai,Sahar Road,MUM-SAH,Line 3 (Aqua),19.108583,72.829352,2024,No,2,45035,Residential colonies & local markets near Sahar Road,Residential
+MUM064,Mumbai Metro,Maharashtra,Mumbai,CSIA International Airport,MUM-CS2,Line 3 (Aqua),19.11553,72.825906,2024,No,4,61526,Airport terminal & cargo complex at CSIA International Airport,Airport
+MUM065,Mumbai Metro,Maharashtra,Mumbai,MIDC,MUM-MID,Line 3 (Aqua),19.121804,72.830006,2024,No,2,28944,Industrial estate & warehouses near MIDC,Industrial Area
+MUM066,Mumbai Metro,Maharashtra,Mumbai,SEEPZ,MUM-SEE,Line 3 (Aqua),19.136667,72.828059,2024,No,2,43580,IT parks & tech offices around SEEPZ,IT Hub
+MUM067,Mumbai Metro,Maharashtra,Mumbai,Aarey JVLR,MUM-AA2,Line 3 (Aqua),19.134078,72.828939,2024,No,2,48662,"Shopping district, offices & markets near Aarey JVLR",Commercial
+PUN001,Pune Metro,Maharashtra,Pune,PCMC,PUN-PCM,Purple Line,18.652842,73.758802,2022,No,2,41485,"Shopping district, offices & markets near PCMC",Commercial
+PUN002,Pune Metro,Maharashtra,Pune,Sant Tukaram Nagar,PUN-SAN,Purple Line,18.639638,73.761569,2022,No,2,23255,Residential colonies & local markets near Sant Tukaram Nagar,Residential
+PUN003,Pune Metro,Maharashtra,Pune,Bhosari,PUN-BHO,Purple Line,18.618191,73.776764,2022,No,2,25346,"Shopping district, offices & markets near Bhosari",Commercial
+PUN004,Pune Metro,Maharashtra,Pune,Kasarwadi,PUN-KAS,Purple Line,18.60594,73.773639,2022,No,2,29341,Residential colonies & local markets near Kasarwadi,Residential
+PUN005,Pune Metro,Maharashtra,Pune,Phugewadi,PUN-PHU,Purple Line,18.594439,73.791107,2022,No,2,33799,"Shopping district, offices & markets near Phugewadi",Commercial
+PUN006,Pune Metro,Maharashtra,Pune,Dapodi,PUN-DAP,Purple Line,18.573117,73.793083,2022,No,2,13325,"Colleges, coaching centres & hostels near Dapodi",Educational Zone
+PUN007,Pune Metro,Maharashtra,Pune,Bopodi,PUN-BOP,Purple Line,18.562464,73.806453,2022,No,2,26488,IT parks & tech offices around Bopodi,IT Hub
+PUN008,Pune Metro,Maharashtra,Pune,Khadki,PUN-KHA,Purple Line,18.551801,73.81424,2022,No,2,18020,Residential colonies & local markets near Khadki,Residential
+PUN009,Pune Metro,Maharashtra,Pune,Range Hills,PUN-RAN,Purple Line,18.528742,73.819723,2022,No,2,36440,"Shopping district, offices & markets near Range Hills",Commercial
+PUN010,Pune Metro,Maharashtra,Pune,Shivaji Nagar,PUN-SHI,Purple Line,18.514166,73.830034,2022,No,2,19926,Residential colonies & local markets near Shivaji Nagar,Residential
+PUN011,Pune Metro,Maharashtra,Pune,Civil Court,PUN-CIV,Purple Line / Aqua Line,18.517212,73.850524,2022,Yes,4,30100,Residential colonies & local markets near Civil Court,Residential
+PUN012,Pune Metro,Maharashtra,Pune,Budhwar Peth,PUN-BUD,Purple Line,18.47763,73.841246,2022,No,2,19994,IT parks & tech offices around Budhwar Peth,IT Hub
+PUN013,Pune Metro,Maharashtra,Pune,Mandai,PUN-MAN,Purple Line,18.465845,73.855706,2022,No,2,34518,"Shopping district, offices & markets near Mandai",Commercial
+PUN014,Pune Metro,Maharashtra,Pune,Swargate,PUN-SWA,Purple Line,18.445394,73.856513,2022,No,2,15002,Residential colonies & local markets near Swargate,Residential
+PUN015,Pune Metro,Maharashtra,Pune,Vanaz,PUN-VAN,Aqua Line,18.563099,73.77614,2022,No,2,39713,IT parks & tech offices around Vanaz,IT Hub
+PUN016,Pune Metro,Maharashtra,Pune,Anand Nagar,PUN-ANA,Aqua Line,18.562332,73.780185,2022,No,2,23467,"Shopping district, offices & markets near Anand Nagar",Commercial
+PUN017,Pune Metro,Maharashtra,Pune,Ideal Colony,PUN-IDE,Aqua Line,18.553107,73.796395,2022,No,2,35162,"Shopping district, offices & markets near Ideal Colony",Commercial
+PUN018,Pune Metro,Maharashtra,Pune,Nal Stop,PUN-NAL,Aqua Line,18.544879,73.806827,2022,No,2,23224,Residential colonies & local markets near Nal Stop,Residential
+PUN019,Pune Metro,Maharashtra,Pune,Garware College,PUN-GAR,Aqua Line,18.546797,73.820563,2022,No,2,20612,"Colleges, coaching centres & hostels near Garware College",Educational Zone
+PUN020,Pune Metro,Maharashtra,Pune,Deccan Gymkhana,PUN-DEC,Aqua Line,18.550895,73.831476,2022,No,2,15975,Residential colonies & local markets near Deccan Gymkhana,Residential
+PUN021,Pune Metro,Maharashtra,Pune,Chhatrapati Sambhaji Udyan,PUN-CHH,Aqua Line,18.540392,73.843201,2022,No,2,26831,"Colleges, coaching centres & hostels near Chhatrapati Sambhaji Udyan",Educational Zone
+PUN022,Pune Metro,Maharashtra,Pune,PMC,PUN-PMC,Aqua Line,18.544672,73.851051,2022,No,2,28391,"Colleges, coaching centres & hostels near PMC",Educational Zone
+PUN023,Pune Metro,Maharashtra,Pune,Mangalwar Peth,PUN-MA2,Aqua Line,18.534225,73.878866,2022,No,2,19725,"Shopping district, offices & markets near Mangalwar Peth",Commercial
+PUN024,Pune Metro,Maharashtra,Pune,Pune Railway Station,PUN-PUN,Aqua Line,18.531952,73.890122,2022,No,2,28080,"Railway station, bus terminal & transit hub at Pune Railway Station",Railway Connection
+PUN025,Pune Metro,Maharashtra,Pune,Ruby Hall Clinic,PUN-RUB,Aqua Line,18.525377,73.898691,2022,No,2,32279,IT parks & tech offices around Ruby Hall Clinic,IT Hub
+PUN026,Pune Metro,Maharashtra,Pune,Bund Garden,PUN-BUN,Aqua Line,18.525263,73.905544,2022,No,2,23329,"Shopping district, offices & markets near Bund Garden",Commercial
+PUN027,Pune Metro,Maharashtra,Pune,Yerawada,PUN-YER,Aqua Line,18.517528,73.923267,2022,No,2,18522,Residential colonies & local markets near Yerawada,Residential
+PUN028,Pune Metro,Maharashtra,Pune,Kalyani Nagar,PUN-KAL,Aqua Line,18.518772,73.928355,2022,No,2,27410,Residential colonies & local markets near Kalyani Nagar,Residential
+PUN029,Pune Metro,Maharashtra,Pune,Ramwadi,PUN-RAM,Aqua Line,18.516663,73.946948,2022,No,2,28670,Residential colonies & local markets near Ramwadi,Residential
+NGP001,Nagpur Metro,Maharashtra,Nagpur,Automotive Square,NGP-AUT,Orange Line,21.210017,79.045762,2019,No,2,23123,"Colleges, coaching centres & hostels near Automotive Square",Educational Zone
+NGP002,Nagpur Metro,Maharashtra,Nagpur,Nari Road,NGP-NAR,Orange Line,21.206123,79.056879,2019,No,2,41953,IT parks & tech offices around Nari Road,IT Hub
+NGP003,Nagpur Metro,Maharashtra,Nagpur,Indora Square,NGP-IND,Orange Line,21.201695,79.055215,2019,No,2,21318,"Colleges, coaching centres & hostels near Indora Square",Educational Zone
+NGP004,Nagpur Metro,Maharashtra,Nagpur,Kadbi Chowk,NGP-KAD,Orange Line,21.188068,79.049376,2019,No,2,17997,"Colleges, coaching centres & hostels near Kadbi Chowk",Educational Zone
+NGP005,Nagpur Metro,Maharashtra,Nagpur,Gaddigodam,NGP-GAD,Orange Line,21.184979,79.054263,2019,No,2,23658,Residential colonies & local markets near Gaddigodam,Residential
+NGP006,Nagpur Metro,Maharashtra,Nagpur,Kasturchand Park,NGP-KAS,Orange Line,21.176685,79.054167,2019,No,2,21392,Residential colonies & local markets near Kasturchand Park,Residential
+NGP007,Nagpur Metro,Maharashtra,Nagpur,Zero Mile,NGP-ZER,Orange Line,21.167091,79.056142,2019,No,2,18784,Residential colonies & local markets near Zero Mile,Residential
+NGP008,Nagpur Metro,Maharashtra,Nagpur,Sitabuldi,NGP-SIT,Orange Line / Aqua Line,21.154536,79.060666,2019,Yes,6,38872,"Shopping district, offices & markets near Sitabuldi",Commercial
+NGP009,Nagpur Metro,Maharashtra,Nagpur,Congress Nagar,NGP-CON,Orange Line,21.143154,79.049252,2019,No,2,27150,IT parks & tech offices around Congress Nagar,IT Hub
+NGP010,Nagpur Metro,Maharashtra,Nagpur,Rahate Colony,NGP-RAH,Orange Line,21.143683,79.062039,2019,No,2,25042,"Colleges, coaching centres & hostels near Rahate Colony",Educational Zone
+NGP011,Nagpur Metro,Maharashtra,Nagpur,Ajni Square,NGP-AJN,Orange Line,21.127957,79.052138,2019,No,2,14813,Residential colonies & local markets near Ajni Square,Residential
+NGP012,Nagpur Metro,Maharashtra,Nagpur,Chhatrapati Square,NGP-CHH,Orange Line,21.123229,79.06267,2019,No,2,30566,"Shopping district, offices & markets near Chhatrapati Square",Commercial
+NGP013,Nagpur Metro,Maharashtra,Nagpur,Jaiprakash Nagar,NGP-JAI,Orange Line,21.120527,79.061984,2019,No,2,26873,Residential colonies & local markets near Jaiprakash Nagar,Residential
+NGP014,Nagpur Metro,Maharashtra,Nagpur,Ujjwal Nagar,NGP-UJJ,Orange Line,21.104287,79.057815,2019,No,2,23311,"Colleges, coaching centres & hostels near Ujjwal Nagar",Educational Zone
+NGP015,Nagpur Metro,Maharashtra,Nagpur,Airport,NGP-AIR,Orange Line,21.096981,79.060658,2019,No,2,31065,Airport terminal & cargo complex at Airport,Airport
+NGP016,Nagpur Metro,Maharashtra,Nagpur,Airport South,NGP-AI2,Orange Line,21.084741,79.069641,2019,No,4,29744,Airport terminal & cargo complex at Airport South,Airport
+NGP017,Nagpur Metro,Maharashtra,Nagpur,New Airport,NGP-NEW,Orange Line,21.085895,79.067211,2019,No,4,17353,Airport terminal & cargo complex at New Airport,Airport
+NGP018,Nagpur Metro,Maharashtra,Nagpur,Khapri,NGP-KHA,Orange Line,21.067777,79.066993,2019,No,2,23191,"Colleges, coaching centres & hostels near Khapri",Educational Zone
+NGP019,Nagpur Metro,Maharashtra,Nagpur,Lokmanya Nagar,NGP-LOK,Aqua Line,21.151239,78.994549,2019,No,2,13221,Industrial estate & warehouses near Lokmanya Nagar,Industrial Area
+NGP020,Nagpur Metro,Maharashtra,Nagpur,Subhash Nagar,NGP-SUB,Aqua Line,21.153786,79.002753,2019,No,2,19522,IT parks & tech offices around Subhash Nagar,IT Hub
+NGP021,Nagpur Metro,Maharashtra,Nagpur,Rachana Ring Road,NGP-RAC,Aqua Line,21.152414,79.010288,2019,No,2,16683,"Colleges, coaching centres & hostels near Rachana Ring Road",Educational Zone
+NGP022,Nagpur Metro,Maharashtra,Nagpur,Vasudev Nagar,NGP-VAS,Aqua Line,21.151428,79.009346,2019,No,2,23227,Residential colonies & local markets near Vasudev Nagar,Residential
+NGP023,Nagpur Metro,Maharashtra,Nagpur,Bansi Nagar,NGP-BAN,Aqua Line,21.15094,79.021171,2019,No,2,28671,IT parks & tech offices around Bansi Nagar,IT Hub
+NGP024,Nagpur Metro,Maharashtra,Nagpur,Dharampeth College,NGP-DHA,Aqua Line,21.146579,79.036533,2019,No,2,15879,"Colleges, coaching centres & hostels near Dharampeth College",Educational Zone
+NGP025,Nagpur Metro,Maharashtra,Nagpur,Shankar Nagar Square,NGP-SHA,Aqua Line,21.157522,79.042934,2019,No,2,30351,Residential colonies & local markets near Shankar Nagar Square,Residential
+NGP026,Nagpur Metro,Maharashtra,Nagpur,LAD Square,NGP-LAD,Aqua Line,21.152776,79.050433,2019,No,2,22253,Industrial estate & warehouses near LAD Square,Industrial Area
+NGP027,Nagpur Metro,Maharashtra,Nagpur,Dharampeth,NGP-DH2,Aqua Line,21.152336,79.053945,2019,No,2,23434,IT parks & tech offices around Dharampeth,IT Hub
+NGP028,Nagpur Metro,Maharashtra,Nagpur,Jhansi Rani Square,NGP-JHA,Aqua Line,21.153329,79.063735,2019,No,2,28781,"Colleges, coaching centres & hostels near Jhansi Rani Square",Educational Zone
+NGP029,Nagpur Metro,Maharashtra,Nagpur,Institution of Engineers,NGP-INS,Aqua Line,21.15335,79.075544,2019,No,2,18914,IT parks & tech offices around Institution of Engineers,IT Hub
+NGP030,Nagpur Metro,Maharashtra,Nagpur,Cotton Market,NGP-COT,Aqua Line,21.160233,79.086483,2019,No,2,43053,"Shopping district, offices & markets near Cotton Market",Commercial
+NGP031,Nagpur Metro,Maharashtra,Nagpur,Nagpur Railway Station,NGP-NAG,Aqua Line,21.154393,79.091753,2019,No,2,51037,"Railway station, bus terminal & transit hub at Nagpur Railway Station",Railway Connection
+NGP032,Nagpur Metro,Maharashtra,Nagpur,Dosar Vaishya Square,NGP-DOS,Aqua Line,21.154919,79.097702,2019,No,2,14690,Residential colonies & local markets near Dosar Vaishya Square,Residential
+NGP033,Nagpur Metro,Maharashtra,Nagpur,Agrasen Square,NGP-AGR,Aqua Line,21.151388,79.105412,2019,No,2,37270,IT parks & tech offices around Agrasen Square,IT Hub
+NGP034,Nagpur Metro,Maharashtra,Nagpur,Chitaroli Square,NGP-CHI,Aqua Line,21.152977,79.109094,2019,No,2,33162,Residential colonies & local markets near Chitaroli Square,Residential
+NGP035,Nagpur Metro,Maharashtra,Nagpur,Prajapati Nagar,NGP-PRA,Aqua Line,21.157789,79.122369,2019,No,2,28375,"Colleges, coaching centres & hostels near Prajapati Nagar",Educational Zone
+BLR001,Bengaluru Metro,Karnataka,Bengaluru,Challaghatta,BLR-CHA,Purple Line,12.959747,77.455571,2016,No,2,79290,"Colleges, coaching centres & hostels near Challaghatta",Educational Zone
+BLR002,Bengaluru Metro,Karnataka,Bengaluru,Kengeri,BLR-KEN,Purple Line,12.970291,77.468096,2016,No,2,67408,Residential colonies & local markets near Kengeri,Residential
+BLR003,Bengaluru Metro,Karnataka,Bengaluru,Kengeri Bus Terminal,BLR-KE2,Purple Line,12.971202,77.472914,2016,No,2,66782,"Railway station, bus terminal & transit hub at Kengeri Bus Terminal",Railway Connection
+BLR004,Bengaluru Metro,Karnataka,Bengaluru,Pattanagere,BLR-PAT,Purple Line,12.965459,77.477374,2016,No,2,90339,IT parks & tech offices around Pattanagere,IT Hub
+BLR005,Bengaluru Metro,Karnataka,Bengaluru,Jnanabharathi,BLR-JNA,Purple Line,12.970428,77.490883,2016,No,2,94330,"Shopping district, offices & markets near Jnanabharathi",Commercial
+BLR006,Bengaluru Metro,Karnataka,Bengaluru,Rajarajeshwari Nagar,BLR-RAJ,Purple Line,12.974533,77.501794,2016,No,2,60510,Residential colonies & local markets near Rajarajeshwari Nagar,Residential
+BLR007,Bengaluru Metro,Karnataka,Bengaluru,Nayandahalli,BLR-NAY,Purple Line,12.970371,77.501979,2016,No,2,87558,IT parks & tech offices around Nayandahalli,IT Hub
+BLR008,Bengaluru Metro,Karnataka,Bengaluru,Mysuru Road,BLR-MYS,Purple Line,12.970522,77.515483,2016,No,2,46841,Residential colonies & local markets near Mysuru Road,Residential
+BLR009,Bengaluru Metro,Karnataka,Bengaluru,Deepanjali Nagar,BLR-DEE,Purple Line,12.971737,77.521088,2016,No,2,77229,Residential colonies & local markets near Deepanjali Nagar,Residential
+BLR010,Bengaluru Metro,Karnataka,Bengaluru,Attiguppe,BLR-ATT,Purple Line,12.974135,77.529736,2016,No,2,42768,Residential colonies & local markets near Attiguppe,Residential
+BLR011,Bengaluru Metro,Karnataka,Bengaluru,Vijayanagar,BLR-VIJ,Purple Line,12.971857,77.540979,2016,No,2,76711,Residential colonies & local markets near Vijayanagar,Residential
+BLR012,Bengaluru Metro,Karnataka,Bengaluru,Hosahalli,BLR-HOS,Purple Line,12.973454,77.549132,2016,No,2,73680,"Colleges, coaching centres & hostels near Hosahalli",Educational Zone
+BLR013,Bengaluru Metro,Karnataka,Bengaluru,Magadi Road,BLR-MAG,Purple Line,12.976623,77.552679,2016,No,2,43656,Industrial estate & warehouses near Magadi Road,Industrial Area
+BLR014,Bengaluru Metro,Karnataka,Bengaluru,City Railway Station,BLR-CIT,Purple Line,12.974788,77.570088,2016,No,4,101592,"Railway station, bus terminal & transit hub at City Railway Station",Railway Connection
+BLR015,Bengaluru Metro,Karnataka,Bengaluru,Majestic,BLR-MAJ,Purple Line / Green Line,12.973223,77.557456,2014,Yes,6,162748,"Railway station, bus terminal & transit hub at Majestic",Railway Connection
+BLR016,Bengaluru Metro,Karnataka,Bengaluru,Sir M. Visvesvaraya,BLR-SIR,Purple Line,12.971567,77.581935,2016,No,2,76885,Residential colonies & local markets near Sir M. Visvesvaraya,Residential
+BLR017,Bengaluru Metro,Karnataka,Bengaluru,Vidhana Soudha,BLR-VID,Purple Line,12.978997,77.589811,2016,No,2,77344,"Shopping district, offices & markets near Vidhana Soudha",Commercial
+BLR018,Bengaluru Metro,Karnataka,Bengaluru,Cubbon Park,BLR-CUB,Purple Line,12.983944,77.589256,2016,No,2,47942,Residential colonies & local markets near Cubbon Park,Residential
+BLR019,Bengaluru Metro,Karnataka,Bengaluru,MG Road,BLR-MGR,Purple Line,12.981886,77.612465,2016,Yes,6,127332,"Shopping district, offices & markets near MG Road",Commercial
+BLR020,Bengaluru Metro,Karnataka,Bengaluru,Trinity,BLR-TRI,Purple Line,12.977358,77.61406,2016,No,2,43351,Industrial estate & warehouses near Trinity,Industrial Area
+BLR021,Bengaluru Metro,Karnataka,Bengaluru,Halasuru,BLR-HAL,Purple Line,12.979476,77.620648,2016,No,2,116990,"Shopping district, offices & markets near Halasuru",Commercial
+BLR022,Bengaluru Metro,Karnataka,Bengaluru,Indiranagar,BLR-IND,Purple Line,12.981775,77.637163,2016,No,2,53001,Industrial estate & warehouses near Indiranagar,Industrial Area
+BLR023,Bengaluru Metro,Karnataka,Bengaluru,Swami Vivekananda Road,BLR-SWA,Purple Line,12.990153,77.63938,2016,No,2,50038,Residential colonies & local markets near Swami Vivekananda Road,Residential
+BLR024,Bengaluru Metro,Karnataka,Bengaluru,Baiyappanahalli,BLR-BAI,Purple Line,12.991195,77.649069,2016,No,2,57480,Industrial estate & warehouses near Baiyappanahalli,Industrial Area
+BLR025,Bengaluru Metro,Karnataka,Bengaluru,Benniganahalli,BLR-BEN,Purple Line,12.991471,77.657007,2016,No,2,58485,Residential colonies & local markets near Benniganahalli,Residential
+BLR026,Bengaluru Metro,Karnataka,Bengaluru,KR Puram,BLR-KRP,Purple Line,12.986598,77.667001,2016,No,2,57200,Industrial estate & warehouses near KR Puram,Industrial Area
+BLR027,Bengaluru Metro,Karnataka,Bengaluru,Mahadevapura,BLR-MAH,Purple Line,12.99807,77.677091,2016,No,2,51409,Residential colonies & local markets near Mahadevapura,Residential
+BLR028,Bengaluru Metro,Karnataka,Bengaluru,Garudacharpalya,BLR-GAR,Purple Line,12.985275,77.685891,2016,No,2,70951,Residential colonies & local markets near Garudacharpalya,Residential
+BLR029,Bengaluru Metro,Karnataka,Bengaluru,Hoodi,BLR-HOO,Purple Line,12.987289,77.689175,2016,No,2,115891,"Shopping district, offices & markets near Hoodi",Commercial
+BLR030,Bengaluru Metro,Karnataka,Bengaluru,Seetharamapalya,BLR-SEE,Purple Line,12.992541,77.699387,2016,No,2,66762,IT parks & tech offices around Seetharamapalya,IT Hub
+BLR031,Bengaluru Metro,Karnataka,Bengaluru,Kundalahalli,BLR-KUN,Purple Line,12.991142,77.707716,2016,No,2,74801,Residential colonies & local markets near Kundalahalli,Residential
+BLR032,Bengaluru Metro,Karnataka,Bengaluru,Nallurhalli,BLR-NAL,Purple Line,12.99215,77.717543,2016,No,2,120083,"Shopping district, offices & markets near Nallurhalli",Commercial
+BLR033,Bengaluru Metro,Karnataka,Bengaluru,Sri Sathya Sai Hospital,BLR-SRI,Purple Line,12.984998,77.726777,2016,No,2,62249,"Shopping district, offices & markets near Sri Sathya Sai Hospital",Commercial
+BLR034,Bengaluru Metro,Karnataka,Bengaluru,Pattandur Agrahara,BLR-PA2,Purple Line,12.989146,77.727785,2016,No,2,43462,Residential colonies & local markets near Pattandur Agrahara,Residential
+BLR035,Bengaluru Metro,Karnataka,Bengaluru,Kadugodi Tree Park,BLR-KAD,Purple Line,12.993184,77.741516,2016,No,2,98440,"Shopping district, offices & markets near Kadugodi Tree Park",Commercial
+BLR036,Bengaluru Metro,Karnataka,Bengaluru,Channasandra,BLR-CH2,Purple Line,12.991767,77.75252,2016,No,2,56491,Residential colonies & local markets near Channasandra,Residential
+BLR037,Bengaluru Metro,Karnataka,Bengaluru,Whitefield (Kadugodi),BLR-WHI,Purple Line,12.990302,77.756576,2016,No,2,54399,IT parks & tech offices around Whitefield (Kadugodi),IT Hub
+BLR038,Bengaluru Metro,Karnataka,Bengaluru,Madavara,BLR-MAD,Green Line,13.053953,77.499837,2014,No,2,84693,"Shopping district, offices & markets near Madavara",Commercial
+BLR039,Bengaluru Metro,Karnataka,Bengaluru,Chikkabidarakallu,BLR-CHI,Green Line,13.051718,77.499505,2014,No,2,77955,Residential colonies & local markets near Chikkabidarakallu,Residential
+BLR040,Bengaluru Metro,Karnataka,Bengaluru,Manjunathanagar,BLR-MAN,Green Line,13.048019,77.506285,2014,No,2,47698,"Colleges, coaching centres & hostels near Manjunathanagar",Educational Zone
+BLR041,Bengaluru Metro,Karnataka,Bengaluru,Nagasandra,BLR-NAG,Green Line,13.033604,77.502242,2014,No,2,74998,"Shopping district, offices & markets near Nagasandra",Commercial
+BLR042,Bengaluru Metro,Karnataka,Bengaluru,Dasarahalli,BLR-DAS,Green Line,13.034925,77.511356,2014,No,2,110294,"Shopping district, offices & markets near Dasarahalli",Commercial
+BLR043,Bengaluru Metro,Karnataka,Bengaluru,Jalahalli,BLR-JAL,Green Line,13.029348,77.515063,2014,No,2,84129,IT parks & tech offices around Jalahalli,IT Hub
+BLR044,Bengaluru Metro,Karnataka,Bengaluru,Peenya Industry,BLR-PEE,Green Line,13.025241,77.52151,2014,No,2,56879,Industrial estate & warehouses near Peenya Industry,Industrial Area
+BLR045,Bengaluru Metro,Karnataka,Bengaluru,Peenya,BLR-PE2,Green Line,13.015305,77.517124,2014,No,2,82694,"Shopping district, offices & markets near Peenya",Commercial
+BLR046,Bengaluru Metro,Karnataka,Bengaluru,Goraguntepalya,BLR-GOR,Green Line,13.010109,77.525269,2014,No,2,88282,Residential colonies & local markets near Goraguntepalya,Residential
+BLR047,Bengaluru Metro,Karnataka,Bengaluru,Yeshwanthpur,BLR-YES,Green Line,13.013035,77.525781,2014,No,2,72617,Residential colonies & local markets near Yeshwanthpur,Residential
+BLR048,Bengaluru Metro,Karnataka,Bengaluru,Sandal Soap Factory,BLR-SAN,Green Line,12.994663,77.524359,2014,No,2,59850,"Shopping district, offices & markets near Sandal Soap Factory",Commercial
+BLR049,Bengaluru Metro,Karnataka,Bengaluru,Mahalakshmi,BLR-MA2,Green Line,12.995246,77.531403,2014,No,2,84763,Residential colonies & local markets near Mahalakshmi,Residential
+BLR050,Bengaluru Metro,Karnataka,Bengaluru,Rajajinagar,BLR-RA2,Green Line,12.991474,77.536522,2014,No,2,64243,Residential colonies & local markets near Rajajinagar,Residential
+BLR051,Bengaluru Metro,Karnataka,Bengaluru,Mahakavi Kuvempu Road,BLR-MA3,Green Line,12.986554,77.543092,2014,No,2,59062,IT parks & tech offices around Mahakavi Kuvempu Road,IT Hub
+BLR052,Bengaluru Metro,Karnataka,Bengaluru,Srirampura,BLR-SR2,Green Line,12.980021,77.539434,2014,No,2,62393,"Shopping district, offices & markets near Srirampura",Commercial
+BLR053,Bengaluru Metro,Karnataka,Bengaluru,Mantri Square Sampige Road,BLR-MA4,Green Line,12.978805,77.540109,2014,No,2,74521,Residential colonies & local markets near Mantri Square Sampige Road,Residential
+BLR054,Bengaluru Metro,Karnataka,Bengaluru,Chickpete,BLR-CH3,Green Line,12.966097,77.557107,2014,No,2,41335,Residential colonies & local markets near Chickpete,Residential
+BLR055,Bengaluru Metro,Karnataka,Bengaluru,KR Market,BLR-KRM,Green Line,12.959177,77.561792,2014,No,2,71649,"Shopping district, offices & markets near KR Market",Commercial
+BLR056,Bengaluru Metro,Karnataka,Bengaluru,National College,BLR-NAT,Green Line,12.955308,77.553143,2014,No,2,41001,"Colleges, coaching centres & hostels near National College",Educational Zone
+BLR057,Bengaluru Metro,Karnataka,Bengaluru,Lalbagh,BLR-LAL,Green Line,12.951083,77.556878,2014,No,2,61745,Residential colonies & local markets near Lalbagh,Residential
+BLR058,Bengaluru Metro,Karnataka,Bengaluru,South End Circle,BLR-SOU,Green Line,12.942949,77.565067,2014,No,2,60360,Residential colonies & local markets near South End Circle,Residential
+BLR059,Bengaluru Metro,Karnataka,Bengaluru,Jayanagar,BLR-JAY,Green Line,12.942267,77.564532,2014,No,2,65934,Residential colonies & local markets near Jayanagar,Residential
+BLR060,Bengaluru Metro,Karnataka,Bengaluru,RV Road,BLR-RVR,Green Line,12.93852,77.573793,2014,No,2,53376,Residential colonies & local markets near RV Road,Residential
+BLR061,Bengaluru Metro,Karnataka,Bengaluru,Banashankari,BLR-BAN,Green Line,12.934834,77.574627,2014,No,2,54054,"Shopping district, offices & markets near Banashankari",Commercial
+BLR062,Bengaluru Metro,Karnataka,Bengaluru,JP Nagar,BLR-JPN,Green Line,12.92932,77.569224,2014,No,2,48724,Industrial estate & warehouses near JP Nagar,Industrial Area
+BLR063,Bengaluru Metro,Karnataka,Bengaluru,Yelachenahalli,BLR-YEL,Green Line,12.918178,77.575804,2014,No,2,77671,"Shopping district, offices & markets near Yelachenahalli",Commercial
+BLR064,Bengaluru Metro,Karnataka,Bengaluru,Konanakunte Cross,BLR-KON,Green Line,12.91445,77.579871,2014,No,2,64573,"Colleges, coaching centres & hostels near Konanakunte Cross",Educational Zone
+BLR065,Bengaluru Metro,Karnataka,Bengaluru,Doddakallasandra,BLR-DOD,Green Line,12.908193,77.591491,2014,No,2,59351,"Shopping district, offices & markets near Doddakallasandra",Commercial
+BLR066,Bengaluru Metro,Karnataka,Bengaluru,Vajarahalli,BLR-VAJ,Green Line,12.902922,77.589384,2014,No,2,39594,Residential colonies & local markets near Vajarahalli,Residential
+BLR067,Bengaluru Metro,Karnataka,Bengaluru,Thalaghattapura,BLR-THA,Green Line,12.897445,77.591233,2014,No,2,69002,"Shopping district, offices & markets near Thalaghattapura",Commercial
+BLR068,Bengaluru Metro,Karnataka,Bengaluru,Silk Institute,BLR-SIL,Green Line,12.893021,77.595569,2014,No,2,62547,Residential colonies & local markets near Silk Institute,Residential
+HYD001,Hyderabad Metro,Telangana,Hyderabad,Miyapur,HYD-MIY,Red Line,17.508079,78.416766,2017,No,2,55601,Residential colonies & local markets near Miyapur,Residential
+HYD002,Hyderabad Metro,Telangana,Hyderabad,JNTU College,HYD-JNT,Red Line,17.498045,78.418333,2017,No,2,67405,"Colleges, coaching centres & hostels near JNTU College",Educational Zone
+HYD003,Hyderabad Metro,Telangana,Hyderabad,KPHB Colony,HYD-KPH,Red Line,17.485895,78.421231,2017,No,2,73083,"Shopping district, offices & markets near KPHB Colony",Commercial
+HYD004,Hyderabad Metro,Telangana,Hyderabad,Kukatpally,HYD-KUK,Red Line,17.486176,78.429839,2017,No,2,82972,"Shopping district, offices & markets near Kukatpally",Commercial
+HYD005,Hyderabad Metro,Telangana,Hyderabad,Balanagar,HYD-BAL,Red Line,17.476587,78.435179,2017,No,2,87059,"Shopping district, offices & markets near Balanagar",Commercial
+HYD006,Hyderabad Metro,Telangana,Hyderabad,Moosapet,HYD-MOO,Red Line,17.470525,78.441547,2017,No,2,50014,"Shopping district, offices & markets near Moosapet",Commercial
+HYD007,Hyderabad Metro,Telangana,Hyderabad,Bharat Nagar,HYD-BHA,Red Line,17.462782,78.44137,2017,No,2,81980,"Shopping district, offices & markets near Bharat Nagar",Commercial
+HYD008,Hyderabad Metro,Telangana,Hyderabad,Erragadda,HYD-ERR,Red Line,17.455906,78.437628,2017,No,2,53208,Residential colonies & local markets near Erragadda,Residential
+HYD009,Hyderabad Metro,Telangana,Hyderabad,ESI Hospital,HYD-ESI,Red Line,17.449032,78.440384,2017,No,2,75898,"Shopping district, offices & markets near ESI Hospital",Commercial
+HYD010,Hyderabad Metro,Telangana,Hyderabad,SR Nagar,HYD-SRN,Red Line,17.434622,78.460004,2017,No,2,36732,"Colleges, coaching centres & hostels near SR Nagar",Educational Zone
+HYD011,Hyderabad Metro,Telangana,Hyderabad,Ameerpet,HYD-AME,Red Line / Blue Line,17.429308,78.446953,2017,Yes,6,188720,"Shopping district, offices & markets near Ameerpet",Commercial
+HYD012,Hyderabad Metro,Telangana,Hyderabad,Punjagutta,HYD-PUN,Red Line,17.424085,78.473758,2017,No,2,47957,IT parks & tech offices around Punjagutta,IT Hub
+HYD013,Hyderabad Metro,Telangana,Hyderabad,Irrum Manzil,HYD-IRR,Red Line,17.417844,78.482081,2017,No,2,65676,Residential colonies & local markets near Irrum Manzil,Residential
+HYD014,Hyderabad Metro,Telangana,Hyderabad,Khairatabad,HYD-KHA,Red Line,17.412493,78.480928,2017,No,2,73572,Residential colonies & local markets near Khairatabad,Residential
+HYD015,Hyderabad Metro,Telangana,Hyderabad,Lakdikapul,HYD-LAK,Red Line,17.411121,78.485228,2017,No,2,67055,"Shopping district, offices & markets near Lakdikapul",Commercial
+HYD016,Hyderabad Metro,Telangana,Hyderabad,Assembly,HYD-ASS,Red Line,17.394915,78.489654,2017,No,2,99633,"Shopping district, offices & markets near Assembly",Commercial
+HYD017,Hyderabad Metro,Telangana,Hyderabad,Nampally,HYD-NAM,Red Line,17.39126,78.490531,2017,No,2,67182,Residential colonies & local markets near Nampally,Residential
+HYD018,Hyderabad Metro,Telangana,Hyderabad,Gandhi Bhavan,HYD-GAN,Red Line,17.383451,78.497979,2017,No,2,104275,IT parks & tech offices around Gandhi Bhavan,IT Hub
+HYD019,Hyderabad Metro,Telangana,Hyderabad,Osmania Medical College,HYD-OSM,Red Line,17.380543,78.505967,2017,No,2,74779,"Colleges, coaching centres & hostels near Osmania Medical College",Educational Zone
+HYD020,Hyderabad Metro,Telangana,Hyderabad,MG Bus Station,HYD-MGB,Red Line / Green Line,17.369967,78.499638,2017,Yes,6,113812,"Railway station, bus terminal & transit hub at MG Bus Station",Railway Connection
+HYD021,Hyderabad Metro,Telangana,Hyderabad,Malakpet,HYD-MAL,Red Line,17.364012,78.518543,2017,No,2,74205,IT parks & tech offices around Malakpet,IT Hub
+HYD022,Hyderabad Metro,Telangana,Hyderabad,New Market,HYD-NEW,Red Line,17.352693,78.518008,2017,No,2,84044,"Shopping district, offices & markets near New Market",Commercial
+HYD023,Hyderabad Metro,Telangana,Hyderabad,Musarambagh,HYD-MUS,Red Line,17.35302,78.52548,2017,No,2,58108,"Shopping district, offices & markets near Musarambagh",Commercial
+HYD024,Hyderabad Metro,Telangana,Hyderabad,Dilsukhnagar,HYD-DIL,Red Line,17.337156,78.533746,2017,No,2,52793,Residential colonies & local markets near Dilsukhnagar,Residential
+HYD025,Hyderabad Metro,Telangana,Hyderabad,Chaitanyapuri,HYD-CHA,Red Line,17.336699,78.532104,2017,No,2,84449,Residential colonies & local markets near Chaitanyapuri,Residential
+HYD026,Hyderabad Metro,Telangana,Hyderabad,Victoria Memorial,HYD-VIC,Red Line,17.328842,78.545305,2017,No,2,37238,Residential colonies & local markets near Victoria Memorial,Residential
+HYD027,Hyderabad Metro,Telangana,Hyderabad,LB Nagar,HYD-LBN,Red Line,17.32231,78.550212,2017,No,2,58441,Residential colonies & local markets near LB Nagar,Residential
+HYD028,Hyderabad Metro,Telangana,Hyderabad,Raidurg,HYD-RAI,Blue Line,17.431085,78.349159,2017,No,2,98903,IT parks & tech offices around Raidurg,IT Hub
+HYD029,Hyderabad Metro,Telangana,Hyderabad,HITEC City,HYD-HIT,Blue Line,17.433532,78.355765,2017,No,2,66689,IT parks & tech offices around HITEC City,IT Hub
+HYD030,Hyderabad Metro,Telangana,Hyderabad,Durgam Cheruvu,HYD-DUR,Blue Line,17.436229,78.372087,2017,No,2,76370,IT parks & tech offices around Durgam Cheruvu,IT Hub
+HYD031,Hyderabad Metro,Telangana,Hyderabad,Madhapur,HYD-MAD,Blue Line,17.438053,78.380965,2017,No,2,111977,"Shopping district, offices & markets near Madhapur",Commercial
+HYD032,Hyderabad Metro,Telangana,Hyderabad,Peddamma Gudi,HYD-PED,Blue Line,17.42998,78.387053,2017,No,2,76064,IT parks & tech offices around Peddamma Gudi,IT Hub
+HYD033,Hyderabad Metro,Telangana,Hyderabad,Jubilee Hills Check Post,HYD-JUB,Blue Line,17.431638,78.395697,2017,No,2,42812,Residential colonies & local markets near Jubilee Hills Check Post,Residential
+HYD034,Hyderabad Metro,Telangana,Hyderabad,Jubilee Hills Road No 5,HYD-JU2,Blue Line,17.428003,78.40761,2017,No,2,38963,Residential colonies & local markets near Jubilee Hills Road No 5,Residential
+HYD035,Hyderabad Metro,Telangana,Hyderabad,Yusufguda,HYD-YUS,Blue Line,17.425929,78.411629,2017,No,2,109862,"Shopping district, offices & markets near Yusufguda",Commercial
+HYD036,Hyderabad Metro,Telangana,Hyderabad,Madhura Nagar,HYD-MA2,Blue Line,17.423277,78.425855,2017,No,2,49368,Residential colonies & local markets near Madhura Nagar,Residential
+HYD037,Hyderabad Metro,Telangana,Hyderabad,Begumpet,HYD-BEG,Blue Line,17.424254,78.441234,2017,No,2,81263,"Shopping district, offices & markets near Begumpet",Commercial
+HYD038,Hyderabad Metro,Telangana,Hyderabad,Prakash Nagar,HYD-PRA,Blue Line,17.423147,78.453326,2017,No,2,54477,"Shopping district, offices & markets near Prakash Nagar",Commercial
+HYD039,Hyderabad Metro,Telangana,Hyderabad,Rasoolpura,HYD-RAS,Blue Line,17.414769,78.466503,2017,No,2,57039,Residential colonies & local markets near Rasoolpura,Residential
+HYD040,Hyderabad Metro,Telangana,Hyderabad,Paradise,HYD-PAR,Blue Line,17.415929,78.465116,2017,No,2,108870,"Shopping district, offices & markets near Paradise",Commercial
+HYD041,Hyderabad Metro,Telangana,Hyderabad,Parade Ground,HYD-PA2,Blue Line,17.412615,78.47679,2017,Yes,6,115647,Residential colonies & local markets near Parade Ground,Residential
+HYD042,Hyderabad Metro,Telangana,Hyderabad,Secunderabad East,HYD-SEC,Blue Line,17.415046,78.48886,2017,No,2,62648,IT parks & tech offices around Secunderabad East,IT Hub
+HYD043,Hyderabad Metro,Telangana,Hyderabad,Mettuguda,HYD-MET,Blue Line,17.412276,78.501442,2017,No,2,77907,IT parks & tech offices around Mettuguda,IT Hub
+HYD044,Hyderabad Metro,Telangana,Hyderabad,Tarnaka,HYD-TAR,Blue Line,17.413235,78.509833,2017,No,2,78223,Residential colonies & local markets near Tarnaka,Residential
+HYD045,Hyderabad Metro,Telangana,Hyderabad,Habsiguda,HYD-HAB,Blue Line,17.412071,78.520338,2017,No,2,77646,"Shopping district, offices & markets near Habsiguda",Commercial
+HYD046,Hyderabad Metro,Telangana,Hyderabad,NGRI,HYD-NGR,Blue Line,17.401849,78.526361,2017,No,2,50033,Residential colonies & local markets near NGRI,Residential
+HYD047,Hyderabad Metro,Telangana,Hyderabad,Stadium,HYD-STA,Blue Line,17.400187,78.537217,2017,No,2,69356,"Colleges, coaching centres & hostels near Stadium",Educational Zone
+HYD048,Hyderabad Metro,Telangana,Hyderabad,Uppal,HYD-UPP,Blue Line,17.406393,78.550205,2017,No,2,38163,Industrial estate & warehouses near Uppal,Industrial Area
+HYD049,Hyderabad Metro,Telangana,Hyderabad,Nagole,HYD-NAG,Blue Line,17.409157,78.55671,2017,No,2,82990,"Shopping district, offices & markets near Nagole",Commercial
+HYD050,Hyderabad Metro,Telangana,Hyderabad,JBS Parade Ground,HYD-JBS,Green Line,17.438249,78.499698,2020,No,2,71322,Residential colonies & local markets near JBS Parade Ground,Residential
+HYD051,Hyderabad Metro,Telangana,Hyderabad,Secunderabad West,HYD-SE2,Green Line,17.429902,78.49662,2020,No,2,38686,Residential colonies & local markets near Secunderabad West,Residential
+HYD052,Hyderabad Metro,Telangana,Hyderabad,Gandhi Hospital,HYD-GA2,Green Line,17.426951,78.493298,2020,No,2,55498,IT parks & tech offices around Gandhi Hospital,IT Hub
+HYD053,Hyderabad Metro,Telangana,Hyderabad,Musheerabad,HYD-MU2,Green Line,17.41807,78.496246,2020,No,2,43021,"Shopping district, offices & markets near Musheerabad",Commercial
+HYD054,Hyderabad Metro,Telangana,Hyderabad,RTC Cross Roads,HYD-RTC,Green Line,17.403658,78.495909,2020,No,2,60271,IT parks & tech offices around RTC Cross Roads,IT Hub
+HYD055,Hyderabad Metro,Telangana,Hyderabad,Chikkadpally,HYD-CHI,Green Line,17.401195,78.491482,2020,No,2,52336,"Shopping district, offices & markets near Chikkadpally",Commercial
+HYD056,Hyderabad Metro,Telangana,Hyderabad,Narayanaguda,HYD-NAR,Green Line,17.387832,78.486743,2020,No,2,40695,Industrial estate & warehouses near Narayanaguda,Industrial Area
+HYD057,Hyderabad Metro,Telangana,Hyderabad,Sultan Bazaar,HYD-SUL,Green Line,17.380368,78.490274,2020,No,2,51297,"Shopping district, offices & markets near Sultan Bazaar",Commercial
+CHN001,Chennai Metro,Tamil Nadu,Chennai,Chennai Airport,CHN-CHE,Blue Line,12.998654,80.170286,2015,No,4,64321,Airport terminal & cargo complex at Chennai Airport,Airport
+CHN002,Chennai Metro,Tamil Nadu,Chennai,Meenambakkam,CHN-MEE,Blue Line,13.006975,80.184967,2015,No,2,29859,Industrial estate & warehouses near Meenambakkam,Industrial Area
+CHN003,Chennai Metro,Tamil Nadu,Chennai,Nanganallur Road,CHN-NAN,Blue Line,13.005361,80.18697,2015,No,2,42015,"Colleges, coaching centres & hostels near Nanganallur Road",Educational Zone
+CHN004,Chennai Metro,Tamil Nadu,Chennai,Arignar Anna Alandur,CHN-ARI,Blue Line / Green Line,12.988905,80.169411,2015,Yes,4,119056,"Shopping district, offices & markets near Arignar Anna Alandur",Commercial
+CHN005,Chennai Metro,Tamil Nadu,Chennai,St. Thomas Mount,CHN-STT,Blue Line / Green Line,12.982962,80.164426,2015,Yes,4,131803,"Shopping district, offices & markets near St. Thomas Mount",Commercial
+CHN006,Chennai Metro,Tamil Nadu,Chennai,Little Mount,CHN-LIT,Blue Line,13.020417,80.203135,2015,No,2,63370,"Shopping district, offices & markets near Little Mount",Commercial
+CHN007,Chennai Metro,Tamil Nadu,Chennai,Guindy,CHN-GUI,Blue Line,13.022948,80.207417,2015,No,2,87580,IT parks & tech offices around Guindy,IT Hub
+CHN008,Chennai Metro,Tamil Nadu,Chennai,Nandanam,CHN-NA2,Blue Line,13.025881,80.208653,2015,No,2,75382,"Shopping district, offices & markets near Nandanam",Commercial
+CHN009,Chennai Metro,Tamil Nadu,Chennai,Saidapet,CHN-SAI,Blue Line,13.027975,80.215865,2015,No,2,36640,"Colleges, coaching centres & hostels near Saidapet",Educational Zone
+CHN010,Chennai Metro,Tamil Nadu,Chennai,Little Mount Metro,CHN-LI2,Blue Line,13.040376,80.219411,2015,No,2,90174,IT parks & tech offices around Little Mount Metro,IT Hub
+CHN011,Chennai Metro,Tamil Nadu,Chennai,Teynampet,CHN-TEY,Blue Line,13.03822,80.22119,2015,No,2,62307,"Shopping district, offices & markets near Teynampet",Commercial
+CHN012,Chennai Metro,Tamil Nadu,Chennai,AG-DMS,CHN-AGD,Blue Line,13.041697,80.224925,2015,No,2,33743,Residential colonies & local markets near AG-DMS,Residential
+CHN013,Chennai Metro,Tamil Nadu,Chennai,Thousand Lights,CHN-THO,Blue Line,13.042896,80.236703,2015,No,2,53229,Residential colonies & local markets near Thousand Lights,Residential
+CHN014,Chennai Metro,Tamil Nadu,Chennai,LIC,CHN-LIC,Blue Line,13.054298,80.25115,2015,No,2,49835,"Shopping district, offices & markets near LIC",Commercial
+CHN015,Chennai Metro,Tamil Nadu,Chennai,Government Estate,CHN-GOV,Blue Line,13.05122,80.251751,2015,No,2,54017,IT parks & tech offices around Government Estate,IT Hub
+CHN016,Chennai Metro,Tamil Nadu,Chennai,Chennai Central Metro,CHN-CH2,Blue Line / Green Line,13.072622,80.265669,2015,Yes,4,189239,"Railway station, bus terminal & transit hub at Chennai Central Metro",Railway Connection
+CHN017,Chennai Metro,Tamil Nadu,Chennai,High Court,CHN-HIG,Blue Line,13.061969,80.257762,2015,No,2,88783,"Shopping district, offices & markets near High Court",Commercial
+CHN018,Chennai Metro,Tamil Nadu,Chennai,Mannadi,CHN-MAN,Blue Line,13.064432,80.261525,2015,No,2,96194,"Shopping district, offices & markets near Mannadi",Commercial
+CHN019,Chennai Metro,Tamil Nadu,Chennai,Washermanpet,CHN-WAS,Blue Line,13.062743,80.262961,2015,No,2,58016,Residential colonies & local markets near Washermanpet,Residential
+CHN020,Chennai Metro,Tamil Nadu,Chennai,Theagaraya College,CHN-THE,Blue Line,13.073514,80.272804,2015,No,2,55517,"Colleges, coaching centres & hostels near Theagaraya College",Educational Zone
+CHN021,Chennai Metro,Tamil Nadu,Chennai,Tondiarpet,CHN-TON,Blue Line,13.072732,80.279212,2015,No,2,62594,Residential colonies & local markets near Tondiarpet,Residential
+CHN022,Chennai Metro,Tamil Nadu,Chennai,Wimco Nagar,CHN-WIM,Blue Line,13.081191,80.285222,2015,No,2,74536,Residential colonies & local markets near Wimco Nagar,Residential
+CHN023,Chennai Metro,Tamil Nadu,Chennai,Wimco Nagar Depot,CHN-WI2,Blue Line,13.079704,80.294292,2015,No,2,46682,Residential colonies & local markets near Wimco Nagar Depot,Residential
+CHN024,Chennai Metro,Tamil Nadu,Chennai,Egmore,CHN-EGM,Green Line,13.077095,80.273847,2016,No,2,39041,Residential colonies & local markets near Egmore,Residential
+CHN025,Chennai Metro,Tamil Nadu,Chennai,Nehru Park,CHN-NEH,Green Line,13.06933,80.263149,2016,No,2,72372,"Shopping district, offices & markets near Nehru Park",Commercial
+CHN026,Chennai Metro,Tamil Nadu,Chennai,Kilpauk,CHN-KIL,Green Line,13.059157,80.254319,2016,No,2,54882,Residential colonies & local markets near Kilpauk,Residential
+CHN027,Chennai Metro,Tamil Nadu,Chennai,Pachaiyappa's College,CHN-PAC,Green Line,13.044909,80.246453,2016,No,2,35275,"Colleges, coaching centres & hostels near Pachaiyappa's College",Educational Zone
+CHN028,Chennai Metro,Tamil Nadu,Chennai,Shenoy Nagar,CHN-SHE,Green Line,13.035692,80.232719,2016,No,2,58297,Residential colonies & local markets near Shenoy Nagar,Residential
+CHN029,Chennai Metro,Tamil Nadu,Chennai,Anna Nagar East,CHN-ANN,Green Line,13.036687,80.229941,2016,No,2,43573,"Shopping district, offices & markets near Anna Nagar East",Commercial
+CHN030,Chennai Metro,Tamil Nadu,Chennai,Anna Nagar Tower,CHN-AN2,Green Line,13.029018,80.217549,2016,No,2,95667,"Shopping district, offices & markets near Anna Nagar Tower",Commercial
+CHN031,Chennai Metro,Tamil Nadu,Chennai,Thirumangalam,CHN-THI,Green Line,13.011467,80.209158,2016,No,2,43391,Residential colonies & local markets near Thirumangalam,Residential
+CHN032,Chennai Metro,Tamil Nadu,Chennai,Koyambedu,CHN-KOY,Green Line,13.007545,80.201776,2016,No,2,33767,Residential colonies & local markets near Koyambedu,Residential
+CHN033,Chennai Metro,Tamil Nadu,Chennai,CMBT,CHN-CMB,Green Line,13.002843,80.191736,2016,No,2,48940,"Shopping district, offices & markets near CMBT",Commercial
+CHN034,Chennai Metro,Tamil Nadu,Chennai,Arumbakkam,CHN-ARU,Green Line,12.991795,80.18104,2016,No,2,42350,Residential colonies & local markets near Arumbakkam,Residential
+CHN035,Chennai Metro,Tamil Nadu,Chennai,Vadapalani,CHN-VAD,Green Line,12.983826,80.176011,2016,No,2,43790,Residential colonies & local markets near Vadapalani,Residential
+CHN036,Chennai Metro,Tamil Nadu,Chennai,Ashok Nagar,CHN-ASH,Green Line,12.971313,80.166675,2016,No,2,44638,"Shopping district, offices & markets near Ashok Nagar",Commercial
+CHN037,Chennai Metro,Tamil Nadu,Chennai,Ekkattuthangal,CHN-EKK,Green Line,12.96498,80.158054,2016,No,2,39131,"Colleges, coaching centres & hostels near Ekkattuthangal",Educational Zone
+KOL001,Kolkata Metro,West Bengal,Kolkata,Dakshineswar,KOL-DAK,Blue Line,22.61487,88.402079,1984,No,2,58658,"Shopping district, offices & markets near Dakshineswar",Commercial
+KOL002,Kolkata Metro,West Bengal,Kolkata,Baranagar,KOL-BAR,Blue Line,22.60936,88.407556,1984,No,2,70209,"Shopping district, offices & markets near Baranagar",Commercial
+KOL003,Kolkata Metro,West Bengal,Kolkata,Noapara,KOL-NOA,Blue Line,22.604943,88.40695,1984,No,2,47077,"Colleges, coaching centres & hostels near Noapara",Educational Zone
+KOL004,Kolkata Metro,West Bengal,Kolkata,Dum Dum,KOL-DUM,Blue Line,22.599496,88.40229,1984,No,2,64922,IT parks & tech offices around Dum Dum,IT Hub
+KOL005,Kolkata Metro,West Bengal,Kolkata,Belgachia,KOL-BEL,Blue Line,22.592729,88.401893,1984,No,2,50291,Residential colonies & local markets near Belgachia,Residential
+KOL006,Kolkata Metro,West Bengal,Kolkata,Shyambazar,KOL-SHY,Blue Line,22.592816,88.393481,1984,No,2,39178,Residential colonies & local markets near Shyambazar,Residential
+KOL007,Kolkata Metro,West Bengal,Kolkata,Shovabazar Sutanuti,KOL-SHO,Blue Line,22.573555,88.399419,1984,No,2,36167,Residential colonies & local markets near Shovabazar Sutanuti,Residential
+KOL008,Kolkata Metro,West Bengal,Kolkata,Girish Park,KOL-GIR,Blue Line,22.574371,88.403455,1984,No,2,56761,IT parks & tech offices around Girish Park,IT Hub
+KOL009,Kolkata Metro,West Bengal,Kolkata,Mahatma Gandhi Road,KOL-MAH,Blue Line,22.569736,88.399415,1984,No,2,62483,"Colleges, coaching centres & hostels near Mahatma Gandhi Road",Educational Zone
+KOL010,Kolkata Metro,West Bengal,Kolkata,Central,KOL-CEN,Blue Line,22.565407,88.404086,1984,No,2,126341,"Railway station, bus terminal & transit hub at Central",Railway Connection
+KOL011,Kolkata Metro,West Bengal,Kolkata,Chandni Chowk,KOL-CHA,Blue Line,22.556244,88.403569,1984,No,2,53949,Industrial estate & warehouses near Chandni Chowk,Industrial Area
+KOL012,Kolkata Metro,West Bengal,Kolkata,Esplanade,KOL-ESP,Blue Line / Green Line,22.557392,88.380944,1984,Yes,6,111182,Residential colonies & local markets near Esplanade,Residential
+KOL013,Kolkata Metro,West Bengal,Kolkata,Park Street,KOL-PAR,Blue Line,22.545562,88.400027,1984,No,2,63466,IT parks & tech offices around Park Street,IT Hub
+KOL014,Kolkata Metro,West Bengal,Kolkata,Maidan,KOL-MAI,Blue Line,22.536885,88.404515,1984,No,2,94801,"Shopping district, offices & markets near Maidan",Commercial
+KOL015,Kolkata Metro,West Bengal,Kolkata,Rabindra Sadan,KOL-RAB,Blue Line,22.522062,88.394118,1984,No,2,94229,"Shopping district, offices & markets near Rabindra Sadan",Commercial
+KOL016,Kolkata Metro,West Bengal,Kolkata,Netaji Bhavan,KOL-NET,Blue Line,22.520245,88.397529,1984,No,2,74382,Residential colonies & local markets near Netaji Bhavan,Residential
+KOL017,Kolkata Metro,West Bengal,Kolkata,Jatin Das Park,KOL-JAT,Blue Line,22.517269,88.393244,1984,No,2,76772,Residential colonies & local markets near Jatin Das Park,Residential
+KOL018,Kolkata Metro,West Bengal,Kolkata,Kalighat,KOL-KAL,Blue Line,22.508472,88.395227,1984,No,2,73675,"Shopping district, offices & markets near Kalighat",Commercial
+KOL019,Kolkata Metro,West Bengal,Kolkata,Rabindra Sarobar,KOL-RA2,Blue Line,22.514281,88.404266,1984,No,2,70771,Residential colonies & local markets near Rabindra Sarobar,Residential
+KOL020,Kolkata Metro,West Bengal,Kolkata,Mahanayak Uttam Kumar,KOL-MA2,Blue Line,22.497999,88.396407,1984,No,2,72615,Residential colonies & local markets near Mahanayak Uttam Kumar,Residential
+KOL021,Kolkata Metro,West Bengal,Kolkata,Netaji,KOL-NE2,Blue Line,22.489178,88.390722,1984,No,2,65844,"Shopping district, offices & markets near Netaji",Commercial
+KOL022,Kolkata Metro,West Bengal,Kolkata,Masterda Surya Sen,KOL-MAS,Blue Line,22.486551,88.393628,1984,No,2,78346,Residential colonies & local markets near Masterda Surya Sen,Residential
+KOL023,Kolkata Metro,West Bengal,Kolkata,Gitanjali,KOL-GIT,Blue Line,22.480423,88.391239,1984,No,2,39393,Residential colonies & local markets near Gitanjali,Residential
+KOL024,Kolkata Metro,West Bengal,Kolkata,Kavi Nazrul,KOL-KAV,Blue Line,22.471813,88.39708,1984,No,2,108507,"Shopping district, offices & markets near Kavi Nazrul",Commercial
+KOL025,Kolkata Metro,West Bengal,Kolkata,Shahid Khudiram,KOL-SHA,Blue Line,22.469522,88.397741,1984,No,2,70921,Residential colonies & local markets near Shahid Khudiram,Residential
+KOL026,Kolkata Metro,West Bengal,Kolkata,Kavi Subhash,KOL-KA2,Blue Line,22.457378,88.398991,1984,No,2,52458,"Shopping district, offices & markets near Kavi Subhash",Commercial
+KOL027,Kolkata Metro,West Bengal,Kolkata,Salt Lake Sector V,KOL-SAL,Green Line,22.565199,88.438215,2020,No,2,55767,Residential colonies & local markets near Salt Lake Sector V,Residential
+KOL028,Kolkata Metro,West Bengal,Kolkata,Karunamoyee,KOL-KAR,Green Line,22.566872,88.422637,2020,No,2,31098,Residential colonies & local markets near Karunamoyee,Residential
+KOL029,Kolkata Metro,West Bengal,Kolkata,Central Park,KOL-CE2,Green Line,22.564711,88.420188,2020,No,2,93779,"Railway station, bus terminal & transit hub at Central Park",Railway Connection
+KOL030,Kolkata Metro,West Bengal,Kolkata,City Centre,KOL-CIT,Green Line,22.566873,88.40987,2020,No,2,81917,"Shopping district, offices & markets near City Centre",Commercial
+KOL031,Kolkata Metro,West Bengal,Kolkata,Bengal Chemical,KOL-BEN,Green Line,22.568998,88.405344,2020,No,2,53633,Residential colonies & local markets near Bengal Chemical,Residential
+KOL032,Kolkata Metro,West Bengal,Kolkata,Salt Lake Stadium,KOL-SA2,Green Line,22.561647,88.395898,2020,No,2,56643,"Colleges, coaching centres & hostels near Salt Lake Stadium",Educational Zone
+KOL033,Kolkata Metro,West Bengal,Kolkata,Phoolbagan,KOL-PHO,Green Line,22.568223,88.391589,2020,No,2,44833,"Shopping district, offices & markets near Phoolbagan",Commercial
+KOL034,Kolkata Metro,West Bengal,Kolkata,Sealdah,KOL-SEA,Green Line,22.556066,88.372939,2020,Yes,6,120248,"Railway station, bus terminal & transit hub at Sealdah",Railway Connection
+KOL035,Kolkata Metro,West Bengal,Kolkata,Mahakaran,KOL-MA3,Green Line,22.553553,88.357389,2020,No,2,31426,Residential colonies & local markets near Mahakaran,Residential
+KOL036,Kolkata Metro,West Bengal,Howrah,Howrah,KOL-HOW,Green Line,22.558562,88.350187,2020,No,2,43998,"Shopping district, offices & markets near Howrah",Commercial
+KOL037,Kolkata Metro,West Bengal,Howrah,Howrah Maidan,KOL-HO2,Green Line,22.553723,88.33964,2020,No,2,27958,Residential colonies & local markets near Howrah Maidan,Residential
+AMD001,Ahmedabad Metro,Gujarat,Ahmedabad,APMC,AMD-APM,Blue Line,23.026507,72.543922,2019,No,2,19945,Industrial estate & warehouses near APMC,Industrial Area
+AMD002,Ahmedabad Metro,Gujarat,Ahmedabad,Jivraj Park,AMD-JIV,Blue Line,23.034736,72.555354,2019,No,2,29773,Residential colonies & local markets near Jivraj Park,Residential
+AMD003,Ahmedabad Metro,Gujarat,Ahmedabad,Rajivnagar,AMD-RAJ,Blue Line / Red Line,23.035056,72.567896,2019,Yes,4,78439,Residential colonies & local markets near Rajivnagar,Residential
+AMD004,Ahmedabad Metro,Gujarat,Ahmedabad,Shreyas,AMD-SHR,Blue Line,23.021599,72.56644,2019,No,2,25852,Residential colonies & local markets near Shreyas,Residential
+AMD005,Ahmedabad Metro,Gujarat,Ahmedabad,Paldi,AMD-PAL,Blue Line,23.010719,72.571427,2019,No,2,53215,IT parks & tech offices around Paldi,IT Hub
+AMD006,Ahmedabad Metro,Gujarat,Ahmedabad,Gandhigram,AMD-GAN,Blue Line / Red Line,23.036001,72.5765,2019,Yes,6,56611,Residential colonies & local markets near Gandhigram,Residential
+AMD007,Ahmedabad Metro,Gujarat,Ahmedabad,Old High Court,AMD-OLD,Blue Line / Red Line,23.037958,72.587578,2019,Yes,4,77044,IT parks & tech offices around Old High Court,IT Hub
+AMD008,Ahmedabad Metro,Gujarat,Ahmedabad,Shahpur,AMD-SHA,Blue Line,23.013094,72.602704,2019,No,2,37805,IT parks & tech offices around Shahpur,IT Hub
+AMD009,Ahmedabad Metro,Gujarat,Ahmedabad,Gheekanta,AMD-GHE,Blue Line,23.012438,72.608239,2019,No,2,25523,Residential colonies & local markets near Gheekanta,Residential
+AMD010,Ahmedabad Metro,Gujarat,Ahmedabad,Kalupur Railway Station,AMD-KAL,Blue Line,23.005597,72.614646,2019,No,2,49371,"Railway station, bus terminal & transit hub at Kalupur Railway Station",Railway Connection
+AMD011,Ahmedabad Metro,Gujarat,Ahmedabad,Kankaria East,AMD-KAN,Blue Line,23.00905,72.618107,2019,No,2,27919,Residential colonies & local markets near Kankaria East,Residential
+AMD012,Ahmedabad Metro,Gujarat,Ahmedabad,Apparel Park,AMD-APP,Blue Line,23.006208,72.629419,2019,No,2,33337,Residential colonies & local markets near Apparel Park,Residential
+AMD013,Ahmedabad Metro,Gujarat,Ahmedabad,Amraiwadi,AMD-AMR,Blue Line,23.000077,72.63082,2019,No,2,39302,"Shopping district, offices & markets near Amraiwadi",Commercial
+AMD014,Ahmedabad Metro,Gujarat,Ahmedabad,Rabari Colony,AMD-RAB,Blue Line,22.995606,72.642365,2019,No,2,27471,Industrial estate & warehouses near Rabari Colony,Industrial Area
+AMD015,Ahmedabad Metro,Gujarat,Ahmedabad,Vastral,AMD-VAS,Blue Line,22.998645,72.646601,2019,No,2,25507,Residential colonies & local markets near Vastral,Residential
+AMD016,Ahmedabad Metro,Gujarat,Ahmedabad,Nirant Cross Road,AMD-NIR,Blue Line,22.995343,72.658684,2019,No,2,58098,"Shopping district, offices & markets near Nirant Cross Road",Commercial
+AMD017,Ahmedabad Metro,Gujarat,Ahmedabad,Vastral Gam,AMD-VA2,Blue Line,22.995164,72.669432,2019,No,2,49686,IT parks & tech offices around Vastral Gam,IT Hub
+AMD018,Ahmedabad Metro,Gujarat,Ahmedabad,Motera Stadium,AMD-MOT,Red Line,23.125469,72.582495,2019,No,2,38682,"Colleges, coaching centres & hostels near Motera Stadium",Educational Zone
+AMD019,Ahmedabad Metro,Gujarat,Ahmedabad,Sabarmati,AMD-SAB,Red Line,23.119504,72.583364,2019,No,2,53651,"Shopping district, offices & markets near Sabarmati",Commercial
+AMD020,Ahmedabad Metro,Gujarat,Ahmedabad,AEC,AMD-AEC,Red Line,23.109879,72.584682,2019,No,2,28881,IT parks & tech offices around AEC,IT Hub
+AMD021,Ahmedabad Metro,Gujarat,Ahmedabad,Sabarmati Railway Station,AMD-SA2,Red Line,23.097391,72.57734,2019,No,2,50308,"Railway station, bus terminal & transit hub at Sabarmati Railway Station",Railway Connection
+AMD022,Ahmedabad Metro,Gujarat,Ahmedabad,Ranip,AMD-RAN,Red Line,23.090844,72.577431,2019,Yes,2,30509,Industrial estate & warehouses near Ranip,Industrial Area
+AMD023,Ahmedabad Metro,Gujarat,Ahmedabad,Vadaj,AMD-VAD,Red Line,23.087441,72.58742,2019,No,2,33803,Residential colonies & local markets near Vadaj,Residential
+AMD024,Ahmedabad Metro,Gujarat,Ahmedabad,Vijaynagar,AMD-VIJ,Red Line,23.073877,72.58239,2019,No,2,25677,Residential colonies & local markets near Vijaynagar,Residential
+AMD025,Ahmedabad Metro,Gujarat,Ahmedabad,Usmanpura,AMD-USM,Red Line,23.066739,72.578356,2019,No,2,42555,Residential colonies & local markets near Usmanpura,Residential
+AMD026,Ahmedabad Metro,Gujarat,Ahmedabad,Jivrajpark,AMD-JI2,Red Line,23.050609,72.578563,2019,No,2,21921,Residential colonies & local markets near Jivrajpark,Residential
+AMD027,Ahmedabad Metro,Gujarat,Ahmedabad,SP Stadium,AMD-SPS,Red Line,23.03216,72.576262,2019,No,2,29590,"Colleges, coaching centres & hostels near SP Stadium",Educational Zone
+AMD028,Ahmedabad Metro,Gujarat,Ahmedabad,Shahpur Extended,AMD-SH2,Red Line,23.022018,72.578206,2019,No,2,49695,"Shopping district, offices & markets near Shahpur Extended",Commercial
+AMD029,Ahmedabad Metro,Gujarat,Ahmedabad,Gujarat University,AMD-GUJ,Red Line,23.019831,72.577189,2019,No,2,18216,"Colleges, coaching centres & hostels near Gujarat University",Educational Zone
+AMD030,Ahmedabad Metro,Gujarat,Ahmedabad,Gurukul Road,AMD-GUR,Red Line,23.015546,72.579406,2019,No,2,45533,"Shopping district, offices & markets near Gurukul Road",Commercial
+AMD031,Ahmedabad Metro,Gujarat,Ahmedabad,Doordarshan Kendra,AMD-DOO,Red Line,23.001465,72.574861,2019,No,2,39674,Residential colonies & local markets near Doordarshan Kendra,Residential
+AMD032,Ahmedabad Metro,Gujarat,Ahmedabad,Thaltej Gam,AMD-THA,Red Line,22.993206,72.57286,2019,No,2,27618,"Shopping district, offices & markets near Thaltej Gam",Commercial
+AMD033,Ahmedabad Metro,Gujarat,Ahmedabad,Thaltej,AMD-TH2,Red Line,22.985901,72.57767,2019,No,2,40864,IT parks & tech offices around Thaltej,IT Hub
+KOC001,Kochi Metro,Kerala,Kochi,Aluva,KOC-ALU,Line 1 (Blue),10.063273,76.315237,2017,No,2,26141,Residential colonies & local markets near Aluva,Residential
+KOC002,Kochi Metro,Kerala,Kochi,Pulinchodu,KOC-PUL,Line 1 (Blue),10.062344,76.308028,2017,No,2,48830,"Shopping district, offices & markets near Pulinchodu",Commercial
+KOC003,Kochi Metro,Kerala,Kochi,Companypady,KOC-COM,Line 1 (Blue),10.047284,76.318035,2017,No,2,28770,IT parks & tech offices around Companypady,IT Hub
+KOC004,Kochi Metro,Kerala,Kochi,Ambattukavu,KOC-AMB,Line 1 (Blue),10.050712,76.315752,2017,No,2,43728,Residential colonies & local markets near Ambattukavu,Residential
+KOC005,Kochi Metro,Kerala,Kochi,Muttom,KOC-MUT,Line 1 (Blue),10.042024,76.314419,2017,No,2,54473,IT parks & tech offices around Muttom,IT Hub
+KOC006,Kochi Metro,Kerala,Kochi,Kalamassery,KOC-KAL,Line 1 (Blue),10.049846,76.31701,2017,No,2,16712,Industrial estate & warehouses near Kalamassery,Industrial Area
+KOC007,Kochi Metro,Kerala,Kochi,Cochin University,KOC-COC,Line 1 (Blue),10.039594,76.312213,2017,No,2,24728,"Colleges, coaching centres & hostels near Cochin University",Educational Zone
+KOC008,Kochi Metro,Kerala,Kochi,Pathadipalam,KOC-PAT,Line 1 (Blue),10.033786,76.305923,2017,No,2,34671,Residential colonies & local markets near Pathadipalam,Residential
+KOC009,Kochi Metro,Kerala,Kochi,Edapally,KOC-EDA,Line 1 (Blue),10.032235,76.315959,2017,No,2,38052,Residential colonies & local markets near Edapally,Residential
+KOC010,Kochi Metro,Kerala,Kochi,Changampuzha Park,KOC-CHA,Line 1 (Blue),10.021985,76.31031,2017,No,2,30913,Residential colonies & local markets near Changampuzha Park,Residential
+KOC011,Kochi Metro,Kerala,Kochi,Palarivattom,KOC-PAL,Line 1 (Blue),10.019616,76.308871,2017,No,2,31321,"Shopping district, offices & markets near Palarivattom",Commercial
+KOC012,Kochi Metro,Kerala,Kochi,JLN Stadium,KOC-JLN,Line 1 (Blue),10.020021,76.30458,2017,No,2,19679,"Colleges, coaching centres & hostels near JLN Stadium",Educational Zone
+KOC013,Kochi Metro,Kerala,Kochi,Kaloor,KOC-KA2,Line 1 (Blue),10.01815,76.314138,2017,No,2,31243,Industrial estate & warehouses near Kaloor,Industrial Area
+KOC014,Kochi Metro,Kerala,Kochi,Town Hall,KOC-TOW,Line 1 (Blue),10.011288,76.302443,2017,No,2,31242,Residential colonies & local markets near Town Hall,Residential
+KOC015,Kochi Metro,Kerala,Kochi,MG Road,KOC-MGR,Line 1 (Blue),10.004846,76.315065,2017,Yes,6,106541,"Shopping district, offices & markets near MG Road",Commercial
+KOC016,Kochi Metro,Kerala,Kochi,Maharaja's College,KOC-MAH,Line 1 (Blue),9.994777,76.309159,2017,No,2,28393,"Colleges, coaching centres & hostels near Maharaja's College",Educational Zone
+KOC017,Kochi Metro,Kerala,Kochi,Ernakulam South,KOC-ERN,Line 1 (Blue),9.996537,76.312816,2017,No,2,57796,"Shopping district, offices & markets near Ernakulam South",Commercial
+KOC018,Kochi Metro,Kerala,Kochi,Kadavanthra,KOC-KAD,Line 1 (Blue),9.99447,76.311039,2017,No,2,21714,Residential colonies & local markets near Kadavanthra,Residential
+KOC019,Kochi Metro,Kerala,Kochi,Elamkulam,KOC-ELA,Line 1 (Blue),9.994979,76.315677,2017,No,2,29860,"Shopping district, offices & markets near Elamkulam",Commercial
+KOC020,Kochi Metro,Kerala,Kochi,Vyttila,KOC-VYT,Line 1 (Blue),9.988456,76.310191,2017,No,2,58048,"Shopping district, offices & markets near Vyttila",Commercial
+KOC021,Kochi Metro,Kerala,Kochi,Thaikoodam,KOC-THA,Line 1 (Blue),9.980136,76.312666,2017,No,2,43999,Residential colonies & local markets near Thaikoodam,Residential
+KOC022,Kochi Metro,Kerala,Kochi,Petta,KOC-PET,Line 1 (Blue),9.978838,76.306162,2017,No,2,35263,IT parks & tech offices around Petta,IT Hub
+KOC023,Kochi Metro,Kerala,Kochi,Vadakkekotta,KOC-VAD,Line 1 (Blue),9.977589,76.30228,2017,No,2,25462,"Colleges, coaching centres & hostels near Vadakkekotta",Educational Zone
+KOC024,Kochi Metro,Kerala,Kochi,SN Junction,KOC-SNJ,Line 1 (Blue),9.974634,76.310761,2017,No,4,48482,"Railway station, bus terminal & transit hub at SN Junction",Railway Connection
+KOC025,Kochi Metro,Kerala,Kochi,Thrippunithura,KOC-THR,Line 1 (Blue),9.971025,76.301439,2017,No,2,32487,"Shopping district, offices & markets near Thrippunithura",Commercial
+LKO001,Lucknow Metro,Uttar Pradesh,Lucknow,CCS Airport,LKO-CCS,Red Line,26.761567,80.887597,2017,No,2,45099,Airport terminal & cargo complex at CCS Airport,Airport
+LKO002,Lucknow Metro,Uttar Pradesh,Lucknow,Amausi,LKO-AMA,Red Line,26.755277,80.886988,2017,No,2,26005,Residential colonies & local markets near Amausi,Residential
+LKO003,Lucknow Metro,Uttar Pradesh,Lucknow,Transport Nagar,LKO-TRA,Red Line,26.764768,80.897445,2017,No,2,25985,Industrial estate & warehouses near Transport Nagar,Industrial Area
+LKO004,Lucknow Metro,Uttar Pradesh,Lucknow,Krishna Nagar,LKO-KRI,Red Line,26.762992,80.908758,2017,No,2,27064,IT parks & tech offices around Krishna Nagar,IT Hub
+LKO005,Lucknow Metro,Uttar Pradesh,Lucknow,Singar Nagar,LKO-SIN,Red Line,26.76304,80.910303,2017,No,2,20444,Residential colonies & local markets near Singar Nagar,Residential
+LKO006,Lucknow Metro,Uttar Pradesh,Lucknow,Alambagh Bus Station,LKO-ALA,Red Line,26.770738,80.913002,2017,No,2,56598,"Railway station, bus terminal & transit hub at Alambagh Bus Station",Railway Connection
+LKO007,Lucknow Metro,Uttar Pradesh,Lucknow,Alambagh,LKO-AL2,Red Line,26.758307,80.920997,2017,No,2,48572,"Shopping district, offices & markets near Alambagh",Commercial
+LKO008,Lucknow Metro,Uttar Pradesh,Lucknow,Mawaiya,LKO-MAW,Red Line,26.762486,80.923406,2017,No,2,21877,Residential colonies & local markets near Mawaiya,Residential
+LKO009,Lucknow Metro,Uttar Pradesh,Lucknow,Durgapuri,LKO-DUR,Red Line,26.757187,80.939084,2017,No,2,58746,"Shopping district, offices & markets near Durgapuri",Commercial
+LKO010,Lucknow Metro,Uttar Pradesh,Lucknow,Charbagh,LKO-CHA,Red Line,26.761794,80.934187,2017,No,2,60420,"Railway station, bus terminal & transit hub at Charbagh",Railway Connection
+LKO011,Lucknow Metro,Uttar Pradesh,Lucknow,Hussainganj,LKO-HUS,Red Line,26.763706,80.942118,2017,No,2,42152,Residential colonies & local markets near Hussainganj,Residential
+LKO012,Lucknow Metro,Uttar Pradesh,Lucknow,Sachivalaya,LKO-SAC,Red Line,26.759465,80.950218,2017,No,2,29359,IT parks & tech offices around Sachivalaya,IT Hub
+LKO013,Lucknow Metro,Uttar Pradesh,Lucknow,Hazratganj,LKO-HAZ,Red Line,26.755678,80.955234,2017,No,2,35443,IT parks & tech offices around Hazratganj,IT Hub
+LKO014,Lucknow Metro,Uttar Pradesh,Lucknow,KD Singh Babu Stadium,LKO-KDS,Red Line,26.766745,80.961382,2017,No,2,25766,"Colleges, coaching centres & hostels near KD Singh Babu Stadium",Educational Zone
+LKO015,Lucknow Metro,Uttar Pradesh,Lucknow,Vishwavidyalaya,LKO-VIS,Red Line,26.758583,80.963725,2017,No,2,29656,"Colleges, coaching centres & hostels near Vishwavidyalaya",Educational Zone
+LKO016,Lucknow Metro,Uttar Pradesh,Lucknow,IT College,LKO-ITC,Red Line,26.758314,80.970361,2017,No,2,24119,"Colleges, coaching centres & hostels near IT College",Educational Zone
+LKO017,Lucknow Metro,Uttar Pradesh,Lucknow,Badshahnagar,LKO-BAD,Red Line,26.758278,80.980207,2017,No,2,21011,Residential colonies & local markets near Badshahnagar,Residential
+LKO018,Lucknow Metro,Uttar Pradesh,Lucknow,Lekhraj Market,LKO-LEK,Red Line,26.753384,80.985767,2017,No,2,38668,"Shopping district, offices & markets near Lekhraj Market",Commercial
+LKO019,Lucknow Metro,Uttar Pradesh,Lucknow,Bhootnath Market,LKO-BHO,Red Line,26.757971,80.989819,2017,No,2,34717,"Shopping district, offices & markets near Bhootnath Market",Commercial
+LKO020,Lucknow Metro,Uttar Pradesh,Lucknow,Indira Nagar,LKO-IND,Red Line,26.755206,80.9989,2017,No,2,20283,Industrial estate & warehouses near Indira Nagar,Industrial Area
+LKO021,Lucknow Metro,Uttar Pradesh,Lucknow,Munshipulia,LKO-MUN,Red Line,26.76336,81.003359,2017,No,2,32726,"Shopping district, offices & markets near Munshipulia",Commercial
+JAI001,Jaipur Metro,Rajasthan,Jaipur,Mansarovar,JAI-MAN,Pink Line,26.927698,75.727902,2015,No,2,33514,IT parks & tech offices around Mansarovar,IT Hub
+JAI002,Jaipur Metro,Rajasthan,Jaipur,New Aatish Market,JAI-NEW,Pink Line,26.933235,75.728927,2015,No,2,47587,"Shopping district, offices & markets near New Aatish Market",Commercial
+JAI003,Jaipur Metro,Rajasthan,Jaipur,Vivek Vihar,JAI-VIV,Pink Line,26.930551,75.745367,2015,No,2,39334,"Shopping district, offices & markets near Vivek Vihar",Commercial
+JAI004,Jaipur Metro,Rajasthan,Jaipur,Shyam Nagar,JAI-SHY,Pink Line,26.931401,75.754257,2015,No,2,37856,"Shopping district, offices & markets near Shyam Nagar",Commercial
+JAI005,Jaipur Metro,Rajasthan,Jaipur,Ram Nagar,JAI-RAM,Pink Line,26.929292,75.768339,2015,No,2,42522,IT parks & tech offices around Ram Nagar,IT Hub
+JAI006,Jaipur Metro,Rajasthan,Jaipur,Civil Lines,JAI-CIV,Pink Line,26.931382,75.762693,2015,No,2,27174,Industrial estate & warehouses near Civil Lines,Industrial Area
+JAI007,Jaipur Metro,Rajasthan,Jaipur,Railway Station,JAI-RAI,Pink Line,26.924798,75.781696,2015,No,2,45515,"Railway station, bus terminal & transit hub at Railway Station",Railway Connection
+JAI008,Jaipur Metro,Rajasthan,Jaipur,Sindhi Camp,JAI-SIN,Pink Line,26.918595,75.792148,2015,No,2,44483,Residential colonies & local markets near Sindhi Camp,Residential
+JAI009,Jaipur Metro,Rajasthan,Jaipur,Chandpole,JAI-CHA,Pink Line,26.927916,75.797561,2015,No,2,42127,IT parks & tech offices around Chandpole,IT Hub
+JAI010,Jaipur Metro,Rajasthan,Jaipur,Choti Chaupar,JAI-CHO,Pink Line,26.923541,75.807704,2015,No,2,57362,"Shopping district, offices & markets near Choti Chaupar",Commercial
+JAI011,Jaipur Metro,Rajasthan,Jaipur,Badi Chaupar,JAI-BAD,Pink Line,26.91883,75.825625,2015,Yes,4,101363,"Shopping district, offices & markets near Badi Chaupar",Commercial
+JAI012,Jaipur Metro,Rajasthan,Jaipur,Transport Nagar,JAI-TRA,Pink Line,26.918101,75.831618,2015,No,2,27949,"Shopping district, offices & markets near Transport Nagar",Commercial
+KNP001,Kanpur Metro,Uttar Pradesh,Kanpur,IIT Kanpur,KNP-IIT,Orange Line,26.508451,80.238518,2021,No,2,17318,"Colleges, coaching centres & hostels near IIT Kanpur",Educational Zone
+KNP002,Kanpur Metro,Uttar Pradesh,Kanpur,Kalyanpur,KNP-KAL,Orange Line,26.513309,80.237211,2021,No,2,30579,IT parks & tech offices around Kalyanpur,IT Hub
+KNP003,Kanpur Metro,Uttar Pradesh,Kanpur,SPM Hospital,KNP-SPM,Orange Line,26.509414,80.238766,2021,No,2,28697,Residential colonies & local markets near SPM Hospital,Residential
+KNP004,Kanpur Metro,Uttar Pradesh,Kanpur,Vishwavidyalaya,KNP-VIS,Orange Line,26.507739,80.248416,2021,No,2,17748,"Colleges, coaching centres & hostels near Vishwavidyalaya",Educational Zone
+KNP005,Kanpur Metro,Uttar Pradesh,Kanpur,Gurudev Chauraha,KNP-GUR,Orange Line,26.499086,80.253679,2021,No,2,12378,"Colleges, coaching centres & hostels near Gurudev Chauraha",Educational Zone
+KNP006,Kanpur Metro,Uttar Pradesh,Kanpur,Geeta Nagar,KNP-GEE,Orange Line,26.493968,80.263681,2021,No,2,27701,IT parks & tech offices around Geeta Nagar,IT Hub
+KNP007,Kanpur Metro,Uttar Pradesh,Kanpur,Rawatpur,KNP-RAW,Orange Line,26.493096,80.269381,2021,No,2,14484,Residential colonies & local markets near Rawatpur,Residential
+KNP008,Kanpur Metro,Uttar Pradesh,Kanpur,LLR Hospital,KNP-LLR,Orange Line,26.488369,80.274746,2021,No,2,22054,"Colleges, coaching centres & hostels near LLR Hospital",Educational Zone
+KNP009,Kanpur Metro,Uttar Pradesh,Kanpur,Motijheel,KNP-MOT,Orange Line,26.483134,80.286604,2021,No,2,20781,Residential colonies & local markets near Motijheel,Residential
+KNP010,Kanpur Metro,Uttar Pradesh,Kanpur,Chunniganj,KNP-CHU,Orange Line,26.475312,80.289063,2021,No,2,32462,"Shopping district, offices & markets near Chunniganj",Commercial
+KNP011,Kanpur Metro,Uttar Pradesh,Kanpur,Naveen Market,KNP-NAV,Orange Line,26.481788,80.287517,2021,No,2,35677,"Shopping district, offices & markets near Naveen Market",Commercial
+KNP012,Kanpur Metro,Uttar Pradesh,Kanpur,Bada Chauraha,KNP-BAD,Orange Line,26.481002,80.299834,2021,No,2,30380,"Shopping district, offices & markets near Bada Chauraha",Commercial
+KNP013,Kanpur Metro,Uttar Pradesh,Kanpur,Nayaganj,KNP-NAY,Orange Line,26.472799,80.302298,2021,No,2,22512,Residential colonies & local markets near Nayaganj,Residential
+KNP014,Kanpur Metro,Uttar Pradesh,Kanpur,Kanpur Central,KNP-KAN,Orange Line,26.46484,80.307317,2021,No,2,38673,"Railway station, bus terminal & transit hub at Kanpur Central",Railway Connection
+KNP015,Kanpur Metro,Uttar Pradesh,Kanpur,Jhakarkati,KNP-JHA,Orange Line,26.463167,80.318804,2021,No,2,26753,Residential colonies & local markets near Jhakarkati,Residential
+KNP016,Kanpur Metro,Uttar Pradesh,Kanpur,Transport Nagar,KNP-TRA,Orange Line,26.458635,80.31656,2021,No,2,11551,"Colleges, coaching centres & hostels near Transport Nagar",Educational Zone
+KNP017,Kanpur Metro,Uttar Pradesh,Kanpur,Baradevi,KNP-BAR,Orange Line,26.457085,80.328824,2021,No,2,21583,Residential colonies & local markets near Baradevi,Residential
+KNP018,Kanpur Metro,Uttar Pradesh,Kanpur,Kidwai Nagar,KNP-KID,Orange Line,26.452691,80.334059,2021,No,2,15966,Residential colonies & local markets near Kidwai Nagar,Residential
+KNP019,Kanpur Metro,Uttar Pradesh,Kanpur,Basant Vihar,KNP-BAS,Orange Line,26.445652,80.334049,2021,No,2,34000,IT parks & tech offices around Basant Vihar,IT Hub
+KNP020,Kanpur Metro,Uttar Pradesh,Kanpur,Vijay Nagar,KNP-VIJ,Orange Line,26.439761,80.337426,2021,No,2,23107,Residential colonies & local markets near Vijay Nagar,Residential
+KNP021,Kanpur Metro,Uttar Pradesh,Kanpur,Naubasta,KNP-NAU,Orange Line,26.439829,80.348708,2021,No,2,17188,"Colleges, coaching centres & hostels near Naubasta",Educational Zone
+AGR001,Agra Metro,Uttar Pradesh,Agra,Taj East Gate,AGR-TAJ,Yellow Line,27.16746,77.999655,2024,No,2,12644,"Shopping district, offices & markets near Taj East Gate",Commercial
+AGR002,Agra Metro,Uttar Pradesh,Agra,Basai,AGR-BAS,Yellow Line,27.165434,78.015923,2024,No,2,11008,Residential colonies & local markets near Basai,Residential
+AGR003,Agra Metro,Uttar Pradesh,Agra,Fatehabad Road,AGR-FAT,Yellow Line,27.168274,78.015262,2024,No,2,14695,Residential colonies & local markets near Fatehabad Road,Residential
+AGR004,Agra Metro,Uttar Pradesh,Agra,Taj Mahal,AGR-TA2,Yellow Line,27.166533,78.021035,2024,No,2,6646,Industrial estate & warehouses near Taj Mahal,Industrial Area
+AGR005,Agra Metro,Uttar Pradesh,Agra,Agra Fort,AGR-AGR,Yellow Line,27.171696,78.019015,2024,No,2,8527,Residential colonies & local markets near Agra Fort,Residential
+AGR006,Agra Metro,Uttar Pradesh,Agra,Mankameshwar,AGR-MAN,Yellow Line,27.18114,78.025308,2024,No,2,21158,IT parks & tech offices around Mankameshwar,IT Hub
+AGR007,Agra Metro,Uttar Pradesh,Agra,SN Medical College,AGR-SNM,Yellow Line,27.172727,78.019924,2024,No,2,13606,"Colleges, coaching centres & hostels near SN Medical College",Educational Zone
+AGR008,Agra Metro,Uttar Pradesh,Agra,Agra College,AGR-AG2,Yellow Line,27.173461,78.025785,2024,No,2,8534,"Colleges, coaching centres & hostels near Agra College",Educational Zone
+AGR009,Agra Metro,Uttar Pradesh,Agra,Raja Ki Mandi,AGR-RAJ,Yellow Line,27.175032,78.024617,2024,No,2,7258,Industrial estate & warehouses near Raja Ki Mandi,Industrial Area
+AGR010,Agra Metro,Uttar Pradesh,Agra,RBS College,AGR-RBS,Yellow Line,27.181335,78.0276,2024,No,2,15473,"Colleges, coaching centres & hostels near RBS College",Educational Zone
+AGR011,Agra Metro,Uttar Pradesh,Agra,Jama Masjid,AGR-JAM,Yellow Line,27.185049,78.030318,2024,No,2,19653,"Shopping district, offices & markets near Jama Masjid",Commercial
+BHO001,Bhopal Metro,Madhya Pradesh,Bhopal,Karond Circle,BHO-KAR,Orange Line,23.296249,77.401251,2024,No,2,20277,IT parks & tech offices around Karond Circle,IT Hub
+BHO002,Bhopal Metro,Madhya Pradesh,Bhopal,DIG Bungalow,BHO-DIG,Orange Line,23.286942,77.40175,2024,No,2,16448,"Shopping district, offices & markets near DIG Bungalow",Commercial
+BHO003,Bhopal Metro,Madhya Pradesh,Bhopal,Krishi Upaj Mandi,BHO-KRI,Orange Line,23.274155,77.41018,2024,No,2,8429,Industrial estate & warehouses near Krishi Upaj Mandi,Industrial Area
+BHO004,Bhopal Metro,Madhya Pradesh,Bhopal,Pul Bogda,BHO-PUL,Orange Line,23.274174,77.412998,2024,No,2,12278,"Shopping district, offices & markets near Pul Bogda",Commercial
+BHO005,Bhopal Metro,Madhya Pradesh,Bhopal,Bharat Talkies,BHO-BHA,Orange Line,23.259783,77.412382,2024,No,2,22993,"Shopping district, offices & markets near Bharat Talkies",Commercial
+BHO006,Bhopal Metro,Madhya Pradesh,Bhopal,Nadra Bus Stand,BHO-NAD,Orange Line,23.252862,77.415242,2024,No,4,14391,"Railway station, bus terminal & transit hub at Nadra Bus Stand",Railway Connection
+BHO007,Bhopal Metro,Madhya Pradesh,Bhopal,Aish Bagh,BHO-AIS,Orange Line,23.251812,77.429652,2024,No,2,11250,IT parks & tech offices around Aish Bagh,IT Hub
+BHO008,Bhopal Metro,Madhya Pradesh,Bhopal,Subhash Nagar,BHO-SUB,Orange Line,23.244953,77.422089,2024,No,2,17256,Residential colonies & local markets near Subhash Nagar,Residential
+BHO009,Bhopal Metro,Madhya Pradesh,Bhopal,MP Nagar,BHO-MPN,Orange Line,23.237904,77.433716,2024,No,2,19815,Residential colonies & local markets near MP Nagar,Residential
+BHO010,Bhopal Metro,Madhya Pradesh,Bhopal,Alkapuri,BHO-ALK,Orange Line,23.239479,77.433471,2024,No,2,23429,"Shopping district, offices & markets near Alkapuri",Commercial
+BHO011,Bhopal Metro,Madhya Pradesh,Bhopal,Rani Kamlapati Station,BHO-RAN,Orange Line,23.224347,77.448828,2024,No,2,14249,Residential colonies & local markets near Rani Kamlapati Station,Residential
+BHO012,Bhopal Metro,Madhya Pradesh,Bhopal,DB City,BHO-DBC,Orange Line,23.220861,77.449114,2024,No,2,19222,"Shopping district, offices & markets near DB City",Commercial
+BHO013,Bhopal Metro,Madhya Pradesh,Bhopal,Board Office,BHO-BOA,Orange Line,23.213258,77.452583,2024,No,2,18446,"Shopping district, offices & markets near Board Office",Commercial
+BHO014,Bhopal Metro,Madhya Pradesh,Bhopal,Habibganj Naka,BHO-HAB,Orange Line,23.20915,77.452881,2024,No,2,16712,"Shopping district, offices & markets near Habibganj Naka",Commercial
+BHO015,Bhopal Metro,Madhya Pradesh,Bhopal,AIIMS Bhopal,BHO-AII,Orange Line,23.203073,77.455194,2024,No,2,19777,"Shopping district, offices & markets near AIIMS Bhopal",Commercial
+IDR001,Indore Metro,Madhya Pradesh,Indore,Gandhi Nagar,IDR-GAN,Yellow Line,22.754149,75.894626,2024,No,2,18777,IT parks & tech offices around Gandhi Nagar,IT Hub
+IDR002,Indore Metro,Madhya Pradesh,Indore,Super Corridor 6,IDR-SUP,Yellow Line,22.745629,75.889349,2024,No,2,16773,Residential colonies & local markets near Super Corridor 6,Residential
+IDR003,Indore Metro,Madhya Pradesh,Indore,Super Corridor 3,IDR-SU2,Yellow Line,22.740393,75.881106,2024,No,2,27340,"Shopping district, offices & markets near Super Corridor 3",Commercial
+IDR004,Indore Metro,Madhya Pradesh,Indore,Bhawrasla,IDR-BHA,Yellow Line,22.736119,75.876422,2024,No,2,21710,Residential colonies & local markets near Bhawrasla,Residential
+IDR005,Indore Metro,Madhya Pradesh,Indore,MR-10,IDR-MRX,Yellow Line,22.733273,75.871689,2024,No,2,10310,Residential colonies & local markets near MR-10,Residential
+IDR006,Indore Metro,Madhya Pradesh,Indore,ISBT,IDR-ISB,Yellow Line,22.72942,75.867008,2024,No,2,21960,"Railway station, bus terminal & transit hub at ISBT",Railway Connection
+IDR007,Indore Metro,Madhya Pradesh,Indore,Radisson Square,IDR-RAD,Yellow Line,22.719732,75.864385,2024,No,2,13712,Residential colonies & local markets near Radisson Square,Residential
+IDR008,Indore Metro,Madhya Pradesh,Indore,Vijay Nagar,IDR-VIJ,Yellow Line,22.721138,75.863156,2024,No,2,12907,Residential colonies & local markets near Vijay Nagar,Residential
+IDR009,Indore Metro,Madhya Pradesh,Indore,Bengali Square,IDR-BEN,Yellow Line,22.710545,75.859174,2024,No,2,11502,Residential colonies & local markets near Bengali Square,Residential
+IDR010,Indore Metro,Madhya Pradesh,Indore,Palasia,IDR-PAL,Yellow Line,22.698696,75.852706,2024,No,2,25116,"Shopping district, offices & markets near Palasia",Commercial
+IDR011,Indore Metro,Madhya Pradesh,Indore,Rajwada,IDR-RAJ,Yellow Line,22.707848,75.848749,2024,No,2,19812,IT parks & tech offices around Rajwada,IT Hub
+IDR012,Indore Metro,Madhya Pradesh,Indore,Airport,IDR-AIR,Yellow Line,22.695881,75.845633,2024,No,2,21921,Airport terminal & cargo complex at Airport,Airport
+IDR013,Indore Metro,Madhya Pradesh,Indore,Robot Square,IDR-ROB,Yellow Line,22.693563,75.832152,2024,No,2,9736,Residential colonies & local markets near Robot Square,Residential
+IDR014,Indore Metro,Madhya Pradesh,Indore,Mumtaj Bagh,IDR-MUM,Yellow Line,22.679326,75.835307,2024,No,2,10164,Residential colonies & local markets near Mumtaj Bagh,Residential
+IDR015,Indore Metro,Madhya Pradesh,Indore,Bada Ganpati,IDR-BAD,Yellow Line,22.677498,75.834592,2024,No,2,19131,"Shopping district, offices & markets near Bada Ganpati",Commercial
