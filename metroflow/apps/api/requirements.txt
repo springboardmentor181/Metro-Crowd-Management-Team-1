@@ -1,0 +1,18 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+PyJWT[crypto]>=2.8
+# Scientific stack pinned to the versions that trained & serialize the committed
+# model artifacts — guarantees the model loads on the deploy host.
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+joblib==1.5.3
+scikit-learn==1.9.0
+xgboost==3.2.0
+SQLAlchemy>=2.0
+psycopg[binary]>=3.1
+redis>=5.0
+httpx>=0.27

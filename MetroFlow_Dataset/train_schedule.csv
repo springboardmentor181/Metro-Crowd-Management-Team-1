@@ -1,0 +1,491 @@
+schedule_id,metro_name,line_name,time_slot,current_frequency,recommended_frequency,passenger_demand,delay_probability,optimization_score
+SCH00001,Delhi Metro,Yellow Line,Weekday 05:00-07:00,6,6,48.4,0.306,89.2
+SCH00002,Delhi Metro,Yellow Line,Weekday 07:00-10:00,2,2,100,0.635,74.0
+SCH00003,Delhi Metro,Yellow Line,Weekday 10:00-13:00,4,5,69.9,0.411,72.0
+SCH00004,Delhi Metro,Yellow Line,Weekday 13:00-16:00,4,3,55.7,0.362,70.8
+SCH00005,Delhi Metro,Yellow Line,Weekday 16:00-18:00,5,4,100,0.557,68.4
+SCH00006,Delhi Metro,Yellow Line,Weekday 18:00-21:00,2,2,100,0.605,71.1
+SCH00007,Delhi Metro,Yellow Line,Weekday 21:00-23:00,5,5,54.3,0.344,83.0
+SCH00008,Delhi Metro,Yellow Line,Weekend 05:00-07:00,4,4,36.8,0.259,93.2
+SCH00009,Delhi Metro,Yellow Line,Weekend 07:00-10:00,2,2,100,0.622,79.9
+SCH00010,Delhi Metro,Yellow Line,Weekend 10:00-13:00,6,6,51.5,0.284,93.3
+SCH00011,Delhi Metro,Yellow Line,Weekend 13:00-16:00,4,4,39.0,0.288,91.9
+SCH00012,Delhi Metro,Yellow Line,Weekend 16:00-18:00,4,2,79.8,0.474,55.3
+SCH00013,Delhi Metro,Yellow Line,Weekend 18:00-21:00,2,2,100,0.632,72.8
+SCH00014,Delhi Metro,Yellow Line,Weekend 21:00-23:00,5,6,33.2,0.197,78.4
+SCH00015,Delhi Metro,Blue Line,Weekday 05:00-07:00,4,4,49.0,0.333,84.7
+SCH00016,Delhi Metro,Blue Line,Weekday 07:00-10:00,3,2,100,0.617,58.2
+SCH00017,Delhi Metro,Blue Line,Weekday 10:00-13:00,5,3,75.7,0.436,60.3
+SCH00018,Delhi Metro,Blue Line,Weekday 13:00-16:00,6,5,57.6,0.31,82.4
+SCH00019,Delhi Metro,Blue Line,Weekday 16:00-18:00,5,3,100,0.582,56.5
+SCH00020,Delhi Metro,Blue Line,Weekday 18:00-21:00,2,2,100,0.644,71.6
+SCH00021,Delhi Metro,Blue Line,Weekday 21:00-23:00,6,5,50.7,0.33,71.8
+SCH00022,Delhi Metro,Blue Line,Weekend 05:00-07:00,4,3,38.5,0.263,75.9
+SCH00023,Delhi Metro,Blue Line,Weekend 07:00-10:00,3,2,100,0.603,54.7
+SCH00024,Delhi Metro,Blue Line,Weekend 10:00-13:00,5,4,49.6,0.322,78.2
+SCH00025,Delhi Metro,Blue Line,Weekend 13:00-16:00,6,7,39.9,0.223,85.5
+SCH00026,Delhi Metro,Blue Line,Weekend 16:00-18:00,4,2,84.3,0.442,56.6
+SCH00027,Delhi Metro,Blue Line,Weekend 18:00-21:00,2,2,100,0.633,74.2
+SCH00028,Delhi Metro,Blue Line,Weekend 21:00-23:00,5,6,35.8,0.25,74.7
+SCH00029,Delhi Metro,Red Line,Weekday 05:00-07:00,6,6,32.2,0.202,93.4
+SCH00030,Delhi Metro,Red Line,Weekday 07:00-10:00,3,2,100,0.621,54.5
+SCH00031,Delhi Metro,Red Line,Weekday 10:00-13:00,4,3,43.8,0.27,70.1
+SCH00032,Delhi Metro,Red Line,Weekday 13:00-16:00,5,4,32.9,0.206,81.0
+SCH00033,Delhi Metro,Red Line,Weekday 16:00-18:00,6,4,75.3,0.43,64.0
+SCH00034,Delhi Metro,Red Line,Weekday 18:00-21:00,3,2,95.1,0.644,51.9
+SCH00035,Delhi Metro,Red Line,Weekday 21:00-23:00,6,6,28.8,0.222,86.5
+SCH00036,Delhi Metro,Red Line,Weekend 05:00-07:00,6,8,22.3,0.195,72.7
+SCH00037,Delhi Metro,Red Line,Weekend 07:00-10:00,2,3,67.4,0.45,54.8
+SCH00038,Delhi Metro,Red Line,Weekend 10:00-13:00,6,5,30.1,0.179,79.7
+SCH00039,Delhi Metro,Red Line,Weekend 13:00-16:00,5,7,24.9,0.185,73.6
+SCH00040,Delhi Metro,Red Line,Weekend 16:00-18:00,6,5,49.7,0.32,77.4
+SCH00041,Delhi Metro,Red Line,Weekend 18:00-21:00,2,2,65.7,0.434,81.7
+SCH00042,Delhi Metro,Red Line,Weekend 21:00-23:00,4,7,21.1,0.196,52.0
+SCH00043,Delhi Metro,Violet Line,Weekday 05:00-07:00,6,7,40.2,0.264,76.7
+SCH00044,Delhi Metro,Violet Line,Weekday 07:00-10:00,3,2,100,0.62,59.2
+SCH00045,Delhi Metro,Violet Line,Weekday 10:00-13:00,6,6,52.4,0.309,85.2
+SCH00046,Delhi Metro,Violet Line,Weekday 13:00-16:00,6,6,41.7,0.29,86.6
+SCH00047,Delhi Metro,Violet Line,Weekday 16:00-18:00,4,2,81.7,0.465,49.6
+SCH00048,Delhi Metro,Violet Line,Weekday 18:00-21:00,3,2,100,0.617,59.0
+SCH00049,Delhi Metro,Violet Line,Weekday 21:00-23:00,5,5,35.1,0.209,95.0
+SCH00050,Delhi Metro,Violet Line,Weekend 05:00-07:00,5,5,29.4,0.227,92.7
+SCH00051,Delhi Metro,Violet Line,Weekend 07:00-10:00,3,2,80.8,0.538,61.9
+SCH00052,Delhi Metro,Violet Line,Weekend 10:00-13:00,5,6,33.8,0.261,77.7
+SCH00053,Delhi Metro,Violet Line,Weekend 13:00-16:00,6,6,35.3,0.198,90.3
+SCH00054,Delhi Metro,Violet Line,Weekend 16:00-18:00,5,5,60.0,0.365,88.1
+SCH00055,Delhi Metro,Violet Line,Weekend 18:00-21:00,2,2,72.0,0.504,77.5
+SCH00056,Delhi Metro,Violet Line,Weekend 21:00-23:00,5,8,20.7,0.202,60.7
+SCH00057,Delhi Metro,Magenta Line,Weekday 05:00-07:00,5,5,28.4,0.181,94.4
+SCH00058,Delhi Metro,Magenta Line,Weekday 07:00-10:00,3,2,82.1,0.58,59.7
+SCH00059,Delhi Metro,Magenta Line,Weekday 10:00-13:00,4,3,40.4,0.27,74.3
+SCH00060,Delhi Metro,Magenta Line,Weekday 13:00-16:00,5,4,29.0,0.236,83.4
+SCH00061,Delhi Metro,Magenta Line,Weekday 16:00-18:00,4,4,59.4,0.324,91.7
+SCH00062,Delhi Metro,Magenta Line,Weekday 18:00-21:00,2,2,81.8,0.543,76.1
+SCH00063,Delhi Metro,Magenta Line,Weekday 21:00-23:00,6,6,26.6,0.227,93.5
+SCH00064,Delhi Metro,Magenta Line,Weekend 05:00-07:00,5,7,19.3,0.13,75.1
+SCH00065,Delhi Metro,Magenta Line,Weekend 07:00-10:00,3,4,64.0,0.44,62.8
+SCH00066,Delhi Metro,Magenta Line,Weekend 10:00-13:00,5,8,23.5,0.158,60.4
+SCH00067,Delhi Metro,Magenta Line,Weekend 13:00-16:00,5,6,19.6,0.148,86.5
+SCH00068,Delhi Metro,Magenta Line,Weekend 16:00-18:00,4,3,45.3,0.309,68.1
+SCH00069,Delhi Metro,Magenta Line,Weekend 18:00-21:00,2,2,62.0,0.416,82.2
+SCH00070,Delhi Metro,Magenta Line,Weekend 21:00-23:00,5,7,21.0,0.128,69.2
+SCH00071,Delhi Metro,Pink Line,Weekday 05:00-07:00,6,6,43.4,0.304,84.3
+SCH00072,Delhi Metro,Pink Line,Weekday 07:00-10:00,3,2,100,0.634,57.1
+SCH00073,Delhi Metro,Pink Line,Weekday 10:00-13:00,5,3,71.8,0.425,59.2
+SCH00074,Delhi Metro,Pink Line,Weekday 13:00-16:00,5,5,59.8,0.373,89.0
+SCH00075,Delhi Metro,Pink Line,Weekday 16:00-18:00,4,2,100,0.585,44.8
+SCH00076,Delhi Metro,Pink Line,Weekday 18:00-21:00,3,2,100,0.66,54.1
+SCH00077,Delhi Metro,Pink Line,Weekday 21:00-23:00,6,6,48.0,0.277,92.6
+SCH00078,Delhi Metro,Pink Line,Weekend 05:00-07:00,6,7,30.9,0.181,80.6
+SCH00079,Delhi Metro,Pink Line,Weekend 07:00-10:00,2,2,100,0.611,77.9
+SCH00080,Delhi Metro,Pink Line,Weekend 10:00-13:00,6,6,48.3,0.304,91.7
+SCH00081,Delhi Metro,Pink Line,Weekend 13:00-16:00,6,5,36.5,0.257,81.2
+SCH00082,Delhi Metro,Pink Line,Weekend 16:00-18:00,5,3,73.8,0.431,54.7
+SCH00083,Delhi Metro,Pink Line,Weekend 18:00-21:00,3,2,100,0.675,54.0
+SCH00084,Delhi Metro,Pink Line,Weekend 21:00-23:00,6,7,32.9,0.249,79.0
+SCH00085,Delhi Metro,Green Line,Weekday 05:00-07:00,5,7,18.8,0.118,71.0
+SCH00086,Delhi Metro,Green Line,Weekday 07:00-10:00,3,2,70.7,0.456,62.7
+SCH00087,Delhi Metro,Green Line,Weekday 10:00-13:00,5,5,30.7,0.231,94.5
+SCH00088,Delhi Metro,Green Line,Weekday 13:00-16:00,4,4,26.0,0.182,97.5
+SCH00089,Delhi Metro,Green Line,Weekday 16:00-18:00,4,3,52.8,0.346,70.2
+SCH00090,Delhi Metro,Green Line,Weekday 18:00-21:00,2,2,65.2,0.479,77.3
+SCH00091,Delhi Metro,Green Line,Weekday 21:00-23:00,4,7,23.9,0.16,45.1
+SCH00092,Delhi Metro,Green Line,Weekend 05:00-07:00,4,6,19.1,0.138,59.7
+SCH00093,Delhi Metro,Green Line,Weekend 07:00-10:00,2,2,48.8,0.373,84.4
+SCH00094,Delhi Metro,Green Line,Weekend 10:00-13:00,5,8,21.2,0.139,58.5
+SCH00095,Delhi Metro,Green Line,Weekend 13:00-16:00,5,8,15.5,0.124,59.8
+SCH00096,Delhi Metro,Green Line,Weekend 16:00-18:00,5,5,38.4,0.289,89.0
+SCH00097,Delhi Metro,Green Line,Weekend 18:00-21:00,3,4,42.2,0.345,62.5
+SCH00098,Delhi Metro,Green Line,Weekend 21:00-23:00,5,7,15.0,0.103,72.2
+SCH00099,Delhi Metro,Airport Express,Weekday 05:00-07:00,4,5,11.9,0.088,85.4
+SCH00100,Delhi Metro,Airport Express,Weekday 07:00-10:00,2,2,37.8,0.365,87.0
+SCH00101,Delhi Metro,Airport Express,Weekday 10:00-13:00,4,6,19.5,0.172,66.6
+SCH00102,Delhi Metro,Airport Express,Weekday 13:00-16:00,6,7,16.5,0.129,81.4
+SCH00103,Delhi Metro,Airport Express,Weekday 16:00-18:00,5,4,28.6,0.181,83.6
+SCH00104,Delhi Metro,Airport Express,Weekday 18:00-21:00,3,3,35.1,0.339,85.5
+SCH00105,Delhi Metro,Airport Express,Weekday 21:00-23:00,5,8,15.7,0.158,61.9
+SCH00106,Delhi Metro,Airport Express,Weekend 05:00-07:00,4,7,12.9,0.123,47.4
+SCH00107,Delhi Metro,Airport Express,Weekend 07:00-10:00,3,4,21.1,0.231,74.8
+SCH00108,Delhi Metro,Airport Express,Weekend 10:00-13:00,4,6,9.4,0.07,65.8
+SCH00109,Delhi Metro,Airport Express,Weekend 13:00-16:00,5,6,9.7,0.134,80.4
+SCH00110,Delhi Metro,Airport Express,Weekend 16:00-18:00,5,6,23.6,0.216,77.6
+SCH00111,Delhi Metro,Airport Express,Weekend 18:00-21:00,2,5,24.2,0.266,0
+SCH00112,Delhi Metro,Airport Express,Weekend 21:00-23:00,5,7,7.2,0.106,71.8
+SCH00113,Noida Metro,Aqua Line,Weekday 05:00-07:00,6,7,3,0.103,90.3
+SCH00114,Noida Metro,Aqua Line,Weekday 07:00-10:00,4,7,11.4,0.217,46.6
+SCH00115,Noida Metro,Aqua Line,Weekday 10:00-13:00,8,11,7.6,0.131,69.5
+SCH00116,Noida Metro,Aqua Line,Weekday 13:00-16:00,8,10,3.0,0.086,86.0
+SCH00117,Noida Metro,Aqua Line,Weekday 16:00-18:00,8,9,9.9,0.096,88.4
+SCH00118,Noida Metro,Aqua Line,Weekday 18:00-21:00,3,5,15.2,0.236,51.1
+SCH00119,Noida Metro,Aqua Line,Weekday 21:00-23:00,6,8,3,0.09,73.1
+SCH00120,Noida Metro,Aqua Line,Weekend 05:00-07:00,6,9,4.1,0.091,65.4
+SCH00121,Noida Metro,Aqua Line,Weekend 07:00-10:00,3,5,9.5,0.224,52.3
+SCH00122,Noida Metro,Aqua Line,Weekend 10:00-13:00,8,11,3,0.094,71.9
+SCH00123,Noida Metro,Aqua Line,Weekend 13:00-16:00,6,9,4.5,0.101,62.9
+SCH00124,Noida Metro,Aqua Line,Weekend 16:00-18:00,8,10,6.0,0.108,77.9
+SCH00125,Noida Metro,Aqua Line,Weekend 18:00-21:00,4,7,8.2,0.183,44.1
+SCH00126,Noida Metro,Aqua Line,Weekend 21:00-23:00,6,8,3,0.058,81.6
+SCH00127,Mumbai Metro,Line 1 (Blue),Weekday 05:00-07:00,4,7,17.3,0.181,51.4
+SCH00128,Mumbai Metro,Line 1 (Blue),Weekday 07:00-10:00,3,4,54.1,0.375,61.5
+SCH00129,Mumbai Metro,Line 1 (Blue),Weekday 10:00-13:00,5,6,22.6,0.155,79.0
+SCH00130,Mumbai Metro,Line 1 (Blue),Weekday 13:00-16:00,4,5,22.0,0.176,82.6
+SCH00131,Mumbai Metro,Line 1 (Blue),Weekday 16:00-18:00,6,5,38.8,0.281,82.4
+SCH00132,Mumbai Metro,Line 1 (Blue),Weekday 18:00-21:00,2,3,54.8,0.394,52.6
+SCH00133,Mumbai Metro,Line 1 (Blue),Weekday 21:00-23:00,6,8,17.8,0.172,77.4
+SCH00134,Mumbai Metro,Line 1 (Blue),Weekend 05:00-07:00,6,8,12.5,0.088,81.0
+SCH00135,Mumbai Metro,Line 1 (Blue),Weekend 07:00-10:00,3,3,39.5,0.359,82.9
+SCH00136,Mumbai Metro,Line 1 (Blue),Weekend 10:00-13:00,5,6,17.9,0.15,83.8
+SCH00137,Mumbai Metro,Line 1 (Blue),Weekend 13:00-16:00,5,8,14.3,0.141,60.6
+SCH00138,Mumbai Metro,Line 1 (Blue),Weekend 16:00-18:00,4,5,31.6,0.203,74.4
+SCH00139,Mumbai Metro,Line 1 (Blue),Weekend 18:00-21:00,2,3,38.6,0.331,55.9
+SCH00140,Mumbai Metro,Line 1 (Blue),Weekend 21:00-23:00,6,9,12.3,0.101,62.9
+SCH00141,Mumbai Metro,Line 2A (Yellow),Weekday 05:00-07:00,6,7,10.6,0.08,91.1
+SCH00142,Mumbai Metro,Line 2A (Yellow),Weekday 07:00-10:00,3,4,37.8,0.312,66.5
+SCH00143,Mumbai Metro,Line 2A (Yellow),Weekday 10:00-13:00,6,9,16.4,0.137,62.7
+SCH00144,Mumbai Metro,Line 2A (Yellow),Weekday 13:00-16:00,5,6,15.8,0.132,85.5
+SCH00145,Mumbai Metro,Line 2A (Yellow),Weekday 16:00-18:00,4,5,27.9,0.168,76.7
+SCH00146,Mumbai Metro,Line 2A (Yellow),Weekday 18:00-21:00,2,2,38.7,0.332,86.8
+SCH00147,Mumbai Metro,Line 2A (Yellow),Weekday 21:00-23:00,5,6,8.7,0.11,81.0
+SCH00148,Mumbai Metro,Line 2A (Yellow),Weekend 05:00-07:00,5,7,7.0,0.067,75.3
+SCH00149,Mumbai Metro,Line 2A (Yellow),Weekend 07:00-10:00,2,5,22.7,0.234,1.7
+SCH00150,Mumbai Metro,Line 2A (Yellow),Weekend 10:00-13:00,4,6,8.8,0.089,70.9
+SCH00151,Mumbai Metro,Line 2A (Yellow),Weekend 13:00-16:00,6,7,10.1,0.071,90.1
+SCH00152,Mumbai Metro,Line 2A (Yellow),Weekend 16:00-18:00,5,7,15.2,0.135,71.8
+SCH00153,Mumbai Metro,Line 2A (Yellow),Weekend 18:00-21:00,3,2,31.4,0.271,73.5
+SCH00154,Mumbai Metro,Line 2A (Yellow),Weekend 21:00-23:00,5,7,7.9,0.117,74.1
+SCH00155,Mumbai Metro,Line 7 (Red),Weekday 05:00-07:00,6,9,9.9,0.113,66.6
+SCH00156,Mumbai Metro,Line 7 (Red),Weekday 07:00-10:00,3,2,27.4,0.279,68.6
+SCH00157,Mumbai Metro,Line 7 (Red),Weekday 10:00-13:00,4,6,14.7,0.096,70.9
+SCH00158,Mumbai Metro,Line 7 (Red),Weekday 13:00-16:00,5,6,7.0,0.103,87.8
+SCH00159,Mumbai Metro,Line 7 (Red),Weekday 16:00-18:00,4,6,17.6,0.151,62.2
+SCH00160,Mumbai Metro,Line 7 (Red),Weekday 18:00-21:00,2,2,30.7,0.323,84.2
+SCH00161,Mumbai Metro,Line 7 (Red),Weekday 21:00-23:00,5,7,7.8,0.116,68.8
+SCH00162,Mumbai Metro,Line 7 (Red),Weekend 05:00-07:00,6,7,9.6,0.106,85.8
+SCH00163,Mumbai Metro,Line 7 (Red),Weekend 07:00-10:00,3,6,17.6,0.214,29.7
+SCH00164,Mumbai Metro,Line 7 (Red),Weekend 10:00-13:00,4,7,6.2,0.106,50.5
+SCH00165,Mumbai Metro,Line 7 (Red),Weekend 13:00-16:00,6,7,4.8,0.111,81.2
+SCH00166,Mumbai Metro,Line 7 (Red),Weekend 16:00-18:00,4,5,15.9,0.103,83.7
+SCH00167,Mumbai Metro,Line 7 (Red),Weekend 18:00-21:00,3,5,21.6,0.246,47.0
+SCH00168,Mumbai Metro,Line 7 (Red),Weekend 21:00-23:00,6,9,9.6,0.069,70.6
+SCH00169,Mumbai Metro,Line 3 (Aqua),Weekday 05:00-07:00,6,8,20.9,0.203,70.5
+SCH00170,Mumbai Metro,Line 3 (Aqua),Weekday 07:00-10:00,2,3,60.4,0.432,48.9
+SCH00171,Mumbai Metro,Line 3 (Aqua),Weekday 10:00-13:00,4,3,28.6,0.232,74.9
+SCH00172,Mumbai Metro,Line 3 (Aqua),Weekday 13:00-16:00,5,6,25.8,0.161,81.5
+SCH00173,Mumbai Metro,Line 3 (Aqua),Weekday 16:00-18:00,6,6,43.1,0.268,86.5
+SCH00174,Mumbai Metro,Line 3 (Aqua),Weekday 18:00-21:00,2,3,63.7,0.42,57.4
+SCH00175,Mumbai Metro,Line 3 (Aqua),Weekday 21:00-23:00,4,7,16.4,0.152,49.2
+SCH00176,Mumbai Metro,Line 3 (Aqua),Weekend 05:00-07:00,4,6,15.9,0.112,69.8
+SCH00177,Mumbai Metro,Line 3 (Aqua),Weekend 07:00-10:00,3,3,42.0,0.328,83.9
+SCH00178,Mumbai Metro,Line 3 (Aqua),Weekend 10:00-13:00,6,9,20.2,0.152,66.1
+SCH00179,Mumbai Metro,Line 3 (Aqua),Weekend 13:00-16:00,4,5,16.1,0.17,75.0
+SCH00180,Mumbai Metro,Line 3 (Aqua),Weekend 16:00-18:00,5,4,35.2,0.205,76.3
+SCH00181,Mumbai Metro,Line 3 (Aqua),Weekend 18:00-21:00,2,2,39.6,0.374,83.3
+SCH00182,Mumbai Metro,Line 3 (Aqua),Weekend 21:00-23:00,5,8,11.7,0.145,56.4
+SCH00183,Pune Metro,Purple Line,Weekday 05:00-07:00,6,7,5.2,0.059,85.3
+SCH00184,Pune Metro,Purple Line,Weekday 07:00-10:00,3,6,8.8,0.162,31.1
+SCH00185,Pune Metro,Purple Line,Weekday 10:00-13:00,8,10,5.2,0.109,83.1
+SCH00186,Pune Metro,Purple Line,Weekday 13:00-16:00,8,10,3,0.072,85.5
+SCH00187,Pune Metro,Purple Line,Weekday 16:00-18:00,8,11,3,0.105,74.2
+SCH00188,Pune Metro,Purple Line,Weekday 18:00-21:00,4,6,9.0,0.18,58.4
+SCH00189,Pune Metro,Purple Line,Weekday 21:00-23:00,8,9,3,0.099,91.1
+SCH00190,Pune Metro,Purple Line,Weekend 05:00-07:00,8,11,3,0.056,80.0
+SCH00191,Pune Metro,Purple Line,Weekend 07:00-10:00,4,7,3.3,0.144,52.6
+SCH00192,Pune Metro,Purple Line,Weekend 10:00-13:00,8,11,4.5,0.094,72.1
+SCH00193,Pune Metro,Purple Line,Weekend 13:00-16:00,8,9,3,0.04,90.8
+SCH00194,Pune Metro,Purple Line,Weekend 16:00-18:00,8,10,3,0.067,78.0
+SCH00195,Pune Metro,Purple Line,Weekend 18:00-21:00,3,6,3,0.173,35.8
+SCH00196,Pune Metro,Purple Line,Weekend 21:00-23:00,8,9,3,0.043,90.7
+SCH00197,Pune Metro,Aqua Line,Weekday 05:00-07:00,8,9,5.4,0.1,88.8
+SCH00198,Pune Metro,Aqua Line,Weekday 07:00-10:00,3,6,10.2,0.17,32.3
+SCH00199,Pune Metro,Aqua Line,Weekday 10:00-13:00,6,9,3,0.045,66.7
+SCH00200,Pune Metro,Aqua Line,Weekday 13:00-16:00,6,9,5.9,0.09,69.0
+SCH00201,Pune Metro,Aqua Line,Weekday 16:00-18:00,8,10,8.5,0.097,76.5
+SCH00202,Pune Metro,Aqua Line,Weekday 18:00-21:00,4,5,8.6,0.148,79.4
+SCH00203,Pune Metro,Aqua Line,Weekday 21:00-23:00,6,8,3.7,0.082,80.6
+SCH00204,Pune Metro,Aqua Line,Weekend 05:00-07:00,6,9,3,0.093,67.6
+SCH00205,Pune Metro,Aqua Line,Weekend 07:00-10:00,4,5,6.6,0.186,79.1
+SCH00206,Pune Metro,Aqua Line,Weekend 10:00-13:00,6,7,3,0.07,82.8
+SCH00207,Pune Metro,Aqua Line,Weekend 13:00-16:00,6,9,5.5,0.061,69.6
+SCH00208,Pune Metro,Aqua Line,Weekend 16:00-18:00,6,9,7.4,0.103,62.9
+SCH00209,Pune Metro,Aqua Line,Weekend 18:00-21:00,4,5,3,0.136,81.7
+SCH00210,Pune Metro,Aqua Line,Weekend 21:00-23:00,8,9,3,0.08,90.7
+SCH00211,Nagpur Metro,Orange Line,Weekday 05:00-07:00,10,11,3,0.104,87.1
+SCH00212,Nagpur Metro,Orange Line,Weekday 07:00-10:00,7,9,5.4,0.176,74.8
+SCH00213,Nagpur Metro,Orange Line,Weekday 10:00-13:00,12,14,4.5,0.118,86.1
+SCH00214,Nagpur Metro,Orange Line,Weekday 13:00-16:00,10,11,3,0.056,93.7
+SCH00215,Nagpur Metro,Orange Line,Weekday 16:00-18:00,12,13,8.0,0.136,85.1
+SCH00216,Nagpur Metro,Orange Line,Weekday 18:00-21:00,5,6,4.1,0.17,80.6
+SCH00217,Nagpur Metro,Orange Line,Weekday 21:00-23:00,15,18,3,0.092,84.7
+SCH00218,Nagpur Metro,Orange Line,Weekend 05:00-07:00,10,11,3,0.038,91.5
+SCH00219,Nagpur Metro,Orange Line,Weekend 07:00-10:00,7,10,3,0.158,69.5
+SCH00220,Nagpur Metro,Orange Line,Weekend 10:00-13:00,12,13,3,0.088,90.3
+SCH00221,Nagpur Metro,Orange Line,Weekend 13:00-16:00,15,17,3,0.084,91.3
+SCH00222,Nagpur Metro,Orange Line,Weekend 16:00-18:00,10,13,4.6,0.102,80.9
+SCH00223,Nagpur Metro,Orange Line,Weekend 18:00-21:00,7,10,4.7,0.203,68.8
+SCH00224,Nagpur Metro,Orange Line,Weekend 21:00-23:00,10,11,4.7,0.118,86.4
+SCH00225,Nagpur Metro,Aqua Line,Weekday 05:00-07:00,10,12,3,0.071,82.7
+SCH00226,Nagpur Metro,Aqua Line,Weekday 07:00-10:00,7,9,6.6,0.177,75.6
+SCH00227,Nagpur Metro,Aqua Line,Weekday 10:00-13:00,10,12,5.6,0.061,88.9
+SCH00228,Nagpur Metro,Aqua Line,Weekday 13:00-16:00,15,16,3,0.112,86.6
+SCH00229,Nagpur Metro,Aqua Line,Weekday 16:00-18:00,15,16,6.3,0.104,88.8
+SCH00230,Nagpur Metro,Aqua Line,Weekday 18:00-21:00,7,9,3,0.194,74.2
+SCH00231,Nagpur Metro,Aqua Line,Weekday 21:00-23:00,12,13,3,0.113,91.9
+SCH00232,Nagpur Metro,Aqua Line,Weekend 05:00-07:00,12,15,3,0.097,82.6
+SCH00233,Nagpur Metro,Aqua Line,Weekend 07:00-10:00,5,6,7.4,0.211,82.4
+SCH00234,Nagpur Metro,Aqua Line,Weekend 10:00-13:00,12,13,3,0.072,87.9
+SCH00235,Nagpur Metro,Aqua Line,Weekend 13:00-16:00,15,17,3,0.071,85.9
+SCH00236,Nagpur Metro,Aqua Line,Weekend 16:00-18:00,10,13,3,0.087,82.2
+SCH00237,Nagpur Metro,Aqua Line,Weekend 18:00-21:00,5,8,4.3,0.177,54.5
+SCH00238,Nagpur Metro,Aqua Line,Weekend 21:00-23:00,15,17,4.3,0.099,92.7
+SCH00239,Bengaluru Metro,Purple Line,Weekday 05:00-07:00,4,5,27.5,0.221,71.9
+SCH00240,Bengaluru Metro,Purple Line,Weekday 07:00-10:00,2,2,78.3,0.519,81.8
+SCH00241,Bengaluru Metro,Purple Line,Weekday 10:00-13:00,6,6,37.3,0.242,87.5
+SCH00242,Bengaluru Metro,Purple Line,Weekday 13:00-16:00,4,5,29.6,0.174,82.0
+SCH00243,Bengaluru Metro,Purple Line,Weekday 16:00-18:00,4,5,60.6,0.371,74.8
+SCH00244,Bengaluru Metro,Purple Line,Weekday 18:00-21:00,2,2,79.2,0.555,77.3
+SCH00245,Bengaluru Metro,Purple Line,Weekday 21:00-23:00,5,6,26.4,0.175,78.0
+SCH00246,Bengaluru Metro,Purple Line,Weekend 05:00-07:00,6,8,17.1,0.166,76.3
+SCH00247,Bengaluru Metro,Purple Line,Weekend 07:00-10:00,2,2,55.7,0.438,77.9
+SCH00248,Bengaluru Metro,Purple Line,Weekend 10:00-13:00,6,7,27.7,0.233,76.3
+SCH00249,Bengaluru Metro,Purple Line,Weekend 13:00-16:00,6,8,23.6,0.167,76.7
+SCH00250,Bengaluru Metro,Purple Line,Weekend 16:00-18:00,5,5,44.6,0.303,91.6
+SCH00251,Bengaluru Metro,Purple Line,Weekend 18:00-21:00,3,2,58.4,0.467,59.6
+SCH00252,Bengaluru Metro,Purple Line,Weekend 21:00-23:00,5,6,20.6,0.143,80.2
+SCH00253,Bengaluru Metro,Green Line,Weekday 05:00-07:00,4,7,22.9,0.173,46.1
+SCH00254,Bengaluru Metro,Green Line,Weekday 07:00-10:00,2,2,68.3,0.47,84.3
+SCH00255,Bengaluru Metro,Green Line,Weekday 10:00-13:00,5,4,25.4,0.154,84.1
+SCH00256,Bengaluru Metro,Green Line,Weekday 13:00-16:00,4,4,26.5,0.209,94.5
+SCH00257,Bengaluru Metro,Green Line,Weekday 16:00-18:00,6,6,50.4,0.345,82.7
+SCH00258,Bengaluru Metro,Green Line,Weekday 18:00-21:00,2,3,63.0,0.437,57.0
+SCH00259,Bengaluru Metro,Green Line,Weekday 21:00-23:00,5,8,16.3,0.167,60.9
+SCH00260,Bengaluru Metro,Green Line,Weekend 05:00-07:00,5,8,16.9,0.151,57.0
+SCH00261,Bengaluru Metro,Green Line,Weekend 07:00-10:00,2,2,44.9,0.326,88.5
+SCH00262,Bengaluru Metro,Green Line,Weekend 10:00-13:00,6,8,18.7,0.122,73.8
+SCH00263,Bengaluru Metro,Green Line,Weekend 13:00-16:00,4,6,13.6,0.108,65.0
+SCH00264,Bengaluru Metro,Green Line,Weekend 16:00-18:00,6,7,36.8,0.267,74.8
+SCH00265,Bengaluru Metro,Green Line,Weekend 18:00-21:00,3,4,42.1,0.322,71.1
+SCH00266,Bengaluru Metro,Green Line,Weekend 21:00-23:00,6,7,14.7,0.146,80.9
+SCH00267,Hyderabad Metro,Red Line,Weekday 05:00-07:00,6,8,17.5,0.14,76.2
+SCH00268,Hyderabad Metro,Red Line,Weekday 07:00-10:00,3,4,49.8,0.424,64.9
+SCH00269,Hyderabad Metro,Red Line,Weekday 10:00-13:00,8,8,25.3,0.208,93.6
+SCH00270,Hyderabad Metro,Red Line,Weekday 13:00-16:00,8,11,23.5,0.165,70.5
+SCH00271,Hyderabad Metro,Red Line,Weekday 16:00-18:00,8,9,43.6,0.261,86.8
+SCH00272,Hyderabad Metro,Red Line,Weekday 18:00-21:00,4,3,57.1,0.411,65.7
+SCH00273,Hyderabad Metro,Red Line,Weekday 21:00-23:00,8,10,18.5,0.158,76.2
+SCH00274,Hyderabad Metro,Red Line,Weekend 05:00-07:00,8,11,8.0,0.139,75.1
+SCH00275,Hyderabad Metro,Red Line,Weekend 07:00-10:00,4,4,37.6,0.368,82.0
+SCH00276,Hyderabad Metro,Red Line,Weekend 10:00-13:00,8,10,20.5,0.133,84.6
+SCH00277,Hyderabad Metro,Red Line,Weekend 13:00-16:00,8,11,13.1,0.12,69.1
+SCH00278,Hyderabad Metro,Red Line,Weekend 16:00-18:00,6,6,29.0,0.192,93.5
+SCH00279,Hyderabad Metro,Red Line,Weekend 18:00-21:00,3,4,36.8,0.301,66.6
+SCH00280,Hyderabad Metro,Red Line,Weekend 21:00-23:00,6,9,8.3,0.095,63.1
+SCH00281,Hyderabad Metro,Blue Line,Weekday 05:00-07:00,6,7,10.7,0.123,82.8
+SCH00282,Hyderabad Metro,Blue Line,Weekday 07:00-10:00,4,3,47.3,0.405,73.7
+SCH00283,Hyderabad Metro,Blue Line,Weekday 10:00-13:00,6,7,26.1,0.208,85.9
+SCH00284,Hyderabad Metro,Blue Line,Weekday 13:00-16:00,6,8,22.2,0.137,76.0
+SCH00285,Hyderabad Metro,Blue Line,Weekday 16:00-18:00,6,5,35.8,0.258,77.4
+SCH00286,Hyderabad Metro,Blue Line,Weekday 18:00-21:00,3,3,51.7,0.373,82.5
+SCH00287,Hyderabad Metro,Blue Line,Weekday 21:00-23:00,8,9,13.6,0.092,84.5
+SCH00288,Hyderabad Metro,Blue Line,Weekend 05:00-07:00,8,11,9.3,0.073,70.4
+SCH00289,Hyderabad Metro,Blue Line,Weekend 07:00-10:00,3,3,36.0,0.307,88.7
+SCH00290,Hyderabad Metro,Blue Line,Weekend 10:00-13:00,8,9,20.0,0.179,80.9
+SCH00291,Hyderabad Metro,Blue Line,Weekend 13:00-16:00,6,8,13.8,0.106,76.8
+SCH00292,Hyderabad Metro,Blue Line,Weekend 16:00-18:00,6,5,26.4,0.177,85.5
+SCH00293,Hyderabad Metro,Blue Line,Weekend 18:00-21:00,3,2,33.1,0.288,71.6
+SCH00294,Hyderabad Metro,Blue Line,Weekend 21:00-23:00,8,11,11.0,0.137,76.8
+SCH00295,Hyderabad Metro,Green Line,Weekday 05:00-07:00,6,8,6.3,0.117,78.4
+SCH00296,Hyderabad Metro,Green Line,Weekday 07:00-10:00,3,5,13.1,0.23,53.6
+SCH00297,Hyderabad Metro,Green Line,Weekday 10:00-13:00,6,8,8.2,0.118,75.0
+SCH00298,Hyderabad Metro,Green Line,Weekday 13:00-16:00,6,7,4.1,0.115,87.9
+SCH00299,Hyderabad Metro,Green Line,Weekday 16:00-18:00,6,7,12.2,0.133,86.6
+SCH00300,Hyderabad Metro,Green Line,Weekday 18:00-21:00,4,6,19.1,0.231,56.5
+SCH00301,Hyderabad Metro,Green Line,Weekday 21:00-23:00,6,9,4.3,0.058,66.3
+SCH00302,Hyderabad Metro,Green Line,Weekend 05:00-07:00,8,11,3.1,0.105,76.3
+SCH00303,Hyderabad Metro,Green Line,Weekend 07:00-10:00,4,5,9.9,0.182,79.0
+SCH00304,Hyderabad Metro,Green Line,Weekend 10:00-13:00,6,7,4.7,0.098,83.2
+SCH00305,Hyderabad Metro,Green Line,Weekend 13:00-16:00,8,9,7.1,0.129,90.4
+SCH00306,Hyderabad Metro,Green Line,Weekend 16:00-18:00,6,8,9.0,0.068,73.4
+SCH00307,Hyderabad Metro,Green Line,Weekend 18:00-21:00,4,6,14.2,0.173,61.3
+SCH00308,Hyderabad Metro,Green Line,Weekend 21:00-23:00,8,11,3,0.081,78.8
+SCH00309,Chennai Metro,Blue Line,Weekday 05:00-07:00,8,10,13.4,0.16,81.9
+SCH00310,Chennai Metro,Blue Line,Weekday 07:00-10:00,3,2,38.2,0.293,71.3
+SCH00311,Chennai Metro,Blue Line,Weekday 10:00-13:00,8,9,20.7,0.151,89.4
+SCH00312,Chennai Metro,Blue Line,Weekday 13:00-16:00,8,11,14.1,0.094,78.2
+SCH00313,Chennai Metro,Blue Line,Weekday 16:00-18:00,6,6,33.4,0.23,88.4
+SCH00314,Chennai Metro,Blue Line,Weekday 18:00-21:00,3,4,37.1,0.319,70.9
+SCH00315,Chennai Metro,Blue Line,Weekday 21:00-23:00,8,10,14.3,0.126,84.7
+SCH00316,Chennai Metro,Blue Line,Weekend 05:00-07:00,8,10,10.2,0.127,75.2
+SCH00317,Chennai Metro,Blue Line,Weekend 07:00-10:00,4,4,28.8,0.264,92.0
+SCH00318,Chennai Metro,Blue Line,Weekend 10:00-13:00,8,10,9.5,0.09,85.5
+SCH00319,Chennai Metro,Blue Line,Weekend 13:00-16:00,6,9,11.0,0.093,62.7
+SCH00320,Chennai Metro,Blue Line,Weekend 16:00-18:00,8,11,18.4,0.134,68.9
+SCH00321,Chennai Metro,Blue Line,Weekend 18:00-21:00,3,3,28.9,0.26,93.6
+SCH00322,Chennai Metro,Blue Line,Weekend 21:00-23:00,8,9,6.3,0.063,94.8
+SCH00323,Chennai Metro,Green Line,Weekday 05:00-07:00,6,9,4.6,0.12,68.8
+SCH00324,Chennai Metro,Green Line,Weekday 07:00-10:00,3,3,27.7,0.308,84.7
+SCH00325,Chennai Metro,Green Line,Weekday 10:00-13:00,8,10,13.2,0.115,78.0
+SCH00326,Chennai Metro,Green Line,Weekday 13:00-16:00,6,8,6.5,0.07,80.2
+SCH00327,Chennai Metro,Green Line,Weekday 16:00-18:00,6,9,19.0,0.166,66.0
+SCH00328,Chennai Metro,Green Line,Weekday 18:00-21:00,3,3,29.8,0.323,86.9
+SCH00329,Chennai Metro,Green Line,Weekday 21:00-23:00,6,7,12.3,0.094,82.1
+SCH00330,Chennai Metro,Green Line,Weekend 05:00-07:00,8,9,3.1,0.077,85.6
+SCH00331,Chennai Metro,Green Line,Weekend 07:00-10:00,3,5,18.7,0.195,54.0
+SCH00332,Chennai Metro,Green Line,Weekend 10:00-13:00,8,10,4.9,0.059,80.2
+SCH00333,Chennai Metro,Green Line,Weekend 13:00-16:00,8,11,7.8,0.077,69.7
+SCH00334,Chennai Metro,Green Line,Weekend 16:00-18:00,8,11,14.1,0.157,67.0
+SCH00335,Chennai Metro,Green Line,Weekend 18:00-21:00,3,4,18.9,0.244,68.5
+SCH00336,Chennai Metro,Green Line,Weekend 21:00-23:00,6,7,3.1,0.086,89.8
+SCH00337,Kolkata Metro,Blue Line,Weekday 05:00-07:00,6,8,12.2,0.132,76.0
+SCH00338,Kolkata Metro,Blue Line,Weekday 07:00-10:00,3,3,49.9,0.425,78.7
+SCH00339,Kolkata Metro,Blue Line,Weekday 10:00-13:00,6,8,20.2,0.138,78.1
+SCH00340,Kolkata Metro,Blue Line,Weekday 13:00-16:00,6,9,16.8,0.173,64.2
+SCH00341,Kolkata Metro,Blue Line,Weekday 16:00-18:00,6,7,33.1,0.265,81.4
+SCH00342,Kolkata Metro,Blue Line,Weekday 18:00-21:00,3,3,49.1,0.371,81.4
+SCH00343,Kolkata Metro,Blue Line,Weekday 21:00-23:00,8,9,13.9,0.104,88.3
+SCH00344,Kolkata Metro,Blue Line,Weekend 05:00-07:00,8,11,8.9,0.117,74.6
+SCH00345,Kolkata Metro,Blue Line,Weekend 07:00-10:00,3,2,32.3,0.293,71.9
+SCH00346,Kolkata Metro,Blue Line,Weekend 10:00-13:00,6,7,15.4,0.16,82.0
+SCH00347,Kolkata Metro,Blue Line,Weekend 13:00-16:00,8,9,10.8,0.125,90.8
+SCH00348,Kolkata Metro,Blue Line,Weekend 16:00-18:00,8,9,26.5,0.162,83.3
+SCH00349,Kolkata Metro,Blue Line,Weekend 18:00-21:00,3,2,35.0,0.298,72.6
+SCH00350,Kolkata Metro,Blue Line,Weekend 21:00-23:00,8,9,14.2,0.1,88.6
+SCH00351,Kolkata Metro,Green Line,Weekday 05:00-07:00,6,8,7.6,0.067,78.3
+SCH00352,Kolkata Metro,Green Line,Weekday 07:00-10:00,4,6,18.9,0.257,58.9
+SCH00353,Kolkata Metro,Green Line,Weekday 10:00-13:00,6,9,12.4,0.155,63.8
+SCH00354,Kolkata Metro,Green Line,Weekday 13:00-16:00,6,7,8.7,0.103,83.8
+SCH00355,Kolkata Metro,Green Line,Weekday 16:00-18:00,8,9,11.2,0.08,85.8
+SCH00356,Kolkata Metro,Green Line,Weekday 18:00-21:00,3,6,17.2,0.265,26.5
+SCH00357,Kolkata Metro,Green Line,Weekday 21:00-23:00,6,8,9.3,0.093,73.6
+SCH00358,Kolkata Metro,Green Line,Weekend 05:00-07:00,6,8,5.8,0.086,72.8
+SCH00359,Kolkata Metro,Green Line,Weekend 07:00-10:00,4,6,16.3,0.194,60.8
+SCH00360,Kolkata Metro,Green Line,Weekend 10:00-13:00,8,9,7.6,0.128,92.0
+SCH00361,Kolkata Metro,Green Line,Weekend 13:00-16:00,8,10,3,0.055,84.0
+SCH00362,Kolkata Metro,Green Line,Weekend 16:00-18:00,8,11,9.8,0.127,67.9
+SCH00363,Kolkata Metro,Green Line,Weekend 18:00-21:00,4,5,12.0,0.197,79.5
+SCH00364,Kolkata Metro,Green Line,Weekend 21:00-23:00,8,9,5.1,0.081,92.5
+SCH00365,Ahmedabad Metro,Blue Line,Weekday 05:00-07:00,15,16,3,0.065,96.8
+SCH00366,Ahmedabad Metro,Blue Line,Weekday 07:00-10:00,7,10,12.7,0.243,63.1
+SCH00367,Ahmedabad Metro,Blue Line,Weekday 10:00-13:00,12,13,3.0,0.077,93.9
+SCH00368,Ahmedabad Metro,Blue Line,Weekday 13:00-16:00,10,12,3,0.039,90.9
+SCH00369,Ahmedabad Metro,Blue Line,Weekday 16:00-18:00,15,18,5.9,0.106,80.8
+SCH00370,Ahmedabad Metro,Blue Line,Weekday 18:00-21:00,5,6,15.1,0.217,83.6
+SCH00371,Ahmedabad Metro,Blue Line,Weekday 21:00-23:00,12,13,3,0.1,94.2
+SCH00372,Ahmedabad Metro,Blue Line,Weekend 05:00-07:00,15,16,3,0.056,89.3
+SCH00373,Ahmedabad Metro,Blue Line,Weekend 07:00-10:00,7,8,8.6,0.16,85.2
+SCH00374,Ahmedabad Metro,Blue Line,Weekend 10:00-13:00,10,13,3,0.056,84.6
+SCH00375,Ahmedabad Metro,Blue Line,Weekend 13:00-16:00,15,18,3,0.038,88.5
+SCH00376,Ahmedabad Metro,Blue Line,Weekend 16:00-18:00,15,18,3.9,0.116,79.9
+SCH00377,Ahmedabad Metro,Blue Line,Weekend 18:00-21:00,5,7,6.8,0.181,66.3
+SCH00378,Ahmedabad Metro,Blue Line,Weekend 21:00-23:00,12,15,5.9,0.095,84.6
+SCH00379,Ahmedabad Metro,Red Line,Weekday 05:00-07:00,12,14,5.0,0.093,89.6
+SCH00380,Ahmedabad Metro,Red Line,Weekday 07:00-10:00,5,7,15.2,0.186,64.1
+SCH00381,Ahmedabad Metro,Red Line,Weekday 10:00-13:00,12,14,7.2,0.071,83.6
+SCH00382,Ahmedabad Metro,Red Line,Weekday 13:00-16:00,10,13,8.9,0.08,76.0
+SCH00383,Ahmedabad Metro,Red Line,Weekday 16:00-18:00,15,17,13.1,0.12,83.5
+SCH00384,Ahmedabad Metro,Red Line,Weekday 18:00-21:00,5,8,12.8,0.198,56.6
+SCH00385,Ahmedabad Metro,Red Line,Weekday 21:00-23:00,12,14,3,0.05,83.8
+SCH00386,Ahmedabad Metro,Red Line,Weekend 05:00-07:00,10,13,3,0.048,81.0
+SCH00387,Ahmedabad Metro,Red Line,Weekend 07:00-10:00,7,8,12.6,0.222,83.5
+SCH00388,Ahmedabad Metro,Red Line,Weekend 10:00-13:00,12,14,3,0.072,82.9
+SCH00389,Ahmedabad Metro,Red Line,Weekend 13:00-16:00,10,12,3,0.054,82.4
+SCH00390,Ahmedabad Metro,Red Line,Weekend 16:00-18:00,15,18,3.4,0.063,81.6
+SCH00391,Ahmedabad Metro,Red Line,Weekend 18:00-21:00,7,9,10.2,0.178,74.7
+SCH00392,Ahmedabad Metro,Red Line,Weekend 21:00-23:00,15,17,6.4,0.066,85.9
+SCH00393,Kochi Metro,Line 1 (Blue),Weekday 05:00-07:00,12,14,6.5,0.056,83.7
+SCH00394,Kochi Metro,Line 1 (Blue),Weekday 07:00-10:00,7,9,11.7,0.181,79.9
+SCH00395,Kochi Metro,Line 1 (Blue),Weekday 10:00-13:00,15,16,9.7,0.076,97.7
+SCH00396,Kochi Metro,Line 1 (Blue),Weekday 13:00-16:00,10,12,3.1,0.056,85.3
+SCH00397,Kochi Metro,Line 1 (Blue),Weekday 16:00-18:00,15,17,12.8,0.132,87.1
+SCH00398,Kochi Metro,Line 1 (Blue),Weekday 18:00-21:00,5,7,11.8,0.237,68.9
+SCH00399,Kochi Metro,Line 1 (Blue),Weekday 21:00-23:00,12,15,5.3,0.047,84.9
+SCH00400,Kochi Metro,Line 1 (Blue),Weekend 05:00-07:00,15,17,5.3,0.092,86.7
+SCH00401,Kochi Metro,Line 1 (Blue),Weekend 07:00-10:00,5,6,8.2,0.161,80.3
+SCH00402,Kochi Metro,Line 1 (Blue),Weekend 10:00-13:00,12,14,5.0,0.093,83.5
+SCH00403,Kochi Metro,Line 1 (Blue),Weekend 13:00-16:00,15,16,4.8,0.103,94.2
+SCH00404,Kochi Metro,Line 1 (Blue),Weekend 16:00-18:00,12,14,10.2,0.118,85.7
+SCH00405,Kochi Metro,Line 1 (Blue),Weekend 18:00-21:00,7,9,7.5,0.205,74.2
+SCH00406,Kochi Metro,Line 1 (Blue),Weekend 21:00-23:00,12,13,3,0.087,91.0
+SCH00407,Lucknow Metro,Red Line,Weekday 05:00-07:00,12,13,3,0.088,88.9
+SCH00408,Lucknow Metro,Red Line,Weekday 07:00-10:00,5,7,8.1,0.164,65.0
+SCH00409,Lucknow Metro,Red Line,Weekday 10:00-13:00,12,15,7.7,0.127,75.7
+SCH00410,Lucknow Metro,Red Line,Weekday 13:00-16:00,15,18,3.7,0.092,86.0
+SCH00411,Lucknow Metro,Red Line,Weekday 16:00-18:00,15,18,7.3,0.059,82.7
+SCH00412,Lucknow Metro,Red Line,Weekday 18:00-21:00,7,8,12.0,0.196,79.9
+SCH00413,Lucknow Metro,Red Line,Weekday 21:00-23:00,15,18,3.9,0.102,85.0
+SCH00414,Lucknow Metro,Red Line,Weekend 05:00-07:00,10,11,3,0.061,86.9
+SCH00415,Lucknow Metro,Red Line,Weekend 07:00-10:00,7,8,7.2,0.191,83.2
+SCH00416,Lucknow Metro,Red Line,Weekend 10:00-13:00,10,13,3,0.081,81.2
+SCH00417,Lucknow Metro,Red Line,Weekend 13:00-16:00,15,18,4.9,0.047,89.2
+SCH00418,Lucknow Metro,Red Line,Weekend 16:00-18:00,10,12,3,0.048,88.4
+SCH00419,Lucknow Metro,Red Line,Weekend 18:00-21:00,5,8,3.8,0.182,52.3
+SCH00420,Lucknow Metro,Red Line,Weekend 21:00-23:00,15,17,3,0.089,89.8
+SCH00421,Jaipur Metro,Pink Line,Weekday 05:00-07:00,10,12,3,0.11,86.0
+SCH00422,Jaipur Metro,Pink Line,Weekday 07:00-10:00,5,8,6.5,0.172,53.1
+SCH00423,Jaipur Metro,Pink Line,Weekday 10:00-13:00,15,16,8.0,0.068,89.8
+SCH00424,Jaipur Metro,Pink Line,Weekday 13:00-16:00,10,13,7.4,0.124,80.8
+SCH00425,Jaipur Metro,Pink Line,Weekday 16:00-18:00,12,15,4.8,0.056,82.6
+SCH00426,Jaipur Metro,Pink Line,Weekday 18:00-21:00,5,6,6.1,0.135,79.4
+SCH00427,Jaipur Metro,Pink Line,Weekday 21:00-23:00,12,15,3.4,0.055,80.5
+SCH00428,Jaipur Metro,Pink Line,Weekend 05:00-07:00,12,15,5.3,0.052,85.3
+SCH00429,Jaipur Metro,Pink Line,Weekend 07:00-10:00,7,9,7.1,0.149,73.2
+SCH00430,Jaipur Metro,Pink Line,Weekend 10:00-13:00,15,17,3,0.081,89.2
+SCH00431,Jaipur Metro,Pink Line,Weekend 13:00-16:00,15,16,5.4,0.058,96.2
+SCH00432,Jaipur Metro,Pink Line,Weekend 16:00-18:00,12,13,6.7,0.091,89.8
+SCH00433,Jaipur Metro,Pink Line,Weekend 18:00-21:00,7,9,4.9,0.203,74.7
+SCH00434,Jaipur Metro,Pink Line,Weekend 21:00-23:00,12,14,3,0.071,83.5
+SCH00435,Kanpur Metro,Orange Line,Weekday 05:00-07:00,12,13,3,0.081,93.1
+SCH00436,Kanpur Metro,Orange Line,Weekday 07:00-10:00,7,10,8.1,0.192,67.7
+SCH00437,Kanpur Metro,Orange Line,Weekday 10:00-13:00,10,11,6.1,0.059,91.3
+SCH00438,Kanpur Metro,Orange Line,Weekday 13:00-16:00,12,13,3.4,0.075,92.5
+SCH00439,Kanpur Metro,Orange Line,Weekday 16:00-18:00,15,18,7.6,0.111,79.7
+SCH00440,Kanpur Metro,Orange Line,Weekday 18:00-21:00,7,9,3,0.178,73.1
+SCH00441,Kanpur Metro,Orange Line,Weekday 21:00-23:00,10,12,3,0.063,86.3
+SCH00442,Kanpur Metro,Orange Line,Weekend 05:00-07:00,10,12,5.1,0.119,82.9
+SCH00443,Kanpur Metro,Orange Line,Weekend 07:00-10:00,7,9,3.9,0.121,75.3
+SCH00444,Kanpur Metro,Orange Line,Weekend 10:00-13:00,10,12,5.2,0.069,88.6
+SCH00445,Kanpur Metro,Orange Line,Weekend 13:00-16:00,12,15,3,0.112,79.0
+SCH00446,Kanpur Metro,Orange Line,Weekend 16:00-18:00,10,12,3,0.085,86.4
+SCH00447,Kanpur Metro,Orange Line,Weekend 18:00-21:00,7,8,3.2,0.13,90.5
+SCH00448,Kanpur Metro,Orange Line,Weekend 21:00-23:00,15,16,3,0.109,91.1
+SCH00449,Agra Metro,Yellow Line,Weekday 05:00-07:00,15,18,3,0.092,84.7
+SCH00450,Agra Metro,Yellow Line,Weekday 07:00-10:00,5,7,3,0.186,65.0
+SCH00451,Agra Metro,Yellow Line,Weekday 10:00-13:00,12,13,3,0.1,88.6
+SCH00452,Agra Metro,Yellow Line,Weekday 13:00-16:00,15,18,3.9,0.09,88.7
+SCH00453,Agra Metro,Yellow Line,Weekday 16:00-18:00,15,17,4.9,0.049,86.3
+SCH00454,Agra Metro,Yellow Line,Weekday 18:00-21:00,7,8,4.1,0.127,85.4
+SCH00455,Agra Metro,Yellow Line,Weekday 21:00-23:00,10,11,3.3,0.098,94.7
+SCH00456,Agra Metro,Yellow Line,Weekend 05:00-07:00,12,14,3,0.05,83.5
+SCH00457,Agra Metro,Yellow Line,Weekend 07:00-10:00,5,8,3,0.174,52.4
+SCH00458,Agra Metro,Yellow Line,Weekend 10:00-13:00,15,17,3,0.037,86.8
+SCH00459,Agra Metro,Yellow Line,Weekend 13:00-16:00,10,12,3,0.104,81.5
+SCH00460,Agra Metro,Yellow Line,Weekend 16:00-18:00,10,11,3,0.083,92.0
+SCH00461,Agra Metro,Yellow Line,Weekend 18:00-21:00,5,8,3,0.123,54.5
+SCH00462,Agra Metro,Yellow Line,Weekend 21:00-23:00,12,14,3,0.078,87.1
+SCH00463,Bhopal Metro,Orange Line,Weekday 05:00-07:00,10,12,3.5,0.087,89.3
+SCH00464,Bhopal Metro,Orange Line,Weekday 07:00-10:00,5,7,5.5,0.137,73.3
+SCH00465,Bhopal Metro,Orange Line,Weekday 10:00-13:00,15,16,3,0.098,95.0
+SCH00466,Bhopal Metro,Orange Line,Weekday 13:00-16:00,12,15,3,0.08,79.7
+SCH00467,Bhopal Metro,Orange Line,Weekday 16:00-18:00,12,13,3,0.108,88.8
+SCH00468,Bhopal Metro,Orange Line,Weekday 18:00-21:00,5,7,3,0.179,65.5
+SCH00469,Bhopal Metro,Orange Line,Weekday 21:00-23:00,15,17,3,0.058,93.4
+SCH00470,Bhopal Metro,Orange Line,Weekend 05:00-07:00,10,13,3,0.042,83.5
+SCH00471,Bhopal Metro,Orange Line,Weekend 07:00-10:00,5,6,3,0.155,85.2
+SCH00472,Bhopal Metro,Orange Line,Weekend 10:00-13:00,10,11,4.6,0.111,86.1
+SCH00473,Bhopal Metro,Orange Line,Weekend 13:00-16:00,10,12,3,0.061,85.5
+SCH00474,Bhopal Metro,Orange Line,Weekend 16:00-18:00,12,15,3,0.083,78.2
+SCH00475,Bhopal Metro,Orange Line,Weekend 18:00-21:00,7,9,3,0.145,73.3
+SCH00476,Bhopal Metro,Orange Line,Weekend 21:00-23:00,12,13,3,0.093,89.5
+SCH00477,Indore Metro,Yellow Line,Weekday 05:00-07:00,10,12,4.7,0.119,83.0
+SCH00478,Indore Metro,Yellow Line,Weekday 07:00-10:00,7,10,5.4,0.178,70.3
+SCH00479,Indore Metro,Yellow Line,Weekday 10:00-13:00,12,14,3.2,0.043,89.5
+SCH00480,Indore Metro,Yellow Line,Weekday 13:00-16:00,12,15,3,0.075,83.9
+SCH00481,Indore Metro,Yellow Line,Weekday 16:00-18:00,15,17,3,0.113,91.2
+SCH00482,Indore Metro,Yellow Line,Weekday 18:00-21:00,7,8,6.7,0.207,88.1
+SCH00483,Indore Metro,Yellow Line,Weekday 21:00-23:00,12,13,3,0.106,92.5
+SCH00484,Indore Metro,Yellow Line,Weekend 05:00-07:00,15,18,3.4,0.088,86.1
+SCH00485,Indore Metro,Yellow Line,Weekend 07:00-10:00,5,8,3,0.149,56.9
+SCH00486,Indore Metro,Yellow Line,Weekend 10:00-13:00,10,12,3,0.098,87.5
+SCH00487,Indore Metro,Yellow Line,Weekend 13:00-16:00,12,13,3,0.103,94.0
+SCH00488,Indore Metro,Yellow Line,Weekend 16:00-18:00,10,13,3.9,0.087,81.3
+SCH00489,Indore Metro,Yellow Line,Weekend 18:00-21:00,7,8,4.2,0.177,87.0
+SCH00490,Indore Metro,Yellow Line,Weekend 21:00-23:00,10,12,3,0.113,84.9

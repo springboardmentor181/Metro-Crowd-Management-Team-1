@@ -1,0 +1,18 @@
+{
+  "generated_at_window": "2024-10-01 to 2024-12-29",
+  "num_days": 90,
+  "counts": {
+    "metro_stations": 725,
+    "passenger_flow": 224010,
+    "ticket_transactions": 65000,
+    "train_operations": 44333,
+    "train_occupancy": 10902,
+    "external_factors": 2070,
+    "train_schedule": 490,
+    "metro_ai_training_data": 224010,
+    "TOTAL": 571540
+  },
+  "monitored_stations": 131,
+  "cities": 23,
+  "metros": 17
+}

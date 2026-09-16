@@ -1,0 +1,107 @@
+{
+  "generated_from": "metro_ai_training_data.csv",
+  "rows_total": 224010,
+  "rows_train": 186675,
+  "rows_test": 37335,
+  "split_date": "2024-12-15",
+  "levels": [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+  ],
+  "crowd_classifier": {
+    "active_model": "xgboost",
+    "version": "v1.0.0",
+    "xgboost": {
+      "accuracy": 0.8349,
+      "macro_f1": 0.7122,
+      "recall_per_class": {
+        "Low": 0.6402,
+        "Medium": 0.7758,
+        "High": 0.8964,
+        "Critical": 0.7521
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.8234,
+      "macro_f1": 0.6845,
+      "recall_per_class": {
+        "Low": 0.6616,
+        "Medium": 0.7762,
+        "High": 0.8807,
+        "Critical": 0.742
+      }
+    },
+    "confusion_matrix": [
+      [
+        210,
+        111,
+        0,
+        7
+      ],
+      [
+        329,
+        4139,
+        15,
+        852
+      ],
+      [
+        1,
+        35,
+        18645,
+        2119
+      ],
+      [
+        49,
+        1839,
+        807,
+        8177
+      ]
+    ]
+  },
+  "demand_regressor": {
+    "algorithm": "xgboost",
+    "mae": 446.5,
+    "mape_pct": 14.19,
+    "r2": 0.9576
+  },
+  "feature_importance": [
+    {
+      "feature": "Event nearby",
+      "importance": 0.3548
+    },
+    {
+      "feature": "Hour of day",
+      "importance": 0.2668
+    },
+    {
+      "feature": "Current occupancy",
+      "importance": 0.1267
+    },
+    {
+      "feature": "Day of week",
+      "importance": 0.1026
+    },
+    {
+      "feature": "Previous-hour volume",
+      "importance": 0.0348
+    },
+    {
+      "feature": "Previous-day average",
+      "importance": 0.0323
+    },
+    {
+      "feature": "Holiday",
+      "importance": 0.0307
+    },
+    {
+      "feature": "Train frequency",
+      "importance": 0.0262
+    },
+    {
+      "feature": "Weather",
+      "importance": 0.0252
+    }
+  ]
+}
