@@ -1,0 +1,106 @@
+{
+  "info": {
+    "name": "MetroFlow API v1",
+    "_postman_id": "metroflow-api-v1",
+    "description": "MetroFlow — AI Metro Crowd Management & Scheduling. Canonical contract per Planning Doc 11. Set collection variables base_url and jwt. Auth (login/signup) is handled by the Supabase SDK on the frontend; obtain a JWT from Supabase and paste into the {{jwt}} variable.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000/api/v1" },
+    { "key": "jwt", "value": "PASTE_SUPABASE_JWT" },
+    { "key": "station_id", "value": "DEL001" },
+    { "key": "alert_id", "value": "" },
+    { "key": "reco_id", "value": "" },
+    { "key": "model_id", "value": "" }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [ { "key": "token", "value": "{{jwt}}", "type": "string" } ]
+  },
+  "item": [
+    {
+      "name": "System & Me",
+      "item": [
+        { "name": "Health", "request": { "method": "GET", "url": "{{base_url}}/health", "auth": { "type": "noauth" } } },
+        { "name": "Get my profile", "request": { "method": "GET", "url": "{{base_url}}/me" } },
+        { "name": "Update my profile", "request": { "method": "PATCH", "url": "{{base_url}}/me",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"full_name\": \"Operator One\",\n  \"avatar_url\": null\n}" } } }
+      ]
+    },
+    {
+      "name": "Stations & Monitoring",
+      "item": [
+        { "name": "List stations", "request": { "method": "GET", "url": { "raw": "{{base_url}}/stations?network=Delhi Metro&page=1&page_size=25", "host": ["{{base_url}}"], "path": ["stations"], "query": [ {"key":"network","value":"Delhi Metro"}, {"key":"line","value":"","disabled":true}, {"key":"category","value":"","disabled":true}, {"key":"q","value":"","disabled":true}, {"key":"page","value":"1"}, {"key":"page_size","value":"25"} ] } } },
+        { "name": "Get station", "request": { "method": "GET", "url": "{{base_url}}/stations/{{station_id}}" } },
+        { "name": "Passenger flow series", "request": { "method": "GET", "url": { "raw": "{{base_url}}/flow?station_id={{station_id}}&from=2024-12-01&to=2024-12-07&granularity=hour", "host": ["{{base_url}}"], "path": ["flow"], "query": [ {"key":"station_id","value":"{{station_id}}"}, {"key":"from","value":"2024-12-01"}, {"key":"to","value":"2024-12-07"}, {"key":"granularity","value":"hour"} ] } } },
+        { "name": "Occupancy series", "request": { "method": "GET", "url": { "raw": "{{base_url}}/occupancy?station_id={{station_id}}&from=2024-12-01&to=2024-12-07", "host": ["{{base_url}}"], "path": ["occupancy"], "query": [ {"key":"station_id","value":"{{station_id}}"}, {"key":"from","value":"2024-12-01"}, {"key":"to","value":"2024-12-07"} ] } } },
+        { "name": "Congestion heatmap", "request": { "method": "GET", "url": { "raw": "{{base_url}}/congestion/heatmap?line=Blue Line&from=2024-12-01&to=2024-12-07", "host": ["{{base_url}}"], "path": ["congestion","heatmap"], "query": [ {"key":"line","value":"Blue Line"}, {"key":"from","value":"2024-12-01"}, {"key":"to","value":"2024-12-07"} ] } } },
+        { "name": "Live network state", "request": { "method": "GET", "url": "{{base_url}}/monitoring/live" } }
+      ]
+    },
+    {
+      "name": "Scheduling",
+      "item": [
+        { "name": "List schedules", "request": { "method": "GET", "url": { "raw": "{{base_url}}/schedules?line=Yellow Line", "host": ["{{base_url}}"], "path": ["schedules"], "query": [ {"key":"line","value":"Yellow Line"} ] } } },
+        { "name": "List recommendations", "request": { "method": "GET", "url": "{{base_url}}/schedules/recommendations" } },
+        { "name": "Apply recommendation (admin)", "request": { "method": "POST", "url": "{{base_url}}/schedules/recommendations/{{reco_id}}/apply" } },
+        { "name": "Dismiss recommendation (admin)", "request": { "method": "POST", "url": "{{base_url}}/schedules/recommendations/{{reco_id}}/dismiss" } },
+        { "name": "Delays", "request": { "method": "GET", "url": "{{base_url}}/operations/delays" } }
+      ]
+    },
+    {
+      "name": "AI Prediction",
+      "item": [
+        { "name": "Predict crowd", "request": { "method": "POST", "url": "{{base_url}}/ai/predict/crowd",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"station_id\": \"{{station_id}}\",\n  \"target_hour\": \"2024-12-29T18:00:00Z\",\n  \"context\": { \"weather\": \"Clear\", \"holiday\": false, \"event\": \"None\" }\n}" } } },
+        { "name": "Predict demand", "request": { "method": "POST", "url": "{{base_url}}/ai/predict/demand",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"station_id\": \"{{station_id}}\",\n  \"target_hour\": \"2024-12-29T18:00:00Z\"\n}" } } },
+        { "name": "Predict congestion", "request": { "method": "POST", "url": "{{base_url}}/ai/predict/congestion",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"station_id\": \"{{station_id}}\",\n  \"target_hour\": \"2024-12-29T18:00:00Z\"\n}" } } },
+        { "name": "Schedule recommend", "request": { "method": "GET", "url": { "raw": "{{base_url}}/ai/schedule/recommend?line=Blue Line", "host": ["{{base_url}}"], "path": ["ai","schedule","recommend"], "query": [ {"key":"line","value":"Blue Line"} ] } } },
+        { "name": "Feature importance", "request": { "method": "GET", "url": { "raw": "{{base_url}}/ai/feature-importance?task=crowd", "host": ["{{base_url}}"], "path": ["ai","feature-importance"], "query": [ {"key":"task","value":"crowd"} ] } } },
+        { "name": "List models", "request": { "method": "GET", "url": "{{base_url}}/models" } },
+        { "name": "Activate model (admin)", "request": { "method": "POST", "url": "{{base_url}}/models/{{model_id}}/activate" } }
+      ]
+    },
+    {
+      "name": "Alerts & Notifications",
+      "item": [
+        { "name": "List alerts", "request": { "method": "GET", "url": { "raw": "{{base_url}}/alerts?status=open&severity=critical", "host": ["{{base_url}}"], "path": ["alerts"], "query": [ {"key":"status","value":"open"}, {"key":"severity","value":"critical"} ] } } },
+        { "name": "Create/broadcast alert (admin)", "request": { "method": "POST", "url": "{{base_url}}/alerts",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"type\": \"emergency\",\n  \"severity\": \"emergency\",\n  \"station_id\": \"{{station_id}}\",\n  \"line_name\": \"Yellow Line\",\n  \"message\": \"Evacuate platform 2 — drill\"\n}" } } },
+        { "name": "Acknowledge alert", "request": { "method": "POST", "url": "{{base_url}}/alerts/{{alert_id}}/ack" } },
+        { "name": "Resolve alert", "request": { "method": "POST", "url": "{{base_url}}/alerts/{{alert_id}}/resolve" } },
+        { "name": "My notifications", "request": { "method": "GET", "url": "{{base_url}}/notifications" } },
+        { "name": "Mark notification read", "request": { "method": "POST", "url": "{{base_url}}/notifications/{{alert_id}}/read" } }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "item": [
+        { "name": "Summary KPIs", "request": { "method": "GET", "url": "{{base_url}}/analytics/summary" } },
+        { "name": "Report", "request": { "method": "GET", "url": { "raw": "{{base_url}}/analytics/reports/top_footfall", "host": ["{{base_url}}"], "path": ["analytics","reports","top_footfall"] } } },
+        { "name": "Export (operator+)", "request": { "method": "GET", "url": { "raw": "{{base_url}}/analytics/export?report=city_flow&format=csv", "host": ["{{base_url}}"], "path": ["analytics","export"], "query": [ {"key":"report","value":"city_flow"}, {"key":"format","value":"csv"} ] } } }
+      ]
+    },
+    {
+      "name": "Replay (admin)",
+      "item": [
+        { "name": "Status", "request": { "method": "GET", "url": "{{base_url}}/replay/status" } },
+        { "name": "Start", "request": { "method": "POST", "url": "{{base_url}}/replay/start",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"speed\": 3600,\n  \"start_at\": \"2024-10-01T05:00:00Z\"\n}" } } },
+        { "name": "Pause", "request": { "method": "POST", "url": "{{base_url}}/replay/pause" } },
+        { "name": "Seek", "request": { "method": "POST", "url": "{{base_url}}/replay/seek",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"clock\": \"2024-12-29T18:00:00Z\"\n}" } } }
+      ]
+    },
+    {
+      "name": "Users (admin)",
+      "item": [
+        { "name": "List users", "request": { "method": "GET", "url": "{{base_url}}/users" } },
+        { "name": "Update user", "request": { "method": "PATCH", "url": "{{base_url}}/users/{{model_id}}",
+          "body": { "mode": "raw", "options": { "raw": { "language": "json" } }, "raw": "{\n  \"role\": \"operator\",\n  \"assigned_network\": \"Delhi Metro\",\n  \"is_active\": true\n}" } } }
+      ]
+    }
+  ]
+}

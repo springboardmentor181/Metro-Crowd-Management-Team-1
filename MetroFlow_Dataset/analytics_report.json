@@ -1,0 +1,395 @@
+{
+  "checks": [
+    {
+      "check": "metro_stations.station_id unique",
+      "pass": true,
+      "detail": "725 rows"
+    },
+    {
+      "check": "passenger_flow.record_id unique",
+      "pass": true,
+      "detail": "224010 rows"
+    },
+    {
+      "check": "ticket_transactions.transaction_id unique",
+      "pass": true,
+      "detail": "65000 rows"
+    },
+    {
+      "check": "passenger_flow.station_id -> master FK",
+      "pass": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "ticket_transactions.station_id -> master FK",
+      "pass": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "train_operations.station_id -> master FK",
+      "pass": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "train_occupancy.station_id -> master FK",
+      "pass": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "metro_ai_training_data.station_id -> master FK",
+      "pass": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "passenger_flow entry+exit == total",
+      "pass": true,
+      "detail": "0 mismatches"
+    },
+    {
+      "check": "passenger_flow no missing key fields",
+      "pass": true,
+      "detail": "0 rows with gaps"
+    },
+    {
+      "check": "station coordinates within India bbox",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "train_occupancy pct in [0,150]",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "fares within slab [9,60]",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "crowd_density_level in allowed set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "external_factors = cities x days",
+      "pass": true,
+      "detail": "23 cities x 90 days"
+    }
+  ],
+  "analytics": {
+    "top_footfall_stations": [
+      {
+        "station": "Central Secretariat",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 306017
+      },
+      {
+        "station": "New Delhi",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 303868
+      },
+      {
+        "station": "Mayur Vihar Phase-1",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 274696
+      },
+      {
+        "station": "Dwarka Sector 21",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 273044
+      },
+      {
+        "station": "Azadpur",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 272277
+      },
+      {
+        "station": "Anand Vihar ISBT",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 269077
+      },
+      {
+        "station": "Sarai Kale Khan Nizamuddin",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 266662
+      },
+      {
+        "station": "Hauz Khas",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 265682
+      },
+      {
+        "station": "Welcome",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 265516
+      },
+      {
+        "station": "Ashok Park Main",
+        "metro": "Delhi Metro",
+        "city": "Delhi",
+        "footfall": 248133
+      }
+    ],
+    "bottom_footfall_stations": [
+      {
+        "station": "Aish Bagh",
+        "metro": "Bhopal Metro",
+        "city": "Bhopal",
+        "footfall": 11250
+      },
+      {
+        "station": "Basai",
+        "metro": "Agra Metro",
+        "city": "Agra",
+        "footfall": 11008
+      },
+      {
+        "station": "MR-10",
+        "metro": "Indore Metro",
+        "city": "Indore",
+        "footfall": 10310
+      },
+      {
+        "station": "Mumtaj Bagh",
+        "metro": "Indore Metro",
+        "city": "Indore",
+        "footfall": 10164
+      },
+      {
+        "station": "Robot Square",
+        "metro": "Indore Metro",
+        "city": "Indore",
+        "footfall": 9736
+      },
+      {
+        "station": "Agra College",
+        "metro": "Agra Metro",
+        "city": "Agra",
+        "footfall": 8534
+      },
+      {
+        "station": "Agra Fort",
+        "metro": "Agra Metro",
+        "city": "Agra",
+        "footfall": 8527
+      },
+      {
+        "station": "Krishi Upaj Mandi",
+        "metro": "Bhopal Metro",
+        "city": "Bhopal",
+        "footfall": 8429
+      },
+      {
+        "station": "Raja Ki Mandi",
+        "metro": "Agra Metro",
+        "city": "Agra",
+        "footfall": 7258
+      },
+      {
+        "station": "Taj Mahal",
+        "metro": "Agra Metro",
+        "city": "Agra",
+        "footfall": 6646
+      }
+    ],
+    "passengers_by_hour": {
+      "5": 10945016,
+      "6": 21562883,
+      "7": 39814530,
+      "8": 64842317,
+      "9": 74511900,
+      "10": 58789553,
+      "11": 39412284,
+      "12": 32203747,
+      "13": 32367023,
+      "14": 32589864,
+      "15": 33955456,
+      "16": 41872837,
+      "17": 55665246,
+      "18": 70036967,
+      "19": 76252244,
+      "20": 61889620,
+      "21": 41229549,
+      "22": 26424839,
+      "23": 17601394
+    },
+    "peak_hours": [
+      {
+        "hour": 19,
+        "passengers": 76252244
+      },
+      {
+        "hour": 9,
+        "passengers": 74511900
+      },
+      {
+        "hour": 18,
+        "passengers": 70036967
+      },
+      {
+        "hour": 8,
+        "passengers": 64842317
+      }
+    ],
+    "city_avg_daily_flow": {
+      "Delhi": 1697926,
+      "Mumbai": 907555,
+      "Bengaluru": 748620,
+      "Hyderabad": 733628,
+      "Chennai": 701295,
+      "Kolkata": 643676,
+      "Gurugram": 416465,
+      "Kochi": 355684,
+      "Ahmedabad": 347387,
+      "Jaipur": 325045,
+      "Lucknow": 306782,
+      "Noida": 305367,
+      "Ghaziabad": 269603,
+      "Faridabad": 249043,
+      "Nagpur": 232961,
+      "Pune": 210450,
+      "Kanpur": 188396,
+      "Indore": 132159,
+      "Greater Noida": 127265,
+      "Bhopal": 117651,
+      "Agra": 87769,
+      "Howrah": 71108,
+      "Bahadurgarh": 68245
+    },
+    "most_congested_lines": [
+      {
+        "line": "Blue Line / Magenta Line",
+        "pct_high_or_critical": 22.7,
+        "records": 1710
+      },
+      {
+        "line": "Blue Line / Red Line",
+        "pct_high_or_critical": 19.4,
+        "records": 5130
+      },
+      {
+        "line": "Blue Line / Airport Express",
+        "pct_high_or_critical": 19.2,
+        "records": 1710
+      },
+      {
+        "line": "Purple Line",
+        "pct_high_or_critical": 19.0,
+        "records": 13680
+      },
+      {
+        "line": "Line 1 (Blue) / Line 2A (Yellow)",
+        "pct_high_or_critical": 18.6,
+        "records": 1710
+      },
+      {
+        "line": "Red Line / Blue Line",
+        "pct_high_or_critical": 18.6,
+        "records": 1710
+      },
+      {
+        "line": "Yellow Line / Pink Line",
+        "pct_high_or_critical": 18.3,
+        "records": 1710
+      },
+      {
+        "line": "Violet Line",
+        "pct_high_or_critical": 18.3,
+        "records": 10260
+      },
+      {
+        "line": "Blue Line / Pink Line",
+        "pct_high_or_critical": 18.2,
+        "records": 1710
+      },
+      {
+        "line": "Orange Line / Aqua Line",
+        "pct_high_or_critical": 18.1,
+        "records": 1710
+      }
+    ],
+    "crowd_density_distribution": {
+      "Low": 120658,
+      "Medium": 66091,
+      "High": 34496,
+      "Critical": 2765
+    },
+    "avg_flow_weekday": 3997,
+    "avg_flow_weekend": 3017,
+    "avg_festival_impact_pct": 5.76,
+    "avg_normal_impact_pct": -0.61,
+    "ticket_type_distribution": {
+      "Smart Card": 28765,
+      "Token": 11672,
+      "Monthly Pass": 6483,
+      "QR Ticket": 18080
+    },
+    "payment_method_distribution": {
+      "Metro App": 8189,
+      "Cash": 15329,
+      "NCMC Card": 13022,
+      "UPI": 22564,
+      "Credit/Debit Card": 5896
+    },
+    "avg_fare": 30.4,
+    "avg_travel_duration_min": 26.5,
+    "service_status_distribution": {
+      "Running": 38965,
+      "Delayed": 5308,
+      "Cancelled": 60
+    },
+    "avg_delay_minutes": 4.28,
+    "stations_by_metro": {
+      "Delhi Metro": 222,
+      "Noida Metro": 20,
+      "Mumbai Metro": 67,
+      "Pune Metro": 29,
+      "Nagpur Metro": 35,
+      "Bengaluru Metro": 68,
+      "Hyderabad Metro": 57,
+      "Chennai Metro": 37,
+      "Kolkata Metro": 37,
+      "Ahmedabad Metro": 33,
+      "Kochi Metro": 25,
+      "Lucknow Metro": 21,
+      "Jaipur Metro": 12,
+      "Kanpur Metro": 21,
+      "Agra Metro": 11,
+      "Bhopal Metro": 15,
+      "Indore Metro": 15
+    },
+    "stations_by_category": {
+      "Commercial": 203,
+      "Residential": 264,
+      "IT Hub": 88,
+      "Educational Zone": 79,
+      "Railway Connection": 26,
+      "Industrial Area": 54,
+      "Airport": 11
+    },
+    "stations_by_state": {
+      "Delhi NCR": 222,
+      "Uttar Pradesh": 73,
+      "Maharashtra": 131,
+      "Karnataka": 68,
+      "Telangana": 57,
+      "Tamil Nadu": 37,
+      "West Bengal": 37,
+      "Gujarat": 33,
+      "Kerala": 25,
+      "Rajasthan": 12,
+      "Madhya Pradesh": 30
+    },
+    "interchange_count": 52
+  },
+  "all_checks_passed": true
+}
