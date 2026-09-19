@@ -16,8 +16,7 @@ ticketing and operational data. **No cameras. No CCTV.**
 ![ai](https://img.shields.io/badge/AI-XGBoost%20%7C%20scikit--learn-F26C2E)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
-**Infosys Springboard — Metro Crowd Management, Team 1**  
-*Final integration submission — Updesh Singh*
+**Infosys Springboard — Metro Crowd Management**  
 
 </div>
 
